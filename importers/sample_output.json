@@ -1,0 +1,532 @@
+{
+  "schema_version": 2,
+  "vault": "/mnt/data/obsidian_v2_test",
+  "knowledge_engine_folder": "Knowledge Engine",
+  "note_count": 7,
+  "counts_by_type": {
+    "key": 1,
+    "conjugation": 2,
+    "group": 2,
+    "lesson": 2
+  },
+  "key_definitions": {
+    "#○○": "名詞",
+    "#～": "動詞",
+    "#□□": "場所",
+    "#△": "番号",
+    "#■■": "relative position words",
+    "#☆": "形容詞"
+  },
+  "errors": [],
+  "notes": [
+    {
+      "note_type": "key",
+      "title": "かぎ",
+      "filename": "かぎ.md",
+      "path": "Knowledge Engine/かぎ.md",
+      "folder": "Knowledge Engine",
+      "frontmatter": {
+        "note_type": "key"
+      },
+      "key_type": "placeholders",
+      "definitions": {
+        "#○○": "名詞",
+        "#～": "動詞",
+        "#□□": "場所",
+        "#△": "番号",
+        "#■■": "relative position words",
+        "#☆": "形容詞"
+      }
+    },
+    {
+      "note_type": "conjugation",
+      "title": "形容詞",
+      "filename": "い 形容詞.md",
+      "path": "Conjugations/い 形容詞.md",
+      "folder": "Conjugations",
+      "frontmatter": {
+        "note_type": "conjugation"
+      },
+      "conjugation_name": "形容詞",
+      "forms": {
+        "present": "い",
+        "present_negative": "くない",
+        "past": "かった",
+        "past_negative": "くなかった"
+      }
+    },
+    {
+      "note_type": "conjugation",
+      "title": "たい形動詞",
+      "filename": "たい形動詞.md",
+      "path": "Conjugations/たい形動詞.md",
+      "folder": "Conjugations",
+      "frontmatter": {
+        "note_type": "conjugation"
+      },
+      "conjugation_name": "たい形動詞",
+      "forms": {
+        "present": "たい",
+        "present_negative": "たくない",
+        "past": "たかった",
+        "past_negative": "たくなかった"
+      }
+    },
+    {
+      "note_type": "group",
+      "title": "Relative Position",
+      "filename": "relative position words.md",
+      "path": "Groups/relative position words.md",
+      "folder": "Groups",
+      "frontmatter": {
+        "note_type": "group",
+        "name": "Relative Position",
+        "placeholder": "#■■"
+      },
+      "groups": [
+        {
+          "name": "Relative Position",
+          "members": [
+            {
+              "word": "前"
+            },
+            {
+              "word": "後ろ"
+            },
+            {
+              "word": "左"
+            },
+            {
+              "word": "右"
+            },
+            {
+              "word": "遠い"
+            },
+            {
+              "word": "近い"
+            },
+            {
+              "word": "まっすぐ"
+            },
+            {
+              "word": "隣"
+            },
+            {
+              "word": "渡った"
+            },
+            {
+              "word": "交差点"
+            },
+            {
+              "word": "角を曲がる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "note_type": "group",
+      "title": "色",
+      "filename": "色.md",
+      "path": "Groups/色.md",
+      "folder": "Groups",
+      "frontmatter": {
+        "note_type": "group",
+        "name": "色"
+      },
+      "wikilinks": [
+        {
+          "target": "い 形容詞"
+        }
+      ],
+      "groups": [
+        {
+          "name": "4 basic colors",
+          "members": [
+            {
+              "word": "赤い",
+              "part_of_speech": "#☆",
+              "part_of_speech_name": "形容詞"
+            },
+            {
+              "word": "青い",
+              "part_of_speech": "#☆",
+              "part_of_speech_name": "形容詞"
+            },
+            {
+              "word": "黒い",
+              "part_of_speech": "#☆",
+              "part_of_speech_name": "形容詞"
+            },
+            {
+              "word": "白い",
+              "part_of_speech": "#☆",
+              "part_of_speech_name": "形容詞"
+            }
+          ]
+        },
+        {
+          "name": "everything else",
+          "members": [
+            {
+              "word": "緑色",
+              "part_of_speech": "#○○",
+              "part_of_speech_name": "名詞"
+            },
+            {
+              "word": "黄色",
+              "part_of_speech": "#○○",
+              "part_of_speech_name": "名詞"
+            },
+            {
+              "word": "紫色",
+              "part_of_speech": "#○○",
+              "part_of_speech_name": "名詞"
+            },
+            {
+              "word": "グレー",
+              "part_of_speech": "#○○",
+              "part_of_speech_name": "名詞"
+            },
+            {
+              "word": "ピンク",
+              "part_of_speech": "#○○",
+              "part_of_speech_name": "名詞"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "赤い, 青い, 黒い, 白い, and 黄色い are all [[い 形容詞]].",
+        "all others are nouns #○○ i.e. 緑色の, 紫色の.",
+        "the 5 exceptions can be used as nouns but should be changed to 赤色の, 青色の, 黒色の, 白色の, and 黄色の."
+      ]
+    },
+    {
+      "note_type": "lesson",
+      "title": "2-1",
+      "filename": "第２章.md",
+      "path": "Lessons/第２章.md",
+      "folder": "Lessons",
+      "frontmatter": {
+        "note_type": "lesson"
+      },
+      "wikilinks": [
+        {
+          "target": "色"
+        },
+        {
+          "target": "い 形容詞"
+        }
+      ],
+      "lessons": [
+        "2-1",
+        "2-2",
+        "2-3"
+      ],
+      "sections": [
+        {
+          "level": 1,
+          "heading": "2-1",
+          "heading_path": [
+            "2-1"
+          ]
+        },
+        {
+          "level": 2,
+          "heading": "宿題",
+          "heading_path": [
+            "2-1",
+            "宿題"
+          ],
+          "items": [
+            {
+              "type": "list_item",
+              "value": "０から999,999発音"
+            },
+            {
+              "type": "list_item",
+              "value": "これ　それ　あれ　どれ"
+            },
+            {
+              "type": "question",
+              "value": "いくつですか"
+            },
+            {
+              "type": "answer",
+              "value": "「つ」助数詞１から１０"
+            },
+            {
+              "type": "pattern",
+              "value": "#○○ を #△ つください",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#△",
+                  "meaning": "番号"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "heading": "教科書",
+          "heading_path": [
+            "2-1",
+            "教科書"
+          ],
+          "items": [
+            {
+              "type": "question",
+              "value": "いくらですか"
+            },
+            {
+              "type": "answer",
+              "value": "#△ 円です",
+              "placeholders": [
+                {
+                  "symbol": "#△",
+                  "meaning": "番号"
+                }
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "#○○ (を) ください",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                }
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "#○○ と #○○ (を) ください",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                }
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "#○○(を) #△ と #○○(を) #△ ください",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#△",
+                  "meaning": "番号"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "heading": "2-2",
+          "heading_path": [
+            "2-2"
+          ],
+          "items": [
+            {
+              "type": "question",
+              "value": "#○○ はどこですか",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                }
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "#○○ は　#□□ の #■■ にあります",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#□□",
+                  "meaning": "場所"
+                },
+                {
+                  "symbol": "#■■",
+                  "meaning": "relative position words"
+                }
+              ]
+            },
+            {
+              "type": "question",
+              "value": "#○○ はどこにありますか",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                }
+              ]
+            },
+            {
+              "type": "answer",
+              "value": "#□□ の #■■ です",
+              "placeholders": [
+                {
+                  "symbol": "#□□",
+                  "meaning": "場所"
+                },
+                {
+                  "symbol": "#■■",
+                  "meaning": "relative position words"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "heading": "2-3",
+          "heading_path": [
+            "2-3"
+          ],
+          "items": [
+            {
+              "type": "pattern",
+              "value": "この #○○ その #○○ あの #○○ どの #○○",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "value": "[[色]]",
+              "wikilinks": [
+                "色"
+              ]
+            },
+            {
+              "type": "list_item",
+              "value": "[[い 形容詞]]",
+              "wikilinks": [
+                "い 形容詞"
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "#～ いです / #～ くないです",
+              "placeholders": [
+                {
+                  "symbol": "#～",
+                  "meaning": "動詞"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "note_type": "lesson",
+      "title": "3-1",
+      "filename": "第３章.md",
+      "path": "Lessons/第３章.md",
+      "folder": "Lessons",
+      "frontmatter": {
+        "note_type": "lesson"
+      },
+      "wikilinks": [
+        {
+          "target": "たい形動詞"
+        }
+      ],
+      "lessons": [
+        "3-1",
+        "3-2"
+      ],
+      "sections": [
+        {
+          "level": 1,
+          "heading": "3-1",
+          "heading_path": [
+            "3-1"
+          ],
+          "items": [
+            {
+              "type": "pattern",
+              "value": "#○○ で　#□□ へいます",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#□□",
+                  "meaning": "場所"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "value": "[[たい形動詞]]",
+              "wikilinks": [
+                "たい形動詞"
+              ]
+            },
+            {
+              "type": "pattern",
+              "value": "私は #○○  が #～ たいです",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#～",
+                  "meaning": "動詞"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "heading": "3-2",
+          "heading_path": [
+            "3-2"
+          ],
+          "items": [
+            {
+              "type": "pattern",
+              "value": "#○○ で #□□ へいます",
+              "placeholders": [
+                {
+                  "symbol": "#○○",
+                  "meaning": "名詞"
+                },
+                {
+                  "symbol": "#□□",
+                  "meaning": "場所"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "value": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

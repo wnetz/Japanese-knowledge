@@ -1,0 +1,63 @@
+{
+  "vault": {
+    "path": "C:/Users/wnetz/OneDrive/Documents/GitHub/notes/日本語"
+  },
+  "output": {
+    "folder": "./output",
+    "grammar_profile": "grammar_profile.json",
+    "wanikani_index": "wanikani_index.json",
+    "profile_manifest": "profile_manifest.json",
+    "anki_index": "anki_index.json",
+    "vocabulary_profile": "vocabulary_profile.json"
+  },
+  "obsidian": {
+    "enabled": true,
+    "knowledge_engine_folder": "Knowledge Engine",
+    "exclude_folders": [
+      ".obsidian",
+      ".trash"
+    ],
+    "require_note_type": false,
+    "default_note_type": "reference"
+  },
+  "wanikani": {
+    "enabled": false,
+    "api_key": "",
+    "api_version": "20170710",
+    "subject_types": [
+      "radical",
+      "kanji",
+      "vocabulary",
+      "kana_vocabulary"
+    ],
+    "download": {
+      "subjects": true,
+      "assignments": true,
+      "review_statistics": true,
+      "user": true,
+      "mnemonics": true,
+      "context_sentences": true
+    }
+  },
+  "anki": {
+    "enabled": false,
+    "host": "http://localhost:8765",
+    "api_version": 6,
+    "timeout_seconds": 30,
+    "batch_size": 500,
+    "decks": [
+      "日本語::Kaishi 1.5k",
+      "日本語::mining"
+    ],
+    "fields": {
+      "word": "Word",
+      "reading": "Word Reading",
+      "meaning": "Word Meaning",
+      "pitch_accent": "Pitch Accent",
+      "frequency": "Frequency"
+    }
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}
