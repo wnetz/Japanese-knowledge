@@ -59,7 +59,11 @@ class ObsidianParser:
         config = json.loads(config_path.read_text(encoding="utf-8"))
         obsidian = config.get("obsidian", {})
 
-        vault = Path(obsidian["vault"]).expanduser()
+        vault_value = obsidian.get("path")
+        if not isinstance(vault_value, str) or not vault_value.strip():
+            raise ValueError("Set obsidian.path in config")
+
+        vault = Path(vault_value).expanduser()
         if not vault.is_absolute():
             vault = (config_path.parent / vault).resolve()
 

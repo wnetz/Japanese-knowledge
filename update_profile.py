@@ -49,6 +49,7 @@ def _run_source(
 
 
 def build_parser() -> argparse.ArgumentParser:
+    # Define CLI options for selecting config files used by the profile update run.
     parser = argparse.ArgumentParser(
         description="Refresh WaniKani and Anki, then build the vocabulary profile."
     )

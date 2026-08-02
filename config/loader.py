@@ -20,17 +20,18 @@ from .models import (
 class ConfigError(ValueError):
     """Raised when Knowledge Engine configuration is invalid."""
 
-
+# merge two dictionaries recursively, with values from the second overriding those from the first
 def _deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
     result = deepcopy(base)
     for key, value in override.items():
+        # if both values are dictionaries, keep decending into them; otherwise, override the value from the base with the value from the override   
         if isinstance(value, dict) and isinstance(result.get(key), dict):
             result[key] = _deep_merge(result[key], value)
         else:
             result[key] = deepcopy(value)
     return result
 
-
+# read a JSON file and return its contents as a dictionary, raising ConfigError if the file is missing or invalid
 def _read_json(path: Path, *, required: bool) -> dict[str, Any]:
     if not path.exists():
         if required:
@@ -55,38 +56,45 @@ def load_config(
     local_config_path: str | Path | None = None,
 ) -> AppConfig:
     project_dir = Path(__file__).resolve().parents[1]
+    #path for main config.json
     main_path = Path(config_path) if config_path else project_dir / "config.json"
+    #if main_path is not absolute, resolve it relative to project_dir
     if not main_path.is_absolute():
         main_path = (project_dir / main_path).resolve()
+    #path for local config.local.json
     local_path = (
         Path(local_config_path)
         if local_config_path
         else main_path.with_name("config.local.json")
     )
+    #if local_path is not absolute, resolve it relative to project_dir
     if not local_path.is_absolute():
         local_path = (project_dir / local_path).resolve()
-
+    #merge the main and local config files, with local taking precedence
     merged = _deep_merge(
         _read_json(main_path, required=True),
         _read_json(local_path, required=False),
     )
-
-    vault_section = merged.get("vault") or {}
-    obsidian_section = merged.get("obsidian") or {}
+    #file paths to be used in the output section of the config
     output_section = merged.get("output") or {}
+    #data for obsidian import
+    obsidian_section = merged.get("obsidian") or {}
+    #data for wanikani import
     wk_section = merged.get("wanikani") or {}
+    #data for wanikani download options
     wk_download = wk_section.get("download") or {}
+    #data for anki import
     anki_section = merged.get("anki") or {}
     logging_section = merged.get("logging") or {}
 
-    vault_value = obsidian_section.get("vault") or vault_section.get("path")
+    vault_value = obsidian_section.get("path")
     if not isinstance(vault_value, str) or not vault_value.strip():
-        raise ConfigError("Set vault.path (or obsidian.vault) in config.json")
-
-    output_value = output_section.get("folder") or output_section.get("directory") or "./output"
+        raise ConfigError("Set obsidian.path in config.json")
+    #get the output folder. generally this is set to "./output"
+    output_value = output_section.get("folder") or "./output"
     if not isinstance(output_value, str):
         raise ConfigError("output.folder must be a string")
-
+    #list of things to import from wanikani
     subject_types = wk_section.get("subject_types") or [
         "radical", "kanji", "vocabulary", "kana_vocabulary"
     ]
@@ -97,24 +105,19 @@ def load_config(
         project_dir=project_dir,
         output=OutputConfig(
             folder=_resolve_path(output_value, project_dir),
-            grammar_profile=str(
-                output_section.get(
-                    "grammar_profile",
-                    output_section.get("obsidian_index", "grammar_profile.json"),
-                )
-            ),
-            wanikani_index=str(output_section.get("wanikani_index", "wanikani_index.json")),
-            anki_index=str(output_section.get("anki_index", "anki_index.json")),
-            profile_manifest=str(output_section.get("profile_manifest", "profile_manifest.json")),
-            vocabulary_profile=str(
-                output_section.get("vocabulary_profile", "vocabulary_profile.json")
-            ),
+            grammar_profile=    str(output_section.get("grammar_profile", "grammar_profile.json")),
+            wanikani_index=     str(output_section.get("wanikani_index", "wanikani_index.json")),
+            anki_index=         str(output_section.get("anki_index", "anki_index.json")),
+            profile_manifest=   str(output_section.get("profile_manifest", "profile_manifest.json")),
+            vocabulary_profile= str(output_section.get("vocabulary_profile", "vocabulary_profile.json")),
         ),
         obsidian=ObsidianConfig(
             enabled=bool(obsidian_section.get("enabled", True)),
             vault=_resolve_path(vault_value, project_dir),
+            #holds path to the key in the obsidian vault for linking
             knowledge_engine_folder=str(obsidian_section.get("knowledge_engine_folder", "Knowledge Engine")),
             exclude_folders=tuple(obsidian_section.get("exclude_folders", [".obsidian", ".trash"])),
+            #for handling when note_type is missing in a note
             require_note_type=bool(obsidian_section.get("require_note_type", False)),
             default_note_type=str(obsidian_section.get("default_note_type", "reference")),
         ),
