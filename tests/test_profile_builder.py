@@ -1,7 +1,9 @@
 from pathlib import Path
 import json
 
+from core.models import AnkiStudy, Vocabulary, WaniKaniStudy
 from profile import ProfileBuilder
+from profile.scoring import calculate_confidence
 
 
 def _write(path: Path, value: dict) -> None:

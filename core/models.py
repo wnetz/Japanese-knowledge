@@ -18,7 +18,13 @@ class AnkiStudy:
 
     @property
     def studied(self) -> bool:
-        return self.reviews > 0 or self.best_interval > 0 or (
+        reviews = int(self.reviews) if isinstance(self.reviews, (int, float)) else 0
+        best_interval = (
+            int(self.best_interval)
+            if isinstance(self.best_interval, (int, float))
+            else 0
+        )
+        return reviews > 0 or best_interval > 0 or (
             self.state is not None and self.state.lower() not in {"new", "unknown"}
         )
 
