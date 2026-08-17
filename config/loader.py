@@ -9,6 +9,7 @@ from .models import (
     AnkiConfig,
     AnkiFieldConfig,
     AppConfig,
+    BunproConfig,
     LoggingConfig,
     ObsidianConfig,
     OutputConfig,
@@ -85,6 +86,7 @@ def load_config(
     wk_download = wk_section.get("download") or {}
     #data for anki import
     anki_section = merged.get("anki") or {}
+    bunpro_section = merged.get("bunpro") or {}
     logging_section = merged.get("logging") or {}
 
     vault_value = obsidian_section.get("path")
@@ -105,11 +107,12 @@ def load_config(
         project_dir=project_dir,
         output=OutputConfig(
             folder=_resolve_path(output_value, project_dir),
-            grammar_profile=    str(output_section.get("grammar_profile", "grammar_profile.json")),
+            textbook_profile=    str(output_section.get("textbook_profile", "textbook_profile.json")),
             wanikani_index=     str(output_section.get("wanikani_index", "wanikani_index.json")),
             anki_index=         str(output_section.get("anki_index", "anki_index.json")),
             profile_manifest=   str(output_section.get("profile_manifest", "profile_manifest.json")),
             vocabulary_profile= str(output_section.get("vocabulary_profile", "vocabulary_profile.json")),
+            bunpro_index=        str(output_section.get("bunpro_index", "bunpro_index.json")),
         ),
         obsidian=ObsidianConfig(
             enabled=bool(obsidian_section.get("enabled", True)),
@@ -149,6 +152,16 @@ def load_config(
                 pitch_accent=str((anki_section.get("fields") or {}).get("pitch_accent", "Pitch Accent")),
                 frequency=str((anki_section.get("fields") or {}).get("frequency", "Frequency")),
             ),
+        ),
+        bunpro=BunproConfig(
+            enabled=bool(bunpro_section.get("enabled", False)),
+            email=str(bunpro_section.get("email", "")).strip(),
+            password=str(bunpro_section.get("password", "")),
+            api_url=str(bunpro_section.get("api_url", "https://api.bunpro.jp")).rstrip("/"),
+            login_url=str(bunpro_section.get("login_url", "https://bunpro.jp")).rstrip("/"),
+            timeout_seconds=float(bunpro_section.get("timeout_seconds", 30)),
+            include_grammar=bool(bunpro_section.get("include_grammar", True)),
+            include_vocabulary=bool(bunpro_section.get("include_vocabulary", True)),
         ),
         logging=LoggingConfig(level=str(logging_section.get("level", "INFO")).upper()),
         raw=merged,

@@ -12,7 +12,7 @@ It writes:
 
 - `output/vocabulary_profile.json`
 
-`grammar_profile.json` is intentionally ignored, even when it exists in the same
+`textbook_profile.json` is intentionally ignored, even when it exists in the same
 output directory.
 
 ## Use from the command line

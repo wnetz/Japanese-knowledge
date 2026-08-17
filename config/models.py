@@ -8,11 +8,12 @@ from typing import Any
 @dataclass(frozen=True)
 class OutputConfig:
     folder: Path
-    grammar_profile: str = "grammar_profile.json"
+    textbook_profile: str = "textbook_profile.json"
     wanikani_index: str = "wanikani_index.json"
     anki_index: str = "anki_index.json"
     profile_manifest: str = "profile_manifest.json"
     vocabulary_profile: str = "vocabulary_profile.json"
+    bunpro_index: str = "bunpro_index.json"
 
 
 @dataclass(frozen=True)
@@ -70,6 +71,18 @@ class AnkiConfig:
 
 
 @dataclass(frozen=True)
+class BunproConfig:
+    enabled: bool = False
+    email: str = ""
+    password: str = ""
+    api_url: str = "https://api.bunpro.jp"
+    login_url: str = "https://bunpro.jp"
+    timeout_seconds: float = 30.0
+    include_grammar: bool = True
+    include_vocabulary: bool = True
+
+
+@dataclass(frozen=True)
 class LoggingConfig:
     level: str = "INFO"
 
@@ -81,5 +94,6 @@ class AppConfig:
     obsidian: ObsidianConfig
     wanikani: WaniKaniConfig
     anki: AnkiConfig
+    bunpro: BunproConfig
     logging: LoggingConfig
     raw: dict[str, Any] = field(repr=False, compare=False, default_factory=dict)

@@ -1,11 +1,12 @@
 {
   "output": {
     "folder": "./output",
-    "grammar_profile": "grammar_profile.json",
+    "textbook_profile": "textbook_profile.json",
     "wanikani_index": "wanikani_index.json",
     "profile_manifest": "profile_manifest.json",
     "anki_index": "anki_index.json",
-    "vocabulary_profile": "vocabulary_profile.json"
+    "vocabulary_profile": "vocabulary_profile.json",
+    "bunpro_index": "bunpro_index.json"
   },
   "obsidian": {
     "enabled": true,
@@ -57,5 +58,15 @@
   },
   "logging": {
     "level": "INFO"
+  },
+  "bunpro": {
+    "enabled": false,
+    "email": "",
+    "password": "",
+    "api_url": "https://api.bunpro.jp",
+    "login_url": "https://bunpro.jp",
+    "timeout_seconds": 30,
+    "include_grammar": true,
+    "include_vocabulary": true
   }
 }

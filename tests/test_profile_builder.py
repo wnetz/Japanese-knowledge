@@ -31,7 +31,7 @@ def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -
     })
     # This file may coexist in the output folder, but it is intentionally not
     # consumed by the vocabulary profile builder.
-    _write(tmp_path / "grammar_profile.json", {
+    _write(tmp_path / "textbook_profile.json", {
         "notes": [{"groups": [{"members": [{"word": "飲む", "reading": "のむ"}]}]}]
     })
 

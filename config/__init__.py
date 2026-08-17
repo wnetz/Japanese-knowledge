@@ -3,6 +3,7 @@ from .models import (
     AnkiConfig,
     AnkiFieldConfig,
     AppConfig,
+    BunproConfig,
     LoggingConfig,
     ObsidianConfig,
     OutputConfig,
@@ -20,5 +21,6 @@ __all__ = [
     "WaniKaniDownloadConfig",
     "AnkiConfig",
     "AnkiFieldConfig",
+    "BunproConfig",
     "LoggingConfig",
 ]

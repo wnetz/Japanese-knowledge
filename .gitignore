@@ -6,6 +6,6 @@ __pycache__/
 *.py[cod]
 
 # Allow
-!output/grammar_profile.json
+!output/textbook_profile.json
 !output/vocabulary_profile.json
 !output/writable_kanji.json

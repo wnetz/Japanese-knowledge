@@ -9,6 +9,7 @@ from typing import Any, Callable
 from config import ConfigError, load_config
 from core import write_json
 from importers.anki import AnkiImporter
+from importers.bunpro import BunproImporter
 from importers.obsidian import GrammarProfileImporter
 from importers.wanikani import WaniKaniImporter
 from profile import ProfileBuilder
@@ -32,11 +33,16 @@ def _run_source(
         errors = data.get("errors", []) if isinstance(data, dict) else []
         status = "completed_with_errors" if errors else "completed"
         print(f"{name}: {status}; wrote {output_path}")
+        item_count = data.get("note_count", data.get("subject_count"))
+        if item_count is None and isinstance(data.get("counts"), dict):
+            item_count = sum(
+                value for value in data["counts"].values() if isinstance(value, int)
+            )
         return {
             "enabled": True,
             "status": status,
             "output": str(output_path),
-            "item_count": data.get("note_count", data.get("subject_count")),
+            "item_count": item_count,
             "error_count": len(errors),
         }
     except Exception as exc:
@@ -51,7 +57,7 @@ def _run_source(
 def build_parser() -> argparse.ArgumentParser:
     # Define CLI options for selecting config files used by the profile update run.
     parser = argparse.ArgumentParser(
-        description="Refresh WaniKani and Anki, then build the vocabulary profile."
+        description="Refresh configured knowledge sources, then build the vocabulary profile."
     )
     parser.add_argument("--config", default=None, help="Path to config.json")
     parser.add_argument("--local-config", default=None, help="Path to config.local.json")
@@ -75,7 +81,7 @@ def main(argv: list[str] | None = None) -> int:
         "Grammar profile",
         config.obsidian.enabled,
         lambda: GrammarProfileImporter(config.obsidian),
-        output_dir / config.output.grammar_profile,
+        output_dir / config.output.textbook_profile,
     )
 
     def make_wanikani() -> WaniKaniImporter:
@@ -116,6 +122,30 @@ def main(argv: list[str] | None = None) -> int:
         config.anki.enabled,
         make_anki,
         output_dir / config.output.anki_index,
+    )
+
+    def make_bunpro() -> BunproImporter:
+        bp = config.bunpro
+        if not bp.email or not bp.password:
+            raise ConfigError(
+                "Bunpro is enabled but bunpro.email/password are empty. "
+                "Put them in config.local.json."
+            )
+        return BunproImporter(
+            bp.email,
+            bp.password,
+            api_url=bp.api_url,
+            login_url=bp.login_url,
+            timeout=bp.timeout_seconds,
+            include_grammar=bp.include_grammar,
+            include_vocabulary=bp.include_vocabulary,
+        )
+
+    source_results["bunpro"] = _run_source(
+        "Bunpro",
+        config.bunpro.enabled,
+        make_bunpro,
+        output_dir / config.output.bunpro_index,
     )
 
     print("Profile: building vocabulary profile...")

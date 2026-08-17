@@ -183,6 +183,10 @@ class ObsidianParser:
                         "questions": [item.value for item in lesson.practice.questions],
                         "responses": [item.value for item in lesson.practice.responses],
                         "patterns": [item.value for item in lesson.practice.patterns],
+                        "transformations": [
+                            {"form": item.form, "to": item.to, "by": item.by}
+                            for item in lesson.practice.transformations
+                        ],
                     })
                     lesson_item = {
                         "id": lesson.id,
