@@ -2,11 +2,33 @@ from __future__ import annotations
 
 import math
 
-from core.models import AnkiStudy, Vocabulary, WaniKaniStudy
+from core.models import AnkiStudy, MigakuStudy, Vocabulary, WaniKaniStudy
 
 
 WANIKANI_WEIGHT = 0.70
-ANKI_WEIGHT = 0.30
+ANKI_WEIGHT = 0.40
+MIGAKU_WEIGHT = 0.20
+
+MIGAKU_KNOWN_SCORE = 0.60
+MIGAKU_LEARNING_SCORE = 0.30
+
+WANIKANI_ENLIGHTENED_FLOOR = 0.85
+WANIKANI_BURNED_FLOOR = 0.95
+WANIKANI_INTERVAL_FLOORS = (
+    (9, 0.95),
+    (8, 0.75),
+    (7, 0.55),
+#    (6, 0.35),
+#    (5, 0.15),
+)
+
+ANKI_INTERVAL_FLOORS = (
+    (365, 0.95),
+    (120, 0.75),
+    (30, 0.55),
+#    (14, 0.35),
+#   (7, 0.15),
+)
 
 # WaniKani stages: 0 locked/unstarted, 1-4 apprentice, 5-6 guru,
 # 7 master, 8 enlightened, 9 burned.
@@ -21,6 +43,12 @@ _WK_STAGE_SCORES = {
     8: 0.92,
     9: 1.00,
 }
+
+
+def _non_negative_number(value: object, default: float = 0.0) -> float:
+    if isinstance(value, (int, float)):
+        return max(0.0, float(value))
+    return default
 
 
 def score_wanikani(study: WaniKaniStudy) -> float | None:
@@ -41,9 +69,9 @@ def score_anki(study: AnkiStudy) -> float | None:
     if not study.studied:
         return None
 
-    reviews = max(0, study.reviews)
-    interval = max(0, study.best_interval)
-    lapses = max(0, study.lapses)
+    reviews = _non_negative_number(study.reviews)
+    interval = _non_negative_number(study.best_interval)
+    lapses = _non_negative_number(study.lapses)
 
     # Saturating curves prevent huge review counts or intervals from dominating.
     review_score = 1.0 - math.exp(-reviews / 12.0)
@@ -57,6 +85,15 @@ def score_anki(study: AnkiStudy) -> float | None:
 
     raw = review_score * 0.35 + interval_score * 0.50 + ease_score * 0.15
     return round(max(0.0, min(1.0, raw - lapse_penalty)), 4)
+
+
+def score_migaku(study: MigakuStudy) -> float | None:
+    status = study.status.upper()
+    if status == "KNOWN":
+        return MIGAKU_KNOWN_SCORE
+    if status == "LEARNING":
+        return MIGAKU_LEARNING_SCORE
+    return None
 
 
 def calculate_confidence(vocab: Vocabulary) -> float | None:
@@ -74,10 +111,37 @@ def calculate_confidence(vocab: Vocabulary) -> float | None:
         if score is not None:
             contributions.append((score, ANKI_WEIGHT))
 
+    migaku = vocab.study.get("migaku")
+    if isinstance(migaku, MigakuStudy):
+        score = score_migaku(migaku)
+        if score is not None:
+            contributions.append((score, MIGAKU_WEIGHT))
+
     if not contributions:
         return None
 
     # Weights are renormalized, so an unstudied/missing platform never lowers a score.
     weighted_sum = sum(score * weight for score, weight in contributions)
     total_weight = sum(weight for _, weight in contributions)
-    return round(weighted_sum / total_weight, 4)
+    confidence = weighted_sum / total_weight
+
+    # Mature WaniKani states establish a minimum confidence. Other sources can
+    # raise confidence, but cannot drag Enlightened/Burned vocabulary below it.
+    if isinstance(wk, WaniKaniStudy):
+        interval = _non_negative_number(wk.srs_stage)
+        for minimum_stage, floor in WANIKANI_INTERVAL_FLOORS:
+            if interval >= minimum_stage:
+                confidence = max(confidence, floor)
+                break
+
+    # Mature Anki intervals establish analogous minimum-confidence floors.
+    # Thresholds are checked highest-first so only the strongest applicable
+    # floor is used. Other sources may still raise the final confidence.
+    if isinstance(anki, AnkiStudy):
+        interval = _non_negative_number(anki.best_interval)
+        for minimum_days, floor in ANKI_INTERVAL_FLOORS:
+            if interval >= minimum_days:
+                confidence = max(confidence, floor)
+                break
+
+    return round(confidence, 4)

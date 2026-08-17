@@ -1,7 +1,9 @@
 from pathlib import Path
 import json
 
+from core.models import AnkiStudy, Vocabulary, WaniKaniStudy
 from profile import ProfileBuilder
+from profile.scoring import calculate_confidence
 
 
 def _write(path: Path, value: dict) -> None:
@@ -45,9 +47,9 @@ def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -
     assert item.confidence is not None
     assert profile.metadata.sources == ["wanikani", "anki"]
 
-    # Unstudied WaniKani is ignored, so the score is exactly the Anki score.
-    from profile.scoring import score_anki
-    assert item.confidence == score_anki(item.study["anki"])
+    # Unstudied WaniKani is ignored. The 60-day Anki interval establishes
+    # the configured 0.75 confidence floor.
+    assert item.confidence == 0.75
 
 
 def test_builder_writes_vocabulary_profile_by_default(tmp_path: Path) -> None:
@@ -120,5 +122,89 @@ def test_final_json_contains_only_compact_study_fields(tmp_path: Path) -> None:
     assert item["study"]["anki"] == {
         "reviews": 37,
         "ease": 2.45,
+        "interval": 120,
         "last_reviewed": "2026-07-14",
     }
+
+
+def test_builder_merges_migaku_known_words_and_scores_them(tmp_path: Path) -> None:
+    _write(tmp_path / "wanikani_index.json", {
+        "subjects": [{
+            "id": 1,
+            "subject_type": "kana_vocabulary",
+            "characters": "コーヒー",
+            "readings": [],
+            "meanings": [{"meaning": "Coffee"}],
+            "parts_of_speech": {"normalized": ["noun"]},
+            "assignment": {"srs_stage": 0, "started_at": None},
+            "review_statistics": {},
+        }]
+    })
+    _write(tmp_path / "migaku_known_words.json", {
+        "words": [{
+            "word": "コーヒー",
+            "reading": "こーひー",
+            "language": "ja",
+            "status": "KNOWN",
+        }, {
+            "word": "猫",
+            "reading": "ねこ",
+            "language": "ja",
+            "status": "KNOWN",
+        }]
+    })
+
+    builder = ProfileBuilder(tmp_path)
+    profile = builder.build()
+
+    assert len(profile.vocabulary) == 2
+    coffee = next(item for item in profile.vocabulary if item.word == "コーヒー")
+    cat = next(item for item in profile.vocabulary if item.word == "猫")
+
+    assert coffee.sources == {"wanikani", "migaku"}
+    assert coffee.study["migaku"].status == "KNOWN"
+    assert cat.sources == {"migaku"}
+    assert cat.confidence == 0.6
+    assert profile.metadata.sources == ["wanikani", "migaku"]
+    assert profile.metadata.source_counts["migaku"] == 2
+
+
+def test_migaku_different_real_readings_remain_separate(tmp_path: Path) -> None:
+    _write(tmp_path / "wanikani_index.json", {
+        "subjects": [{
+            "id": 1,
+            "subject_type": "vocabulary",
+            "characters": "日本",
+            "readings": [{"reading": "にっぽん", "primary": True, "accepted_answer": True}],
+            "meanings": [{"meaning": "Japan"}],
+            "parts_of_speech": {"normalized": ["proper noun"]},
+            "assignment": {"srs_stage": 0, "started_at": None},
+            "review_statistics": {},
+        }]
+    })
+    _write(tmp_path / "migaku_known_words.json", {
+        "words": [{
+            "word": "日本",
+            "reading": "にほん",
+            "language": "ja",
+            "status": "KNOWN",
+        }]
+    })
+
+    profile = ProfileBuilder(tmp_path).build()
+    assert len(profile.vocabulary) == 2
+    assert {item.reading for item in profile.vocabulary} == {"にっぽん", "にほん"}
+
+
+def test_confidence_scoring_tolerates_none_numeric_fields() -> None:
+    vocab = Vocabulary(
+        word="安全",
+        study={
+            "anki": AnkiStudy(reviews=None, best_interval=None, lapses=None, state="review"),
+            "wanikani": WaniKaniStudy(srs_stage=None, started_at="2026-01-01T00:00:00Z"),
+        },
+    )
+
+    confidence = calculate_confidence(vocab)
+    assert confidence is not None
+    assert 0.0 <= confidence <= 1.0

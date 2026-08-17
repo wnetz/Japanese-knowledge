@@ -72,6 +72,21 @@ Enabled importers are controlled by `config.json` or `config.local.json`.
 Existing WaniKani or Anki index files can still be used when their importer is
 disabled.
 
+## Migaku vocabulary
+
+If the Migaku Words extension export is saved as:
+
+```text
+output/migaku_known_words.json
+```
+
+the vocabulary profile builder automatically merges it with WaniKani and Anki.
+Migaku `KNOWN` words are included as vocabulary knowledge and contribute a
+strong confidence signal. Reading identity is normalized between katakana and
+hiragana so equivalent readings merge without collapsing genuinely different
+readings.
+
+
 ### Compact profile output
 
 `output/vocabulary_profile.json` keeps only teaching-relevant fields. Anki study
