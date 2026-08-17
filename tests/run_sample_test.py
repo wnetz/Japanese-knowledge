@@ -1,3 +1,4 @@
+from collections import Counter
 from pathlib import Path
 import sys
 
@@ -10,26 +11,26 @@ from importers.obsidian import ObsidianParser
 def main() -> None:
     vault = Path(__file__).resolve().parent / "sample_vault"
     parser = ObsidianParser(vault, knowledge_engine_folder="Knowledge Engine")
-    parser.scan()
+    notes = parser.scan()
     result = parser.export()
 
-    assert result["note_count"] == 15
-    assert result["counts_by_type"]["key"] == 3
-    assert result["counts_by_type"]["lesson"] == 3
-    assert result["counts_by_type"]["conjugation"] == 6
-    assert result["counts_by_type"]["group"] == 3
+    counts = Counter(note.note_type for note in notes)
+
+    assert len(notes) == 15
+    assert counts["key"] == 3
+    assert counts["lesson"] == 3
+    assert counts["conjugation"] == 6
+    assert counts["group"] == 3
     assert result["key_definitions"]["#○○"] == "名詞"
     assert result["key_definitions"]["#△"] == "番号"
-
-    lesson_note = next(note for note in result["notes"] if note["note_type"] == "lesson")
-    assert lesson_note["lessons"]
-    lesson = lesson_note["lessons"][0]
+    assert result["lessons"]
+    lesson = result["lessons"][0]
     assert lesson["practice"]["questions"]
     assert lesson["practice"]["responses"]
     assert lesson["practice"]["patterns"]
 
     print("All sample tests passed.")
-    print(result["counts_by_type"])
+    print(dict(counts))
     print(result["key_definitions"])
 
 

@@ -1,7 +1,6 @@
 # Ignore
 config.local.json
 output/
-tests/sample_vault/
 __pycache__/
 *.py[cod]
 
