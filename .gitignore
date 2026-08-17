@@ -1,10 +1,4 @@
 # Ignore
 config.local.json
-output/
 __pycache__/
 *.py[cod]
-
-# Allow
-!output/textbook_profile.json
-!output/vocabulary_profile.json
-!output/grammar_profile.json

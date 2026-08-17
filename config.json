@@ -21,7 +21,7 @@
     "default_note_type": "reference"
   },
   "wanikani": {
-    "enabled": true,
+    "enabled": false,
     "api_key": "",
     "api_version": "20170710",
     "subject_types": [
@@ -40,7 +40,7 @@
     }
   },
   "anki": {
-    "enabled": true,
+    "enabled": false,
     "host": "http://localhost:8765",
     "api_version": 6,
     "timeout_seconds": 30,
@@ -61,7 +61,7 @@
     "level": "INFO"
   },
   "bunpro": {
-    "enabled": true,
+    "enabled": false,
     "email": "",
     "password": "",
     "api_url": "https://api.bunpro.jp",

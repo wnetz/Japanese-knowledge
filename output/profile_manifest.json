@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-17T12:38:03.240961+00:00",
+  "output_folder": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output",
+  "sources": {
+    "obsidian": {
+      "enabled": true,
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\textbook_profile.json",
+      "item_count": null,
+      "error_count": 0
+    },
+    "wanikani": {
+      "enabled": true,
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\wanikani_index.json",
+      "item_count": 9427,
+      "error_count": 0
+    },
+    "anki": {
+      "enabled": true,
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\anki_index.json",
+      "item_count": 1522,
+      "error_count": 0
+    },
+    "bunpro": {
+      "enabled": true,
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\grammar_profile.json",
+      "item_count": 1644,
+      "error_count": 0
+    }
+  },
+  "profile": {
+    "status": "completed",
+    "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\vocabulary_profile.json",
+    "vocabulary_count": 7846,
+    "confidence_scored_count": 2691
+  },
+  "knowledge_profile": {
+    "status": "completed",
+    "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\knowledge_profile.json"
+  }
+}
