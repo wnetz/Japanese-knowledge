@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
+import unicodedata
 
 
 @dataclass(slots=True)
@@ -25,6 +26,7 @@ class AnkiStudy:
         return {
             "reviews": self.reviews,
             "ease": self.ease,
+            "interval": self.best_interval,
             "last_reviewed": self.last_reviewed,
         }
 
@@ -64,6 +66,18 @@ class WaniKaniStudy:
 
 
 @dataclass(slots=True)
+class MigakuStudy:
+    status: str = ""
+
+    @property
+    def studied(self) -> bool:
+        return self.status.upper() in {"KNOWN", "LEARNING"}
+
+    def to_dict(self) -> dict[str, Any]:
+        return {"status": self.status}
+
+
+@dataclass(slots=True)
 class Vocabulary:
     word: str
     reading: str = ""
@@ -72,19 +86,33 @@ class Vocabulary:
     pitch_accents: set[str] = field(default_factory=set)
     frequency: int | None = None
     sources: set[str] = field(default_factory=set)
-    study: dict[str, AnkiStudy | WaniKaniStudy] = field(default_factory=dict)
+    writable: bool = False
+    study: dict[str, AnkiStudy | WaniKaniStudy | MigakuStudy] = field(default_factory=dict)
     confidence: float | None = None
     source_ids: dict[str, Any] = field(default_factory=dict)
 
+    @staticmethod
+    def _canonical_reading(value: str) -> str:
+        value = unicodedata.normalize("NFKC", value or "")
+        chars: list[str] = []
+        for char in value:
+            code = ord(char)
+            if 0x30A1 <= code <= 0x30F6:
+                chars.append(chr(code - 0x60))
+            else:
+                chars.append(char)
+        return "".join(chars)
+
     @property
     def key(self) -> tuple[str, str]:
-        return self.word, self.reading
+        return self.word, self._canonical_reading(self.reading)
 
     def merge_from(self, other: "Vocabulary") -> None:
         self.meanings.update(other.meanings)
         self.parts_of_speech.update(other.parts_of_speech)
         self.pitch_accents.update(other.pitch_accents)
         self.sources.update(other.sources)
+        self.writable = self.writable or other.writable
         self.source_ids.update(other.source_ids)
         self.study.update(other.study)
         if self.frequency is None:
@@ -101,6 +129,7 @@ class Vocabulary:
             "sources": sorted(self.sources),
             "confidence": self.confidence,
         }
+        result["writable"] = self.writable
         if self.study:
             result["study"] = {
                 name: data.to_dict() for name, data in sorted(self.study.items())

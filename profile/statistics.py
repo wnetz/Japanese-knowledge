@@ -13,9 +13,9 @@ class BuildStatistics:
 
     def format(self) -> str:
         lines = ["Vocabulary Profile Build Summary"]
-        for source in ("wanikani", "anki"):
+        for source in ("wanikani", "anki", "migaku"):
             if source in self.source_counts:
-                display_name = "WaniKani" if source == "wanikani" else "Anki"
+                display_name = {"wanikani": "WaniKani", "anki": "Anki", "migaku": "Migaku"}[source]
                 lines.append(
                     f"  {display_name}: {self.source_counts[source]} vocabulary entries"
                 )

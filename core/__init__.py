@@ -1,9 +1,10 @@
 from .json_writer import write_json
-from .models import AnkiStudy, ProfileMetadata, Vocabulary, VocabularyProfile, WaniKaniStudy
+from .models import AnkiStudy, MigakuStudy, ProfileMetadata, Vocabulary, VocabularyProfile, WaniKaniStudy
 from .serialization import read_json
 
 __all__ = [
     "AnkiStudy",
+    "MigakuStudy",
     "ProfileMetadata",
     "Vocabulary",
     "VocabularyProfile",

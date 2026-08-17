@@ -5,6 +5,7 @@ from typing import Any, Iterable
 
 from core import (
     AnkiStudy,
+    MigakuStudy,
     ProfileMetadata,
     Vocabulary,
     VocabularyProfile,
@@ -17,11 +18,12 @@ from .statistics import BuildStatistics
 
 
 class ProfileBuilder:
-    """Build William's vocabulary profile from WaniKani and Anki indexes."""
+    """Build William's vocabulary profile from WaniKani, Anki, and Migaku indexes."""
 
     SOURCE_FILES = {
         "wanikani": "wanikani_index.json",
         "anki": "anki_index.json",
+        "migaku": "migaku_known_words.json",
     }
 
     def __init__(
@@ -34,15 +36,17 @@ class ProfileBuilder:
         self.output_path = self.output_dir / output_filename
         self.statistics = BuildStatistics()
         self._items: dict[tuple[str, str], Vocabulary] = {}
+        self._writable_kanji: set[str] = set()
 
     def build(self) -> VocabularyProfile:
         # A builder instance may be reused safely.
         self.statistics = BuildStatistics()
         self._items = {}
+        self._writable_kanji = self._load_writable_kanji()
 
         sources = self._load_available_sources()
 
-        for source_name in ("wanikani", "anki"):
+        for source_name in ("wanikani", "anki", "migaku"):
             data = sources.get(source_name)
             if data is None:
                 continue
@@ -53,6 +57,7 @@ class ProfileBuilder:
 
         vocabulary = sorted(self._items.values(), key=lambda item: (item.word, item.reading))
         for item in vocabulary:
+            self._apply_writable_tag(item)
             item.confidence = calculate_confidence(item)
 
         self.statistics.vocabulary_count = len(vocabulary)
@@ -64,7 +69,7 @@ class ProfileBuilder:
         )
 
         metadata = ProfileMetadata(
-            sources=[name for name in ("wanikani", "anki") if name in sources],
+            sources=[name for name in ("wanikani", "anki", "migaku") if name in sources],
             vocabulary_count=self.statistics.vocabulary_count,
             confidence_scored_count=self.statistics.confidence_scored_count,
             unresolved_reading_count=self.statistics.unresolved_reading_count,
@@ -80,6 +85,42 @@ class ProfileBuilder:
         profile = self.build()
         self.write(profile)
         return profile
+
+    def _load_writable_kanji(self) -> set[str]:
+        path = self.output_dir / "writable_kanji.json"
+        if not path.exists():
+            return set()
+        data = read_json(path)
+        if not isinstance(data, dict):
+            return set()
+
+        writable: set[str] = set()
+        for item in data.get("writable_kanji", []):
+            if isinstance(item, dict):
+                character = self._clean(item.get("character"))
+            else:
+                character = self._clean(item)
+            if character:
+                writable.add(character)
+        return writable
+
+    @staticmethod
+    def _kanji_in(value: str) -> set[str]:
+        kanji: set[str] = set()
+        for char in value:
+            code = ord(char)
+            if (
+                0x3400 <= code <= 0x4DBF
+                or 0x4E00 <= code <= 0x9FFF
+                or 0xF900 <= code <= 0xFAFF
+            ):
+                kanji.add(char)
+        return kanji
+
+    def _apply_writable_tag(self, item: Vocabulary) -> None:
+        kanji = self._kanji_in(item.word)
+        if kanji and kanji.issubset(self._writable_kanji):
+            item.writable = True
 
     def _load_available_sources(self) -> dict[str, dict[str, Any]]:
         loaded: dict[str, dict[str, Any]] = {}
@@ -101,6 +142,8 @@ class ProfileBuilder:
             return self._adapt_wanikani(data)
         if source_name == "anki":
             return self._adapt_anki(data)
+        if source_name == "migaku":
+            return self._adapt_migaku(data)
         return []
 
     def _adapt_wanikani(self, data: dict[str, Any]) -> Iterable[Vocabulary]:
@@ -189,6 +232,23 @@ class ProfileBuilder:
                 frequency=frequency,
                 sources={"anki"},
                 study={"anki": study},
+            )
+
+
+    def _adapt_migaku(self, data: dict[str, Any]) -> Iterable[Vocabulary]:
+        for item in data.get("words", []):
+            if self._clean(item.get("language")).lower() not in {"", "ja", "jpn", "japanese"}:
+                continue
+            word = self._clean(item.get("word"))
+            reading = self._clean(item.get("reading"))
+            status = self._clean(item.get("status")).upper()
+            if not word or not status:
+                continue
+            yield Vocabulary(
+                word=word,
+                reading=reading,
+                sources={"migaku"},
+                study={"migaku": MigakuStudy(status=status)},
             )
 
     def _add_or_merge(self, entry: Vocabulary) -> None:
