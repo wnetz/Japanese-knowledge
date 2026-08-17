@@ -6,7 +6,8 @@
     "profile_manifest": "profile_manifest.json",
     "anki_index": "anki_index.json",
     "vocabulary_profile": "vocabulary_profile.json",
-    "bunpro_index": "bunpro_index.json"
+    "grammar_profile": "grammar_profile.json",
+    "knowledge_profile": "knowledge_profile.json"
   },
   "obsidian": {
     "enabled": true,
@@ -20,7 +21,7 @@
     "default_note_type": "reference"
   },
   "wanikani": {
-    "enabled": false,
+    "enabled": true,
     "api_key": "",
     "api_version": "20170710",
     "subject_types": [
@@ -39,7 +40,7 @@
     }
   },
   "anki": {
-    "enabled": false,
+    "enabled": true,
     "host": "http://localhost:8765",
     "api_version": 6,
     "timeout_seconds": 30,
@@ -60,7 +61,7 @@
     "level": "INFO"
   },
   "bunpro": {
-    "enabled": false,
+    "enabled": true,
     "email": "",
     "password": "",
     "api_url": "https://api.bunpro.jp",

@@ -13,7 +13,8 @@ class OutputConfig:
     anki_index: str = "anki_index.json"
     profile_manifest: str = "profile_manifest.json"
     vocabulary_profile: str = "vocabulary_profile.json"
-    bunpro_index: str = "bunpro_index.json"
+    grammar_profile: str = "grammar_profile.json"
+    knowledge_profile: str = "knowledge_profile.json"
 
 
 @dataclass(frozen=True)

@@ -8,4 +8,4 @@ __pycache__/
 # Allow
 !output/textbook_profile.json
 !output/vocabulary_profile.json
-!output/writable_kanji.json
+!output/grammar_profile.json

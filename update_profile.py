@@ -12,7 +12,7 @@ from importers.anki import AnkiImporter
 from importers.bunpro import BunproImporter
 from importers.obsidian import GrammarProfileImporter
 from importers.wanikani import WaniKaniImporter
-from profile import ProfileBuilder
+from profile import ProfileBuilder, build_knowledge_profile
 
 
 def _run_source(
@@ -145,7 +145,7 @@ def main(argv: list[str] | None = None) -> int:
         "Bunpro",
         config.bunpro.enabled,
         make_bunpro,
-        output_dir / config.output.bunpro_index,
+        output_dir / config.output.grammar_profile,
     )
 
     print("Profile: building vocabulary profile...")
@@ -170,12 +170,27 @@ def main(argv: list[str] | None = None) -> int:
             "error": f"{type(exc).__name__}: {exc}",
         }
 
+    try:
+        knowledge_profile_path = build_knowledge_profile(
+            output_dir,
+            textbook_filename=config.output.textbook_profile,
+            grammar_filename=config.output.grammar_profile,
+            vocabulary_filename=config.output.vocabulary_profile,
+            output_filename=config.output.knowledge_profile,
+        )
+        print(f"Knowledge profile: wrote {knowledge_profile_path}")
+        knowledge_profile_result = {"status": "completed", "output": str(knowledge_profile_path)}
+    except Exception as exc:
+        print(f"Knowledge profile: failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        knowledge_profile_result = {"status": "failed", "error": f"{type(exc).__name__}: {exc}"}
+
     manifest = {
         "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "output_folder": str(output_dir),
         "sources": source_results,
         "profile": profile_result,
+        "knowledge_profile": knowledge_profile_result,
     }
     manifest_path = write_json(manifest, output_dir / config.output.profile_manifest)
     print(f"Profile manifest: {manifest_path}")
@@ -183,6 +198,7 @@ def main(argv: list[str] | None = None) -> int:
     failed = (
         any(item.get("status") == "failed" for item in source_results.values())
         or profile_result.get("status") == "failed"
+        or knowledge_profile_result.get("status") == "failed"
     )
     return 1 if failed else 0
 

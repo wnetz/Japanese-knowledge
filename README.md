@@ -21,7 +21,7 @@ Obsidian is deliberately not included in this profile.
 Bunpro can be imported as a separate study-knowledge artifact:
 
 ```text
-output/bunpro_index.json
+output/grammar_profile.json
 ```
 
 The importer uses the same **unofficial frontend API** used by the Bunpro

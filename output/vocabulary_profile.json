@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T11:38:54.036330+00:00",
+    "generated_at": "2026-08-17T12:23:21.136074+00:00",
     "sources": [
       "wanikani",
       "anki",
@@ -70,7 +70,7 @@
         "wanikani"
       ],
       "confidence": 0.99,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -140,7 +140,7 @@
         "wanikani"
       ],
       "confidence": 0.834,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 7
@@ -269,7 +269,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -312,7 +312,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -595,7 +595,7 @@
         "wanikani"
       ],
       "confidence": 0.99,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -804,7 +804,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -935,7 +935,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -1307,7 +1307,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -1462,7 +1462,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.4281,
       "writable": false,
       "study": {
         "anki": {
@@ -1689,7 +1689,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -1814,7 +1814,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3097,
       "writable": false,
       "study": {
         "anki": {
@@ -1836,7 +1836,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -1932,7 +1932,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -2252,8 +2252,8 @@
       "word": "いつ",
       "reading": "いつ",
       "meanings": [
-        "when",
-        "When"
+        "When",
+        "when"
       ],
       "parts_of_speech": [
         "pronoun"
@@ -2312,7 +2312,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -2354,7 +2354,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4089,
       "writable": false,
       "study": {
         "anki": {
@@ -2504,7 +2504,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3941,
       "writable": false,
       "study": {
         "anki": {
@@ -2561,7 +2561,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -2867,7 +2867,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -3001,7 +3001,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -3249,7 +3249,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -3597,8 +3597,8 @@
       "reading": "おかあさん",
       "meanings": [
         "Mom",
-        "Mother",
-        "mother"
+        "mother",
+        "Mother"
       ],
       "parts_of_speech": [
         "noun"
@@ -4094,7 +4094,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -4171,7 +4171,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -4193,8 +4193,8 @@
       "reading": "おねがいします",
       "meanings": [
         "If You Would Be So Kind",
-        "Please",
         "please",
+        "Please",
         "Please Help Me"
       ],
       "parts_of_speech": [
@@ -4204,7 +4204,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -4398,7 +4398,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -4526,7 +4526,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.2987,
       "writable": false,
       "study": {
         "anki": {
@@ -4747,7 +4747,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.428,
       "writable": false,
       "study": {
         "anki": {
@@ -4882,7 +4882,7 @@
         "wanikani"
       ],
       "confidence": 0.968,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -4978,7 +4978,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -5023,7 +5023,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3732,
       "writable": false,
       "study": {
         "anki": {
@@ -5365,7 +5365,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4041,
       "writable": false,
       "study": {
         "anki": {
@@ -5821,7 +5821,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.4104,
       "writable": false,
       "study": {
         "anki": {
@@ -6552,7 +6552,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3425,
       "writable": false,
       "study": {
         "anki": {
@@ -6654,7 +6654,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4089,
       "writable": false,
       "study": {
         "anki": {
@@ -6714,8 +6714,8 @@
       "word": "ちょっと",
       "reading": "ちょっと",
       "meanings": [
-        "A Little",
         "a little",
+        "A Little",
         "A Moment"
       ],
       "parts_of_speech": [
@@ -6769,7 +6769,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4568,
       "writable": false,
       "study": {
         "anki": {
@@ -7276,7 +7276,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3853,
       "writable": false,
       "study": {
         "anki": {
@@ -7744,7 +7744,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.295,
       "writable": false,
       "study": {
         "anki": {
@@ -7803,7 +7803,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4458,
       "writable": false,
       "study": {
         "anki": {
@@ -7828,7 +7828,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -8148,7 +8148,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -8186,7 +8186,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4245,
       "writable": false,
       "study": {
         "anki": {
@@ -8417,7 +8417,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4089,
       "writable": false,
       "study": {
         "anki": {
@@ -8580,7 +8580,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.4087,
       "writable": false,
       "study": {
         "anki": {
@@ -8753,7 +8753,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4089,
       "writable": false,
       "study": {
         "anki": {
@@ -9039,7 +9039,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -9064,7 +9064,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4701,
       "writable": false,
       "study": {
         "anki": {
@@ -9131,7 +9131,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3945,
       "writable": false,
       "study": {
         "anki": {
@@ -9156,7 +9156,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -9300,7 +9300,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -9415,7 +9415,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4579,
       "writable": false,
       "study": {
         "anki": {
@@ -9885,7 +9885,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -9995,7 +9995,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -10543,7 +10543,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -12091,7 +12091,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -13499,7 +13499,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -13725,7 +13725,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -14552,7 +14552,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -14563,8 +14563,8 @@
       "word": "一",
       "reading": "いち",
       "meanings": [
-        "one",
-        "One"
+        "One",
+        "one"
       ],
       "parts_of_speech": [
         "numeral"
@@ -14575,7 +14575,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -14607,7 +14607,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -14657,7 +14657,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -14677,7 +14677,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -14698,7 +14698,7 @@
         "wanikani"
       ],
       "confidence": 0.984,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -14781,7 +14781,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -15027,7 +15027,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -15047,7 +15047,7 @@
         "wanikani"
       ],
       "confidence": 0.732,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 6
@@ -15218,7 +15218,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -15520,7 +15520,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -15608,7 +15608,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -15632,7 +15632,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -15658,7 +15658,7 @@
         "wanikani"
       ],
       "confidence": 0.7851,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -15744,7 +15744,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -15768,7 +15768,7 @@
         "wanikani"
       ],
       "confidence": 0.724,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -15845,8 +15845,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8349,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -16432,7 +16432,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -16452,8 +16452,8 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.3133,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -16479,7 +16479,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -16510,7 +16510,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -16526,7 +16526,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -16537,8 +16537,8 @@
       "word": "万",
       "reading": "まん",
       "meanings": [
-        "Ten Thousand",
-        "ten thousand"
+        "ten thousand",
+        "Ten Thousand"
       ],
       "parts_of_speech": [
         "numeral"
@@ -16549,7 +16549,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -16579,7 +16579,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -16690,7 +16690,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -16722,7 +16722,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -16795,7 +16795,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -16881,7 +16881,7 @@
         "wanikani"
       ],
       "confidence": 0.98,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -16901,8 +16901,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8364,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -16969,7 +16969,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -17057,7 +17057,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17092,7 +17092,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17126,8 +17126,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -17159,7 +17159,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -17270,7 +17270,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -17297,7 +17297,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17375,7 +17375,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -17427,7 +17427,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17454,7 +17454,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17484,7 +17484,7 @@
         "wanikani"
       ],
       "confidence": 0.7867,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17518,7 +17518,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17548,7 +17548,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -17564,7 +17564,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -17589,7 +17589,7 @@
         "wanikani"
       ],
       "confidence": 0.258,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17617,8 +17617,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8442,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -17712,7 +17712,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -17785,7 +17785,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -17916,7 +17916,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -19045,8 +19045,8 @@
       "reading": "あたえる",
       "meanings": [
         "To Bestow",
-        "To Give",
         "to give",
+        "To Give",
         "To Grant"
       ],
       "parts_of_speech": [
@@ -19403,7 +19403,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -19691,7 +19691,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -19715,7 +19715,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -19746,7 +19746,7 @@
         "wanikani"
       ],
       "confidence": 0.736,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 6
@@ -19815,7 +19815,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -19863,7 +19863,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -19889,7 +19889,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -19911,7 +19911,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -19936,7 +19936,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -20340,7 +20340,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -20930,7 +20930,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.4069,
       "writable": false,
       "study": {
         "anki": {
@@ -21189,8 +21189,8 @@
       "word": "九",
       "reading": "きゅう",
       "meanings": [
-        "nine",
-        "Nine"
+        "Nine",
+        "nine"
       ],
       "parts_of_speech": [
         "numeral"
@@ -21201,7 +21201,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -21233,7 +21233,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -21289,7 +21289,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -21887,7 +21887,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.6246,
       "writable": false,
       "study": {
         "anki": {
@@ -22165,7 +22165,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -22197,7 +22197,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -22226,7 +22226,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22269,7 +22269,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22314,7 +22314,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22439,7 +22439,7 @@
         "wanikani"
       ],
       "confidence": 0.922,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -22481,7 +22481,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22502,7 +22502,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -22613,7 +22613,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22707,8 +22707,8 @@
       "word": "五",
       "reading": "ご",
       "meanings": [
-        "five",
-        "Five"
+        "Five",
+        "five"
       ],
       "parts_of_speech": [
         "numeral"
@@ -22719,7 +22719,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -22751,7 +22751,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -22780,7 +22780,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22864,7 +22864,7 @@
         "wanikani"
       ],
       "confidence": 0.976,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22885,7 +22885,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -22929,7 +22929,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -23137,7 +23137,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -23230,7 +23230,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -23379,8 +23379,8 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.4089,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -23402,7 +23402,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -23413,8 +23413,8 @@
       "word": "人",
       "reading": "ひと",
       "meanings": [
-        "person",
-        "Person"
+        "Person",
+        "person"
       ],
       "parts_of_speech": [
         "noun"
@@ -23425,7 +23425,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -23445,8 +23445,8 @@
       "word": "人々",
       "reading": "ひとびと",
       "meanings": [
-        "people",
-        "People"
+        "People",
+        "people"
       ],
       "parts_of_speech": [
         "noun",
@@ -23458,7 +23458,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -23508,7 +23508,7 @@
         "wanikani"
       ],
       "confidence": 0.5316,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -23771,8 +23771,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8458,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -23847,7 +23847,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -24032,7 +24032,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -24135,8 +24135,8 @@
       "word": "今",
       "reading": "いま",
       "meanings": [
-        "Now",
-        "now"
+        "now",
+        "Now"
       ],
       "parts_of_speech": [
         "noun"
@@ -24147,7 +24147,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -24172,7 +24172,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -24195,7 +24195,7 @@
         "wanikani"
       ],
       "confidence": 0.906,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -24218,8 +24218,8 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.5823,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -24236,8 +24236,8 @@
       "word": "今回",
       "reading": "こんかい",
       "meanings": [
-        "This Time",
-        "this time"
+        "this time",
+        "This Time"
       ],
       "parts_of_speech": [
         "noun"
@@ -24301,8 +24301,8 @@
       "word": "今年",
       "reading": "ことし",
       "meanings": [
-        "This Year",
-        "this year"
+        "this year",
+        "This Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -24313,7 +24313,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -24335,8 +24335,8 @@
       "meanings": [
         "next time",
         "Next Time",
-        "This Time",
-        "this time"
+        "this time",
+        "This Time"
       ],
       "parts_of_speech": [
         "noun"
@@ -24374,7 +24374,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -24399,8 +24399,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -24430,7 +24430,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -24518,7 +24518,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -24532,8 +24532,8 @@
       "word": "今朝",
       "reading": "けさ",
       "meanings": [
-        "This Morning",
-        "this morning"
+        "this morning",
+        "This Morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -24570,7 +24570,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -24917,7 +24917,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -25421,7 +25421,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -25667,7 +25667,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -26304,7 +26304,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26323,7 +26323,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26348,7 +26348,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -26380,7 +26380,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26450,7 +26450,7 @@
         "wanikani"
       ],
       "confidence": 0.7027,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26531,7 +26531,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26559,7 +26559,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -26616,7 +26616,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26655,8 +26655,8 @@
       "word": "会話",
       "reading": "かいわ",
       "meanings": [
-        "Conversation",
         "conversation",
+        "Conversation",
         "Dialogue"
       ],
       "parts_of_speech": [
@@ -27336,7 +27336,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8364,
       "writable": false,
       "study": {
         "anki": {
@@ -27490,7 +27490,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -27505,8 +27505,8 @@
       "word": "体",
       "reading": "からだ",
       "meanings": [
-        "Body",
-        "body"
+        "body",
+        "Body"
       ],
       "parts_of_speech": [
         "noun",
@@ -27517,7 +27517,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "anki": {
@@ -27750,7 +27750,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -27770,8 +27770,8 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.3203,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -27790,7 +27790,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -27806,7 +27806,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -27824,7 +27824,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27846,7 +27846,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27870,7 +27870,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27891,7 +27891,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27912,7 +27912,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27933,7 +27933,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -27953,7 +27953,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4047,
       "writable": false,
       "study": {
         "anki": {
@@ -27978,7 +27978,7 @@
         "wanikani"
       ],
       "confidence": 0.98,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -28016,7 +28016,7 @@
         "wanikani"
       ],
       "confidence": 0.914,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -28062,7 +28062,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -28153,7 +28153,7 @@
         "wanikani"
       ],
       "confidence": 0.986,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -28169,7 +28169,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -28189,7 +28189,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -28205,7 +28205,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -28226,7 +28226,7 @@
         "wanikani"
       ],
       "confidence": 0.982,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -28483,7 +28483,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -28577,7 +28577,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -28610,7 +28610,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -29483,7 +29483,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -29889,7 +29889,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -29945,7 +29945,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -31703,8 +31703,8 @@
       "word": "傷つく",
       "reading": "きずつく",
       "meanings": [
-        "To Get Hurt",
-        "to get hurt"
+        "to get hurt",
+        "To Get Hurt"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -31976,8 +31976,8 @@
       "meanings": [
         "To Commit",
         "To Labor",
-        "to work",
-        "To Work"
+        "To Work",
+        "to work"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -32034,7 +32034,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -32565,7 +32565,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -32768,7 +32768,7 @@
         "wanikani"
       ],
       "confidence": 0.6342,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -32787,7 +32787,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -32808,7 +32808,7 @@
         "wanikani"
       ],
       "confidence": 0.738,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 6
@@ -32832,7 +32832,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -32853,7 +32853,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -32874,7 +32874,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -32928,7 +32928,7 @@
         "wanikani"
       ],
       "confidence": 0.6264,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -32958,7 +32958,7 @@
         "wanikani"
       ],
       "confidence": 0.7804,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -32973,8 +32973,8 @@
       "reading": "せんせい",
       "meanings": [
         "Sensei",
-        "Teacher",
-        "teacher"
+        "teacher",
+        "Teacher"
       ],
       "parts_of_speech": [
         "noun"
@@ -32985,7 +32985,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -33116,7 +33116,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33554,7 +33554,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33570,7 +33570,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33581,8 +33581,8 @@
       "word": "入り口",
       "reading": "いりぐち",
       "meanings": [
-        "Entrance",
-        "entrance"
+        "entrance",
+        "Entrance"
       ],
       "parts_of_speech": [
         "noun"
@@ -33592,7 +33592,7 @@
         "wanikani"
       ],
       "confidence": 0.916,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -33635,7 +33635,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33660,7 +33660,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 3,
@@ -33681,8 +33681,8 @@
       "reading": "いれる",
       "meanings": [
         "To Insert",
-        "to put in",
-        "To Put In"
+        "To Put In",
+        "to put in"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -33694,7 +33694,7 @@
         "wanikani"
       ],
       "confidence": 0.782,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -33719,7 +33719,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33842,7 +33842,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33946,7 +33946,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -34406,7 +34406,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -34587,8 +34587,8 @@
       "word": "八",
       "reading": "はち",
       "meanings": [
-        "Eight",
-        "eight"
+        "eight",
+        "Eight"
       ],
       "parts_of_speech": [
         "numeral"
@@ -34599,7 +34599,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -34631,7 +34631,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -34683,7 +34683,7 @@
         "wanikani"
       ],
       "confidence": 0.908,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -35009,7 +35009,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -35041,7 +35041,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -35072,7 +35072,7 @@
         "wanikani"
       ],
       "confidence": 0.98,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -35093,7 +35093,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -35316,8 +35316,8 @@
       "word": "兵士",
       "reading": "へいし",
       "meanings": [
-        "soldier",
-        "Soldier"
+        "Soldier",
+        "soldier"
       ],
       "parts_of_speech": [
         "noun"
@@ -35672,8 +35672,8 @@
       "word": "内容",
       "reading": "ないよう",
       "meanings": [
-        "Contents",
         "contents",
+        "Contents",
         "Substance"
       ],
       "parts_of_speech": [
@@ -35770,7 +35770,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -35786,7 +35786,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -35808,7 +35808,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -36064,8 +36064,8 @@
       "word": "冗談",
       "reading": "じょうだん",
       "meanings": [
-        "Joke",
-        "joke"
+        "joke",
+        "Joke"
       ],
       "parts_of_speech": [
         "noun",
@@ -36105,7 +36105,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -36147,8 +36147,8 @@
       "reading": "しゃしん",
       "meanings": [
         "Photo",
-        "Photograph",
         "photograph",
+        "Photograph",
         "Picture"
       ],
       "parts_of_speech": [
@@ -36267,8 +36267,8 @@
       "word": "冬",
       "reading": "ふゆ",
       "meanings": [
-        "winter",
-        "Winter"
+        "Winter",
+        "winter"
       ],
       "parts_of_speech": [
         "noun"
@@ -37114,7 +37114,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -37140,7 +37140,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -37162,8 +37162,8 @@
       "meanings": [
         "To Let Out",
         "To Put Out",
-        "To Take Out",
         "to take out",
+        "To Take Out",
         "To Turn In"
       ],
       "parts_of_speech": [
@@ -37176,7 +37176,7 @@
         "wanikani"
       ],
       "confidence": 0.4507,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -37213,7 +37213,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -37249,7 +37249,7 @@
         "wanikani"
       ],
       "confidence": 0.63,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -37271,7 +37271,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -37291,7 +37291,7 @@
         "wanikani"
       ],
       "confidence": 0.92,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -37383,8 +37383,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -37416,7 +37416,7 @@
         "wanikani"
       ],
       "confidence": 0.6264,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -37594,7 +37594,7 @@
         "wanikani"
       ],
       "confidence": 0.7851,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -37754,7 +37754,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -37781,7 +37781,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -37815,7 +37815,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -37849,7 +37849,7 @@
         "wanikani"
       ],
       "confidence": 0.4538,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -38417,8 +38417,8 @@
       "reading": "はじめて",
       "meanings": [
         "First Time",
-        "For The First Time",
-        "for the first time"
+        "for the first time",
+        "For The First Time"
       ],
       "parts_of_speech": [
         "adverb",
@@ -39034,8 +39034,8 @@
       "word": "到着",
       "reading": "とうちゃく",
       "meanings": [
-        "arrival",
-        "Arrival"
+        "Arrival",
+        "arrival"
       ],
       "parts_of_speech": [
         "noun",
@@ -39085,8 +39085,8 @@
       "word": "制服",
       "reading": "せいふく",
       "meanings": [
-        "uniform",
-        "Uniform"
+        "Uniform",
+        "uniform"
       ],
       "parts_of_speech": [
         "noun"
@@ -39404,7 +39404,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -40387,7 +40387,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -40653,8 +40653,8 @@
       "word": "効く",
       "reading": "きく",
       "meanings": [
-        "to be effective",
         "To Be Effective",
+        "to be effective",
         "To Work Effectively"
       ],
       "parts_of_speech": [
@@ -40851,8 +40851,8 @@
       "reading": "べんきょう",
       "meanings": [
         "Studies",
-        "Study",
-        "study"
+        "study",
+        "Study"
       ],
       "parts_of_speech": [
         "noun",
@@ -40863,7 +40863,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -41286,7 +41286,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8364,
       "writable": false,
       "study": {
         "migaku": {
@@ -41812,7 +41812,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.75,
+      "confidence": 0.5139,
       "writable": false,
       "study": {
         "anki": {
@@ -41993,7 +41993,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8349,
       "writable": false,
       "study": {
         "migaku": {
@@ -42565,8 +42565,8 @@
       "word": "十",
       "reading": "じゅう",
       "meanings": [
-        "Ten",
-        "ten"
+        "ten",
+        "Ten"
       ],
       "parts_of_speech": [
         "numeral"
@@ -42577,7 +42577,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -42607,7 +42607,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42627,7 +42627,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42652,7 +42652,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -42678,7 +42678,7 @@
         "wanikani"
       ],
       "confidence": 0.984,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42720,7 +42720,7 @@
         "wanikani"
       ],
       "confidence": 0.986,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42741,7 +42741,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -42765,7 +42765,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -42790,7 +42790,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42903,7 +42903,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -42931,7 +42931,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -42962,7 +42962,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -42976,8 +42976,8 @@
       "word": "半分",
       "reading": "はんぶん",
       "meanings": [
-        "half",
-        "Half"
+        "Half",
+        "half"
       ],
       "parts_of_speech": [
         "noun"
@@ -42988,7 +42988,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -43504,7 +43504,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -44607,8 +44607,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8396,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -44640,7 +44640,7 @@
         "wanikani"
       ],
       "confidence": 0.5253,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -44697,8 +44697,8 @@
       "word": "参加",
       "reading": "さんか",
       "meanings": [
-        "Participation",
-        "participation"
+        "participation",
+        "Participation"
       ],
       "parts_of_speech": [
         "noun",
@@ -44882,7 +44882,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -44893,8 +44893,8 @@
       "word": "友人",
       "reading": "ゆうじん",
       "meanings": [
-        "friend",
-        "Friend"
+        "Friend",
+        "friend"
       ],
       "parts_of_speech": [
         "noun"
@@ -44905,7 +44905,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -44961,7 +44961,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4016,
       "writable": false,
       "study": {
         "anki": {
@@ -46015,7 +46015,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -46119,8 +46119,8 @@
       "word": "口",
       "reading": "くち",
       "meanings": [
-        "mouth",
-        "Mouth"
+        "Mouth",
+        "mouth"
       ],
       "parts_of_speech": [
         "noun"
@@ -46131,7 +46131,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -46164,7 +46164,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -46684,8 +46684,8 @@
       "word": "可愛い",
       "reading": "かわいい",
       "meanings": [
-        "cute",
-        "Cute"
+        "Cute",
+        "cute"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -46908,8 +46908,8 @@
       "word": "右",
       "reading": "みぎ",
       "meanings": [
-        "Right",
         "right",
+        "Right",
         "Right Direction"
       ],
       "parts_of_speech": [
@@ -46922,7 +46922,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -46998,7 +46998,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -47771,7 +47771,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -47801,8 +47801,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8396,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -47851,7 +47851,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -48195,7 +48195,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "anki": {
@@ -49251,7 +49251,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -49440,7 +49440,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4016,
       "writable": false,
       "study": {
         "anki": {
@@ -49482,8 +49482,8 @@
       "word": "命",
       "reading": "いのち",
       "meanings": [
-        "Life",
-        "life"
+        "life",
+        "Life"
       ],
       "parts_of_speech": [
         "independent_noun"
@@ -51127,8 +51127,8 @@
       "word": "嘘",
       "reading": "うそ",
       "meanings": [
-        "Lie",
-        "lie"
+        "lie",
+        "Lie"
       ],
       "parts_of_speech": [
         "noun",
@@ -51460,7 +51460,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -51480,8 +51480,8 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.3133,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -51507,7 +51507,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -51552,7 +51552,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -51572,7 +51572,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -51593,7 +51593,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -51635,7 +51635,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -51656,7 +51656,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -51706,7 +51706,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -51727,7 +51727,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -51750,7 +51750,7 @@
         "wanikani"
       ],
       "confidence": 0.98,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -52060,7 +52060,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -52328,7 +52328,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -52522,8 +52522,8 @@
       "word": "国",
       "reading": "くに",
       "meanings": [
-        "Country",
         "country",
+        "Country",
         "Nation"
       ],
       "parts_of_speech": [
@@ -52535,7 +52535,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -52560,7 +52560,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -52623,7 +52623,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -52866,7 +52866,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -52882,7 +52882,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -52944,7 +52944,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -53035,7 +53035,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -53290,7 +53290,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -53435,7 +53435,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3634,
       "writable": false,
       "study": {
         "anki": {
@@ -54138,8 +54138,8 @@
       "word": "城",
       "reading": "しろ",
       "meanings": [
-        "castle",
-        "Castle"
+        "Castle",
+        "castle"
       ],
       "parts_of_speech": [
         "noun"
@@ -54668,8 +54668,8 @@
       "reading": "ほうこく",
       "meanings": [
         "Information",
-        "Report",
-        "report"
+        "report",
+        "Report"
       ],
       "parts_of_speech": [
         "noun",
@@ -55875,7 +55875,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -55901,7 +55901,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -56426,7 +56426,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -56519,8 +56519,8 @@
       "word": "外",
       "reading": "そと",
       "meanings": [
-        "outside",
-        "Outside"
+        "Outside",
+        "outside"
       ],
       "parts_of_speech": [
         "noun",
@@ -56554,8 +56554,8 @@
       "meanings": [
         "To Exclude",
         "To Miss Something",
-        "to remove",
-        "To Remove"
+        "To Remove",
+        "to remove"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -57192,8 +57192,8 @@
       "word": "夢",
       "reading": "ゆめ",
       "meanings": [
-        "Dream",
-        "dream"
+        "dream",
+        "Dream"
       ],
       "parts_of_speech": [
         "noun"
@@ -57203,7 +57203,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -57253,7 +57253,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -57277,7 +57277,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -57301,7 +57301,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -57353,7 +57353,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -57373,7 +57373,7 @@
         "wanikani"
       ],
       "confidence": 0.64,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 5
@@ -57391,8 +57391,8 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.4041,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -57421,8 +57421,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8458,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -57441,7 +57441,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -57467,7 +57467,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3941,
       "writable": false,
       "study": {
         "anki": {
@@ -57532,8 +57532,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8458,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -57567,7 +57567,7 @@
         "wanikani"
       ],
       "confidence": 0.7073,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -57622,7 +57622,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -57673,7 +57673,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -57727,7 +57727,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -57888,8 +57888,8 @@
       "meanings": [
         "Like A Lot",
         "Lovable",
-        "love",
         "Love",
+        "love",
         "Really Like"
       ],
       "parts_of_speech": [
@@ -57901,7 +57901,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -57957,7 +57957,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -57983,7 +57983,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -58057,7 +58057,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 0
@@ -58328,7 +58328,7 @@
         "wanikani"
       ],
       "confidence": 0.7027,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -58821,7 +58821,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -58850,7 +58850,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -58861,8 +58861,8 @@
       "word": "天井",
       "reading": "てんじょう",
       "meanings": [
-        "ceiling",
-        "Ceiling"
+        "Ceiling",
+        "ceiling"
       ],
       "parts_of_speech": [
         "noun"
@@ -58946,7 +58946,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -58994,7 +58994,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -59541,7 +59541,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.2912,
       "writable": false,
       "study": {
         "anki": {
@@ -60095,7 +60095,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -60124,7 +60124,7 @@
         "wanikani"
       ],
       "confidence": 0.926,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -60135,8 +60135,8 @@
       "word": "女の子",
       "reading": "おんなのこ",
       "meanings": [
-        "Girl",
         "girl",
+        "Girl",
         "Young Girl"
       ],
       "parts_of_speech": [
@@ -60148,7 +60148,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -60203,7 +60203,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -60289,7 +60289,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -60787,8 +60787,8 @@
       "reading": "いもうと",
       "meanings": [
         "Little Sister",
-        "younger sister",
-        "Younger Sister"
+        "Younger Sister",
+        "younger sister"
       ],
       "parts_of_speech": [
         "noun"
@@ -60798,7 +60798,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -61318,8 +61318,8 @@
       "word": "娘",
       "reading": "むすめ",
       "meanings": [
-        "daughter",
         "Daughter",
+        "daughter",
         "Young Woman"
       ],
       "parts_of_speech": [
@@ -61596,8 +61596,8 @@
       "meanings": [
         "Detestable",
         "Dislikable",
-        "Dislike",
         "dislike",
+        "Dislike",
         "Hate"
       ],
       "parts_of_speech": [
@@ -61609,7 +61609,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4112,
       "writable": false,
       "study": {
         "anki": {
@@ -61811,7 +61811,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -62272,7 +62272,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -62296,8 +62296,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8473,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -62379,7 +62379,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -62427,7 +62427,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -62480,7 +62480,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -62535,7 +62535,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -62732,7 +62732,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -64008,7 +64008,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -64841,7 +64841,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -66041,7 +66041,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -66144,7 +66144,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -66169,7 +66169,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -66564,8 +66564,8 @@
       "word": "少女",
       "reading": "しょうじょ",
       "meanings": [
-        "Girl",
         "girl",
+        "Girl",
         "Young Girl"
       ],
       "parts_of_speech": [
@@ -67354,7 +67354,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8349,
       "writable": false,
       "study": {
         "migaku": {
@@ -67530,8 +67530,8 @@
       "word": "山",
       "reading": "やま",
       "meanings": [
-        "Mountain",
-        "mountain"
+        "mountain",
+        "Mountain"
       ],
       "parts_of_speech": [
         "noun"
@@ -67542,7 +67542,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -67573,7 +67573,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -67634,7 +67634,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -68274,7 +68274,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -68655,8 +68655,8 @@
       "word": "左",
       "reading": "ひだり",
       "meanings": [
-        "Left",
         "left",
+        "Left",
         "Left Direction"
       ],
       "parts_of_speech": [
@@ -68669,7 +68669,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -68752,7 +68752,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -68785,7 +68785,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -69316,8 +69316,8 @@
       "word": "布",
       "reading": "ぬの",
       "meanings": [
-        "Cloth",
         "cloth",
+        "Cloth",
         "Fabric"
       ],
       "parts_of_speech": [
@@ -69655,8 +69655,8 @@
       "word": "席",
       "reading": "せき",
       "meanings": [
-        "seat",
-        "Seat"
+        "Seat",
+        "seat"
       ],
       "parts_of_speech": [
         "noun"
@@ -69735,7 +69735,7 @@
         "wanikani"
       ],
       "confidence": 0.406,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 3
@@ -69751,7 +69751,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -69776,8 +69776,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -70407,8 +70407,8 @@
       "reading": "とし",
       "meanings": [
         "Age",
-        "year",
-        "Year"
+        "Year",
+        "year"
       ],
       "parts_of_speech": [
         "noun"
@@ -70419,7 +70419,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -70447,7 +70447,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -70475,7 +70475,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -70500,7 +70500,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -70528,7 +70528,7 @@
         "wanikani"
       ],
       "confidence": 0.7073,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -70662,7 +70662,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -70765,7 +70765,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -71358,7 +71358,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -71536,8 +71536,8 @@
       "word": "底",
       "reading": "そこ",
       "meanings": [
-        "Bottom",
-        "bottom"
+        "bottom",
+        "Bottom"
       ],
       "parts_of_speech": [
         "noun"
@@ -71577,7 +71577,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -71688,7 +71688,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4016,
       "writable": false,
       "study": {
         "anki": {
@@ -72640,7 +72640,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -72962,7 +72962,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -72977,8 +72977,8 @@
       "word": "弱い",
       "reading": "よわい",
       "meanings": [
-        "weak",
-        "Weak"
+        "Weak",
+        "weak"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -73105,7 +73105,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "anki": {
@@ -73670,8 +73670,8 @@
       "reading": "かたち",
       "meanings": [
         "Form",
-        "shape",
-        "Shape"
+        "Shape",
+        "shape"
       ],
       "parts_of_speech": [
         "noun",
@@ -74029,7 +74029,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -74446,7 +74446,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -74465,7 +74465,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -74481,7 +74481,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -74504,7 +74504,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -74531,8 +74531,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8396,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -75484,7 +75484,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -75509,7 +75509,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -75616,7 +75616,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -75766,7 +75766,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -76091,8 +76091,8 @@
       "word": "忘れる",
       "reading": "わすれる",
       "meanings": [
-        "To Forget",
         "to forget",
+        "To Forget",
         "To Forget Something"
       ],
       "parts_of_speech": [
@@ -76104,7 +76104,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3941,
       "writable": false,
       "study": {
         "anki": {
@@ -77208,8 +77208,8 @@
       "word": "急ぐ",
       "reading": "いそぐ",
       "meanings": [
-        "to hurry",
-        "To Hurry"
+        "To Hurry",
+        "to hurry"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -77517,8 +77517,8 @@
       "word": "怪我",
       "reading": "けが",
       "meanings": [
-        "injury",
-        "Injury"
+        "Injury",
+        "injury"
       ],
       "parts_of_speech": [
         "noun",
@@ -78087,7 +78087,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.347,
       "writable": false,
       "study": {
         "anki": {
@@ -78318,8 +78318,8 @@
       "word": "息子",
       "reading": "むすこ",
       "meanings": [
-        "son",
-        "Son"
+        "Son",
+        "son"
       ],
       "parts_of_speech": [
         "noun"
@@ -78613,8 +78613,8 @@
       "word": "悪い",
       "reading": "わるい",
       "meanings": [
-        "Bad",
         "bad",
+        "Bad",
         "Poor",
         "Wrong"
       ],
@@ -79988,8 +79988,8 @@
       "word": "愛",
       "reading": "あい",
       "meanings": [
-        "Love",
-        "love"
+        "love",
+        "Love"
       ],
       "parts_of_speech": [
         "noun",
@@ -81773,7 +81773,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -82224,7 +82224,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.4058,
       "writable": false,
       "study": {
         "anki": {
@@ -82634,7 +82634,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -82799,8 +82799,8 @@
       "word": "扉",
       "reading": "とびら",
       "meanings": [
-        "Door",
         "door",
+        "Door",
         "Hinged Door"
       ],
       "parts_of_speech": [
@@ -82833,7 +82833,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -82857,7 +82857,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -82911,7 +82911,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.6332,
       "writable": false,
       "study": {
         "anki": {
@@ -82943,7 +82943,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -83379,7 +83379,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "anki": {
@@ -85497,7 +85497,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "anki": {
@@ -85554,7 +85554,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.6378,
       "writable": false,
       "study": {
         "anki": {
@@ -85587,7 +85587,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "anki": {
@@ -86768,8 +86768,8 @@
       "word": "掃除",
       "reading": "そうじ",
       "meanings": [
-        "cleaning",
-        "Cleaning"
+        "Cleaning",
+        "cleaning"
       ],
       "parts_of_speech": [
         "noun",
@@ -90106,8 +90106,8 @@
       "reading": "すくう",
       "meanings": [
         "To Rescue",
-        "To Save",
-        "to save"
+        "to save",
+        "To Save"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -90262,7 +90262,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -90309,8 +90309,8 @@
       "word": "教室",
       "reading": "きょうしつ",
       "meanings": [
-        "Classroom",
-        "classroom"
+        "classroom",
+        "Classroom"
       ],
       "parts_of_speech": [
         "noun"
@@ -90437,7 +90437,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -91303,7 +91303,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -92055,7 +92055,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -92085,7 +92085,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -92194,7 +92194,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3492,
       "writable": false,
       "study": {
         "anki": {
@@ -92415,7 +92415,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -92595,7 +92595,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -92619,7 +92619,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -92646,7 +92646,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -92670,7 +92670,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -92788,7 +92788,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -92813,7 +92813,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -92834,7 +92834,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -92856,7 +92856,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -92945,8 +92945,8 @@
       "reading": "にほんご",
       "meanings": [
         "Japanese",
-        "Japanese language",
-        "Japanese Language"
+        "Japanese Language",
+        "Japanese language"
       ],
       "parts_of_speech": [
         "noun",
@@ -93138,7 +93138,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -93679,7 +93679,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8333,
       "writable": false,
       "study": {
         "anki": {
@@ -93765,8 +93765,8 @@
       "word": "明日",
       "reading": "あした",
       "meanings": [
-        "tomorrow",
-        "Tomorrow"
+        "Tomorrow",
+        "tomorrow"
       ],
       "parts_of_speech": [
         "noun"
@@ -93776,7 +93776,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.6334,
       "writable": false,
       "study": {
         "anki": {
@@ -94046,7 +94046,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -94303,8 +94303,8 @@
       "word": "昨日",
       "reading": "きのう",
       "meanings": [
-        "Yesterday",
-        "yesterday"
+        "yesterday",
+        "Yesterday"
       ],
       "parts_of_speech": [
         "noun"
@@ -94314,7 +94314,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -94480,8 +94480,8 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.3203,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -94508,7 +94508,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 3,
@@ -94541,7 +94541,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -94560,7 +94560,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -94578,7 +94578,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -94674,7 +94674,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -94790,8 +94790,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -94988,7 +94988,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3289,
       "writable": false,
       "study": {
         "anki": {
@@ -95070,8 +95070,8 @@
       "reading": "けしき",
       "meanings": [
         "Landscape",
-        "scenery",
         "Scenery",
+        "scenery",
         "View"
       ],
       "parts_of_speech": [
@@ -95904,7 +95904,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -95984,7 +95984,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -96758,8 +96758,8 @@
         "Lately",
         "Latest",
         "Recent",
-        "Recently",
-        "recently"
+        "recently",
+        "Recently"
       ],
       "parts_of_speech": [
         "noun",
@@ -96840,7 +96840,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -96917,7 +96917,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -96972,7 +96972,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -97054,7 +97054,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -97069,8 +97069,8 @@
       "word": "有名",
       "reading": "ゆうめい",
       "meanings": [
-        "famous",
-        "Famous"
+        "Famous",
+        "famous"
       ],
       "parts_of_speech": [
         "な_adjective"
@@ -97227,8 +97227,8 @@
       "word": "服",
       "reading": "ふく",
       "meanings": [
-        "Clothes",
         "clothes",
+        "Clothes",
         "Clothing"
       ],
       "parts_of_speech": [
@@ -97682,7 +97682,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -97737,7 +97737,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -97868,8 +97868,8 @@
       "reading": "みらい",
       "meanings": [
         "Distant Future",
-        "future",
         "Future",
+        "future",
         "The Distant Future",
         "The Future"
       ],
@@ -97984,7 +97984,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8349,
       "writable": false,
       "study": {
         "migaku": {
@@ -98011,7 +98011,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -98038,7 +98038,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -98058,8 +98058,8 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
-      "writable": true,
+      "confidence": 0.4182,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 4,
@@ -98220,7 +98220,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -98250,7 +98250,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -98306,7 +98306,7 @@
         "wanikani"
       ],
       "confidence": 0.334,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -98361,7 +98361,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "anki": {
@@ -98394,7 +98394,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -98727,8 +98727,8 @@
       "reading": "むら",
       "meanings": [
         "Rural Town",
-        "village",
-        "Village"
+        "Village",
+        "village"
       ],
       "parts_of_speech": [
         "noun"
@@ -98738,7 +98738,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -98899,7 +98899,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -98919,8 +98919,8 @@
       "word": "来年",
       "reading": "らいねん",
       "meanings": [
-        "Next Year",
-        "next year"
+        "next year",
+        "Next Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -98931,7 +98931,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -98951,8 +98951,8 @@
       "word": "来月",
       "reading": "らいげつ",
       "meanings": [
-        "Next Month",
-        "next month"
+        "next month",
+        "Next Month"
       ],
       "parts_of_speech": [
         "noun"
@@ -98963,7 +98963,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -99014,7 +99014,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -99107,7 +99107,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -100389,7 +100389,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -102784,7 +102784,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8333,
       "writable": false,
       "study": {
         "migaku": {
@@ -102963,7 +102963,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -103133,8 +103133,8 @@
       "word": "歌",
       "reading": "うた",
       "meanings": [
-        "song",
-        "Song"
+        "Song",
+        "song"
       ],
       "parts_of_speech": [
         "noun"
@@ -103165,8 +103165,8 @@
       "word": "歌う",
       "reading": "うたう",
       "meanings": [
-        "to sing",
-        "To Sing"
+        "To Sing",
+        "to sing"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -103247,7 +103247,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -103755,7 +103755,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -104161,8 +104161,8 @@
       "word": "歴史",
       "reading": "れきし",
       "meanings": [
-        "History",
-        "history"
+        "history",
+        "History"
       ],
       "parts_of_speech": [
         "noun",
@@ -104190,8 +104190,8 @@
       "word": "死",
       "reading": "し",
       "meanings": [
-        "Death",
-        "death"
+        "death",
+        "Death"
       ],
       "parts_of_speech": [
         "noun",
@@ -104223,8 +104223,8 @@
       "word": "死ぬ",
       "reading": "しぬ",
       "meanings": [
-        "to die",
-        "To Die"
+        "To Die",
+        "to die"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -104296,7 +104296,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -104633,7 +104633,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "anki": {
@@ -104925,8 +104925,8 @@
       "word": "殺す",
       "reading": "ころす",
       "meanings": [
-        "to kill",
-        "To Kill"
+        "To Kill",
+        "to kill"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -104937,7 +104937,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "anki": {
@@ -105122,7 +105122,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -105190,7 +105190,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -105228,8 +105228,8 @@
       "meanings": [
         "Annually",
         "Each Year",
-        "Every Year",
         "every year",
+        "Every Year",
         "Yearly"
       ],
       "parts_of_speech": [
@@ -105241,7 +105241,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -105300,7 +105300,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -105325,7 +105325,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -105369,8 +105369,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8396,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -105419,7 +105419,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -105900,7 +105900,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -105935,7 +105935,7 @@
         "wanikani"
       ],
       "confidence": 0.4444,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -106043,7 +106043,7 @@
         "wanikani"
       ],
       "confidence": 0.334,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -106106,7 +106106,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -106302,7 +106302,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -106333,7 +106333,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -106486,7 +106486,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -106735,7 +106735,7 @@
         "wanikani"
       ],
       "confidence": 0.936,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -106995,8 +106995,8 @@
       "word": "汗",
       "reading": "あせ",
       "meanings": [
-        "sweat",
-        "Sweat"
+        "Sweat",
+        "sweat"
       ],
       "parts_of_speech": [
         "noun"
@@ -107230,7 +107230,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -107325,8 +107325,8 @@
       "word": "決める",
       "reading": "きめる",
       "meanings": [
-        "to decide",
-        "To Decide"
+        "To Decide",
+        "to decide"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -107924,7 +107924,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3884,
       "writable": false,
       "study": {
         "anki": {
@@ -109018,7 +109018,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -109051,7 +109051,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8302,
       "writable": false,
       "study": {
         "migaku": {
@@ -109263,7 +109263,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -109278,8 +109278,8 @@
       "word": "洗う",
       "reading": "あらう",
       "meanings": [
-        "To Wash",
-        "to wash"
+        "to wash",
+        "To Wash"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -109954,7 +109954,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -109978,7 +109978,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -110610,7 +110610,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -110874,7 +110874,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "anki": {
@@ -110991,8 +110991,8 @@
       "word": "涙",
       "reading": "なみだ",
       "meanings": [
-        "tear",
         "Tear",
+        "tear",
         "Teardrop",
         "Tears"
       ],
@@ -112113,7 +112113,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -112706,8 +112706,8 @@
       "word": "満足",
       "reading": "まんぞく",
       "meanings": [
-        "satisfaction",
         "Satisfaction",
+        "satisfaction",
         "Satisfied",
         "Totally Satisfied"
       ],
@@ -114523,7 +114523,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -114599,7 +114599,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -114648,7 +114648,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -115485,7 +115485,7 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4016,
       "writable": false,
       "study": {
         "anki": {
@@ -116976,7 +116976,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "anki": {
@@ -117038,7 +117038,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -118039,7 +118039,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -118923,8 +118923,8 @@
       "word": "猫",
       "reading": "ねこ",
       "meanings": [
-        "Cat",
-        "cat"
+        "cat",
+        "Cat"
       ],
       "parts_of_speech": [
         "noun"
@@ -119480,8 +119480,8 @@
       "word": "王子",
       "reading": "おうじ",
       "meanings": [
-        "Prince",
-        "prince"
+        "prince",
+        "Prince"
       ],
       "parts_of_speech": [
         "noun",
@@ -119912,7 +119912,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -120080,7 +120080,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -120526,7 +120526,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -120554,7 +120554,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -120583,7 +120583,7 @@
         "wanikani"
       ],
       "confidence": 0.6311,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -120658,7 +120658,7 @@
         "wanikani"
       ],
       "confidence": 0.248,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 1
@@ -120680,7 +120680,7 @@
         "wanikani"
       ],
       "confidence": 0.7789,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -120694,8 +120694,8 @@
       "word": "生まれる",
       "reading": "うまれる",
       "meanings": [
-        "to be born",
-        "To Be Born"
+        "To Be Born",
+        "to be born"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -120707,7 +120707,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -120741,7 +120741,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -120772,7 +120772,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -120998,7 +120998,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -121298,7 +121298,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -121322,7 +121322,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -121341,7 +121341,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -121611,7 +121611,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3203,
       "writable": false,
       "study": {
         "anki": {
@@ -121717,7 +121717,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -121746,7 +121746,7 @@
         "wanikani"
       ],
       "confidence": 0.984,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -121757,8 +121757,8 @@
       "word": "男の子",
       "reading": "おとこのこ",
       "meanings": [
-        "Boy",
-        "boy"
+        "boy",
+        "Boy"
       ],
       "parts_of_speech": [
         "noun"
@@ -121769,7 +121769,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -121817,7 +121817,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -121878,7 +121878,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -121953,7 +121953,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -122825,8 +122825,8 @@
       "word": "疲れる",
       "reading": "つかれる",
       "meanings": [
-        "To Get Tired",
-        "to get tired"
+        "to get tired",
+        "To Get Tired"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -122837,7 +122837,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8318,
       "writable": false,
       "study": {
         "anki": {
@@ -123022,7 +123022,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -123590,7 +123590,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -123789,7 +123789,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -123886,7 +123886,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -123989,8 +123989,8 @@
       "word": "白",
       "reading": "しろ",
       "meanings": [
-        "white",
-        "White"
+        "White",
+        "white"
       ],
       "parts_of_speech": [
         "noun"
@@ -124164,7 +124164,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -124216,7 +124216,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -124241,7 +124241,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -124957,8 +124957,8 @@
       "word": "目",
       "reading": "め",
       "meanings": [
-        "Eye",
-        "eye"
+        "eye",
+        "Eye"
       ],
       "parts_of_speech": [
         "noun"
@@ -124969,7 +124969,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -125099,7 +125099,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -126314,8 +126314,8 @@
       "reading": "ねむる",
       "meanings": [
         "To Fall Asleep",
-        "to sleep",
-        "To Sleep"
+        "To Sleep",
+        "to sleep"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -126542,8 +126542,8 @@
       "word": "着く",
       "reading": "つく",
       "meanings": [
-        "to arrive",
-        "To Arrive"
+        "To Arrive",
+        "to arrive"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -126610,7 +126610,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "anki": {
@@ -126988,8 +126988,8 @@
       "word": "知り合い",
       "reading": "しりあい",
       "meanings": [
-        "acquaintance",
-        "Acquaintance"
+        "Acquaintance",
+        "acquaintance"
       ],
       "parts_of_speech": [
         "noun"
@@ -126999,7 +126999,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8364,
       "writable": false,
       "study": {
         "anki": {
@@ -127077,8 +127077,8 @@
       "reading": "ちしき",
       "meanings": [
         "Information",
-        "Knowledge",
-        "knowledge"
+        "knowledge",
+        "Knowledge"
       ],
       "parts_of_speech": [
         "noun"
@@ -128166,8 +128166,8 @@
       "word": "確認",
       "reading": "かくにん",
       "meanings": [
-        "Confirmation",
         "confirmation",
+        "Confirmation",
         "Verification"
       ],
       "parts_of_speech": [
@@ -128441,7 +128441,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -128461,8 +128461,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.8442,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129434,7 +129434,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -129461,7 +129461,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -129510,7 +129510,7 @@
         "wanikani"
       ],
       "confidence": 0.5238,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129536,7 +129536,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -129733,7 +129733,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -129759,7 +129759,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -129784,7 +129784,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -131001,7 +131001,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -131701,7 +131701,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.75,
+      "confidence": 0.5597,
       "writable": false,
       "study": {
         "anki": {
@@ -131873,7 +131873,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -131919,7 +131919,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -132033,8 +132033,8 @@
       "word": "笑顔",
       "reading": "えがお",
       "meanings": [
-        "Smile",
         "smile",
+        "Smile",
         "Smiling Face"
       ],
       "parts_of_speech": [
@@ -132550,7 +132550,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -132913,7 +132913,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4089,
       "writable": false,
       "study": {
         "anki": {
@@ -133656,7 +133656,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -133996,8 +133996,8 @@
       "word": "紙",
       "reading": "かみ",
       "meanings": [
-        "Paper",
-        "paper"
+        "paper",
+        "Paper"
       ],
       "parts_of_speech": [
         "noun"
@@ -134875,7 +134875,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "anki": {
@@ -134896,8 +134896,8 @@
       "word": "終わり",
       "reading": "おわり",
       "meanings": [
-        "end",
         "End",
+        "end",
         "Finish",
         "The End",
         "The Finish"
@@ -135054,7 +135054,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -135314,8 +135314,8 @@
       "word": "経験",
       "reading": "けいけん",
       "meanings": [
-        "Experience",
-        "experience"
+        "experience",
+        "Experience"
       ],
       "parts_of_speech": [
         "noun",
@@ -135476,7 +135476,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3654,
       "writable": false,
       "study": {
         "anki": {
@@ -138268,7 +138268,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3945,
       "writable": false,
       "study": {
         "anki": {
@@ -138525,8 +138525,8 @@
       "word": "美しい",
       "reading": "うつくしい",
       "meanings": [
-        "beautiful",
-        "Beautiful"
+        "Beautiful",
+        "beautiful"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -138557,8 +138557,8 @@
       "word": "美人",
       "reading": "びじん",
       "meanings": [
-        "Beautiful Woman",
-        "beautiful woman"
+        "beautiful woman",
+        "Beautiful Woman"
       ],
       "parts_of_speech": [
         "noun"
@@ -138606,8 +138606,8 @@
       "reading": "おいしい",
       "meanings": [
         "Delicious",
-        "tasty",
-        "Tasty"
+        "Tasty",
+        "tasty"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -139050,7 +139050,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -139864,7 +139864,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 4,
@@ -139899,7 +139899,7 @@
         "wanikani"
       ],
       "confidence": 0.8504,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -140471,8 +140471,8 @@
       "word": "肩",
       "reading": "かた",
       "meanings": [
-        "shoulder",
-        "Shoulder"
+        "Shoulder",
+        "shoulder"
       ],
       "parts_of_speech": [
         "noun"
@@ -140611,7 +140611,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "anki": {
@@ -140891,8 +140891,8 @@
       "word": "背中",
       "reading": "せなか",
       "meanings": [
-        "back",
         "Back",
+        "back",
         "One's Back"
       ],
       "parts_of_speech": [
@@ -141231,7 +141231,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8349,
       "writable": false,
       "study": {
         "anki": {
@@ -141821,8 +141821,8 @@
       "word": "腕",
       "reading": "うで",
       "meanings": [
-        "Arm",
-        "arm"
+        "arm",
+        "Arm"
       ],
       "parts_of_speech": [
         "noun"
@@ -141984,8 +141984,8 @@
       "reading": "はら",
       "meanings": [
         "Abdomen",
-        "Belly",
         "belly",
+        "Belly",
         "Stomach"
       ],
       "parts_of_speech": [
@@ -142118,8 +142118,8 @@
       "word": "膝",
       "reading": "ひざ",
       "meanings": [
-        "knee",
-        "Knee"
+        "Knee",
+        "knee"
       ],
       "parts_of_speech": [
         "noun"
@@ -142369,8 +142369,8 @@
       "reading": "みずから",
       "meanings": [
         "On One's Own Initiative",
-        "Oneself",
         "oneself",
+        "Oneself",
         "Personally"
       ],
       "parts_of_speech": [
@@ -142964,7 +142964,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -143382,8 +143382,8 @@
       "word": "舌",
       "reading": "した",
       "meanings": [
-        "tongue",
-        "Tongue"
+        "Tongue",
+        "tongue"
       ],
       "parts_of_speech": [
         "noun"
@@ -143756,7 +143756,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -144223,8 +144223,8 @@
       "word": "花",
       "reading": "はな",
       "meanings": [
-        "Flower",
-        "flower"
+        "flower",
+        "Flower"
       ],
       "parts_of_speech": [
         "noun"
@@ -144980,7 +144980,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -145573,7 +145573,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -147973,7 +147973,7 @@
         "wanikani"
       ],
       "confidence": 0.394,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 3
@@ -147989,7 +147989,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -148014,7 +148014,7 @@
         "wanikani"
       ],
       "confidence": 0.6249,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -148045,7 +148045,7 @@
         "wanikani"
       ],
       "confidence": 0.636,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 5
@@ -148069,7 +148069,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -148094,7 +148094,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -149021,8 +149021,8 @@
       "reading": "うらぎる",
       "meanings": [
         "To Backstab",
-        "to betray",
-        "To Betray"
+        "To Betray",
+        "to betray"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -149774,7 +149774,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -149958,7 +149958,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -150162,7 +150162,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -150189,7 +150189,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150209,8 +150209,8 @@
       "word": "見せる",
       "reading": "みせる",
       "meanings": [
-        "To Show",
-        "to show"
+        "to show",
+        "To Show"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -150221,8 +150221,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
-      "writable": true,
+      "confidence": 0.75,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 4,
@@ -150249,7 +150249,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150270,7 +150270,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150291,7 +150291,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150312,7 +150312,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150341,7 +150341,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -150368,7 +150368,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150389,7 +150389,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -150419,7 +150419,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8333,
       "writable": false,
       "study": {
         "anki": {
@@ -150479,7 +150479,7 @@
         "wanikani"
       ],
       "confidence": 0.4491,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -150691,7 +150691,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.381,
       "writable": false,
       "study": {
         "anki": {
@@ -150790,7 +150790,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -151032,8 +151032,8 @@
       "reading": "おぼえる",
       "meanings": [
         "To Learn",
-        "To Memorize",
         "to memorize",
+        "To Memorize",
         "To Pick Up",
         "To Remember"
       ],
@@ -151094,8 +151094,8 @@
       "word": "親",
       "reading": "おや",
       "meanings": [
-        "Parent",
-        "parent"
+        "parent",
+        "Parent"
       ],
       "parts_of_speech": [
         "noun"
@@ -151202,7 +151202,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8364,
       "writable": false,
       "study": {
         "migaku": {
@@ -152231,7 +152231,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -153590,7 +153590,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -153622,7 +153622,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -153967,7 +153967,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.75,
+      "confidence": 0.5227,
       "writable": false,
       "study": {
         "anki": {
@@ -154040,8 +154040,8 @@
       "word": "詳しい",
       "reading": "くわしい",
       "meanings": [
-        "Detailed",
         "detailed",
+        "Detailed",
         "Expert"
       ],
       "parts_of_speech": [
@@ -154856,8 +154856,8 @@
       "word": "誰",
       "reading": "だれ",
       "meanings": [
-        "Who",
-        "who"
+        "who",
+        "Who"
       ],
       "parts_of_speech": [
         "pronoun",
@@ -154889,8 +154889,8 @@
       "word": "誰か",
       "reading": "だれか",
       "meanings": [
-        "someone",
-        "Someone"
+        "Someone",
+        "someone"
       ],
       "parts_of_speech": [
         "noun"
@@ -155622,8 +155622,8 @@
       "word": "謝る",
       "reading": "あやまる",
       "meanings": [
-        "to apologize",
-        "To Apologize"
+        "To Apologize",
+        "to apologize"
       ],
       "parts_of_speech": [
         "godan_verb"
@@ -155743,8 +155743,8 @@
       "word": "警察",
       "reading": "けいさつ",
       "meanings": [
-        "police",
-        "Police"
+        "Police",
+        "police"
       ],
       "parts_of_speech": [
         "noun",
@@ -156255,7 +156255,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8442,
       "writable": false,
       "study": {
         "migaku": {
@@ -156370,7 +156370,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -156469,7 +156469,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8364,
       "writable": false,
       "study": {
         "migaku": {
@@ -157231,8 +157231,8 @@
       "word": "買い物",
       "reading": "かいもの",
       "meanings": [
-        "shopping",
-        "Shopping"
+        "Shopping",
+        "shopping"
       ],
       "parts_of_speech": [
         "noun",
@@ -158010,8 +158010,8 @@
       "word": "質問",
       "reading": "しつもん",
       "meanings": [
-        "Question",
-        "question"
+        "question",
+        "Question"
       ],
       "parts_of_speech": [
         "noun",
@@ -158309,8 +158309,8 @@
       "word": "赤",
       "reading": "あか",
       "meanings": [
-        "red",
-        "Red"
+        "Red",
+        "red"
       ],
       "parts_of_speech": [
         "noun"
@@ -158341,8 +158341,8 @@
       "word": "赤い",
       "reading": "あかい",
       "meanings": [
-        "red",
-        "Red"
+        "Red",
+        "red"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -158486,8 +158486,8 @@
       "word": "走る",
       "reading": "はしる",
       "meanings": [
-        "to run",
-        "To Run"
+        "To Run",
+        "to run"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -158935,8 +158935,8 @@
       "word": "趣味",
       "reading": "しゅみ",
       "meanings": [
-        "hobby",
-        "Hobby"
+        "Hobby",
+        "hobby"
       ],
       "parts_of_speech": [
         "noun"
@@ -158980,7 +158980,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -159035,7 +159035,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -159060,7 +159060,7 @@
         "wanikani"
       ],
       "confidence": 0.926,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -159086,7 +159086,7 @@
         "wanikani"
       ],
       "confidence": 0.5222,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -159446,8 +159446,8 @@
       "word": "踊る",
       "reading": "おどる",
       "meanings": [
-        "to dance",
-        "To Dance"
+        "To Dance",
+        "to dance"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -159674,7 +159674,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "anki": {
@@ -159707,7 +159707,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "anki": {
@@ -159777,7 +159777,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -159802,7 +159802,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -160206,7 +160206,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "migaku": {
@@ -161219,7 +161219,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -161466,7 +161466,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -161802,7 +161802,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -162986,8 +162986,8 @@
       "meanings": [
         "Avenue",
         "Road",
-        "street",
         "Street",
+        "street",
         "Way"
       ],
       "parts_of_speech": [
@@ -163642,7 +163642,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -163682,7 +163682,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -163694,8 +163694,8 @@
       "reading": "すすむ",
       "meanings": [
         "To Advance",
-        "to move forward",
         "To Move Forward",
+        "to move forward",
         "To Progress"
       ],
       "parts_of_speech": [
@@ -163737,7 +163737,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "anki": {
@@ -163769,7 +163769,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -164038,8 +164038,8 @@
       "word": "遅れる",
       "reading": "おくれる",
       "meanings": [
-        "to be late",
-        "To Be Late"
+        "To Be Late",
+        "to be late"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -164178,8 +164178,8 @@
       "word": "遊ぶ",
       "reading": "あそぶ",
       "meanings": [
-        "to play",
-        "To Play"
+        "To Play",
+        "to play"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -164260,7 +164260,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -164297,8 +164297,8 @@
       "word": "運ぶ",
       "reading": "はこぶ",
       "meanings": [
-        "To Carry",
         "to carry",
+        "To Carry",
         "To Move",
         "To Transport"
       ],
@@ -164370,7 +164370,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8427,
       "writable": false,
       "study": {
         "migaku": {
@@ -164644,8 +164644,8 @@
       "reading": "かこ",
       "meanings": [
         "Past",
-        "The Past",
-        "the past"
+        "the past",
+        "The Past"
       ],
       "parts_of_speech": [
         "noun"
@@ -164781,8 +164781,8 @@
       "reading": "みち",
       "meanings": [
         "Path",
-        "Road",
         "road",
+        "Road",
         "Street",
         "Way"
       ],
@@ -164837,8 +164837,8 @@
       "word": "道具",
       "reading": "どうぐ",
       "meanings": [
-        "tool",
-        "Tool"
+        "Tool",
+        "tool"
       ],
       "parts_of_speech": [
         "noun"
@@ -165545,7 +165545,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -166289,7 +166289,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
@@ -166516,7 +166516,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -166830,7 +166830,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8458,
       "writable": false,
       "study": {
         "migaku": {
@@ -167814,7 +167814,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -167833,7 +167833,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -167854,7 +167854,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -168001,7 +168001,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -168126,7 +168126,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8473,
       "writable": false,
       "study": {
         "migaku": {
@@ -168356,7 +168356,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "migaku": {
@@ -168650,7 +168650,7 @@
         "wanikani"
       ],
       "confidence": 0.936,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -168737,7 +168737,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -169572,8 +169572,8 @@
       "word": "鏡",
       "reading": "かがみ",
       "meanings": [
-        "mirror",
-        "Mirror"
+        "Mirror",
+        "mirror"
       ],
       "parts_of_speech": [
         "noun"
@@ -169690,8 +169690,8 @@
       "word": "長い",
       "reading": "ながい",
       "meanings": [
-        "long",
-        "Long"
+        "Long",
+        "long"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -169731,7 +169731,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8349,
       "writable": false,
       "study": {
         "migaku": {
@@ -170147,8 +170147,8 @@
       "word": "開始",
       "reading": "かいし",
       "meanings": [
-        "Beginning",
         "beginning",
+        "Beginning",
         "Opening",
         "Start"
       ],
@@ -170381,7 +170381,7 @@
         "wanikani"
       ],
       "confidence": 0.992,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170403,7 +170403,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -170422,7 +170422,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170481,7 +170481,7 @@
         "wanikani"
       ],
       "confidence": 0.7789,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -170617,7 +170617,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.65,
+      "confidence": 0.3862,
       "writable": false,
       "study": {
         "anki": {
@@ -173388,8 +173388,8 @@
       "word": "難しい",
       "reading": "むずかしい",
       "meanings": [
-        "Difficult",
         "difficult",
+        "Difficult",
         "Hard"
       ],
       "parts_of_speech": [
@@ -173421,8 +173421,8 @@
       "word": "雨",
       "reading": "あめ",
       "meanings": [
-        "Rain",
-        "rain"
+        "rain",
+        "Rain"
       ],
       "parts_of_speech": [
         "noun"
@@ -173540,7 +173540,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8411,
       "writable": false,
       "study": {
         "anki": {
@@ -173815,7 +173815,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -173882,7 +173882,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -174096,7 +174096,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -174711,8 +174711,8 @@
       "word": "静か",
       "reading": "しずか",
       "meanings": [
-        "Quiet",
-        "quiet"
+        "quiet",
+        "Quiet"
       ],
       "parts_of_speech": [
         "な_adjective"
@@ -175118,7 +175118,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -175475,8 +175475,8 @@
       "meanings": [
         "To Echo",
         "To Resound",
-        "To Reverberate",
-        "to reverberate"
+        "to reverberate",
+        "To Reverberate"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -175861,7 +175861,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8489,
       "writable": false,
       "study": {
         "migaku": {
@@ -175889,7 +175889,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.65,
+      "confidence": 0.4135,
       "writable": false,
       "study": {
         "anki": {
@@ -176039,8 +176039,8 @@
       "word": "頭",
       "reading": "あたま",
       "meanings": [
-        "head",
-        "Head"
+        "Head",
+        "head"
       ],
       "parts_of_speech": [
         "noun"
@@ -176051,7 +176051,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -176363,8 +176363,8 @@
       "reading": "がく",
       "meanings": [
         "Frame",
-        "Picture Frame",
-        "picture frame"
+        "picture frame",
+        "Picture Frame"
       ],
       "parts_of_speech": [
         "noun",
@@ -176988,8 +176988,8 @@
       "word": "飛ぶ",
       "reading": "とぶ",
       "meanings": [
-        "To Fly",
         "to fly",
+        "To Fly",
         "To Jump"
       ],
       "parts_of_speech": [
@@ -177072,7 +177072,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -177096,7 +177096,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 0,
@@ -177126,7 +177126,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -177229,7 +177229,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.8396,
       "writable": false,
       "study": {
         "anki": {
@@ -177485,7 +177485,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -177579,7 +177579,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": true,
+      "writable": false,
       "study": {
         "anki": {
           "reviews": 1,
@@ -178240,7 +178240,7 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.55,
+      "confidence": 0.3164,
       "writable": false,
       "study": {
         "anki": {
@@ -178336,8 +178336,8 @@
       "word": "馬",
       "reading": "うま",
       "meanings": [
-        "Horse",
-        "horse"
+        "horse",
+        "Horse"
       ],
       "parts_of_speech": [
         "noun"
@@ -178511,7 +178511,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -178539,7 +178539,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": true,
+      "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -179295,7 +179295,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.85,
+      "confidence": 0.838,
       "writable": false,
       "study": {
         "migaku": {
@@ -181305,7 +181305,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": true,
+      "writable": false,
       "study": {
         "wanikani": {
           "srs_stage": 9

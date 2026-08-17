@@ -112,7 +112,8 @@ def load_config(
             anki_index=         str(output_section.get("anki_index", "anki_index.json")),
             profile_manifest=   str(output_section.get("profile_manifest", "profile_manifest.json")),
             vocabulary_profile= str(output_section.get("vocabulary_profile", "vocabulary_profile.json")),
-            bunpro_index=        str(output_section.get("bunpro_index", "bunpro_index.json")),
+            grammar_profile=        str(output_section.get("grammar_profile", "grammar_profile.json")),
+            knowledge_profile=      str(output_section.get("knowledge_profile", "knowledge_profile.json")),
         ),
         obsidian=ObsidianConfig(
             enabled=bool(obsidian_section.get("enabled", True)),

@@ -9,3 +9,4 @@ __all__ = [
     "score_anki",
     "score_wanikani",
 ]
+from .aggregate import build_knowledge_profile
