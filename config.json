@@ -19,7 +19,7 @@
     "default_note_type": "reference"
   },
   "wanikani": {
-    "enabled": true,
+    "enabled": false,
     "api_key": "",
     "api_version": "20170710",
     "subject_types": [

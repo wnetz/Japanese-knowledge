@@ -1,0 +1,704 @@
+{
+  "writable_kanji": [
+    {
+      "character": "一",
+      "example_words": [
+        "一つ",
+        "一人",
+        "一日",
+        "一本"
+      ]
+    },
+    {
+      "character": "二",
+      "example_words": [
+        "二つ",
+        "二人",
+        "二日",
+        "二本"
+      ]
+    },
+    {
+      "character": "三",
+      "example_words": [
+        "三つ",
+        "三人",
+        "三日",
+        "三本"
+      ]
+    },
+    {
+      "character": "四",
+      "example_words": [
+        "四時",
+        "四つ",
+        "四人",
+        "四本"
+      ]
+    },
+    {
+      "character": "五",
+      "example_words": [
+        "五つ",
+        "五日",
+        "五人",
+        "五本"
+      ]
+    },
+    {
+      "character": "六",
+      "example_words": [
+        "六つ",
+        "六日",
+        "六人",
+        "六本"
+      ]
+    },
+    {
+      "character": "七",
+      "example_words": [
+        "七つ",
+        "七人",
+        "七日",
+        "七本"
+      ]
+    },
+    {
+      "character": "八",
+      "example_words": [
+        "八つ",
+        "八日",
+        "八人",
+        "八本"
+      ]
+    },
+    {
+      "character": "九",
+      "example_words": [
+        "九つ",
+        "九日",
+        "九人",
+        "九本"
+      ]
+    },
+    {
+      "character": "十",
+      "example_words": [
+        "十",
+        "十日",
+        "十人",
+        "十本"
+      ]
+    },
+    {
+      "character": "百",
+      "example_words": [
+        "百",
+        "百人",
+        "百本",
+        "百円"
+      ]
+    },
+    {
+      "character": "千",
+      "example_words": [
+        "千",
+        "千人",
+        "千本",
+        "千円"
+      ]
+    },
+    {
+      "character": "万",
+      "example_words": [
+        "一万",
+        "一万円",
+        "万国"
+      ]
+    },
+    {
+      "character": "日",
+      "example_words": [
+        "日",
+        "日曜日",
+        "日本",
+        "二日"
+      ]
+    },
+    {
+      "character": "本",
+      "example_words": [
+        "本",
+        "日本",
+        "一本",
+        "三本"
+      ]
+    },
+    {
+      "character": "人",
+      "example_words": [
+        "人",
+        "五人",
+        "日本人"
+      ]
+    },
+    {
+      "character": "男",
+      "example_words": [
+        "男",
+        "男の人",
+        "男性",
+        "男女"
+      ]
+    },
+    {
+      "character": "女",
+      "example_words": [
+        "女",
+        "女の人",
+        "女性",
+        "男女"
+      ]
+    },
+    {
+      "character": "学",
+      "example_words": [
+        "学生",
+        "大学",
+        "学校"
+      ]
+    },
+    {
+      "character": "生",
+      "example_words": [
+        "生まれます",
+        "学生",
+        "先生"
+      ]
+    },
+    {
+      "character": "先",
+      "example_words": [
+        "先に",
+        "先生",
+        "先月"
+      ]
+    },
+    {
+      "character": "校",
+      "example_words": [
+        "学校"
+      ]
+    },
+    {
+      "character": "月",
+      "example_words": [
+        "月",
+        "一月",
+        "月曜日",
+        "一月"
+      ]
+    },
+    {
+      "character": "火",
+      "example_words": [
+        "火",
+        "火曜日",
+        "火事"
+      ]
+    },
+    {
+      "character": "水",
+      "example_words": [
+        "水",
+        "水曜日"
+      ]
+    },
+    {
+      "character": "木",
+      "example_words": [
+        "木",
+        "木曜日"
+      ]
+    },
+    {
+      "character": "金",
+      "example_words": [
+        "金",
+        "金曜日",
+        "お金"
+      ]
+    },
+    {
+      "character": "土",
+      "example_words": [
+        "土",
+        "土曜日"
+      ]
+    },
+    {
+      "character": "年",
+      "example_words": [
+        "年",
+        "今年",
+        "来年",
+        "何年"
+      ]
+    },
+    {
+      "character": "時",
+      "example_words": [
+        "時",
+        "三時",
+        "時間",
+        "時計"
+      ]
+    },
+    {
+      "character": "分",
+      "example_words": [
+        "分けます",
+        "分かります",
+        "二分",
+        "三分",
+        "半分"
+      ]
+    },
+    {
+      "character": "何",
+      "example_words": [
+        "何",
+        "何日",
+        "何時"
+      ]
+    },
+    {
+      "character": "半",
+      "example_words": [
+        "半年",
+        "六時半",
+        "半分"
+      ]
+    },
+    {
+      "character": "週",
+      "example_words": [
+        "今週",
+        "先週",
+        "一週間"
+      ]
+    },
+    {
+      "character": "行",
+      "example_words": [
+        "行きます",
+        "銀行",
+        "旅行",
+        "行"
+      ]
+    },
+    {
+      "character": "来",
+      "example_words": [
+        "来ます",
+        "来る",
+        "来ない",
+        "来週"
+      ]
+    },
+    {
+      "character": "帰",
+      "example_words": [
+        "帰ります",
+        "帰国"
+      ]
+    },
+    {
+      "character": "休",
+      "example_words": [
+        "休みます",
+        "休み",
+        "休日"
+      ]
+    },
+    {
+      "character": "曜",
+      "example_words": [
+        "日曜日",
+        "何曜日"
+      ]
+    },
+    {
+      "character": "今",
+      "example_words": [
+        "今",
+        "今週",
+        "今年",
+        "今日"
+      ]
+    },
+    {
+      "character": "毎",
+      "example_words": [
+        "毎日",
+        "毎週",
+        "毎月",
+        "毎年"
+      ]
+    },
+    {
+      "character": "間",
+      "example_words": [
+        "間",
+        "間に合います",
+        "時間",
+        "人間"
+      ]
+    },
+    {
+      "character": "私",
+      "example_words": [
+        "私",
+        "私立"
+      ]
+    },
+    {
+      "character": "上",
+      "example_words": [
+        "上",
+        "上がります",
+        "上げます",
+        "上り",
+        "上手"
+      ]
+    },
+    {
+      "character": "下",
+      "example_words": [
+        "下",
+        "下がります",
+        "下げます",
+        "下り",
+        "地下鉄"
+      ]
+    },
+    {
+      "character": "中",
+      "example_words": [
+        "中",
+        "中学校",
+        "中学生"
+      ]
+    },
+    {
+      "character": "右",
+      "example_words": [
+        "右",
+        "右手",
+        "左右"
+      ]
+    },
+    {
+      "character": "左",
+      "example_words": [
+        "左",
+        "左手",
+        "左右"
+      ]
+    },
+    {
+      "character": "前",
+      "example_words": [
+        "前",
+        "名前",
+        "午前"
+      ]
+    },
+    {
+      "character": "後",
+      "example_words": [
+        "後ろ",
+        "後",
+        "午後"
+      ]
+    },
+    {
+      "character": "大",
+      "example_words": [
+        "大きい",
+        "大学",
+        "大学生",
+        "大人",
+        "大使館"
+      ]
+    },
+    {
+      "character": "小",
+      "example_words": [
+        "小さい",
+        "小学校",
+        "小学生"
+      ]
+    },
+    {
+      "character": "出",
+      "example_words": [
+        "出ます",
+        "出します",
+        "出口",
+        "出発"
+      ]
+    },
+    {
+      "character": "入",
+      "example_words": [
+        "入ります",
+        "入れます",
+        "入学",
+        "入国"
+      ]
+    },
+    {
+        "character": "午",
+        "example_words": [
+            "午前",
+            "午前中",
+            "午後"
+        ]
+    },
+    {
+        "character": "円",
+        "example_words": [
+            "百円",
+            "千円",
+            "一万円",
+            "百万円"
+        ]
+    },
+    {
+        "character": "国",
+        "example_words": [
+            "国",
+            "外国人",
+            "国名",
+            "中国"
+        ]
+    },
+    {
+        "character": "名",
+        "example_words": [
+            "名前",
+            "有名"
+        ]
+    },
+    {
+        "character": "子",
+        "example_words": [
+            "子ども",
+            "女の子",
+            "男の子"
+        ]
+    },
+    {
+        "character": "友",
+        "example_words": [
+            "友だち",
+            "友人"
+        ]
+    },
+    {
+        "character": "車",
+        "example_words": [
+            "車",
+            "自動車",
+            "電車"
+        ]
+    },
+    {
+        "character": "電",
+        "example_words": [
+            "電気",
+            "電車",
+            "電話"
+        ]
+    },
+    {
+        "character": "田",
+        "example_words": [
+            "田",
+            "田んぼ"
+        ]
+    },
+    {
+        "character": "去",
+        "example_words": [
+            "去年"
+        ]
+    },
+    {
+        "character": "山",
+        "example_words": [
+            "山",
+            "富士山",
+            "火山"
+        ]
+    },
+    {
+        "character": "川",
+        "example_words": [
+            "川",
+            "ナイル川"
+        ]
+    },
+    {
+        "character": "口",
+        "example_words": [
+            "口",
+            "出口",
+            "入口",
+            "人口"
+        ]
+    },
+    {
+        "character": "手",
+        "example_words": [
+            "手",
+            "手紙",
+            "歌手",
+            "上手",
+            "下手"
+        ]
+    },
+    {
+        "character": "足",
+        "example_words": [
+            "足",
+            "足ります",
+            "足します",
+            "一足"
+        ]
+    },
+    {
+        "character": "目",
+        "example_words": [
+            "目",
+            "目的"
+        ]
+    },
+    {
+        "character": "頭",
+        "example_words": [
+            "頭",
+            "頭痛"
+        ]
+    },
+    {
+        "character": "天",
+        "example_words": [
+            "天",
+            "天気",
+            "天国"
+        ]
+    },
+    {
+        "character": "気",
+        "example_words": [
+            "元気",
+            "病気",
+            "天気",
+            "電気"
+        ]
+    },
+    {
+        "character": "駅",
+        "example_words": [
+            "駅",
+            "駅前"
+        ]
+    },
+    {
+        "character": "会",
+        "example_words": [
+            "会います",
+            "会社",
+            "会話"
+        ]
+    },
+    {
+        "character": "社",
+        "example_words": [
+            "会社",
+            "社会",
+            "社長"
+        ]
+    },
+    {
+        "character": "店",
+        "example_words": [
+            "店",
+            "店員",
+            "喫茶店"
+        ]
+    },
+    {
+        "character": "家",
+        "example_words": [
+            "家",
+            "大家さん",
+            "家族"
+        ]
+    },
+    {
+        "character": "銀",
+        "example_words": [
+            "銀",
+            "銀行"
+        ]
+    },
+    {
+        "character": "町",
+        "example_words": [
+            "町",
+            "～町"
+        ]
+    },
+    {
+        "character": "見",
+        "example_words": [
+            "見ます",
+            "見せます",
+            "見学"
+        ]
+    },
+    {
+        "character": "聞",
+        "example_words": [
+            "聞きます",
+            "新聞"
+        ]
+    },
+    {
+        "character": "食",
+        "example_words": [
+            "食べます",
+            "食べ物",
+            "食事",
+            "夕食"
+        ]
+    },
+    {
+        "character": "飲",
+        "example_words": [
+            "飲みます",
+            "飲み物"
+        ]
+    },
+    {
+        "character": "勉",
+        "example_words": [
+            "勉強"
+        ]
+    }
+
+  ]
+}

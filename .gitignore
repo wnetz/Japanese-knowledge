@@ -1,5 +1,11 @@
+# Ignore
 config.local.json
 output/
 tests/sample_vault/
 __pycache__/
 *.py[cod]
+
+# Allow
+!output/grammar_profile.json
+!output/vocabulary_profile.json
+!output/writable_kanji.json
