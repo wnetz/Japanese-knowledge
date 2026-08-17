@@ -6,7 +6,7 @@ from typing import Any
 
 from .base import BaseNoteParser
 from .markdown import parse_sections
-from .models import ContentItem, Lesson, LessonNote, Practice
+from .models import ContentItem, Lesson, LessonNote, Practice, Transformation
 
 
 LESSON_ID_RE = re.compile(r"\d+(?:-\d+)+")
@@ -63,10 +63,25 @@ class LessonParser(BaseNoteParser):
             item.type = item_type
         return items
 
-    @staticmethod
-    def _add_practice_items(practice: Practice, items: list[ContentItem]) -> None:
+    TRANSFORMATION_RE = re.compile(r"^(.+?)\s+(#→[^\s]+)\s+(.+?)$")
+
+    def _parse_transformation(self, value: str) -> Transformation | None:
+        match = self.TRANSFORMATION_RE.fullmatch(value.strip())
+        if not match:
+            return None
+
+        form, marker, target = (part.strip() for part in match.groups())
+        by = self.key_definitions.get(marker, marker.removeprefix("#→"))
+        if not form or not target or not by:
+            return None
+        return Transformation(form=form, to=target, by=by)
+
+    def _add_practice_items(self, practice: Practice, items: list[ContentItem]) -> None:
         for item in items:
-            if item.type == "question":
+            transformation = self._parse_transformation(item.value)
+            if transformation is not None:
+                practice.transformations.append(transformation)
+            elif item.type == "question":
                 practice.questions.append(item)
             elif item.type == "answer":
                 item.type = "response"

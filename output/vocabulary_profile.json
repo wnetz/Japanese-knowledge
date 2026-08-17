@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T09:19:45.519262+00:00",
+    "generated_at": "2026-08-17T09:54:54.500884+00:00",
     "sources": [
       "wanikani",
       "anki"
@@ -1358,8 +1358,8 @@
       "word": "あそこ",
       "reading": "あそこ",
       "meanings": [
-        "over there",
-        "Over There"
+        "Over There",
+        "over there"
       ],
       "parts_of_speech": [
         "noun",
@@ -1766,8 +1766,8 @@
       "word": "いつ",
       "reading": "いつ",
       "meanings": [
-        "when",
-        "When"
+        "When",
+        "when"
       ],
       "parts_of_speech": [
         "pronoun"
@@ -2257,8 +2257,8 @@
       "reading": "おにいさん",
       "meanings": [
         "Guy",
-        "older brother",
-        "Older Brother"
+        "Older Brother",
+        "older brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -2606,8 +2606,8 @@
       "reading": "おとうさん",
       "meanings": [
         "Dad",
-        "Father",
         "father",
+        "Father",
         "Papa"
       ],
       "parts_of_speech": [
@@ -3042,8 +3042,8 @@
       "reading": "おねがいします",
       "meanings": [
         "If You Would Be So Kind",
-        "please",
         "Please",
+        "please",
         "Please Help Me"
       ],
       "parts_of_speech": [
@@ -3316,8 +3316,8 @@
       "word": "ここ",
       "reading": "ここ",
       "meanings": [
-        "Here",
-        "here"
+        "here",
+        "Here"
       ],
       "parts_of_speech": [
         "noun",
@@ -4704,8 +4704,8 @@
       "word": "ちょっと",
       "reading": "ちょっと",
       "meanings": [
-        "A Little",
         "a little",
+        "A Little",
         "A Moment"
       ],
       "parts_of_speech": [
@@ -4922,8 +4922,8 @@
       "word": "とても",
       "reading": "とても",
       "meanings": [
-        "very",
-        "Very"
+        "Very",
+        "very"
       ],
       "parts_of_speech": [
         "adverb"
@@ -5214,8 +5214,8 @@
       "word": "どこ",
       "reading": "どこ",
       "meanings": [
-        "where",
-        "Where"
+        "Where",
+        "where"
       ],
       "parts_of_speech": [
         "noun",
@@ -8571,8 +8571,8 @@
       "meanings": [
         "At Once",
         "In One Breath",
-        "in one go",
-        "In One Go"
+        "In One Go",
+        "in one go"
       ],
       "parts_of_speech": [
         "adverb"
@@ -8815,8 +8815,8 @@
       "word": "一緒",
       "reading": "いっしょ",
       "meanings": [
-        "Together",
-        "together"
+        "together",
+        "Together"
       ],
       "parts_of_speech": [
         "noun",
@@ -9266,8 +9266,8 @@
       "word": "万",
       "reading": "まん",
       "meanings": [
-        "ten thousand",
-        "Ten Thousand"
+        "Ten Thousand",
+        "ten thousand"
       ],
       "parts_of_speech": [
         "numeral"
@@ -9396,8 +9396,8 @@
       "word": "三",
       "reading": "さん",
       "meanings": [
-        "Three",
-        "three"
+        "three",
+        "Three"
       ],
       "parts_of_speech": [
         "numeral"
@@ -10575,8 +10575,8 @@
       "word": "不可能",
       "reading": "ふかのう",
       "meanings": [
-        "Impossible",
         "impossible",
+        "Impossible",
         "Not Possible"
       ],
       "parts_of_speech": [
@@ -11507,8 +11507,8 @@
       "reading": "あたえる",
       "meanings": [
         "To Bestow",
-        "To Give",
         "to give",
+        "To Give",
         "To Grant"
       ],
       "parts_of_speech": [
@@ -14704,8 +14704,8 @@
       "word": "五",
       "reading": "ご",
       "meanings": [
-        "five",
-        "Five"
+        "Five",
+        "five"
       ],
       "parts_of_speech": [
         "numeral"
@@ -15309,8 +15309,8 @@
       "word": "人々",
       "reading": "ひとびと",
       "meanings": [
-        "People",
-        "people"
+        "people",
+        "People"
       ],
       "parts_of_speech": [
         "noun",
@@ -15587,8 +15587,8 @@
       "reading": "にんき",
       "meanings": [
         "Popular",
-        "popularity",
-        "Popularity"
+        "Popularity",
+        "popularity"
       ],
       "parts_of_speech": [
         "noun",
@@ -16004,8 +16004,8 @@
       "word": "今回",
       "reading": "こんかい",
       "meanings": [
-        "this time",
-        "This Time"
+        "This Time",
+        "this time"
       ],
       "parts_of_speech": [
         "noun"
@@ -16057,8 +16057,8 @@
       "word": "今年",
       "reading": "ことし",
       "meanings": [
-        "This Year",
-        "this year"
+        "this year",
+        "This Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -16085,8 +16085,8 @@
       "meanings": [
         "next time",
         "Next Time",
-        "this time",
-        "This Time"
+        "This Time",
+        "this time"
       ],
       "parts_of_speech": [
         "noun"
@@ -16130,8 +16130,8 @@
       "word": "今日",
       "reading": "きょう",
       "meanings": [
-        "Today",
-        "today"
+        "today",
+        "Today"
       ],
       "parts_of_speech": [
         "noun"
@@ -16243,8 +16243,8 @@
       "word": "今朝",
       "reading": "けさ",
       "meanings": [
-        "this morning",
-        "This Morning"
+        "This Morning",
+        "this morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -18022,8 +18022,8 @@
       "word": "会話",
       "reading": "かいわ",
       "meanings": [
-        "Conversation",
         "conversation",
+        "Conversation",
         "Dialogue"
       ],
       "parts_of_speech": [
@@ -22476,8 +22476,8 @@
       "word": "傷つく",
       "reading": "きずつく",
       "meanings": [
-        "To Get Hurt",
-        "to get hurt"
+        "to get hurt",
+        "To Get Hurt"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -23252,8 +23252,8 @@
       "meanings": [
         "Big Brother",
         "Elder Brother",
-        "older brother",
-        "Older Brother"
+        "Older Brother",
+        "older brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -23576,8 +23576,8 @@
       "reading": "せんせい",
       "meanings": [
         "Sensei",
-        "Teacher",
-        "teacher"
+        "teacher",
+        "Teacher"
       ],
       "parts_of_speech": [
         "noun"
@@ -24103,8 +24103,8 @@
       "word": "入り口",
       "reading": "いりぐち",
       "meanings": [
-        "entrance",
-        "Entrance"
+        "Entrance",
+        "entrance"
       ],
       "parts_of_speech": [
         "noun"
@@ -25282,8 +25282,8 @@
       "word": "六",
       "reading": "ろく",
       "meanings": [
-        "six",
-        "Six"
+        "Six",
+        "six"
       ],
       "parts_of_speech": [
         "numeral"
@@ -25874,8 +25874,8 @@
       "word": "内容",
       "reading": "ないよう",
       "meanings": [
-        "contents",
         "Contents",
+        "contents",
         "Substance"
       ],
       "parts_of_speech": [
@@ -26212,8 +26212,8 @@
       "word": "冗談",
       "reading": "じょうだん",
       "meanings": [
-        "joke",
-        "Joke"
+        "Joke",
+        "joke"
       ],
       "parts_of_speech": [
         "noun",
@@ -26393,8 +26393,8 @@
       "word": "冬",
       "reading": "ふゆ",
       "meanings": [
-        "winter",
-        "Winter"
+        "Winter",
+        "winter"
       ],
       "parts_of_speech": [
         "noun"
@@ -27218,8 +27218,8 @@
       "meanings": [
         "To Let Out",
         "To Put Out",
-        "to take out",
         "To Take Out",
+        "to take out",
         "To Turn In"
       ],
       "parts_of_speech": [
@@ -28302,8 +28302,8 @@
       "reading": "はじめて",
       "meanings": [
         "First Time",
-        "For The First Time",
-        "for the first time"
+        "for the first time",
+        "For The First Time"
       ],
       "parts_of_speech": [
         "adverb",
@@ -28833,8 +28833,8 @@
       "word": "到着",
       "reading": "とうちゃく",
       "meanings": [
-        "arrival",
-        "Arrival"
+        "Arrival",
+        "arrival"
       ],
       "parts_of_speech": [
         "noun",
@@ -28881,8 +28881,8 @@
       "word": "制服",
       "reading": "せいふく",
       "meanings": [
-        "Uniform",
-        "uniform"
+        "uniform",
+        "Uniform"
       ],
       "parts_of_speech": [
         "noun"
@@ -30764,8 +30764,8 @@
       "word": "勘違い",
       "reading": "かんちがい",
       "meanings": [
-        "misunderstanding",
         "Misunderstanding",
+        "misunderstanding",
         "Wrong Guess"
       ],
       "parts_of_speech": [
@@ -35291,8 +35291,8 @@
       "reading": "ふるい",
       "meanings": [
         "Ancient",
-        "Old",
         "old",
+        "Old",
         "Out-Of-Date"
       ],
       "parts_of_speech": [
@@ -35631,8 +35631,8 @@
       "word": "可愛い",
       "reading": "かわいい",
       "meanings": [
-        "cute",
-        "Cute"
+        "Cute",
+        "cute"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -35828,8 +35828,8 @@
       "word": "右",
       "reading": "みぎ",
       "meanings": [
-        "right",
         "Right",
+        "right",
         "Right Direction"
       ],
       "parts_of_speech": [
@@ -37299,8 +37299,8 @@
       "reading": "すう",
       "meanings": [
         "To Inhale",
-        "to smoke",
         "To Smoke",
+        "to smoke",
         "To Suck"
       ],
       "parts_of_speech": [
@@ -38087,8 +38087,8 @@
       "word": "命",
       "reading": "いのち",
       "meanings": [
-        "Life",
-        "life"
+        "life",
+        "Life"
       ],
       "parts_of_speech": [
         "independent_noun"
@@ -39054,8 +39054,8 @@
       "word": "喉",
       "reading": "のど",
       "meanings": [
-        "throat",
-        "Throat"
+        "Throat",
+        "throat"
       ],
       "parts_of_speech": [
         "noun"
@@ -40249,8 +40249,8 @@
       "word": "回復",
       "reading": "かいふく",
       "meanings": [
-        "recovery",
-        "Recovery"
+        "Recovery",
+        "recovery"
       ],
       "parts_of_speech": [
         "noun",
@@ -40809,8 +40809,8 @@
       "word": "国",
       "reading": "くに",
       "meanings": [
-        "country",
         "Country",
+        "country",
         "Nation"
       ],
       "parts_of_speech": [
@@ -41431,8 +41431,8 @@
       "word": "地上",
       "reading": "ちじょう",
       "meanings": [
-        "Above Ground",
         "above ground",
+        "Above Ground",
         "On The Ground",
         "The Earth's Surface"
       ],
@@ -41462,8 +41462,8 @@
       "meanings": [
         "Basement",
         "Cellar",
-        "underground",
-        "Underground"
+        "Underground",
+        "underground"
       ],
       "parts_of_speech": [
         "noun",
@@ -41711,8 +41711,8 @@
       "word": "地獄",
       "reading": "じごく",
       "meanings": [
-        "Hell",
-        "hell"
+        "hell",
+        "Hell"
       ],
       "parts_of_speech": [
         "noun"
@@ -42256,8 +42256,8 @@
       "word": "城",
       "reading": "しろ",
       "meanings": [
-        "castle",
-        "Castle"
+        "Castle",
+        "castle"
       ],
       "parts_of_speech": [
         "noun"
@@ -42742,8 +42742,8 @@
       "reading": "ほうこく",
       "meanings": [
         "Information",
-        "report",
-        "Report"
+        "Report",
+        "report"
       ],
       "parts_of_speech": [
         "noun",
@@ -44405,8 +44405,8 @@
       "word": "外",
       "reading": "そと",
       "meanings": [
-        "Outside",
-        "outside"
+        "outside",
+        "Outside"
       ],
       "parts_of_speech": [
         "noun",
@@ -44434,8 +44434,8 @@
       "meanings": [
         "To Exclude",
         "To Miss Something",
-        "to remove",
-        "To Remove"
+        "To Remove",
+        "to remove"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -45580,8 +45580,8 @@
       "meanings": [
         "Like A Lot",
         "Lovable",
-        "Love",
         "love",
+        "Love",
         "Really Like"
       ],
       "parts_of_speech": [
@@ -46448,8 +46448,8 @@
       "word": "天井",
       "reading": "てんじょう",
       "meanings": [
-        "ceiling",
-        "Ceiling"
+        "Ceiling",
+        "ceiling"
       ],
       "parts_of_speech": [
         "noun"
@@ -48149,8 +48149,8 @@
       "reading": "いもうと",
       "meanings": [
         "Little Sister",
-        "younger sister",
-        "Younger Sister"
+        "Younger Sister",
+        "younger sister"
       ],
       "parts_of_speech": [
         "noun"
@@ -49583,8 +49583,8 @@
       "word": "学校",
       "reading": "がっこう",
       "meanings": [
-        "School",
-        "school"
+        "school",
+        "School"
       ],
       "parts_of_speech": [
         "noun"
@@ -53342,8 +53342,8 @@
       "word": "少年",
       "reading": "しょうねん",
       "meanings": [
-        "Boy",
         "boy",
+        "Boy",
         "Young Boy",
         "Youth"
       ],
@@ -54167,8 +54167,8 @@
       "word": "山",
       "reading": "やま",
       "meanings": [
-        "Mountain",
-        "mountain"
+        "mountain",
+        "Mountain"
       ],
       "parts_of_speech": [
         "noun"
@@ -55767,8 +55767,8 @@
       "word": "布",
       "reading": "ぬの",
       "meanings": [
-        "cloth",
         "Cloth",
+        "cloth",
         "Fabric"
       ],
       "parts_of_speech": [
@@ -57709,8 +57709,8 @@
       "word": "床",
       "reading": "ゆか",
       "meanings": [
-        "Floor",
-        "floor"
+        "floor",
+        "Floor"
       ],
       "parts_of_speech": [
         "noun"
@@ -58217,8 +58217,8 @@
       "reading": "ろうか",
       "meanings": [
         "Corridor",
-        "Hallway",
-        "hallway"
+        "hallway",
+        "Hallway"
       ],
       "parts_of_speech": [
         "noun"
@@ -59053,8 +59053,8 @@
       "word": "弱い",
       "reading": "よわい",
       "meanings": [
-        "Weak",
-        "weak"
+        "weak",
+        "Weak"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -61313,8 +61313,8 @@
       "word": "心臓",
       "reading": "しんぞう",
       "meanings": [
-        "heart",
-        "Heart"
+        "Heart",
+        "heart"
       ],
       "parts_of_speech": [
         "noun"
@@ -63098,8 +63098,8 @@
       "word": "怪我",
       "reading": "けが",
       "meanings": [
-        "injury",
-        "Injury"
+        "Injury",
+        "injury"
       ],
       "parts_of_speech": [
         "noun",
@@ -63412,8 +63412,8 @@
       "word": "恐怖",
       "reading": "きょうふ",
       "meanings": [
-        "Fear",
         "fear",
+        "Fear",
         "Terror"
       ],
       "parts_of_speech": [
@@ -63829,8 +63829,8 @@
       "word": "息",
       "reading": "いき",
       "meanings": [
-        "breath",
-        "Breath"
+        "Breath",
+        "breath"
       ],
       "parts_of_speech": [
         "noun"
@@ -63855,8 +63855,8 @@
       "word": "息子",
       "reading": "むすこ",
       "meanings": [
-        "son",
-        "Son"
+        "Son",
+        "son"
       ],
       "parts_of_speech": [
         "noun"
@@ -64135,8 +64135,8 @@
       "word": "悪い",
       "reading": "わるい",
       "meanings": [
-        "Bad",
         "bad",
+        "Bad",
         "Poor",
         "Wrong"
       ],
@@ -64693,8 +64693,8 @@
       "reading": "じょうほう",
       "meanings": [
         "Data",
-        "information",
-        "Information"
+        "Information",
+        "information"
       ],
       "parts_of_speech": [
         "noun"
@@ -65238,8 +65238,8 @@
       "word": "意見",
       "reading": "いけん",
       "meanings": [
-        "Opinion",
         "opinion",
+        "Opinion",
         "View"
       ],
       "parts_of_speech": [
@@ -67038,8 +67038,8 @@
       "word": "成功",
       "reading": "せいこう",
       "meanings": [
-        "success",
-        "Success"
+        "Success",
+        "success"
       ],
       "parts_of_speech": [
         "noun",
@@ -67952,8 +67952,8 @@
       "word": "扉",
       "reading": "とびら",
       "meanings": [
-        "door",
         "Door",
+        "door",
         "Hinged Door"
       ],
       "parts_of_speech": [
@@ -67980,8 +67980,8 @@
       "reading": "て",
       "meanings": [
         "Arm",
-        "Hand",
-        "hand"
+        "hand",
+        "Hand"
       ],
       "parts_of_speech": [
         "noun"
@@ -68026,8 +68026,8 @@
       "reading": "てつだう",
       "meanings": [
         "To Assist",
-        "to help",
         "To Help",
+        "to help",
         "To Lend A Hand"
       ],
       "parts_of_speech": [
@@ -68219,8 +68219,8 @@
       "word": "手紙",
       "reading": "てがみ",
       "meanings": [
-        "Letter",
-        "letter"
+        "letter",
+        "Letter"
       ],
       "parts_of_speech": [
         "noun",
@@ -68492,8 +68492,8 @@
       "reading": "はらう",
       "meanings": [
         "To Brush Off",
-        "To Pay",
-        "to pay"
+        "to pay",
+        "To Pay"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -68760,8 +68760,8 @@
       "reading": "わざ",
       "meanings": [
         "Art",
-        "Skill",
         "skill",
+        "Skill",
         "Technique"
       ],
       "parts_of_speech": [
@@ -72524,8 +72524,8 @@
       "reading": "かく",
       "meanings": [
         "To Depict",
-        "to draw",
         "To Draw",
+        "to draw",
         "To Illustrate",
         "To Paint"
       ],
@@ -74901,8 +74901,8 @@
       "word": "教室",
       "reading": "きょうしつ",
       "meanings": [
-        "Classroom",
-        "classroom"
+        "classroom",
+        "Classroom"
       ],
       "parts_of_speech": [
         "noun"
@@ -75285,8 +75285,8 @@
       "meanings": [
         "Amount",
         "Count",
-        "number",
-        "Number"
+        "Number",
+        "number"
       ],
       "parts_of_speech": [
         "noun"
@@ -75528,8 +75528,8 @@
       "word": "敵",
       "reading": "てき",
       "meanings": [
-        "Enemy",
         "enemy",
+        "Enemy",
         "Opponent"
       ],
       "parts_of_speech": [
@@ -75653,8 +75653,8 @@
       "word": "文句",
       "reading": "もんく",
       "meanings": [
-        "Complaint",
         "complaint",
+        "Complaint",
         "Grumbling",
         "Phrase"
       ],
@@ -76889,8 +76889,8 @@
       "word": "日",
       "reading": "ひ",
       "meanings": [
-        "day",
         "Day",
+        "day",
         "Sun"
       ],
       "parts_of_speech": [
@@ -77465,8 +77465,8 @@
       "word": "早い",
       "reading": "はやい",
       "meanings": [
-        "Early",
         "early",
+        "Early",
         "Fast",
         "fast (in terms of time)",
         "Quick"
@@ -77824,8 +77824,8 @@
       "word": "明るい",
       "reading": "あかるい",
       "meanings": [
-        "Bright",
         "bright",
+        "Bright",
         "Cheerful"
       ],
       "parts_of_speech": [
@@ -78208,8 +78208,8 @@
       "word": "春",
       "reading": "はる",
       "meanings": [
-        "spring",
-        "Spring"
+        "Spring",
+        "spring"
       ],
       "parts_of_speech": [
         "noun"
@@ -79000,8 +79000,8 @@
       "reading": "けしき",
       "meanings": [
         "Landscape",
-        "Scenery",
         "scenery",
+        "Scenery",
         "View"
       ],
       "parts_of_speech": [
@@ -80511,8 +80511,8 @@
         "Lately",
         "Latest",
         "Recent",
-        "Recently",
-        "recently"
+        "recently",
+        "Recently"
       ],
       "parts_of_speech": [
         "noun",
@@ -80569,8 +80569,8 @@
       "reading": "つき",
       "meanings": [
         "Month",
-        "moon",
-        "Moon"
+        "Moon",
+        "moon"
       ],
       "parts_of_speech": [
         "noun"
@@ -80759,8 +80759,8 @@
       "word": "有名",
       "reading": "ゆうめい",
       "meanings": [
-        "famous",
-        "Famous"
+        "Famous",
+        "famous"
       ],
       "parts_of_speech": [
         "な_adjective"
@@ -81572,8 +81572,8 @@
       "word": "本",
       "reading": "ほん",
       "meanings": [
-        "book",
-        "Book"
+        "Book",
+        "book"
       ],
       "parts_of_speech": [
         "noun"
@@ -82194,8 +82194,8 @@
       "reading": "むら",
       "meanings": [
         "Rural Town",
-        "village",
-        "Village"
+        "Village",
+        "village"
       ],
       "parts_of_speech": [
         "noun"
@@ -82360,8 +82360,8 @@
       "word": "来年",
       "reading": "らいねん",
       "meanings": [
-        "Next Year",
-        "next year"
+        "next year",
+        "Next Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -82386,8 +82386,8 @@
       "word": "来月",
       "reading": "らいげつ",
       "meanings": [
-        "next month",
-        "Next Month"
+        "Next Month",
+        "next month"
       ],
       "parts_of_speech": [
         "noun"
@@ -86119,8 +86119,8 @@
       "word": "歌",
       "reading": "うた",
       "meanings": [
-        "song",
-        "Song"
+        "Song",
+        "song"
       ],
       "parts_of_speech": [
         "noun"
@@ -86145,8 +86145,8 @@
       "word": "歌う",
       "reading": "うたう",
       "meanings": [
-        "To Sing",
-        "to sing"
+        "to sing",
+        "To Sing"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -86429,8 +86429,8 @@
       "word": "正しい",
       "reading": "ただしい",
       "meanings": [
-        "Correct",
         "correct",
+        "Correct",
         "Right",
         "True"
       ],
@@ -86937,8 +86937,8 @@
       "word": "歴史",
       "reading": "れきし",
       "meanings": [
-        "history",
-        "History"
+        "History",
+        "history"
       ],
       "parts_of_speech": [
         "noun",
@@ -86964,8 +86964,8 @@
       "word": "死",
       "reading": "し",
       "meanings": [
-        "Death",
-        "death"
+        "death",
+        "Death"
       ],
       "parts_of_speech": [
         "noun",
@@ -87602,8 +87602,8 @@
       "word": "殺す",
       "reading": "ころす",
       "meanings": [
-        "to kill",
-        "To Kill"
+        "To Kill",
+        "to kill"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -87840,8 +87840,8 @@
       "meanings": [
         "Annually",
         "Each Year",
-        "every year",
         "Every Year",
+        "every year",
         "Yearly"
       ],
       "parts_of_speech": [
@@ -87889,8 +87889,8 @@
       "reading": "まいにち",
       "meanings": [
         "Daily",
-        "every day",
-        "Every Day"
+        "Every Day",
+        "every day"
       ],
       "parts_of_speech": [
         "noun"
@@ -87935,8 +87935,8 @@
       "word": "毎月",
       "reading": "まいつき",
       "meanings": [
-        "Every Month",
         "every month",
+        "Every Month",
         "Monthly"
       ],
       "parts_of_speech": [
@@ -89095,8 +89095,8 @@
       "word": "氷",
       "reading": "こおり",
       "meanings": [
-        "ice",
-        "Ice"
+        "Ice",
+        "ice"
       ],
       "parts_of_speech": [
         "noun"
@@ -89624,8 +89624,8 @@
       "word": "決める",
       "reading": "きめる",
       "meanings": [
-        "to decide",
-        "To Decide"
+        "To Decide",
+        "to decide"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -91017,8 +91017,8 @@
       "word": "泣く",
       "reading": "なく",
       "meanings": [
-        "to cry",
-        "To Cry"
+        "To Cry",
+        "to cry"
       ],
       "parts_of_speech": [
         "godan_verb"
@@ -91708,8 +91708,8 @@
       "word": "活動",
       "reading": "かつどう",
       "meanings": [
-        "activity",
-        "Activity"
+        "Activity",
+        "activity"
       ],
       "parts_of_speech": [
         "noun",
@@ -92936,8 +92936,8 @@
       "word": "涙",
       "reading": "なみだ",
       "meanings": [
-        "tear",
         "Tear",
+        "tear",
         "Teardrop",
         "Tears"
       ],
@@ -94547,8 +94547,8 @@
       "word": "満足",
       "reading": "まんぞく",
       "meanings": [
-        "Satisfaction",
         "satisfaction",
+        "Satisfaction",
         "Satisfied",
         "Totally Satisfied"
       ],
@@ -96156,8 +96156,8 @@
       "reading": "ぬれる",
       "meanings": [
         "To Be Wet",
-        "To Get Wet",
-        "to get wet"
+        "to get wet",
+        "To Get Wet"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -98536,8 +98536,8 @@
       "word": "熱",
       "reading": "ねつ",
       "meanings": [
-        "fever",
         "Fever",
+        "fever",
         "Heat"
       ],
       "parts_of_speech": [
@@ -99621,8 +99621,8 @@
       "word": "犬",
       "reading": "いぬ",
       "meanings": [
-        "dog",
-        "Dog"
+        "Dog",
+        "dog"
       ],
       "parts_of_speech": [
         "noun"
@@ -101963,8 +101963,8 @@
       "word": "生まれる",
       "reading": "うまれる",
       "meanings": [
-        "to be born",
-        "To Be Born"
+        "To Be Born",
+        "to be born"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -102886,8 +102886,8 @@
       "word": "男の子",
       "reading": "おとこのこ",
       "meanings": [
-        "Boy",
-        "boy"
+        "boy",
+        "Boy"
       ],
       "parts_of_speech": [
         "noun"
@@ -104081,8 +104081,8 @@
       "meanings": [
         "Clinic",
         "Doctor's Office",
-        "hospital",
-        "Hospital"
+        "Hospital",
+        "hospital"
       ],
       "parts_of_speech": [
         "noun",
@@ -104849,8 +104849,8 @@
       "word": "白",
       "reading": "しろ",
       "meanings": [
-        "White",
-        "white"
+        "white",
+        "White"
       ],
       "parts_of_speech": [
         "noun"
@@ -106932,8 +106932,8 @@
       "reading": "ねむる",
       "meanings": [
         "To Fall Asleep",
-        "to sleep",
-        "To Sleep"
+        "To Sleep",
+        "to sleep"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -107612,8 +107612,8 @@
       "reading": "ちしき",
       "meanings": [
         "Information",
-        "Knowledge",
-        "knowledge"
+        "knowledge",
+        "Knowledge"
       ],
       "parts_of_speech": [
         "noun"
@@ -108031,8 +108031,8 @@
       "reading": "けんきゅう",
       "meanings": [
         "Investigation",
-        "research",
         "Research",
+        "research",
         "Study"
       ],
       "parts_of_speech": [
@@ -108612,8 +108612,8 @@
       "word": "確認",
       "reading": "かくにん",
       "meanings": [
-        "confirmation",
         "Confirmation",
+        "confirmation",
         "Verification"
       ],
       "parts_of_speech": [
@@ -114679,8 +114679,8 @@
       "word": "終わり",
       "reading": "おわり",
       "meanings": [
-        "End",
         "end",
+        "End",
         "Finish",
         "The End",
         "The Finish"
@@ -115054,8 +115054,8 @@
       "word": "経験",
       "reading": "けいけん",
       "meanings": [
-        "Experience",
-        "experience"
+        "experience",
+        "Experience"
       ],
       "parts_of_speech": [
         "noun",
@@ -117638,8 +117638,8 @@
       "word": "繰り返す",
       "reading": "くりかえす",
       "meanings": [
-        "To Repeat",
         "to repeat",
+        "To Repeat",
         "To Repeat Over And Over"
       ],
       "parts_of_speech": [
@@ -120389,8 +120389,8 @@
       "reading": "むね",
       "meanings": [
         "Breasts",
-        "chest",
-        "Chest"
+        "Chest",
+        "chest"
       ],
       "parts_of_speech": [
         "noun"
@@ -121004,8 +121004,8 @@
       "word": "腕",
       "reading": "うで",
       "meanings": [
-        "arm",
-        "Arm"
+        "Arm",
+        "arm"
       ],
       "parts_of_speech": [
         "noun"
@@ -121158,8 +121158,8 @@
       "reading": "はら",
       "meanings": [
         "Abdomen",
-        "Belly",
         "belly",
+        "Belly",
         "Stomach"
       ],
       "parts_of_speech": [
@@ -121509,8 +121509,8 @@
       "reading": "みずから",
       "meanings": [
         "On One's Own Initiative",
-        "Oneself",
         "oneself",
+        "Oneself",
         "Personally"
       ],
       "parts_of_speech": [
@@ -122169,8 +122169,8 @@
       "word": "自覚",
       "reading": "じかく",
       "meanings": [
-        "Awareness",
         "awareness",
+        "Awareness",
         "Consciousness",
         "Realization",
         "Self-Awareness"
@@ -122371,8 +122371,8 @@
       "word": "興味",
       "reading": "きょうみ",
       "meanings": [
-        "interest",
-        "Interest"
+        "Interest",
+        "interest"
       ],
       "parts_of_speech": [
         "noun"
@@ -122445,8 +122445,8 @@
       "word": "舌",
       "reading": "した",
       "meanings": [
-        "tongue",
-        "Tongue"
+        "Tongue",
+        "tongue"
       ],
       "parts_of_speech": [
         "noun"
@@ -122471,8 +122471,8 @@
       "word": "舐める",
       "reading": "なめる",
       "meanings": [
-        "To Lick",
         "to lick",
+        "To Lick",
         "To Look Down On",
         "To Underestimate"
       ],
@@ -122994,8 +122994,8 @@
       "word": "色",
       "reading": "いろ",
       "meanings": [
-        "Color",
-        "color"
+        "color",
+        "Color"
       ],
       "parts_of_speech": [
         "noun"
@@ -123190,8 +123190,8 @@
       "word": "花",
       "reading": "はな",
       "meanings": [
-        "Flower",
-        "flower"
+        "flower",
+        "Flower"
       ],
       "parts_of_speech": [
         "noun"
@@ -126433,8 +126433,8 @@
       "word": "血",
       "reading": "ち",
       "meanings": [
-        "blood",
-        "Blood"
+        "Blood",
+        "blood"
       ],
       "parts_of_speech": [
         "noun"
@@ -127551,8 +127551,8 @@
       "reading": "うらぎる",
       "meanings": [
         "To Backstab",
-        "to betray",
-        "To Betray"
+        "To Betray",
+        "to betray"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -128623,8 +128623,8 @@
       "word": "見せる",
       "reading": "みせる",
       "meanings": [
-        "To Show",
-        "to show"
+        "to show",
+        "To Show"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -129364,8 +129364,8 @@
       "reading": "おぼえる",
       "meanings": [
         "To Learn",
-        "to memorize",
         "To Memorize",
+        "to memorize",
         "To Pick Up",
         "To Remember"
       ],
@@ -129926,8 +129926,8 @@
       "word": "解く",
       "reading": "とく",
       "meanings": [
-        "To Solve",
         "to solve",
+        "To Solve",
         "To Solve Something"
       ],
       "parts_of_speech": [
@@ -130768,8 +130768,8 @@
       "word": "記憶",
       "reading": "きおく",
       "meanings": [
-        "Memory",
         "memory",
+        "Memory",
         "Recollection"
       ],
       "parts_of_speech": [
@@ -132598,8 +132598,8 @@
       "word": "誤解",
       "reading": "ごかい",
       "meanings": [
-        "misunderstanding",
-        "Misunderstanding"
+        "Misunderstanding",
+        "misunderstanding"
       ],
       "parts_of_speech": [
         "noun",
@@ -133504,8 +133504,8 @@
       "word": "謝る",
       "reading": "あやまる",
       "meanings": [
-        "To Apologize",
-        "to apologize"
+        "to apologize",
+        "To Apologize"
       ],
       "parts_of_speech": [
         "godan_verb"
@@ -133615,8 +133615,8 @@
       "word": "警察",
       "reading": "けいさつ",
       "meanings": [
-        "police",
-        "Police"
+        "Police",
+        "police"
       ],
       "parts_of_speech": [
         "noun",
@@ -134641,8 +134641,8 @@
       "reading": "せめる",
       "meanings": [
         "To Accuse",
-        "To Blame",
         "to blame",
+        "To Blame",
         "To Criticize",
         "To Reproach"
       ],
@@ -134992,8 +134992,8 @@
       "word": "買い物",
       "reading": "かいもの",
       "meanings": [
-        "Shopping",
-        "shopping"
+        "shopping",
+        "Shopping"
       ],
       "parts_of_speech": [
         "noun",
@@ -135687,8 +135687,8 @@
       "word": "質問",
       "reading": "しつもん",
       "meanings": [
-        "question",
-        "Question"
+        "Question",
+        "question"
       ],
       "parts_of_speech": [
         "noun",
@@ -136193,8 +136193,8 @@
       "meanings": [
         "To Get Up",
         "to get up, to get out of bed",
-        "to occur",
         "To Occur",
+        "to occur",
         "To Wake Up"
       ],
       "parts_of_speech": [
@@ -136534,8 +136534,8 @@
       "word": "趣味",
       "reading": "しゅみ",
       "meanings": [
-        "hobby",
-        "Hobby"
+        "Hobby",
+        "hobby"
       ],
       "parts_of_speech": [
         "noun"
@@ -136988,8 +136988,8 @@
       "word": "踊る",
       "reading": "おどる",
       "meanings": [
-        "to dance",
-        "To Dance"
+        "To Dance",
+        "to dance"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -137780,8 +137780,8 @@
       "word": "軽い",
       "reading": "かるい",
       "meanings": [
-        "light",
         "Light",
+        "light",
         "Light Weight",
         "Lightweight"
       ],
@@ -138133,8 +138133,8 @@
         "Difficult",
         "Hot",
         "Painful",
-        "Spicy",
-        "spicy"
+        "spicy",
+        "Spicy"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -138716,8 +138716,8 @@
       "reading": "ちかい",
       "meanings": [
         "Close",
-        "near",
         "Near",
+        "near",
         "Nearby"
       ],
       "parts_of_speech": [
@@ -140157,8 +140157,8 @@
       "meanings": [
         "Avenue",
         "Road",
-        "Street",
         "street",
+        "Street",
         "Way"
       ],
       "parts_of_speech": [
@@ -140776,8 +140776,8 @@
       "reading": "すすむ",
       "meanings": [
         "To Advance",
-        "to move forward",
         "To Move Forward",
+        "to move forward",
         "To Progress"
       ],
       "parts_of_speech": [
@@ -141814,8 +141814,8 @@
       "word": "道具",
       "reading": "どうぐ",
       "meanings": [
-        "Tool",
-        "tool"
+        "tool",
+        "Tool"
       ],
       "parts_of_speech": [
         "noun"
@@ -144209,8 +144209,8 @@
       "word": "重い",
       "reading": "おもい",
       "meanings": [
-        "Heavy",
-        "heavy"
+        "heavy",
+        "Heavy"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -145890,8 +145890,8 @@
       "word": "鍵",
       "reading": "かぎ",
       "meanings": [
-        "Key",
         "key",
+        "Key",
         "Lock"
       ],
       "parts_of_speech": [
@@ -146088,8 +146088,8 @@
       "word": "鏡",
       "reading": "かがみ",
       "meanings": [
-        "Mirror",
-        "mirror"
+        "mirror",
+        "Mirror"
       ],
       "parts_of_speech": [
         "noun"
@@ -146527,8 +146527,8 @@
       "reading": "あく",
       "meanings": [
         "To Be Open",
-        "To Open",
-        "to open"
+        "to open",
+        "To Open"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -150142,8 +150142,8 @@
       "reading": "でんわ",
       "meanings": [
         "Phone",
-        "Telephone",
-        "telephone"
+        "telephone",
+        "Telephone"
       ],
       "parts_of_speech": [
         "noun",
@@ -151552,8 +151552,8 @@
       "reading": "ころ",
       "meanings": [
         "About",
-        "approximate time",
         "Approximate Time",
+        "approximate time",
         "Around"
       ],
       "parts_of_speech": [
@@ -152521,8 +152521,8 @@
       "word": "風",
       "reading": "かぜ",
       "meanings": [
-        "wind",
-        "Wind"
+        "Wind",
+        "wind"
       ],
       "parts_of_speech": [
         "noun"
@@ -152771,8 +152771,8 @@
       "word": "飛ぶ",
       "reading": "とぶ",
       "meanings": [
-        "to fly",
         "To Fly",
+        "to fly",
         "To Jump"
       ],
       "parts_of_speech": [
@@ -153729,8 +153729,8 @@
       "word": "首",
       "reading": "くび",
       "meanings": [
-        "Neck",
-        "neck"
+        "neck",
+        "Neck"
       ],
       "parts_of_speech": [
         "noun"
@@ -153962,8 +153962,8 @@
       "word": "馬",
       "reading": "うま",
       "meanings": [
-        "Horse",
-        "horse"
+        "horse",
+        "Horse"
       ],
       "parts_of_speech": [
         "noun"
@@ -154792,8 +154792,8 @@
       "word": "高い",
       "reading": "たかい",
       "meanings": [
-        "expensive",
         "Expensive",
+        "expensive",
         "High",
         "high, tall",
         "Tall"
@@ -155428,8 +155428,8 @@
       "word": "魚",
       "reading": "さかな",
       "meanings": [
-        "fish",
-        "Fish"
+        "Fish",
+        "fish"
       ],
       "parts_of_speech": [
         "noun"
@@ -155653,8 +155653,8 @@
       "word": "鳥",
       "reading": "とり",
       "meanings": [
-        "Bird",
-        "bird"
+        "bird",
+        "Bird"
       ],
       "parts_of_speech": [
         "noun"

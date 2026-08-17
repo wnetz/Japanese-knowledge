@@ -33,11 +33,19 @@ class Section:
 
 
 @dataclass
+class Transformation:
+    form: str
+    to: str
+    by: str
+
+
+@dataclass
 class Practice:
     skills: list[ContentItem] = field(default_factory=list)
     questions: list[ContentItem] = field(default_factory=list)
     responses: list[ContentItem] = field(default_factory=list)
     patterns: list[ContentItem] = field(default_factory=list)
+    transformations: list[Transformation] = field(default_factory=list)
 
 
 @dataclass
