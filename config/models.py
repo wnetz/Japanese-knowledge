@@ -58,6 +58,8 @@ class AnkiFieldConfig:
     meaning: str = "Word Meaning"
     pitch_accent: str = "Pitch Accent"
     frequency: str = "Frequency"
+    furigana_in_word: bool = False
+    split_lines: bool = False
 
 
 @dataclass(frozen=True)
@@ -69,6 +71,7 @@ class AnkiConfig:
     batch_size: int = 500
     decks: tuple[str, ...] = ()
     fields: AnkiFieldConfig = field(default_factory=AnkiFieldConfig)
+    deck_fields: dict[str, AnkiFieldConfig] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)

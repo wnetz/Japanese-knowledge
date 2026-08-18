@@ -103,6 +103,26 @@ def load_config(
     if not isinstance(subject_types, list) or not all(isinstance(v, str) for v in subject_types):
         raise ConfigError("wanikani.subject_types must be an array of strings")
 
+    def _anki_field_config(values: dict[str, Any] | None) -> AnkiFieldConfig:
+        values = values or {}
+        return AnkiFieldConfig(
+            word=str(values.get("word", "Word")),
+            reading=str(values.get("reading", "Word Reading")),
+            meaning=str(values.get("meaning", "Word Meaning")),
+            pitch_accent=str(values.get("pitch_accent", "Pitch Accent")),
+            frequency=str(values.get("frequency", "Frequency")),
+            furigana_in_word=bool(values.get("furigana_in_word", False)),
+            split_lines=bool(values.get("split_lines", False)),
+        )
+
+    deck_fields_raw = anki_section.get("deck_fields") or {}
+    if not isinstance(deck_fields_raw, dict):
+        raise ConfigError("anki.deck_fields must be an object keyed by deck name")
+    deck_fields = {
+        str(deck_name): _anki_field_config(values if isinstance(values, dict) else {})
+        for deck_name, values in deck_fields_raw.items()
+    }
+
     return AppConfig(
         project_dir=project_dir,
         output=OutputConfig(
@@ -146,13 +166,8 @@ def load_config(
             timeout_seconds=float(anki_section.get("timeout_seconds", 30)),
             batch_size=max(1, int(anki_section.get("batch_size", 500))),
             decks=tuple(str(value) for value in anki_section.get("decks", [])),
-            fields=AnkiFieldConfig(
-                word=str((anki_section.get("fields") or {}).get("word", "Word")),
-                reading=str((anki_section.get("fields") or {}).get("reading", "Word Reading")),
-                meaning=str((anki_section.get("fields") or {}).get("meaning", "Word Meaning")),
-                pitch_accent=str((anki_section.get("fields") or {}).get("pitch_accent", "Pitch Accent")),
-                frequency=str((anki_section.get("fields") or {}).get("frequency", "Frequency")),
-            ),
+            fields=_anki_field_config(anki_section.get("fields") or {}),
+            deck_fields=deck_fields,
         ),
         bunpro=BunproConfig(
             enabled=bool(bunpro_section.get("enabled", False)),

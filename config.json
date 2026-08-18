@@ -40,14 +40,15 @@
     }
   },
   "anki": {
-    "enabled": false,
+    "enabled": true,
     "host": "http://localhost:8765",
     "api_version": 6,
     "timeout_seconds": 30,
     "batch_size": 500,
     "decks": [
       "日本語::Kaishi 1.5k",
-      "日本語::mining"
+      "日本語::mining",
+      "日本語::Japanese verbs (N5 - N4)"
     ],
     "fields": {
       "word": "Word",
@@ -55,6 +56,17 @@
       "meaning": "Word Meaning",
       "pitch_accent": "Pitch Accent",
       "frequency": "Frequency"
+    },
+    "deck_fields": {
+      "日本語::Japanese verbs (N5 - N4)": {
+        "word": "word phrase sentence",
+        "reading": "",
+        "meaning": "definition translation",
+        "pitch_accent": "",
+        "frequency": "",
+        "furigana_in_word": true,
+        "split_lines": true
+      }
     }
   },
   "logging": {

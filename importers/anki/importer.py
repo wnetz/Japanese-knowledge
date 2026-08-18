@@ -122,6 +122,33 @@ def _last_reviewed(review_entries: Iterable[Any]) -> str | None:
     return datetime.fromtimestamp(latest_ms / 1000, tz=timezone.utc).date().isoformat()
 
 
+
+_FURIGANA_RE = re.compile(r"([\u3400-\u4dbf\u4e00-\u9fff々]+)\[([^\]]+)\]")
+
+
+def _parse_furigana_word(value: str) -> tuple[str, str]:
+    """Convert Anki-style 食[た]べる into (食べる, たべる)."""
+    cleaned = _clean_field(value)
+
+    reading_parts: list[str] = []
+    last = 0
+    for match in _FURIGANA_RE.finditer(cleaned):
+        reading_parts.append(cleaned[last:match.start()])
+        reading_parts.append(match.group(2))
+        last = match.end()
+    reading_parts.append(cleaned[last:])
+
+    word = _FURIGANA_RE.sub(lambda m: m.group(1), cleaned)
+    reading = "".join(reading_parts)
+    return word.strip(), reading.strip()
+
+
+def _split_note_values(value: str, split_lines: bool) -> list[str]:
+    if not split_lines:
+        return [value]
+    return [line.strip() for line in value.splitlines() if line.strip()]
+
+
 class AnkiImporter:
     source_name = "anki"
 
@@ -199,10 +226,23 @@ class AnkiImporter:
         skipped = 0
         for note_cards in by_note.values():
             primary = note_cards[0]
-            word = _field_value(primary, self.config.fields.word)
-            if not word:
+            deck = str(primary.get("deckName") or "")
+            fields = self.config.deck_fields.get(deck, self.config.fields)
+
+            raw_word = _field_value(primary, fields.word)
+            if not raw_word:
                 skipped += len(note_cards)
                 continue
+
+            raw_reading = _field_value(primary, fields.reading) if fields.reading else ""
+            meaning = _field_value(primary, fields.meaning) if fields.meaning else ""
+            pitch_accent = (
+                _field_value(primary, fields.pitch_accent) if fields.pitch_accent else ""
+            )
+            frequency = (
+                _parse_frequency(_field_value(primary, fields.frequency))
+                if fields.frequency else None
+            )
 
             interval_cards = sorted(
                 note_cards,
@@ -211,39 +251,57 @@ class AnkiImporter:
             )
             best_card = interval_cards[0]
             ease_values = [_ease(card.get("factor")) for card in note_cards]
-            normalized_notes.append(
-                {
-                    "word": word,
-                    "reading": _field_value(primary, self.config.fields.reading),
-                    "meaning": _field_value(primary, self.config.fields.meaning),
-                    "pitch_accent": _field_value(primary, self.config.fields.pitch_accent),
-                    "frequency": _parse_frequency(
-                        _field_value(primary, self.config.fields.frequency)
+            study = {
+                "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
+                "best_interval": max(
+                    (_positive_int(card.get("interval")) for card in note_cards),
+                    default=0,
+                ),
+                "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
+                "ease": max((value for value in ease_values if value is not None), default=None),
+                "last_reviewed": max(
+                    (
+                        value
+                        for value in (
+                            _last_reviewed(card.get("_review_history") or [])
+                            for card in note_cards
+                        )
+                        if value is not None
                     ),
-                    "deck": str(primary.get("deckName") or ""),
-                    "study": {
-                        "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
-                        "best_interval": max(
-                            (_positive_int(card.get("interval")) for card in note_cards),
-                            default=0,
-                        ),
-                        "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
-                        "ease": max((value for value in ease_values if value is not None), default=None),
-                        "last_reviewed": max(
-                            (
-                                value
-                                for value in (
-                                    _last_reviewed(card.get("_review_history") or [])
-                                    for card in note_cards
-                                )
-                                if value is not None
-                            ),
-                            default=None,
-                        ),
-                        "state": _state_for_card(best_card),
-                    },
-                }
-            )
+                    default=None,
+                ),
+                "state": _state_for_card(best_card),
+            }
+
+            raw_words = _split_note_values(raw_word, fields.split_lines)
+            raw_readings = _split_note_values(raw_reading, fields.split_lines) if raw_reading else []
+
+            for index, raw_word_item in enumerate(raw_words):
+                if fields.furigana_in_word:
+                    word, derived_reading = _parse_furigana_word(raw_word_item)
+                else:
+                    word = raw_word_item.strip()
+                    derived_reading = ""
+
+                reading = (
+                    raw_readings[index].strip()
+                    if index < len(raw_readings)
+                    else derived_reading
+                )
+                if not word:
+                    continue
+
+                normalized_notes.append(
+                    {
+                        "word": word,
+                        "reading": reading,
+                        "meaning": meaning,
+                        "pitch_accent": pitch_accent,
+                        "frequency": frequency,
+                        "deck": deck,
+                        "study": study.copy(),
+                    }
+                )
 
         grouped: dict[tuple[str,str], list[dict[str, Any]]] = defaultdict(list)
         for item in normalized_notes:
