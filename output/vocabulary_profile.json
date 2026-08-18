@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T13:23:52.634578+00:00",
+    "generated_at": "2026-08-18T07:17:09.783653+00:00",
     "sources": [
       "wanikani",
       "anki",
       "migaku"
     ],
-    "vocabulary_count": 7846,
-    "confidence_scored_count": 2691,
+    "vocabulary_count": 7952,
+    "confidence_scored_count": 2692,
     "unresolved_reading_count": 93,
     "source_counts": {
       "wanikani": 6821,
-      "anki": 1522,
+      "anki": 1628,
       "migaku": 2077
     },
     "duplicates_merged": 2574
@@ -139,11 +139,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.834,
+      "confidence": 0.914,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -378,7 +378,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -530,7 +530,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -847,7 +847,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -1262,7 +1262,7 @@
         "wanikani"
       ],
       "confidence": 0.324,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 2
@@ -1922,6 +1922,27 @@
       }
     },
     {
+      "word": "あん肝",
+      "reading": "あん肝[あんきも;h]",
+      "meanings": [
+        "あん肝 (あんきも) ★\n∙ monkfish liver; goosefish liver"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "いい",
       "reading": "いい",
       "meanings": [
@@ -2252,8 +2273,8 @@
       "word": "いつ",
       "reading": "いつ",
       "meanings": [
-        "when",
-        "When"
+        "When",
+        "when"
       ],
       "parts_of_speech": [
         "pronoun"
@@ -2845,14 +2866,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2251,
+      "confidence": 0.26,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 3,
+          "last_reviewed": "2026-08-17"
         }
       }
     },
@@ -3285,6 +3306,27 @@
       }
     },
     {
+      "word": "お好み焼き",
+      "reading": "お好み焼[おこのみや;h]き",
+      "meanings": [
+        "お好み焼き (おこのみやき) ★★★\n∙ okonomiyaki; savoury pancake containing meat or seafood and vegetables"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "お姉さん",
       "reading": "おねえさん",
       "meanings": [
@@ -3527,7 +3569,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -3597,8 +3639,8 @@
       "reading": "おかあさん",
       "meanings": [
         "Mom",
-        "Mother",
-        "mother"
+        "mother",
+        "Mother"
       ],
       "parts_of_speech": [
         "noun"
@@ -3753,8 +3795,8 @@
       "word": "お礼",
       "reading": "おれい",
       "meanings": [
-        "gratitude",
         "Gratitude",
+        "gratitude",
         "Thanks"
       ],
       "parts_of_speech": [
@@ -4629,14 +4671,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.3203,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-17"
         }
       }
     },
@@ -5530,6 +5572,27 @@
       }
     },
     {
+      "word": "じゃが芋",
+      "reading": "じゃが芋[じゃがいも;h]",
+      "meanings": [
+        "じゃが芋 (じゃがいも)\n∙ potato (Solanum tuberosum)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "すいません",
       "reading": "すいません",
       "meanings": [],
@@ -5644,10 +5707,10 @@
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 41,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -5880,14 +5943,14 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.6,
+      "confidence": 0.3367,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-18"
         },
         "migaku": {
           "status": "KNOWN"
@@ -6938,14 +7001,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.2979,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 4,
+          "last_reviewed": "2026-08-17"
         }
       }
     },
@@ -7153,8 +7216,8 @@
       "word": "とても",
       "reading": "とても",
       "meanings": [
-        "very",
-        "Very"
+        "Very",
+        "very"
       ],
       "parts_of_speech": [
         "adverb"
@@ -8614,10 +8677,10 @@
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 35,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -9146,6 +9209,27 @@
       }
     },
     {
+      "word": "もんじゃ焼き",
+      "reading": "もんじゃ焼[もんじゃや;h]き",
+      "meanings": [
+        "もんじゃ焼き (もんじゃやき)\n∙ monjayaki; savoury pancake with various fillings, thinner than okonomiyaki"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "やって来る",
       "reading": "やってくる",
       "meanings": [
@@ -9259,14 +9343,14 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.6,
+      "confidence": 0.3367,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-18"
         },
         "migaku": {
           "status": "KNOWN"
@@ -9711,6 +9795,27 @@
       }
     },
     {
+      "word": "アジ",
+      "reading": "アジ[あじ;a]",
+      "meanings": [
+        "アジ ★★★\n∙ agitation\n∙ horse mackerel (Carangidae spp., esp. the Japanese horse mackerel, Trachurus japonicus); jack mackerel; pompano; scad"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "アッ",
       "reading": "あっ",
       "meanings": [],
@@ -9835,6 +9940,27 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "アマエビ",
+      "reading": "アマエビ[あまえび;a]",
+      "meanings": [
+        "アマエビ ★★★\n∙ northern shrimp (Pandalus borealis); sweet shrimp; northern pink prawn; red shrimp; Maine shrimp"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -9965,6 +10091,27 @@
       }
     },
     {
+      "word": "イカ",
+      "reading": "イカ[いか;h]",
+      "meanings": [
+        "イカ ★★★★\n∙ cuttlefish; squid"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "イギリス",
       "reading": "いぎりす",
       "meanings": [],
@@ -10002,6 +10149,27 @@
         },
         "wanikani": {
           "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "イクラ",
+      "reading": "イクラ[いくら;h]",
+      "meanings": [
+        "イクラ ★★\n∙ salted salmon roe"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -10118,6 +10286,27 @@
       }
     },
     {
+      "word": "イワシ",
+      "reading": "イワシ[いわし;h]",
+      "meanings": [
+        "イワシ ★★★\n∙ pilchard (esp. Japanese pilchard, Sardinops melanostictus); sardine"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "ウェイター",
       "reading": "うぇいたー",
       "meanings": [],
@@ -10146,6 +10335,48 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "ウナギ",
+      "reading": "ウナギ[うなぎ;h]",
+      "meanings": [
+        "ウナギ ★★★\n∙ eel (esp. the Japanese eel, Anguilla japonica)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
+      "word": "ウニ",
+      "reading": "ウニ[うに]",
+      "meanings": [
+        "ウニ ★★★\n∙ sea urchin\n∙ seasoned sea urchin eggs"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -10246,6 +10477,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "エビ",
+      "reading": "エビ[えび;h]",
+      "meanings": [
+        "エビ ★★★★\n∙ prawn; shrimp; lobster; crayfish"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -10415,6 +10667,27 @@
       }
     },
     {
+      "word": "カッパ巻",
+      "reading": "カッパ巻[カッパまき;h]",
+      "meanings": [
+        "カッパ巻 (カッパまき) ★★\n∙ cucumber sushi wrapped in nori (seaweed); cucumber makizushi"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "カップ",
       "reading": "かっぷ",
       "meanings": [],
@@ -10443,6 +10716,27 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "カニミソ",
+      "reading": "カニミソ[かにみそ;h]",
+      "meanings": [
+        "カニミソ ★★★★\n∙ brown meat (crab); miso-like paste found inside a crab's (and arthropods in general) intestinal area\n∙ miso mixed with crab innards or scraps"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -11080,6 +11374,27 @@
       }
     },
     {
+      "word": "コンビーフ",
+      "reading": "コンビーフ[こんびーふ;n3]",
+      "meanings": [
+        "コンビーフ (こんびーふ) ★\n∙ corned beef"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "コンピューター",
       "reading": "こんぴゅーたー",
       "meanings": [],
@@ -11358,6 +11673,27 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "シラウオ",
+      "reading": "シラウオ[しらうお]",
+      "meanings": [
+        "シラウオ ★\n∙ icefish (Salangidae spp., esp. the Japanese icefish, Salangichthys microdon); noodlefish; whitebait"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -11732,6 +12068,27 @@
       }
     },
     {
+      "word": "タコ",
+      "reading": "タコ[たこ;a]",
+      "meanings": [
+        "タコ ★\n∙ octopus"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "タタンターン",
       "reading": "",
       "meanings": [],
@@ -12013,6 +12370,27 @@
       }
     },
     {
+      "word": "ツブ貝",
+      "reading": "ツブ貝",
+      "meanings": [
+        "ツブ貝 (ツブがい) ★\n∙ whelk (esp. Neptunea and Buccinum spp.)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "テスト",
       "reading": "てすと",
       "meanings": [],
@@ -12032,8 +12410,8 @@
       "word": "テレビ",
       "reading": "テレビ",
       "meanings": [
-        "Television",
         "television",
+        "Television",
         "TV"
       ],
       "parts_of_speech": [
@@ -12215,6 +12593,27 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "トマト",
+      "reading": "トマト[とまと;a]",
+      "meanings": [
+        "トマト ★★★★\n∙ tomato (Solanum lycopersicum)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -12837,6 +13236,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "バス停",
+      "reading": "バス停[バスてい;h]",
+      "meanings": [
+        "バス停 (バスてい)\n∙ bus stop"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -13807,6 +14227,27 @@
       }
     },
     {
+      "word": "ホタテ",
+      "reading": "ホタテ[ほたて]",
+      "meanings": [
+        "ホタテ ★★★\n∙ Japanese scallop (Patinopecten yessoensis); Yesso scallop"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "ホッ",
       "reading": "ほっ",
       "meanings": [],
@@ -14011,6 +14452,27 @@
       }
     },
     {
+      "word": "マグロ",
+      "reading": "マグロ[まぐろ;h]",
+      "meanings": [
+        "マグロ ★★★\n∙ tuna (edible fish, Thunnus spp.); tunny\n∙ Pacific bluefin tuna (edible fish, Thunnus orientalis)\n∙ dead lay; starfish; person who is inactive during sexual intercourse"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "マジ",
       "reading": "まじ",
       "meanings": [],
@@ -14023,6 +14485,27 @@
       "study": {
         "migaku": {
           "status": "KNOWN"
+        }
+      }
+    },
+    {
+      "word": "マダイ",
+      "reading": "マダイ[まだい;h]",
+      "meanings": [
+        "マダイ ★\n∙ red sea bream (Pagrus major); Japanese sea bream; red tai; porgy"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -14472,6 +14955,27 @@
       }
     },
     {
+      "word": "ロース",
+      "reading": "ロース[ろーす;a]",
+      "meanings": [
+        "ロース (ろーす) ★★★\n∙ sirloin; pork loin"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "ワイン",
       "reading": "わいん",
       "meanings": [],
@@ -14563,8 +15067,8 @@
       "word": "一",
       "reading": "いち",
       "meanings": [
-        "One",
-        "one"
+        "one",
+        "One"
       ],
       "parts_of_speech": [
         "numeral"
@@ -15067,7 +15571,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -16302,7 +16806,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -16666,11 +17170,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.486,
+      "confidence": 0.616,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -16773,11 +17277,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.834,
+      "confidence": 0.916,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -17839,6 +18343,27 @@
       }
     },
     {
+      "word": "下足",
+      "reading": "下足[げそ;h]",
+      "meanings": [
+        "下足 (げそ)\n∙ squid tentacles"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": true,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "下駄",
       "reading": "げた",
       "meanings": [
@@ -18468,11 +18993,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.506,
+      "confidence": 0.408,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -19358,8 +19883,8 @@
       "reading": "りょうて",
       "meanings": [
         "Both Arms",
-        "both hands",
-        "Both Hands"
+        "Both Hands",
+        "both hands"
       ],
       "parts_of_speech": [
         "noun",
@@ -20340,14 +20865,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8442,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -20570,14 +21095,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4476,
+      "confidence": 0.3838,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -20980,7 +21505,7 @@
         "wanikani"
       ],
       "confidence": 0.7151,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -21053,7 +21578,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -21082,7 +21607,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -21140,6 +21665,27 @@
       }
     },
     {
+      "word": "乗車券",
+      "reading": "乗車券[じょうしゃけん;n3]",
+      "meanings": [
+        "乗車券 (じょうしゃけん)\n∙ ticket (for bus, train, etc.); passenger ticket\n∙ basic fare ticket (not valid on limited express trains without a supplemental express ticket)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "乗馬",
       "reading": "じょうば",
       "meanings": [
@@ -21189,8 +21735,8 @@
       "word": "九",
       "reading": "きゅう",
       "meanings": [
-        "nine",
-        "Nine"
+        "Nine",
+        "nine"
       ],
       "parts_of_speech": [
         "numeral"
@@ -21204,10 +21750,10 @@
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 36,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -21632,7 +22178,7 @@
         "wanikani"
       ],
       "confidence": 0.6233,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -21739,7 +22285,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.62,
+      "confidence": 0.396,
       "writable": false,
       "study": {
         "anki": {
@@ -21749,7 +22295,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -21813,7 +22359,7 @@
         "wanikani"
       ],
       "confidence": 0.512,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 4
@@ -22153,8 +22699,8 @@
       "word": "二",
       "reading": "に",
       "meanings": [
-        "two",
-        "Two"
+        "Two",
+        "two"
       ],
       "parts_of_speech": [
         "numeral"
@@ -22354,7 +22900,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22707,8 +23253,8 @@
       "word": "五",
       "reading": "ご",
       "meanings": [
-        "five",
-        "Five"
+        "Five",
+        "five"
       ],
       "parts_of_speech": [
         "numeral"
@@ -22821,7 +23367,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -22909,7 +23455,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -23445,8 +23991,8 @@
       "word": "人々",
       "reading": "ひとびと",
       "meanings": [
-        "people",
-        "People"
+        "People",
+        "people"
       ],
       "parts_of_speech": [
         "noun",
@@ -23570,8 +24116,8 @@
       "word": "人形",
       "reading": "にんぎょう",
       "meanings": [
-        "Doll",
         "doll",
+        "Doll",
         "Puppet"
       ],
       "parts_of_speech": [
@@ -24135,8 +24681,8 @@
       "word": "今",
       "reading": "いま",
       "meanings": [
-        "now",
-        "Now"
+        "Now",
+        "now"
       ],
       "parts_of_speech": [
         "noun"
@@ -24301,8 +24847,8 @@
       "word": "今年",
       "reading": "ことし",
       "meanings": [
-        "This Year",
-        "this year"
+        "this year",
+        "This Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -24333,8 +24879,8 @@
       "word": "今度",
       "reading": "こんど",
       "meanings": [
-        "next time",
         "Next Time",
+        "next time",
         "this time",
         "This Time"
       ],
@@ -24532,8 +25078,8 @@
       "word": "今朝",
       "reading": "けさ",
       "meanings": [
-        "this morning",
-        "This Morning"
+        "This Morning",
+        "this morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -24542,14 +25088,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 1.0,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-17"
         },
         "wanikani": {
           "srs_stage": 9
@@ -24918,7 +25464,7 @@
         "wanikani"
       ],
       "confidence": 0.8442,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -26530,14 +27076,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8613,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -26655,8 +27201,8 @@
       "word": "会話",
       "reading": "かいわ",
       "meanings": [
-        "conversation",
         "Conversation",
+        "conversation",
         "Dialogue"
       ],
       "parts_of_speech": [
@@ -28247,7 +28793,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -28433,7 +28979,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -28455,7 +29001,7 @@
         "wanikani"
       ],
       "confidence": 0.5269,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -28484,7 +29030,7 @@
         "wanikani"
       ],
       "confidence": 0.8458,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -28509,7 +29055,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -28553,7 +29099,7 @@
         "wanikani"
       ],
       "confidence": 0.936,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -28640,7 +29186,7 @@
         "wanikani"
       ],
       "confidence": 0.7742,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -29846,7 +30392,7 @@
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": null
+          "srs_stage": 0
         }
       }
     },
@@ -30562,8 +31108,8 @@
       "word": "借りる",
       "reading": "かりる",
       "meanings": [
-        "to borrow",
-        "To Borrow"
+        "To Borrow",
+        "to borrow"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -30574,7 +31120,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -30601,7 +31147,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -30624,7 +31170,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -30709,7 +31255,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -32158,14 +32704,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3032,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 5,
+          "last_reviewed": "2026-08-17"
         },
         "wanikani": {
           "srs_stage": null
@@ -32554,8 +33100,8 @@
       "meanings": [
         "Big Brother",
         "Elder Brother",
-        "Older Brother",
-        "older brother"
+        "older brother",
+        "Older Brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -33871,7 +34417,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -33898,14 +34444,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6264,
+      "confidence": 0.4522,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -34082,7 +34628,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -34108,13 +34654,13 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5546,
-      "writable": false,
+      "confidence": 0.5637,
+      "writable": true,
       "study": {
         "anki": {
-          "reviews": 5,
-          "ease": null,
-          "interval": 0,
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-17"
         },
         "migaku": {
@@ -34144,7 +34690,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -34234,7 +34780,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.926,
+      "confidence": 0.992,
       "writable": false,
       "study": {
         "anki": {
@@ -34244,7 +34790,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -34265,7 +34811,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -34333,7 +34879,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -34545,7 +35091,7 @@
         "wanikani"
       ],
       "confidence": 0.712,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -34687,6 +35233,27 @@
       "study": {
         "wanikani": {
           "srs_stage": 8
+        }
+      }
+    },
+    {
+      "word": "八百屋",
+      "reading": "八百屋[やおや;h]",
+      "meanings": [
+        "八百屋 (やおや) ★★\n∙ greengrocer; fruit and vegetable shop"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": true,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -34983,7 +35550,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -34997,8 +35564,8 @@
       "word": "六",
       "reading": "ろく",
       "meanings": [
-        "six",
-        "Six"
+        "Six",
+        "six"
       ],
       "parts_of_speech": [
         "numeral"
@@ -35237,14 +35804,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6264,
+      "confidence": 0.7011,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -35316,8 +35883,8 @@
       "word": "兵士",
       "reading": "へいし",
       "meanings": [
-        "Soldier",
-        "soldier"
+        "soldier",
+        "Soldier"
       ],
       "parts_of_speech": [
         "noun"
@@ -35433,14 +36000,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3776,
+      "confidence": 0.3278,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -35672,8 +36239,8 @@
       "word": "内容",
       "reading": "ないよう",
       "meanings": [
-        "Contents",
         "contents",
+        "Contents",
         "Substance"
       ],
       "parts_of_speech": [
@@ -35694,6 +36261,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "内科",
+      "reading": "内科[ないか;h,a]",
+      "meanings": [
+        "内科 (ないか) ★★★\n∙ internal medicine, i.e. treatment by medical procedures rather than surgical procedures\n∙ department of internal medicine (hospital, etc.)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -36106,7 +36694,7 @@
         "wanikani"
       ],
       "confidence": 0.838,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -36132,7 +36720,7 @@
         "wanikani"
       ],
       "confidence": 0.4491,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -36160,7 +36748,7 @@
         "wanikani"
       ],
       "confidence": 0.7991,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -36267,8 +36855,8 @@
       "word": "冬",
       "reading": "ふゆ",
       "meanings": [
-        "winter",
-        "Winter"
+        "Winter",
+        "winter"
       ],
       "parts_of_speech": [
         "noun"
@@ -36395,6 +36983,48 @@
       }
     },
     {
+      "word": "冷たい",
+      "reading": "冷[つめ;h]たい",
+      "meanings": [
+        "冷たい (つめたい) ★★★★\n∙ cold (to the touch); chilly; icy; freezing\n∙ (emotionally) cold; coldhearted; unfeeling; indifferent; unfriendly; distant"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
+      "word": "冷やし",
+      "reading": "冷[ひ;k2]やし",
+      "meanings": [
+        "冷やし (ひやし) ★★★★\n∙ chilled; chilling"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "冷やす",
       "reading": "ひやす",
       "meanings": [
@@ -36433,6 +37063,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "冷奴",
+      "reading": "冷奴[ひややっこ;n3]",
+      "meanings": [
+        "冷奴 (ひややっこ) ★\n∙ cold tofu"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -36497,6 +37148,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "冷酒",
+      "reading": "冷酒[れいしゅ]",
+      "meanings": [
+        "冷酒 (れいしゅ) ★\n∙ cold sake"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -37125,8 +37797,8 @@
       "word": "出かける",
       "reading": "でかける",
       "meanings": [
-        "to go out",
         "To Go Out",
+        "to go out",
         "To Head Out",
         "To Leave"
       ],
@@ -37212,14 +37884,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8504,
+      "confidence": 0.75,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 40,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -37312,7 +37984,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -37444,6 +38116,27 @@
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-07-19"
+        }
+      }
+    },
+    {
+      "word": "出汁",
+      "reading": "出汁[だし]",
+      "meanings": [
+        "出汁 (だし) ★★\n∙ dashi (Japanese soup stock made from fish and kelp)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -38047,8 +38740,8 @@
       "word": "切る",
       "reading": "きる",
       "meanings": [
-        "to cut",
-        "To Cut"
+        "To Cut",
+        "to cut"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -38154,6 +38847,48 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "切符",
+      "reading": "切符[きっぷ;h]",
+      "meanings": [
+        "切符 (きっぷ) ★★★\n∙ ticket"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
+      "word": "切符売り場",
+      "reading": "切符売り場[きっぷうりば;h]",
+      "meanings": [
+        "切符売り場 (きっぷうりば) ★★★\n∙ ticket window; box office; ticket"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -39034,8 +39769,8 @@
       "word": "到着",
       "reading": "とうちゃく",
       "meanings": [
-        "arrival",
-        "Arrival"
+        "Arrival",
+        "arrival"
       ],
       "parts_of_speech": [
         "noun",
@@ -39085,8 +39820,8 @@
       "word": "制服",
       "reading": "せいふく",
       "meanings": [
-        "uniform",
-        "Uniform"
+        "Uniform",
+        "uniform"
       ],
       "parts_of_speech": [
         "noun"
@@ -40653,8 +41388,8 @@
       "word": "効く",
       "reading": "きく",
       "meanings": [
-        "To Be Effective",
         "to be effective",
+        "To Be Effective",
         "To Work Effectively"
       ],
       "parts_of_speech": [
@@ -40863,7 +41598,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.75,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "anki": {
@@ -40876,7 +41611,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -40917,7 +41652,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -40952,7 +41687,7 @@
         "wanikani"
       ],
       "confidence": 0.924,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -40983,7 +41718,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -41043,7 +41778,7 @@
         "wanikani"
       ],
       "confidence": 0.99,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -41065,7 +41800,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 0
@@ -41439,7 +42174,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.738,
+      "confidence": 0.512,
       "writable": false,
       "study": {
         "anki": {
@@ -41449,7 +42184,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -42019,14 +42754,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4429,
+      "confidence": 0.3807,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -42226,14 +42961,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7867,
+      "confidence": 0.8504,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -42580,10 +43315,10 @@
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -42639,8 +43374,8 @@
       "reading": "じゅうぶん",
       "meanings": [
         "Enough",
-        "plenty",
         "Plenty",
+        "plenty",
         "Sufficient"
       ],
       "parts_of_speech": [
@@ -42698,7 +43433,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -42831,14 +43566,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8536,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -42976,8 +43711,8 @@
       "word": "半分",
       "reading": "はんぶん",
       "meanings": [
-        "half",
-        "Half"
+        "Half",
+        "half"
       ],
       "parts_of_speech": [
         "noun"
@@ -43021,6 +43756,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "半片",
+      "reading": "半片[はんぺん;n3]",
+      "meanings": [
+        "半片 (はんぺん)\n∙ pounded fish cake\n∙ half a slice; half a ticket; ticket stub"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -44271,6 +45027,27 @@
       }
     },
     {
+      "word": "厚い",
+      "reading": "厚[あつ;h]い",
+      "meanings": [
+        "厚い (あつい) ★★★★\n∙ thick; deep; heavy\n∙ kind; cordial; hospitable; warm; faithful\n∙ abundant"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "原作",
       "reading": "げんさく",
       "meanings": [
@@ -44517,8 +45294,8 @@
       "meanings": [
         "Harsh",
         "Severe",
-        "strict",
-        "Strict"
+        "Strict",
+        "strict"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -44697,8 +45474,8 @@
       "word": "参加",
       "reading": "さんか",
       "meanings": [
-        "Participation",
-        "participation"
+        "participation",
+        "Participation"
       ],
       "parts_of_speech": [
         "noun",
@@ -45653,7 +46430,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7867,
+      "confidence": 0.8504,
       "writable": false,
       "study": {
         "anki": {
@@ -45666,7 +46443,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -45737,7 +46514,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -45759,7 +46536,7 @@
         "wanikani"
       ],
       "confidence": 0.404,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 3
@@ -45785,7 +46562,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -45818,7 +46595,7 @@
         "wanikani"
       ],
       "confidence": 0.252,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -46016,7 +46793,7 @@
         "wanikani"
       ],
       "confidence": 0.8442,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -46119,8 +46896,8 @@
       "word": "口",
       "reading": "くち",
       "meanings": [
-        "Mouth",
-        "mouth"
+        "mouth",
+        "Mouth"
       ],
       "parts_of_speech": [
         "noun"
@@ -46286,8 +47063,8 @@
       "reading": "ふるい",
       "meanings": [
         "Ancient",
-        "Old",
         "old",
+        "Old",
         "Out-Of-Date"
       ],
       "parts_of_speech": [
@@ -46798,7 +47575,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -46908,8 +47685,8 @@
       "word": "右",
       "reading": "みぎ",
       "meanings": [
-        "Right",
         "right",
+        "Right",
         "Right Direction"
       ],
       "parts_of_speech": [
@@ -47413,11 +48190,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.4,
+      "confidence": 0.498,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -47908,7 +48685,7 @@
         "wanikani"
       ],
       "confidence": 0.5238,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -49252,7 +50029,7 @@
         "wanikani"
       ],
       "confidence": 0.8427,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -49279,7 +50056,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -49348,7 +50125,7 @@
         "wanikani"
       ],
       "confidence": 0.502,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -50408,7 +51185,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -50453,7 +51230,7 @@
         "wanikani"
       ],
       "confidence": 0.322,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -50974,6 +51751,27 @@
       }
     },
     {
+      "word": "喫茶店",
+      "reading": "喫茶店[きっさてん;h,n3]",
+      "meanings": [
+        "喫茶店 (きっさてん)\n∙ coffee shop; tearoom; coffee lounge; coffeehouse; cafe"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "営む",
       "reading": "いとなむ",
       "meanings": [
@@ -51127,8 +51925,8 @@
       "word": "嘘",
       "reading": "うそ",
       "meanings": [
-        "lie",
-        "Lie"
+        "Lie",
+        "lie"
       ],
       "parts_of_speech": [
         "noun",
@@ -51904,8 +52702,8 @@
       "word": "回復",
       "reading": "かいふく",
       "meanings": [
-        "recovery",
-        "Recovery"
+        "Recovery",
+        "recovery"
       ],
       "parts_of_speech": [
         "noun",
@@ -52770,6 +53568,27 @@
       }
     },
     {
+      "word": "国籍",
+      "reading": "国籍[こくせき;h]",
+      "meanings": [
+        "国籍 (こくせき) ★★★\n∙ nationality; citizenship\n∙ nationality (ship, airplane, etc.); registration; flag"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "国賓",
       "reading": "こくひん",
       "meanings": [
@@ -52945,7 +53764,7 @@
         "wanikani"
       ],
       "confidence": 0.8396,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -53221,7 +54040,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -53241,8 +54060,8 @@
       "word": "地上",
       "reading": "ちじょう",
       "meanings": [
-        "above ground",
         "Above Ground",
+        "above ground",
         "On The Ground",
         "The Earth's Surface"
       ],
@@ -53256,7 +54075,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -53291,7 +54110,7 @@
         "wanikani"
       ],
       "confidence": 0.8458,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -53345,7 +54164,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -53371,7 +54190,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -53436,7 +54255,7 @@
         "anki"
       ],
       "confidence": 0.3634,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 10,
@@ -53561,8 +54380,8 @@
       "word": "地獄",
       "reading": "じごく",
       "meanings": [
-        "hell",
-        "Hell"
+        "Hell",
+        "hell"
       ],
       "parts_of_speech": [
         "noun"
@@ -53622,7 +54441,7 @@
         "wanikani"
       ],
       "confidence": 0.782,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -54138,8 +54957,8 @@
       "word": "城",
       "reading": "しろ",
       "meanings": [
-        "castle",
-        "Castle"
+        "Castle",
+        "castle"
       ],
       "parts_of_speech": [
         "noun"
@@ -54668,8 +55487,8 @@
       "reading": "ほうこく",
       "meanings": [
         "Information",
-        "Report",
-        "report"
+        "report",
+        "Report"
       ],
       "parts_of_speech": [
         "noun",
@@ -55128,6 +55947,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "塩",
+      "reading": "塩[しお;o]",
+      "meanings": [
+        "塩 (しお) ★★★★\n∙ salt (i.e. sodium chloride); common salt; table salt\n∙ salt (e.g. sodium chloride, calcium sulfate, etc.)\n∙ hardship; toil; trouble\n∙ saltiness"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -55876,7 +56716,7 @@
         "wanikani"
       ],
       "confidence": 0.8411,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -55902,7 +56742,7 @@
         "wanikani"
       ],
       "confidence": 0.838,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -55927,7 +56767,7 @@
         "wanikani"
       ],
       "confidence": 0.712,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -55954,7 +56794,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -55988,13 +56828,34 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
           "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "売店",
+      "reading": "売店[ばいてん;h]",
+      "meanings": [
+        "売店 (ばいてん) ★★★\n∙ stand; stall; booth; kiosk; store"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": true,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -56321,8 +57182,8 @@
       "word": "夏",
       "reading": "なつ",
       "meanings": [
-        "summer",
-        "Summer"
+        "Summer",
+        "summer"
       ],
       "parts_of_speech": [
         "noun"
@@ -56860,6 +57721,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "外科",
+      "reading": "外科[げか;h]",
+      "meanings": [
+        "外科 (げか) ★★★★\n∙ surgery\n∙ department of surgery (hospital, etc.)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": true,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -57518,8 +58400,8 @@
       "word": "大人",
       "reading": "おとな",
       "meanings": [
-        "Adult",
         "adult",
+        "Adult",
         "Mature"
       ],
       "parts_of_speech": [
@@ -57706,7 +58588,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -59204,8 +60086,8 @@
       "word": "太陽",
       "reading": "たいよう",
       "meanings": [
-        "Sun",
-        "sun"
+        "sun",
+        "Sun"
       ],
       "parts_of_speech": [
         "noun"
@@ -60337,14 +61219,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2251,
+      "confidence": 0.2928,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 7,
+          "ease": 2.5,
+          "interval": 6,
+          "last_reviewed": "2026-08-17"
         },
         "wanikani": {
           "srs_stage": null
@@ -60787,8 +61669,8 @@
       "reading": "いもうと",
       "meanings": [
         "Little Sister",
-        "Younger Sister",
-        "younger sister"
+        "younger sister",
+        "Younger Sister"
       ],
       "parts_of_speech": [
         "noun"
@@ -60948,7 +61830,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -60961,8 +61843,8 @@
       "meanings": [
         "Something Begins",
         "Something Starts",
-        "to begin",
         "To Begin",
+        "to begin",
         "To Start"
       ],
       "parts_of_speech": [
@@ -60975,7 +61857,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -61003,7 +61885,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -61031,7 +61913,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 9
@@ -61058,7 +61940,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -61427,6 +62309,48 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "婦人",
+      "reading": "婦人[ふじん;h]",
+      "meanings": [
+        "婦人 (ふじん) ★★★★\n∙ woman; lady; adult female"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
+      "word": "婦人服",
+      "reading": "婦人服[ふじんふく;n2]",
+      "meanings": [
+        "婦人服 (ふじんふく)\n∙ women's clothing"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -61989,7 +62913,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -62331,7 +63255,7 @@
         "wanikani"
       ],
       "confidence": 0.628,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -62415,8 +63339,8 @@
       "word": "学校",
       "reading": "がっこう",
       "meanings": [
-        "School",
-        "school"
+        "school",
+        "School"
       ],
       "parts_of_speech": [
         "noun"
@@ -62733,7 +63657,7 @@
         "wanikani"
       ],
       "confidence": 0.8396,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -62767,7 +63691,7 @@
         "wanikani"
       ],
       "confidence": 0.3807,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -63418,14 +64342,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7089,
+      "confidence": 0.5316,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -63805,8 +64729,8 @@
       "word": "宣言",
       "reading": "せんげん",
       "meanings": [
-        "declaration",
         "Declaration",
+        "declaration",
         "Proclamation"
       ],
       "parts_of_speech": [
@@ -63860,7 +64784,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -64119,6 +65043,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "家庭用品",
+      "reading": "家庭用品[かていようひん;h]",
+      "meanings": [
+        "家庭用品 (かていようひん) ★★★★\n∙ household articles"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -64842,7 +65787,7 @@
         "wanikani"
       ],
       "confidence": 0.4135,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -64876,6 +65821,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "寝具",
+      "reading": "寝具[しんぐ;a]",
+      "meanings": [
+        "寝具 (しんぐ) ★★\n∙ bedding; bedclothes"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -65467,14 +66433,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6249,
+      "confidence": 0.4491,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -66029,8 +66995,8 @@
       "reading": "ちいさい",
       "meanings": [
         "Little",
-        "Small",
-        "small"
+        "small",
+        "Small"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -66076,6 +67042,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "小児科",
+      "reading": "小児科[しょうにか;h]",
+      "meanings": [
+        "小児科 (しょうにか)\n∙ pediatrics"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -66411,6 +67398,27 @@
       }
     },
     {
+      "word": "小麦粉",
+      "reading": "小麦粉[こむぎこ;h]",
+      "meanings": [
+        "小麦粉 (こむぎこ)\n∙ wheat flour"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "少々",
       "reading": "しょうしょう",
       "meanings": [
@@ -66618,8 +67626,8 @@
       "word": "少年",
       "reading": "しょうねん",
       "meanings": [
-        "boy",
         "Boy",
+        "boy",
         "Young Boy",
         "Youth"
       ],
@@ -67530,8 +68538,8 @@
       "word": "山",
       "reading": "やま",
       "meanings": [
-        "mountain",
-        "Mountain"
+        "Mountain",
+        "mountain"
       ],
       "parts_of_speech": [
         "noun"
@@ -67683,6 +68691,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "山芋",
+      "reading": "山芋[やまいも;h]",
+      "meanings": [
+        "山芋 (やまいも) ★\n∙ Japanese yam (Dioscorea japonica)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -68655,8 +69684,8 @@
       "word": "左",
       "reading": "ひだり",
       "meanings": [
-        "left",
         "Left",
+        "left",
         "Left Direction"
       ],
       "parts_of_speech": [
@@ -69666,7 +70695,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -70349,11 +71378,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.402,
+      "confidence": 0.498,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -70841,6 +71870,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "年齢",
+      "reading": "年齢[ねんれい;h]",
+      "meanings": [
+        "年齢 (ねんれい) ★★★★\n∙ age; years"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -72627,6 +73677,27 @@
       }
     },
     {
+      "word": "引き出し",
+      "reading": "引き出[ひきだ;k3]し",
+      "meanings": [
+        "引き出し (ひきだし) ★★★\n∙ drawer\n∙ withdrawal (of money from an account)\n∙ variety of knowledge and experience useful for handling things impromptu"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "引き分け",
       "reading": "ひきわけ",
       "meanings": [
@@ -73670,8 +74741,8 @@
       "reading": "かたち",
       "meanings": [
         "Form",
-        "Shape",
-        "shape"
+        "shape",
+        "Shape"
       ],
       "parts_of_speech": [
         "noun",
@@ -74240,7 +75311,7 @@
         "wanikani"
       ],
       "confidence": 0.92,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -74262,7 +75333,7 @@
         "wanikani"
       ],
       "confidence": 0.6311,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -74290,7 +75361,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -74924,14 +75995,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3907,
+      "confidence": 0.3842,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 47,
-          "ease": 2.15,
-          "interval": 2,
-          "last_reviewed": "2026-08-16"
+          "reviews": 48,
+          "ease": 2.0,
+          "interval": 3,
+          "last_reviewed": "2026-08-17"
         }
       }
     },
@@ -75548,8 +76619,8 @@
       "word": "心臓",
       "reading": "しんぞう",
       "meanings": [
-        "Heart",
-        "heart"
+        "heart",
+        "Heart"
       ],
       "parts_of_speech": [
         "noun"
@@ -76987,7 +78058,7 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.246,
+      "confidence": 0.244,
       "writable": false,
       "study": {
         "wanikani": {
@@ -77191,7 +78262,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -77221,7 +78292,7 @@
         "wanikani"
       ],
       "confidence": 0.396,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -77249,7 +78320,7 @@
         "wanikani"
       ],
       "confidence": 0.494,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 4
@@ -77311,11 +78382,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.514,
+      "confidence": 0.644,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -77334,7 +78405,7 @@
         "wanikani"
       ],
       "confidence": 0.624,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 5
@@ -77386,6 +78457,27 @@
         },
         "wanikani": {
           "srs_stage": 8
+        }
+      }
+    },
+    {
+      "word": "性別",
+      "reading": "性別[せいべつ;h]",
+      "meanings": [
+        "性別 (せいべつ) ★★★\n∙ gender; distinction of sex; sex"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -77850,8 +78942,8 @@
       "word": "恐怖",
       "reading": "きょうふ",
       "meanings": [
-        "Fear",
         "fear",
+        "Fear",
         "Terror"
       ],
       "parts_of_speech": [
@@ -78290,8 +79382,8 @@
       "word": "息",
       "reading": "いき",
       "meanings": [
-        "breath",
-        "Breath"
+        "Breath",
+        "breath"
       ],
       "parts_of_speech": [
         "noun"
@@ -78613,8 +79705,8 @@
       "word": "悪い",
       "reading": "わるい",
       "meanings": [
-        "Bad",
         "bad",
+        "Bad",
         "Poor",
         "Wrong"
       ],
@@ -78883,14 +79975,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5269,
+      "confidence": 0.628,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -79211,7 +80303,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4413,
+      "confidence": 0.5176,
       "writable": false,
       "study": {
         "anki": {
@@ -79224,7 +80316,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -79233,8 +80325,8 @@
       "reading": "じょうほう",
       "meanings": [
         "Data",
-        "information",
-        "Information"
+        "Information",
+        "information"
       ],
       "parts_of_speech": [
         "noun"
@@ -79658,7 +80750,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -79702,7 +80794,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -79732,14 +80824,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5191,
+      "confidence": 0.4429,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -79788,7 +80880,7 @@
         "wanikani"
       ],
       "confidence": 0.728,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -79856,8 +80948,8 @@
       "word": "意見",
       "reading": "いけん",
       "meanings": [
-        "Opinion",
         "opinion",
+        "Opinion",
         "View"
       ],
       "parts_of_speech": [
@@ -79871,7 +80963,7 @@
         "wanikani"
       ],
       "confidence": 0.5207,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -79988,8 +81080,8 @@
       "word": "愛",
       "reading": "あい",
       "meanings": [
-        "love",
-        "Love"
+        "Love",
+        "love"
       ],
       "parts_of_speech": [
         "noun",
@@ -80337,7 +81429,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.4476,
       "writable": false,
       "study": {
         "anki": {
@@ -80350,7 +81442,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -80490,8 +81582,8 @@
       "word": "感覚",
       "reading": "かんかく",
       "meanings": [
-        "sensation",
         "Sensation",
+        "sensation",
         "Sense",
         "The Senses"
       ],
@@ -81788,8 +82880,8 @@
       "word": "成功",
       "reading": "せいこう",
       "meanings": [
-        "success",
-        "Success"
+        "Success",
+        "success"
       ],
       "parts_of_speech": [
         "noun",
@@ -82799,8 +83891,8 @@
       "word": "扉",
       "reading": "とびら",
       "meanings": [
-        "Door",
         "door",
+        "Door",
         "Hinged Door"
       ],
       "parts_of_speech": [
@@ -82898,8 +83990,8 @@
       "reading": "てつだう",
       "meanings": [
         "To Assist",
-        "To Help",
         "to help",
+        "To Help",
         "To Lend A Hand"
       ],
       "parts_of_speech": [
@@ -82944,7 +84036,7 @@
         "wanikani"
       ],
       "confidence": 0.8442,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -83110,8 +84202,8 @@
       "word": "手紙",
       "reading": "てがみ",
       "meanings": [
-        "Letter",
-        "letter"
+        "letter",
+        "Letter"
       ],
       "parts_of_speech": [
         "noun",
@@ -83728,8 +84820,8 @@
       "reading": "わざ",
       "meanings": [
         "Art",
-        "Skill",
         "skill",
+        "Skill",
         "Technique"
       ],
       "parts_of_speech": [
@@ -83781,8 +84873,8 @@
         "Craft",
         "Skill",
         "Technique",
-        "technology",
-        "Technology"
+        "Technology",
+        "technology"
       ],
       "parts_of_speech": [
         "noun"
@@ -84223,14 +85315,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6296,
+      "confidence": 0.4538,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -85525,7 +86617,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -85555,7 +86647,7 @@
         "wanikani"
       ],
       "confidence": 0.6378,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -86581,8 +87673,8 @@
       "reading": "すてる",
       "meanings": [
         "To Abandon",
-        "To Throw Away",
-        "to throw away"
+        "to throw away",
+        "To Throw Away"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -87759,8 +88851,8 @@
       "reading": "かく",
       "meanings": [
         "To Depict",
-        "To Draw",
         "to draw",
+        "To Draw",
         "To Illustrate",
         "To Paint"
       ],
@@ -89542,6 +90634,27 @@
       }
     },
     {
+      "word": "改札口",
+      "reading": "改札口[かいさつぐち;n4]",
+      "meanings": [
+        "改札口 (かいさつぐち)\n∙ ticket barrier; ticket gate; wicket"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "改正",
       "reading": "かいせい",
       "meanings": [
@@ -90106,8 +91219,8 @@
       "reading": "すくう",
       "meanings": [
         "To Rescue",
-        "to save",
-        "To Save"
+        "To Save",
+        "to save"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -90235,7 +91348,7 @@
         "wanikani"
       ],
       "confidence": 0.7089,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -90262,8 +91375,8 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.75,
-      "writable": false,
+      "confidence": 0.95,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -90275,7 +91388,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -90295,7 +91408,7 @@
         "wanikani"
       ],
       "confidence": 0.7058,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -90321,7 +91434,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -90415,10 +91528,31 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 0
+        }
+      }
+    },
+    {
+      "word": "教科書",
+      "reading": "教科書[きょうかしょ;n3]",
+      "meanings": [
+        "教科書 (きょうかしょ)\n∙ textbook; coursebook; schoolbook"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": true,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -90982,11 +92116,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.492,
+      "confidence": 0.622,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -91005,11 +92139,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.83,
+      "confidence": 0.91,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -91017,8 +92151,8 @@
       "word": "敵",
       "reading": "てき",
       "meanings": [
-        "enemy",
         "Enemy",
+        "enemy",
         "Opponent"
       ],
       "parts_of_speech": [
@@ -91286,6 +92420,27 @@
         },
         "wanikani": {
           "srs_stage": 6
+        }
+      }
+    },
+    {
+      "word": "文房具",
+      "reading": "文房具[ぶんぼうぐ;n3]",
+      "meanings": [
+        "文房具 (ぶんぼうぐ)\n∙ stationery"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -91682,8 +92837,8 @@
       "word": "新しい",
       "reading": "あたらしい",
       "meanings": [
-        "New",
-        "new"
+        "new",
+        "New"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -91715,8 +92870,8 @@
       "reading": "あらた",
       "meanings": [
         "Fresh",
-        "New",
         "new",
+        "New",
         "Novel"
       ],
       "parts_of_speech": [
@@ -92606,8 +93761,8 @@
       "word": "日",
       "reading": "ひ",
       "meanings": [
-        "day",
         "Day",
+        "day",
         "Sun"
       ],
       "parts_of_speech": [
@@ -93306,8 +94461,8 @@
       "word": "早い",
       "reading": "はやい",
       "meanings": [
-        "early",
         "Early",
+        "early",
         "Fast",
         "fast (in terms of time)",
         "Quick"
@@ -93627,11 +94782,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.408,
+      "confidence": 0.326,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -93700,8 +94855,8 @@
       "word": "明るい",
       "reading": "あかるい",
       "meanings": [
-        "Bright",
         "bright",
+        "Bright",
         "Cheerful"
       ],
       "parts_of_speech": [
@@ -93722,6 +94877,27 @@
         },
         "wanikani": {
           "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "明太子",
+      "reading": "明太子[めんたいこ;n3,h]",
+      "meanings": [
+        "明太子 (めんたいこ)\n∙ walleye pollack roe (generally served salted and spiced with red pepper)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -94166,8 +95342,8 @@
       "word": "春",
       "reading": "はる",
       "meanings": [
-        "Spring",
-        "spring"
+        "spring",
+        "Spring"
       ],
       "parts_of_speech": [
         "noun"
@@ -94463,7 +95639,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -94511,9 +95687,9 @@
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 3,
-          "ease": null,
-          "interval": 0,
+          "reviews": 5,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-17"
         },
         "migaku": {
@@ -95070,8 +96246,8 @@
       "reading": "けしき",
       "meanings": [
         "Landscape",
-        "Scenery",
         "scenery",
+        "Scenery",
         "View"
       ],
       "parts_of_speech": [
@@ -95127,7 +96303,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -95150,7 +96326,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -95176,7 +96352,7 @@
         "wanikani"
       ],
       "confidence": 0.8613,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -95247,14 +96423,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3222,
+      "confidence": 0.3582,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 3,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 4,
+          "ease": 2.5,
+          "interval": 6,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -96740,14 +97916,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7058,
+      "confidence": 0.782,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -97112,7 +98288,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -97402,8 +98578,8 @@
       "word": "朝",
       "reading": "あさ",
       "meanings": [
-        "Morning",
-        "morning"
+        "morning",
+        "Morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -97669,8 +98845,8 @@
       "word": "木",
       "reading": "き",
       "meanings": [
-        "Tree",
         "tree",
+        "Tree",
         "Wood"
       ],
       "parts_of_speech": [
@@ -97868,8 +99044,8 @@
       "reading": "みらい",
       "meanings": [
         "Distant Future",
-        "Future",
         "future",
+        "Future",
         "The Distant Future",
         "The Future"
       ],
@@ -97999,8 +99175,8 @@
       "word": "本",
       "reading": "ほん",
       "meanings": [
-        "Book",
-        "book"
+        "book",
+        "Book"
       ],
       "parts_of_speech": [
         "noun"
@@ -98292,8 +99468,8 @@
       "reading": "ほんき",
       "meanings": [
         "Serious",
-        "seriousness",
-        "Seriousness"
+        "Seriousness",
+        "seriousness"
       ],
       "parts_of_speech": [
         "noun",
@@ -98727,8 +99903,8 @@
       "reading": "むら",
       "meanings": [
         "Rural Town",
-        "Village",
-        "village"
+        "village",
+        "Village"
       ],
       "parts_of_speech": [
         "noun"
@@ -98919,8 +100095,8 @@
       "word": "来年",
       "reading": "らいねん",
       "meanings": [
-        "Next Year",
-        "next year"
+        "next year",
+        "Next Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -98951,8 +100127,8 @@
       "word": "来月",
       "reading": "らいげつ",
       "meanings": [
-        "Next Month",
-        "next month"
+        "next month",
+        "Next Month"
       ],
       "parts_of_speech": [
         "noun"
@@ -99598,6 +100774,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "果物",
+      "reading": "果物[くだもの;n2]",
+      "meanings": [
+        "果物 (くだもの) ★★★★\n∙ fruit"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -100671,14 +101868,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.4491,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -100858,6 +102055,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "案内",
+      "reading": "案内[あんない;n3]",
+      "meanings": [
+        "案内 (あんない) ★★★★★\n∙ guidance; leading (the way); showing around\n∙ information; notice; notification\n∙ announcement (of one's arrival)\n∙ invitation\n∙ acquaintance; knowledge"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -101076,6 +102294,27 @@
       }
     },
     {
+      "word": "梅",
+      "reading": "梅[うめ;h]",
+      "meanings": [
+        "梅 (うめ) ★\n∙ Japanese apricot (Prunus mume); Japanese plum; ume; Chinese plum\n∙ lowest (of a three-tier ranking system)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "梅干し",
       "reading": "うめぼし",
       "meanings": [
@@ -101094,6 +102333,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "梅肉",
+      "reading": "梅肉[ばいにく;h]",
+      "meanings": [
+        "梅肉 (ばいにく)\n∙ shredded dried plum; plum pulp"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -101465,6 +102725,27 @@
       }
     },
     {
+      "word": "検査",
+      "reading": "検査[けんさ;a]",
+      "meanings": [
+        "検査 (けんさ) ★★★★★\n∙ inspection (e.g. customs, factory); examination; scan (e.g. MRI, PET, etc.)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "検査する",
       "reading": "けんさする",
       "meanings": [
@@ -101624,7 +102905,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -101733,7 +103014,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3278,
+      "confidence": 0.3791,
       "writable": true,
       "study": {
         "anki": {
@@ -101746,7 +103027,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -101801,14 +103082,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6202,
+      "confidence": 0.6949,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -102400,7 +103681,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.502,
+      "confidence": 0.404,
       "writable": false,
       "study": {
         "anki": {
@@ -102410,7 +103691,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -102708,7 +103989,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -102732,7 +104013,7 @@
         "wanikani"
       ],
       "confidence": 0.6918,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -102759,7 +104040,7 @@
         "wanikani"
       ],
       "confidence": 0.6218,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -102785,7 +104066,7 @@
         "wanikani"
       ],
       "confidence": 0.8333,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -102877,7 +104158,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -103165,8 +104446,8 @@
       "word": "歌う",
       "reading": "うたう",
       "meanings": [
-        "to sing",
-        "To Sing"
+        "To Sing",
+        "to sing"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -103510,8 +104791,8 @@
       "word": "正しい",
       "reading": "ただしい",
       "meanings": [
-        "Correct",
         "correct",
+        "Correct",
         "Right",
         "True"
       ],
@@ -104063,6 +105344,27 @@
       }
     },
     {
+      "word": "歯科",
+      "reading": "歯科[しか;a,o]",
+      "meanings": [
+        "歯科 (しか) ★★★\n∙ dentistry"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "歳",
       "reading": "さい",
       "meanings": [],
@@ -104161,8 +105463,8 @@
       "word": "歴史",
       "reading": "れきし",
       "meanings": [
-        "History",
-        "history"
+        "history",
+        "History"
       ],
       "parts_of_speech": [
         "noun",
@@ -104190,8 +105492,8 @@
       "word": "死",
       "reading": "し",
       "meanings": [
-        "death",
-        "Death"
+        "Death",
+        "death"
       ],
       "parts_of_speech": [
         "noun",
@@ -104925,8 +106227,8 @@
       "word": "殺す",
       "reading": "ころす",
       "meanings": [
-        "To Kill",
-        "to kill"
+        "to kill",
+        "To Kill"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -106075,7 +107377,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -106107,7 +107409,7 @@
         "wanikani"
       ],
       "confidence": 0.8473,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -106290,8 +107592,8 @@
       "word": "水",
       "reading": "みず",
       "meanings": [
-        "water",
-        "Water"
+        "Water",
+        "water"
       ],
       "parts_of_speech": [
         "noun"
@@ -106746,8 +108048,8 @@
       "word": "氷",
       "reading": "こおり",
       "meanings": [
-        "Ice",
-        "ice"
+        "ice",
+        "Ice"
       ],
       "parts_of_speech": [
         "noun"
@@ -107256,7 +108558,7 @@
         "wanikani"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -107277,7 +108579,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -107305,7 +108607,7 @@
         "wanikani"
       ],
       "confidence": 0.4491,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -107325,8 +108627,8 @@
       "word": "決める",
       "reading": "きめる",
       "meanings": [
-        "To Decide",
-        "to decide"
+        "to decide",
+        "To Decide"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -107338,7 +108640,7 @@
         "wanikani"
       ],
       "confidence": 0.334,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -107439,7 +108741,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -107651,6 +108953,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "沈菜",
+      "reading": "沈菜[キムチ;a]",
+      "meanings": [
+        "沈菜 (キムチ) ★★\n∙ kimchi; kimchee; spicy Korean pickled cabbage\n∙ Korea; Korean"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -108109,6 +109432,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "油",
+      "reading": "油[あぶら;h]",
+      "meanings": [
+        "油 (あぶら) ★★★★\n∙ oil"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -110610,14 +111954,35 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8458,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "海苔",
+      "reading": "海苔[のり;o]",
+      "meanings": [
+        "海苔 (のり) ★★\n∙ nori; laver; edible seaweed, usu. Porphyra yezoensis or P. tenera, usu. dried and pressed into sheets"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -110701,6 +112066,27 @@
       "study": {
         "wanikani": {
           "srs_stage": 8
+        }
+      }
+    },
+    {
+      "word": "海鮮",
+      "reading": "海鮮[かいせん;h]",
+      "meanings": [
+        "海鮮 (かいせん) ★★★\n∙ seafood"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -110991,8 +112377,8 @@
       "word": "涙",
       "reading": "なみだ",
       "meanings": [
-        "Tear",
         "tear",
+        "Tear",
         "Teardrop",
         "Tears"
       ],
@@ -111075,6 +112461,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "涼しい",
+      "reading": "涼[すず;k3]しい",
+      "meanings": [
+        "涼しい (すずしい) ★★★\n∙ cool; refreshing\n∙ clear (e.g. eyes); bright\n∙ clear; distinct\n∙ composed (facial expression); unruffled; unconcerned\n∙ pure; upright; innocent"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -111269,7 +112676,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3247,
+      "confidence": 0.3231,
       "writable": false,
       "study": {
         "migaku": {
@@ -112706,8 +114113,8 @@
       "word": "満足",
       "reading": "まんぞく",
       "meanings": [
-        "satisfaction",
         "Satisfaction",
+        "satisfaction",
         "Satisfied",
         "Totally Satisfied"
       ],
@@ -113599,7 +115006,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -113615,7 +115022,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -113638,7 +115045,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -113729,6 +115136,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "漬け",
+      "reading": "漬[づ]け",
+      "meanings": [
+        "漬け (づけ) ★★★\n∙ pickled (something)\n∙ pickled in (something); preserved in; dipped in\n∙ overreliance on (e.g. medication); excessive use of; addiction to; immersion in; intense involvement in"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -114511,8 +115939,8 @@
       "word": "火",
       "reading": "ひ",
       "meanings": [
-        "fire",
-        "Fire"
+        "Fire",
+        "fire"
       ],
       "parts_of_speech": [
         "noun"
@@ -115475,6 +116903,27 @@
       }
     },
     {
+      "word": "烏龍茶",
+      "reading": "烏龍茶[ウーロンちゃ]",
+      "meanings": [
+        "烏龍茶 (ウーロンちゃ)\n∙ oolong tea"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "無い",
       "reading": "ない",
       "meanings": [
@@ -116392,6 +117841,27 @@
       }
     },
     {
+      "word": "焼きそば",
+      "reading": "焼[や;h]きそば",
+      "meanings": [
+        "焼きそば (やきそば) ★★★\n∙ yakisoba; fried noodles, usu. with vegetables and meat"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "焼き肉",
       "reading": "やきにく",
       "meanings": [
@@ -116484,6 +117954,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "焼く",
+      "reading": "焼[や;h]く",
+      "meanings": [
+        "焼く (やく) ★★★★★\n∙ to burn\n∙ to roast; to broil; to grill; to bake; to toast; to barbecue\n∙ to heat; to heat up\n∙ to make (charcoal, pottery, bricks, etc.); to bake; to fire; to burn\n∙ to tan (i.e. suntan); to burn\n∙ to print (a photo); to burn (an optical disc)\n∙ to be jealous of; to be envious of; to envy"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -117164,6 +118655,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "燗酒",
+      "reading": "燗酒[かんざけ;h,a]",
+      "meanings": [
+        "燗酒 (かんざけ)\n∙ warmed sake"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -117878,6 +119390,27 @@
       }
     },
     {
+      "word": "特上",
+      "reading": "特上[とくじょう;a]",
+      "meanings": [
+        "特上 (とくじょう) ★★\n∙ first class plus; extra special"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "特別",
       "reading": "とくべつ",
       "meanings": [
@@ -117998,6 +119531,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "特製",
+      "reading": "特製[とくせい;h]",
+      "meanings": [
+        "特製 (とくせい) ★★★\n∙ special make; deluxe"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -118137,8 +119691,8 @@
       "word": "犬",
       "reading": "いぬ",
       "meanings": [
-        "Dog",
-        "dog"
+        "dog",
+        "Dog"
       ],
       "parts_of_speech": [
         "noun"
@@ -118923,8 +120477,8 @@
       "word": "猫",
       "reading": "ねこ",
       "meanings": [
-        "cat",
-        "Cat"
+        "Cat",
+        "cat"
       ],
       "parts_of_speech": [
         "noun"
@@ -119350,6 +120904,27 @@
         },
         "wanikani": {
           "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "玉子",
+      "reading": "玉子[たまご;n2,h]",
+      "meanings": [
+        "玉子 (たまご) ★★\n∙ (hen's) egg"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -120331,6 +121906,27 @@
       }
     },
     {
+      "word": "瓶ビール",
+      "reading": "瓶[びん]ビール",
+      "meanings": [
+        "瓶ビール (びんビール)\n∙ bottled beer; bottle beer"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "瓶詰",
       "reading": "びんづめ",
       "meanings": [
@@ -120357,8 +121953,8 @@
       "word": "甘い",
       "reading": "あまい",
       "meanings": [
-        "Sweet",
-        "sweet"
+        "sweet",
+        "Sweet"
       ],
       "parts_of_speech": [
         "expression",
@@ -120844,7 +122440,7 @@
         "wanikani"
       ],
       "confidence": 0.6233,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -121094,6 +122690,27 @@
       }
     },
     {
+      "word": "産婦人科",
+      "reading": "産婦人科[さんふじんか;h]",
+      "meanings": [
+        "産婦人科 (さんふじんか)\n∙ maternity and gynaecology department (gynecology); department of obstetrics and gynaecology (gynecology)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "産業",
       "reading": "さんぎょう",
       "meanings": [
@@ -121228,6 +122845,27 @@
         },
         "wanikani": {
           "srs_stage": 9
+        }
+      }
+    },
+    {
+      "word": "用品",
+      "reading": "用品[ようひん;h]",
+      "meanings": [
+        "用品 (ようひん) ★\n∙ articles; supplies; parts"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -121757,8 +123395,8 @@
       "word": "男の子",
       "reading": "おとこのこ",
       "meanings": [
-        "boy",
-        "Boy"
+        "Boy",
+        "boy"
       ],
       "parts_of_speech": [
         "noun"
@@ -122726,7 +124364,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.244,
+      "confidence": 0.308,
       "writable": false,
       "study": {
         "anki": {
@@ -122736,7 +124374,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -122869,14 +124507,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3822,
+      "confidence": 0.3324,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -123590,14 +125228,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8427,
+      "confidence": 0.7042,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -123989,8 +125627,8 @@
       "word": "白",
       "reading": "しろ",
       "meanings": [
-        "white",
-        "White"
+        "White",
+        "white"
       ],
       "parts_of_speech": [
         "noun"
@@ -124257,8 +125895,8 @@
       "meanings": [
         "All",
         "Everybody",
-        "Everyone",
-        "everyone"
+        "everyone",
+        "Everyone"
       ],
       "parts_of_speech": [
         "noun"
@@ -124548,6 +126186,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "皮膚科",
+      "reading": "皮膚科[ひふか;h]",
+      "meanings": [
+        "皮膚科 (ひふか)\n∙ dermatology"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -125151,7 +126810,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -125546,11 +127205,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.312,
+      "confidence": 0.394,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -126050,7 +127709,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -126160,7 +127819,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.254,
+      "confidence": 0.25,
       "writable": false,
       "study": {
         "anki": {
@@ -126314,8 +127973,8 @@
       "reading": "ねむる",
       "meanings": [
         "To Fall Asleep",
-        "to sleep",
-        "To Sleep"
+        "To Sleep",
+        "to sleep"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -126474,6 +128133,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "眼科",
+      "reading": "眼科[がんか;h,a]",
+      "meanings": [
+        "眼科 (がんか) ★★\n∙ ophthalmology"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -127144,11 +128824,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 1.0,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -127477,6 +129157,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "砂糖",
+      "reading": "砂糖[さとう;n2]",
+      "meanings": [
+        "砂糖 (さとう) ★★★★\n∙ sugar"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -128166,8 +129867,8 @@
       "word": "確認",
       "reading": "かくにん",
       "meanings": [
-        "confirmation",
         "Confirmation",
+        "confirmation",
         "Verification"
       ],
       "parts_of_speech": [
@@ -128316,6 +130017,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "磯汁",
+      "reading": "磯汁[いそじる;h]",
+      "meanings": [
+        "磯汁 (いそじる) ★★\n∙ seafood soup; soup made from fish, seaweed, etc. according to local availability"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -129564,7 +131286,7 @@
         "wanikani"
       ],
       "confidence": 0.5284,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129589,7 +131311,7 @@
         "wanikani"
       ],
       "confidence": 0.4491,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129677,7 +131399,7 @@
         "wanikani"
       ],
       "confidence": 0.4522,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129692,8 +131414,8 @@
       "reading": "あき",
       "meanings": [
         "Autumn",
-        "fall",
-        "Fall"
+        "Fall",
+        "fall"
       ],
       "parts_of_speech": [
         "noun"
@@ -129734,7 +131456,7 @@
         "wanikani"
       ],
       "confidence": 0.8442,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -129760,7 +131482,7 @@
         "wanikani"
       ],
       "confidence": 0.838,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -130679,6 +132401,27 @@
       }
     },
     {
+      "word": "穴子",
+      "reading": "穴子[あなご;h]",
+      "meanings": [
+        "穴子 (あなご) ★\n∙ garden eel; conger eel (esp. the common Japanese conger, Conger myriaster)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "究明",
       "reading": "きゅうめい",
       "meanings": [
@@ -130881,7 +132624,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -131376,6 +133119,27 @@
       }
     },
     {
+      "word": "窓口",
+      "reading": "窓口[まどぐち;n2]",
+      "meanings": [
+        "窓口 (まどぐち) ★★★\n∙ counter; window; teller window; ticket window\n∙ contact person; point of contact"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "窮乏",
       "reading": "きゅうぼう",
       "meanings": [
@@ -131473,7 +133237,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -131499,7 +133263,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -131523,7 +133287,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -131552,7 +133316,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -131587,7 +133351,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -132033,8 +133797,8 @@
       "word": "笑顔",
       "reading": "えがお",
       "meanings": [
-        "Smile",
         "smile",
+        "Smile",
         "Smiling Face"
       ],
       "parts_of_speech": [
@@ -132347,6 +134111,27 @@
       }
     },
     {
+      "word": "筋子",
+      "reading": "筋子[すじこ;o,h]",
+      "meanings": [
+        "筋子 (すじこ)\n∙ salted salmon roe"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "筋肉",
       "reading": "きんにく",
       "meanings": [
@@ -132398,7 +134183,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -132423,7 +134208,7 @@
         "wanikani"
       ],
       "confidence": 0.6296,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -132443,8 +134228,8 @@
       "word": "答える",
       "reading": "こたえる",
       "meanings": [
-        "To Answer",
         "to answer",
+        "To Answer",
         "To Reply",
         "To Respond"
       ],
@@ -132458,7 +134243,7 @@
         "wanikani"
       ],
       "confidence": 0.4569,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -133631,7 +135416,7 @@
         "wanikani"
       ],
       "confidence": 0.62,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 5
@@ -133947,6 +135732,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "納豆",
+      "reading": "納豆[なっとう;n3]",
+      "meanings": [
+        "納豆 (なっとう) ★★★\n∙ natto (fermented soybeans)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -134748,6 +136554,27 @@
       }
     },
     {
+      "word": "紳士",
+      "reading": "紳士[しんし;a]",
+      "meanings": [
+        "紳士 (しんし) ★★★★\n∙ gentleman"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "紳士協定",
       "reading": "しんしきょうてい",
       "meanings": [
@@ -134764,6 +136591,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "紳士服",
+      "reading": "紳士服[しんしふく;n3]",
+      "meanings": [
+        "紳士服 (しんしふく)\n∙ suits for gentlemen; menswear"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -134876,7 +136724,7 @@
         "wanikani"
       ],
       "confidence": 0.8411,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -134896,8 +136744,8 @@
       "word": "終わり",
       "reading": "おわり",
       "meanings": [
-        "end",
         "End",
+        "end",
         "Finish",
         "The End",
         "The Finish"
@@ -134910,7 +136758,7 @@
         "wanikani"
       ],
       "confidence": 1.0,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -134942,7 +136790,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -135055,7 +136903,7 @@
         "wanikani"
       ],
       "confidence": 0.8473,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -135314,8 +137162,8 @@
       "word": "経験",
       "reading": "けいけん",
       "meanings": [
-        "experience",
-        "Experience"
+        "Experience",
+        "experience"
       ],
       "parts_of_speech": [
         "noun",
@@ -135436,8 +137284,8 @@
       "word": "結婚",
       "reading": "けっこん",
       "meanings": [
-        "marriage",
-        "Marriage"
+        "Marriage",
+        "marriage"
       ],
       "parts_of_speech": [
         "noun",
@@ -137028,7 +138876,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -137109,6 +138957,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "締め鯖",
+      "reading": "締め鯖[しめさば;o]",
+      "meanings": [
+        "締め鯖 (しめさば) ★★★\n∙ soused (vinegared) mackerel"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -137426,7 +139295,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -137456,7 +139325,7 @@
         "wanikani"
       ],
       "confidence": 0.51,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 4
@@ -138082,8 +139951,8 @@
       "word": "繰り返す",
       "reading": "くりかえす",
       "meanings": [
-        "To Repeat",
         "to repeat",
+        "To Repeat",
         "To Repeat Over And Over"
       ],
       "parts_of_speech": [
@@ -138557,8 +140426,8 @@
       "word": "美人",
       "reading": "びじん",
       "meanings": [
-        "Beautiful Woman",
-        "beautiful woman"
+        "beautiful woman",
+        "Beautiful Woman"
       ],
       "parts_of_speech": [
         "noun"
@@ -139051,7 +140920,7 @@
         "wanikani"
       ],
       "confidence": 0.8411,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -139375,7 +141244,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -139399,7 +141268,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -139434,7 +141303,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -139465,7 +141334,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -139491,7 +141360,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -139779,6 +141648,27 @@
         },
         "wanikani": {
           "srs_stage": 4
+        }
+      }
+    },
+    {
+      "word": "耳鼻科",
+      "reading": "耳鼻科[じびか;a]",
+      "meanings": [
+        "耳鼻科 (じびか) ★\n∙ otolaryngology; ear, nose, and throat department"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -140891,8 +142781,8 @@
       "word": "背中",
       "reading": "せなか",
       "meanings": [
-        "back",
         "Back",
+        "back",
         "One's Back"
       ],
       "parts_of_speech": [
@@ -141105,6 +142995,27 @@
       }
     },
     {
+      "word": "胡瓜",
+      "reading": "胡瓜[きゅうり;a]",
+      "meanings": [
+        "胡瓜 (きゅうり)\n∙ cucumber (Cucumis sativus)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "胴",
       "reading": "どう",
       "meanings": [
@@ -141154,8 +143065,8 @@
       "reading": "むね",
       "meanings": [
         "Breasts",
-        "chest",
-        "Chest"
+        "Chest",
+        "chest"
       ],
       "parts_of_speech": [
         "noun"
@@ -142357,7 +144268,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -142382,7 +144293,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -142444,7 +144355,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -142497,7 +144408,7 @@
         "wanikani"
       ],
       "confidence": 0.922,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -142578,7 +144489,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 0
@@ -142839,7 +144750,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 0
@@ -142895,8 +144806,8 @@
       "reading": "しぜん",
       "meanings": [
         "Natural",
-        "Nature",
-        "nature"
+        "nature",
+        "Nature"
       ],
       "parts_of_speech": [
         "noun",
@@ -142999,7 +144910,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -143169,7 +145080,7 @@
         "wanikani"
       ],
       "confidence": 0.7913,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -143382,8 +145293,8 @@
       "word": "舌",
       "reading": "した",
       "meanings": [
-        "tongue",
-        "Tongue"
+        "Tongue",
+        "tongue"
       ],
       "parts_of_speech": [
         "noun"
@@ -143726,7 +145637,7 @@
         "wanikani"
       ],
       "confidence": 0.8536,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -144223,8 +146134,8 @@
       "word": "花",
       "reading": "はな",
       "meanings": [
-        "Flower",
-        "flower"
+        "flower",
+        "Flower"
       ],
       "parts_of_speech": [
         "noun"
@@ -145450,6 +147361,27 @@
       }
     },
     {
+      "word": "茶碗蒸し",
+      "reading": "茶碗蒸[ちゃわんむ;n2,h]し",
+      "meanings": [
+        "茶碗蒸し (ちゃわんむし)\n∙ chawanmushi; savoury steamed egg custard with chicken, mushrooms, etc. (savory)"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "茶色",
       "reading": "ちゃいろ",
       "meanings": [
@@ -146065,8 +147997,8 @@
       "meanings": [
         "To Drop",
         "To Fail",
-        "To Fall",
         "to fall",
+        "To Fall",
         "To Fall Down"
       ],
       "parts_of_speech": [
@@ -146756,6 +148688,27 @@
       }
     },
     {
+      "word": "薄い",
+      "reading": "薄[うす;h]い",
+      "meanings": [
+        "薄い (うすい) ★★★★\n∙ thin\n∙ pale; light; faint\n∙ watery; thin; dilute\n∙ weak (taste, etc.); little (affection, etc.) not much (of a presence)\n∙ slim (probability, etc.); small\n∙ sparse; patchy; scattered"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "薄まる",
       "reading": "うすまる",
       "meanings": [
@@ -146979,6 +148932,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "薬局",
+      "reading": "薬局[やっきょく;h]",
+      "meanings": [
+        "薬局 (やっきょく) ★★★\n∙ pharmacy; drugstore; chemist's (shop)\n∙ hospital pharmacy; dispensary"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -148142,7 +150116,7 @@
         "wanikani"
       ],
       "confidence": 0.446,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -148519,14 +150493,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4491,
+      "confidence": 0.3853,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -148568,7 +150542,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3356,
+      "confidence": 0.3853,
       "writable": false,
       "study": {
         "anki": {
@@ -148581,7 +150555,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -149699,14 +151673,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5316,
+      "confidence": 0.6327,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -149725,14 +151699,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7042,
+      "confidence": 0.5284,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -150209,8 +152183,8 @@
       "word": "見せる",
       "reading": "みせる",
       "meanings": [
-        "To Show",
-        "to show"
+        "to show",
+        "To Show"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -150741,7 +152715,7 @@
         "wanikani"
       ],
       "confidence": 0.496,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 4
@@ -150765,7 +152739,7 @@
         "wanikani"
       ],
       "confidence": 0.898,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -151032,8 +153006,8 @@
       "reading": "おぼえる",
       "meanings": [
         "To Learn",
-        "To Memorize",
         "to memorize",
+        "To Memorize",
         "To Pick Up",
         "To Remember"
       ],
@@ -151104,7 +153078,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.512,
+      "confidence": 0.642,
       "writable": true,
       "study": {
         "anki": {
@@ -151114,7 +153088,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -151715,11 +153689,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.248,
+      "confidence": 0.314,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -151981,8 +153955,8 @@
       "word": "触る",
       "reading": "さわる",
       "meanings": [
-        "To Touch",
         "to touch",
+        "To Touch",
         "To Touch Something"
       ],
       "parts_of_speech": [
@@ -152610,8 +154584,8 @@
       "word": "記憶",
       "reading": "きおく",
       "meanings": [
-        "memory",
         "Memory",
+        "memory",
         "Recollection"
       ],
       "parts_of_speech": [
@@ -152862,14 +154836,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3841,
+      "confidence": 0.4046,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 9,
+          "ease": 2.5,
+          "interval": 3,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -153100,6 +155074,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "診察",
+      "reading": "診察[しんさつ;h]",
+      "meanings": [
+        "診察 (しんさつ) ★★★★\n∙ medical examination"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -153591,7 +155586,7 @@
         "wanikani"
       ],
       "confidence": 0.8396,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -153623,7 +155618,7 @@
         "wanikani"
       ],
       "confidence": 0.8427,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -153671,7 +155666,7 @@
         "wanikani"
       ],
       "confidence": 0.4491,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -153698,7 +155693,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -154705,8 +156700,8 @@
       "reading": "せつめい",
       "meanings": [
         "Description",
-        "Explanation",
-        "explanation"
+        "explanation",
+        "Explanation"
       ],
       "parts_of_speech": [
         "noun",
@@ -155622,8 +157617,8 @@
       "word": "謝る",
       "reading": "あやまる",
       "meanings": [
-        "To Apologize",
-        "to apologize"
+        "to apologize",
+        "To Apologize"
       ],
       "parts_of_speech": [
         "godan_verb"
@@ -155765,6 +157760,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "警察",
+      "reading": "警察[けいさつ;h]",
+      "meanings": [
+        "警察 (けいさつ) ★★★★★\n∙ police\n∙ police officer\n∙ police station"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -156845,8 +158861,8 @@
       "reading": "せめる",
       "meanings": [
         "To Accuse",
-        "to blame",
         "To Blame",
+        "to blame",
         "To Criticize",
         "To Reproach"
       ],
@@ -157231,8 +159247,8 @@
       "word": "買い物",
       "reading": "かいもの",
       "meanings": [
-        "Shopping",
-        "shopping"
+        "shopping",
+        "Shopping"
       ],
       "parts_of_speech": [
         "noun",
@@ -157244,7 +159260,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -157264,8 +159280,8 @@
       "word": "買う",
       "reading": "かう",
       "meanings": [
-        "to buy",
-        "To Buy"
+        "To Buy",
+        "to buy"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -157277,7 +159293,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -157302,7 +159318,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -157322,7 +159338,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -157342,7 +159358,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -157366,7 +159382,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -158010,8 +160026,8 @@
       "word": "質問",
       "reading": "しつもん",
       "meanings": [
-        "question",
-        "Question"
+        "Question",
+        "question"
       ],
       "parts_of_speech": [
         "noun",
@@ -158486,8 +160502,8 @@
       "word": "走る",
       "reading": "はしる",
       "meanings": [
-        "to run",
-        "To Run"
+        "To Run",
+        "to run"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -158571,8 +160587,8 @@
       "meanings": [
         "To Get Up",
         "to get up, to get out of bed",
-        "to occur",
         "To Occur",
+        "to occur",
         "To Wake Up"
       ],
       "parts_of_speech": [
@@ -158585,7 +160601,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -158619,7 +160635,7 @@
         "wanikani"
       ],
       "confidence": 0.936,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -158650,7 +160666,7 @@
         "wanikani"
       ],
       "confidence": 0.332,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -158935,8 +160951,8 @@
       "word": "趣味",
       "reading": "しゅみ",
       "meanings": [
-        "hobby",
-        "Hobby"
+        "Hobby",
+        "hobby"
       ],
       "parts_of_speech": [
         "noun"
@@ -159317,14 +161333,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.446,
+      "confidence": 0.3822,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -159823,14 +161839,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5269,
+      "confidence": 0.628,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -159935,14 +161951,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6311,
+      "confidence": 0.4538,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -160207,7 +162223,7 @@
         "wanikani"
       ],
       "confidence": 0.8396,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -160237,7 +162253,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -160268,7 +162284,7 @@
         "wanikani"
       ],
       "confidence": 0.902,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -160349,8 +162365,8 @@
       "word": "軽い",
       "reading": "かるい",
       "meanings": [
-        "light",
         "Light",
+        "light",
         "Light Weight",
         "Lightweight"
       ],
@@ -160900,7 +162916,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 0
@@ -160961,7 +162977,7 @@
         "wanikani"
       ],
       "confidence": 0.226,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 1
@@ -160981,7 +162997,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -161752,7 +163768,7 @@
         "wanikani"
       ],
       "confidence": 0.83,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -161803,7 +163819,7 @@
         "wanikani"
       ],
       "confidence": 0.838,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -161830,7 +163846,7 @@
         "wanikani"
       ],
       "confidence": 0.98,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -162986,8 +165002,8 @@
       "meanings": [
         "Avenue",
         "Road",
-        "Street",
         "street",
+        "Street",
         "Way"
       ],
       "parts_of_speech": [
@@ -163694,8 +165710,8 @@
       "reading": "すすむ",
       "meanings": [
         "To Advance",
-        "To Move Forward",
         "to move forward",
+        "To Move Forward",
         "To Progress"
       ],
       "parts_of_speech": [
@@ -163710,10 +165726,10 @@
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 3,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 4,
+          "ease": 2.5,
+          "interval": 4,
+          "last_reviewed": "2026-08-17"
         },
         "wanikani": {
           "srs_stage": 9
@@ -164261,7 +166277,7 @@
         "wanikani"
       ],
       "confidence": 0.8489,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -164286,7 +166302,7 @@
         "wanikani"
       ],
       "confidence": 0.92,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -164313,7 +166329,7 @@
         "wanikani"
       ],
       "confidence": 0.6264,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -164347,7 +166363,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -164371,7 +166387,7 @@
         "wanikani"
       ],
       "confidence": 0.8427,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -164461,7 +166477,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -164481,7 +166497,7 @@
         "wanikani"
       ],
       "confidence": 0.732,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 6
@@ -164501,7 +166517,7 @@
         "wanikani"
       ],
       "confidence": 0.92,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -164644,8 +166660,8 @@
       "reading": "かこ",
       "meanings": [
         "Past",
-        "the past",
-        "The Past"
+        "The Past",
+        "the past"
       ],
       "parts_of_speech": [
         "noun"
@@ -164837,8 +166853,8 @@
       "word": "道具",
       "reading": "どうぐ",
       "meanings": [
-        "tool",
-        "Tool"
+        "Tool",
+        "tool"
       ],
       "parts_of_speech": [
         "noun"
@@ -166196,7 +168212,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -166214,7 +168230,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -166241,7 +168257,7 @@
         "wanikani"
       ],
       "confidence": 0.328,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -166267,7 +168283,7 @@
         "wanikani"
       ],
       "confidence": 0.498,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 4
@@ -166278,8 +168294,8 @@
       "word": "部屋",
       "reading": "へや",
       "meanings": [
-        "Room",
-        "room"
+        "room",
+        "Room"
       ],
       "parts_of_speech": [
         "noun"
@@ -166290,7 +168306,7 @@
         "wanikani"
       ],
       "confidence": 0.75,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 1,
@@ -166395,6 +168411,27 @@
       }
     },
     {
+      "word": "郵便番号",
+      "reading": "郵便番号[ゆうびんばんごう;n5]",
+      "meanings": [
+        "郵便番号 (ゆうびんばんごう)\n∙ postal code"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "郵便箱",
       "reading": "ゆうびんばこ",
       "meanings": [
@@ -166468,14 +168505,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4398,
+      "confidence": 0.3776,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -166653,14 +168690,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7913,
+      "confidence": 0.8536,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -166901,6 +168938,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "酢",
+      "reading": "酢[す;o]",
+      "meanings": [
+        "酢 (す) ★★★\n∙ vinegar"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -167301,6 +169359,27 @@
       }
     },
     {
+      "word": "醤油",
+      "reading": "醤油[しょうゆ;h]",
+      "meanings": [
+        "醤油 (しょうゆ) ★★★\n∙ soy sauce; shoyu"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "醸す",
       "reading": "かもす",
       "meanings": [
@@ -167564,7 +169643,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7104,
+      "confidence": 0.5316,
       "writable": false,
       "study": {
         "anki": {
@@ -167577,7 +169656,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -167705,6 +169784,27 @@
         },
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "野菜",
+      "reading": "野菜[やさい;h]",
+      "meanings": [
+        "野菜 (やさい) ★★★★\n∙ vegetable"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -167940,7 +170040,7 @@
         "wanikani"
       ],
       "confidence": 0.7042,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -168332,7 +170432,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -168357,7 +170457,7 @@
         "wanikani"
       ],
       "confidence": 0.8411,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -168407,6 +170507,27 @@
       "study": {
         "wanikani": {
           "srs_stage": null
+        }
+      }
+    },
+    {
+      "word": "鉄火巻",
+      "reading": "鉄火巻[てっかまき;h]",
+      "meanings": [
+        "鉄火巻 (てっかまき)\n∙ vinegared rice and sliced raw tuna wrapped in seaweed"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
         }
       }
     },
@@ -169360,8 +171481,8 @@
       "word": "鍵",
       "reading": "かぎ",
       "meanings": [
-        "key",
         "Key",
+        "key",
         "Lock"
       ],
       "parts_of_speech": [
@@ -169690,8 +171811,8 @@
       "word": "長い",
       "reading": "ながい",
       "meanings": [
-        "Long",
-        "long"
+        "long",
+        "Long"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -169936,7 +172057,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -169964,7 +172085,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -169986,7 +172107,7 @@
         "wanikani"
       ],
       "confidence": 0.736,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 6
@@ -170009,8 +172130,8 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.256,
-      "writable": false,
+      "confidence": 0.254,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 1
@@ -170052,7 +172173,7 @@
         "migaku"
       ],
       "confidence": 0.6,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -170076,7 +172197,7 @@
         "wanikani"
       ],
       "confidence": 0.976,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170100,7 +172221,7 @@
         "anki"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170127,7 +172248,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170147,8 +172268,8 @@
       "word": "開始",
       "reading": "かいし",
       "meanings": [
-        "Beginning",
         "beginning",
+        "Beginning",
         "Opening",
         "Start"
       ],
@@ -170162,7 +172283,7 @@
         "wanikani"
       ],
       "confidence": 0.3884,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -170263,7 +172384,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -170312,7 +172433,7 @@
         "wanikani"
       ],
       "confidence": 0.924,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": 8
@@ -170368,8 +172489,8 @@
       "word": "間",
       "reading": "あいだ",
       "meanings": [
-        "Interval",
         "interval",
+        "Interval",
         "Interval Of Space",
         "Interval Of Time"
       ],
@@ -171256,7 +173377,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -171286,7 +173407,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -171317,7 +173438,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -171403,7 +173524,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -172170,8 +174291,8 @@
       "word": "階段",
       "reading": "かいだん",
       "meanings": [
-        "Stairs",
         "stairs",
+        "Stairs",
         "Stairway"
       ],
       "parts_of_speech": [
@@ -173261,6 +175382,27 @@
       }
     },
     {
+      "word": "雑誌",
+      "reading": "雑誌[ざっし;h]",
+      "meanings": [
+        "雑誌 (ざっし) ★★★★\n∙ journal; magazine; periodical"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "雑費",
       "reading": "ざっぴ",
       "meanings": [
@@ -173388,8 +175530,8 @@
       "word": "難しい",
       "reading": "むずかしい",
       "meanings": [
-        "difficult",
         "Difficult",
+        "difficult",
         "Hard"
       ],
       "parts_of_speech": [
@@ -173400,14 +175542,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3501,
+      "confidence": 0.3804,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 5,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -173421,8 +175563,8 @@
       "word": "雨",
       "reading": "あめ",
       "meanings": [
-        "rain",
-        "Rain"
+        "Rain",
+        "rain"
       ],
       "parts_of_speech": [
         "noun"
@@ -173433,7 +175575,7 @@
         "wanikani"
       ],
       "confidence": 0.95,
-      "writable": false,
+      "writable": true,
       "study": {
         "anki": {
           "reviews": 0,
@@ -173462,7 +175604,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -173951,14 +176093,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7058,
+      "confidence": 0.7804,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -174120,7 +176262,7 @@
         "wanikani"
       ],
       "confidence": 0.7913,
-      "writable": false,
+      "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
@@ -174501,8 +176643,8 @@
       "word": "青い",
       "reading": "あおい",
       "meanings": [
-        "blue",
         "Blue",
+        "blue",
         "Unripe"
       ],
       "parts_of_speech": [
@@ -175349,8 +177491,8 @@
       "reading": "おと",
       "meanings": [
         "Noise",
-        "sound",
-        "Sound"
+        "Sound",
+        "sound"
       ],
       "parts_of_speech": [
         "noun",
@@ -175475,8 +177617,8 @@
       "meanings": [
         "To Echo",
         "To Resound",
-        "to reverberate",
-        "To Reverberate"
+        "To Reverberate",
+        "to reverberate"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -176039,8 +178181,8 @@
       "word": "頭",
       "reading": "あたま",
       "meanings": [
-        "Head",
-        "head"
+        "head",
+        "Head"
       ],
       "parts_of_speech": [
         "noun"
@@ -176142,7 +178284,7 @@
         "wanikani"
       ],
       "confidence": null,
-      "writable": false,
+      "writable": true,
       "study": {
         "wanikani": {
           "srs_stage": null
@@ -176296,14 +178438,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3069,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-16"
+          "reviews": 9,
+          "ease": 2.5,
+          "interval": 3,
+          "last_reviewed": "2026-08-17"
         },
         "wanikani": {
           "srs_stage": null
@@ -176363,8 +178505,8 @@
       "reading": "がく",
       "meanings": [
         "Frame",
-        "Picture Frame",
-        "picture frame"
+        "picture frame",
+        "Picture Frame"
       ],
       "parts_of_speech": [
         "noun",
@@ -176403,14 +178545,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.712,
+      "confidence": 0.5882,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 39,
+          "last_reviewed": "2026-08-17"
         },
         "migaku": {
           "status": "KNOWN"
@@ -177341,6 +179483,27 @@
       }
     },
     {
+      "word": "食料品",
+      "reading": "食料品[しょくりょうひん;h,n3]",
+      "meanings": [
+        "食料品 (しょくりょうひん)\n∙ foodstuff; groceries"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "食欲",
       "reading": "しょくよく",
       "meanings": [
@@ -177928,6 +180091,27 @@
       }
     },
     {
+      "word": "餅",
+      "reading": "餅[もち;h]",
+      "meanings": [
+        "餅 (もち) ★★★\n∙ mochi; (sticky) rice cake"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "養う",
       "reading": "やしなう",
       "meanings": [
@@ -178081,8 +180265,8 @@
       "word": "首",
       "reading": "くび",
       "meanings": [
-        "neck",
-        "Neck"
+        "Neck",
+        "neck"
       ],
       "parts_of_speech": [
         "noun"
@@ -178123,11 +180307,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.514,
+      "confidence": 0.644,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -178336,8 +180520,8 @@
       "word": "馬",
       "reading": "うま",
       "meanings": [
-        "Horse",
-        "horse"
+        "horse",
+        "Horse"
       ],
       "parts_of_speech": [
         "noun"
@@ -178814,6 +180998,27 @@
       }
     },
     {
+      "word": "駐車場",
+      "reading": "駐車場[ちゅうしゃじょう;h]",
+      "meanings": [
+        "駐車場 (ちゅうしゃじょう)\n∙ parking lot; car park; carpark; parking garage"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "駒",
       "reading": "こま",
       "meanings": [
@@ -179135,8 +181340,8 @@
       "word": "骨",
       "reading": "ほね",
       "meanings": [
-        "Bone",
-        "bone"
+        "bone",
+        "Bone"
       ],
       "parts_of_speech": [
         "noun"
@@ -179678,6 +181883,27 @@
       }
     },
     {
+      "word": "鬢とろ",
+      "reading": "鬢とろ[びんとろ;a]",
+      "meanings": [
+        "鬢とろ (びんとろ) ★\n∙ albacore belly"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "word": "鬱気",
       "reading": "うっき",
       "meanings": [
@@ -180210,8 +182436,8 @@
       "word": "鳥",
       "reading": "とり",
       "meanings": [
-        "bird",
-        "Bird"
+        "Bird",
+        "bird"
       ],
       "parts_of_speech": [
         "noun"
@@ -181140,8 +183366,8 @@
       "word": "鼻",
       "reading": "はな",
       "meanings": [
-        "Nose",
-        "nose"
+        "nose",
+        "Nose"
       ],
       "parts_of_speech": [
         "noun"

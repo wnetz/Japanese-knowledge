@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "anki",
-  "generated_at": "2026-08-17T12:37:50.089328+00:00",
+  "generated_at": "2026-08-18T07:16:53.623094+00:00",
   "decks": [
     "日本語::Kaishi 1.5k",
     "日本語::mining"
   ],
-  "note_count": 1522,
-  "card_count": 1534,
+  "note_count": 1628,
+  "card_count": 1640,
   "skipped_card_count": 0,
   "conflict_count": 0,
   "errors": [],
@@ -265,6 +265,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "あん肝",
+      "reading": "あん肝[あんきも;h]",
+      "meanings": [
+        "あん肝 (あんきも) ★\n∙ monkfish liver; goosefish liver"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -647,11 +663,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 3,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -767,6 +784,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "お好み焼き",
+      "reading": "お好み焼[おこのみや;h]き",
+      "meanings": [
+        "お好み焼き (おこのみやき) ★★★\n∙ okonomiyaki; savoury pancake containing meat or seafood and vegetables"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -1166,11 +1199,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -1542,6 +1576,22 @@
       }
     },
     {
+      "word": "じゃが芋",
+      "reading": "じゃが芋[じゃがいも;h]",
+      "meanings": [
+        "じゃが芋 (じゃがいも)\n∙ potato (Solanum tuberosum)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "すぐ",
       "reading": "すぐ",
       "meanings": [
@@ -1591,11 +1641,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 41,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -1765,11 +1816,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -2415,11 +2466,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 4,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -3338,11 +3390,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 35,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -3676,6 +3729,22 @@
       }
     },
     {
+      "word": "もんじゃ焼き",
+      "reading": "もんじゃ焼[もんじゃや;h]き",
+      "meanings": [
+        "もんじゃ焼き (もんじゃやき)\n∙ monjayaki; savoury pancake with various fillings, thinner than okonomiyaki"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "やって来る",
       "reading": "やってくる",
       "meanings": [
@@ -3744,11 +3813,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -3907,6 +3976,230 @@
       }
     },
     {
+      "word": "アジ",
+      "reading": "アジ[あじ;a]",
+      "meanings": [
+        "アジ ★★★\n∙ agitation\n∙ horse mackerel (Carangidae spp., esp. the Japanese horse mackerel, Trachurus japonicus); jack mackerel; pompano; scad"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "アマエビ",
+      "reading": "アマエビ[あまえび;a]",
+      "meanings": [
+        "アマエビ ★★★\n∙ northern shrimp (Pandalus borealis); sweet shrimp; northern pink prawn; red shrimp; Maine shrimp"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "イカ",
+      "reading": "イカ[いか;h]",
+      "meanings": [
+        "イカ ★★★★\n∙ cuttlefish; squid"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "イクラ",
+      "reading": "イクラ[いくら;h]",
+      "meanings": [
+        "イクラ ★★\n∙ salted salmon roe"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "イワシ",
+      "reading": "イワシ[いわし;h]",
+      "meanings": [
+        "イワシ ★★★\n∙ pilchard (esp. Japanese pilchard, Sardinops melanostictus); sardine"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "ウナギ",
+      "reading": "ウナギ[うなぎ;h]",
+      "meanings": [
+        "ウナギ ★★★\n∙ eel (esp. the Japanese eel, Anguilla japonica)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "ウニ",
+      "reading": "ウニ[うに]",
+      "meanings": [
+        "ウニ ★★★\n∙ sea urchin\n∙ seasoned sea urchin eggs"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "エビ",
+      "reading": "エビ[えび;h]",
+      "meanings": [
+        "エビ ★★★★\n∙ prawn; shrimp; lobster; crayfish"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "カッパ巻",
+      "reading": "カッパ巻[カッパまき;h]",
+      "meanings": [
+        "カッパ巻 (カッパまき) ★★\n∙ cucumber sushi wrapped in nori (seaweed); cucumber makizushi"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "カニミソ",
+      "reading": "カニミソ[かにみそ;h]",
+      "meanings": [
+        "カニミソ ★★★★\n∙ brown meat (crab); miso-like paste found inside a crab's (and arthropods in general) intestinal area\n∙ miso mixed with crab innards or scraps"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "コンビーフ",
+      "reading": "コンビーフ[こんびーふ;n3]",
+      "meanings": [
+        "コンビーフ (こんびーふ) ★\n∙ corned beef"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "シラウオ",
+      "reading": "シラウオ[しらうお]",
+      "meanings": [
+        "シラウオ ★\n∙ icefish (Salangidae spp., esp. the Japanese icefish, Salangichthys microdon); noodlefish; whitebait"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "タコ",
+      "reading": "タコ[たこ;a]",
+      "meanings": [
+        "タコ ★\n∙ octopus"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "ツブ貝",
+      "reading": "ツブ貝",
+      "meanings": [
+        "ツブ貝 (ツブがい) ★\n∙ whelk (esp. Neptunea and Buccinum spp.)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "テレビ",
       "reading": "テレビ",
       "meanings": [
@@ -3926,6 +4219,38 @@
       }
     },
     {
+      "word": "トマト",
+      "reading": "トマト[とまと;a]",
+      "meanings": [
+        "トマト ★★★★\n∙ tomato (Solanum lycopersicum)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "バス停",
+      "reading": "バス停[バスてい;h]",
+      "meanings": [
+        "バス停 (バスてい)\n∙ bus stop"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "パン",
       "reading": "ぱん",
       "meanings": [
@@ -3941,6 +4266,70 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "ホタテ",
+      "reading": "ホタテ[ほたて]",
+      "meanings": [
+        "ホタテ ★★★\n∙ Japanese scallop (Patinopecten yessoensis); Yesso scallop"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "マグロ",
+      "reading": "マグロ[まぐろ;h]",
+      "meanings": [
+        "マグロ ★★★\n∙ tuna (edible fish, Thunnus spp.); tunny\n∙ Pacific bluefin tuna (edible fish, Thunnus orientalis)\n∙ dead lay; starfish; person who is inactive during sexual intercourse"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "マダイ",
+      "reading": "マダイ[まだい;h]",
+      "meanings": [
+        "マダイ ★\n∙ red sea bream (Pagrus major); Japanese sea bream; red tai; porgy"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "ロース",
+      "reading": "ロース[ろーす;a]",
+      "meanings": [
+        "ロース (ろーす) ★★★\n∙ sirloin; pork loin"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -4539,6 +4928,22 @@
       }
     },
     {
+      "word": "下足",
+      "reading": "下足[げそ;h]",
+      "meanings": [
+        "下足 (げそ)\n∙ squid tentacles"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "不可能",
       "reading": "ふかのう",
       "meanings": [
@@ -4900,6 +5305,22 @@
       }
     },
     {
+      "word": "乗車券",
+      "reading": "乗車券[じょうしゃけん;n3]",
+      "meanings": [
+        "乗車券 (じょうしゃけん)\n∙ ticket (for bus, train, etc.); passenger ticket\n∙ basic fare ticket (not valid on limited express trains without a supplemental express ticket)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "九",
       "reading": "きゅう",
       "meanings": [
@@ -4911,11 +5332,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 36,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -5568,11 +5990,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -6847,11 +7270,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 5,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -7174,11 +7598,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-17",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -7355,6 +7780,22 @@
       }
     },
     {
+      "word": "八百屋",
+      "reading": "八百屋[やおや;h]",
+      "meanings": [
+        "八百屋 (やおや) ★★\n∙ greengrocer; fruit and vegetable shop"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "六",
       "reading": "ろく",
       "meanings": [
@@ -7428,6 +7869,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "内科",
+      "reading": "内科[ないか;h,a]",
+      "meanings": [
+        "内科 (ないか) ★★★\n∙ internal medicine, i.e. treatment by medical procedures rather than surgical procedures\n∙ department of internal medicine (hospital, etc.)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -7527,6 +7984,70 @@
       }
     },
     {
+      "word": "冷たい",
+      "reading": "冷[つめ;h]たい",
+      "meanings": [
+        "冷たい (つめたい) ★★★★\n∙ cold (to the touch); chilly; icy; freezing\n∙ (emotionally) cold; coldhearted; unfeeling; indifferent; unfriendly; distant"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "冷やし",
+      "reading": "冷[ひ;k2]やし",
+      "meanings": [
+        "冷やし (ひやし) ★★★★\n∙ chilled; chilling"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "冷奴",
+      "reading": "冷奴[ひややっこ;n3]",
+      "meanings": [
+        "冷奴 (ひややっこ) ★\n∙ cold tofu"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "冷酒",
+      "reading": "冷酒[れいしゅ]",
+      "meanings": [
+        "冷酒 (れいしゅ) ★\n∙ cold sake"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "冷静",
       "reading": "れいせい",
       "meanings": [
@@ -7614,11 +8135,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 40,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -7676,6 +8198,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "出汁",
+      "reading": "出汁[だし]",
+      "meanings": [
+        "出汁 (だし) ★★\n∙ dashi (Japanese soup stock made from fish and kelp)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -7772,6 +8310,38 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "切符",
+      "reading": "切符[きっぷ;h]",
+      "meanings": [
+        "切符 (きっぷ) ★★★\n∙ ticket"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "切符売り場",
+      "reading": "切符売り場[きっぷうりば;h]",
+      "meanings": [
+        "切符売り場 (きっぷうりば) ★★★\n∙ ticket window; box office; ticket"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -8378,11 +8948,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -8439,6 +9010,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "半片",
+      "reading": "半片[はんぺん;n3]",
+      "meanings": [
+        "半片 (はんぺん)\n∙ pounded fish cake\n∙ half a slice; half a ticket; ticket stub"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -8534,6 +9121,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "厚い",
+      "reading": "厚[あつ;h]い",
+      "meanings": [
+        "厚い (あつい) ★★★★\n∙ thick; deep; heavy\n∙ kind; cordial; hospitable; warm; faithful\n∙ abundant"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -9721,6 +10324,22 @@
       }
     },
     {
+      "word": "喫茶店",
+      "reading": "喫茶店[きっさてん;h,n3]",
+      "meanings": [
+        "喫茶店 (きっさてん)\n∙ coffee shop; tearoom; coffee lounge; coffeehouse; cafe"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "嘘",
       "reading": "うそ",
       "meanings": [
@@ -9967,6 +10586,22 @@
         "ease": 2.5,
         "last_reviewed": "2026-08-13",
         "state": "review"
+      }
+    },
+    {
+      "word": "国籍",
+      "reading": "国籍[こくせき;h]",
+      "meanings": [
+        "国籍 (こくせき) ★★★\n∙ nationality; citizenship\n∙ nationality (ship, airplane, etc.); registration; flag"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -10217,6 +10852,22 @@
       }
     },
     {
+      "word": "塩",
+      "reading": "塩[しお;o]",
+      "meanings": [
+        "塩 (しお) ★★★★\n∙ salt (i.e. sodium chloride); common salt; table salt\n∙ salt (e.g. sodium chloride, calcium sulfate, etc.)\n∙ hardship; toil; trouble\n∙ saltiness"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "増える",
       "reading": "ふえる",
       "meanings": [
@@ -10347,6 +10998,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "売店",
+      "reading": "売店[ばいてん;h]",
+      "meanings": [
+        "売店 (ばいてん) ★★★\n∙ stand; stall; booth; kiosk; store"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -10500,6 +11167,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "外科",
+      "reading": "外科[げか;h]",
+      "meanings": [
+        "外科 (げか) ★★★★\n∙ surgery\n∙ department of surgery (hospital, etc.)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -11130,11 +11813,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 0,
+        "reviews": 7,
+        "best_interval": 6,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -11326,6 +12010,38 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "婦人",
+      "reading": "婦人[ふじん;h]",
+      "meanings": [
+        "婦人 (ふじん) ★★★★\n∙ woman; lady; adult female"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "婦人服",
+      "reading": "婦人服[ふじんふく;n2]",
+      "meanings": [
+        "婦人服 (ふじんふく)\n∙ women's clothing"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -11793,6 +12509,22 @@
       }
     },
     {
+      "word": "家庭用品",
+      "reading": "家庭用品[かていようひん;h]",
+      "meanings": [
+        "家庭用品 (かていようひん) ★★★★\n∙ household articles"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "家族",
       "reading": "かぞく",
       "meanings": [
@@ -11887,6 +12619,22 @@
         "ease": 2.5,
         "last_reviewed": "2026-08-15",
         "state": "review"
+      }
+    },
+    {
+      "word": "寝具",
+      "reading": "寝具[しんぐ;a]",
+      "meanings": [
+        "寝具 (しんぐ) ★★\n∙ bedding; bedclothes"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -12020,6 +12768,38 @@
         "ease": 2.5,
         "last_reviewed": "2026-08-15",
         "state": "review"
+      }
+    },
+    {
+      "word": "小児科",
+      "reading": "小児科[しょうにか;h]",
+      "meanings": [
+        "小児科 (しょうにか)\n∙ pediatrics"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "小麦粉",
+      "reading": "小麦粉[こむぎこ;h]",
+      "meanings": [
+        "小麦粉 (こむぎこ)\n∙ wheat flour"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -12228,6 +13008,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "山芋",
+      "reading": "山芋[やまいも;h]",
+      "meanings": [
+        "山芋 (やまいも) ★\n∙ Japanese yam (Dioscorea japonica)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -12594,6 +13390,22 @@
       }
     },
     {
+      "word": "年齢",
+      "reading": "年齢[ねんれい;h]",
+      "meanings": [
+        "年齢 (ねんれい) ★★★★\n∙ age; years"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "幸せ",
       "reading": "しあわせ",
       "meanings": [
@@ -12857,6 +13669,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "引き出し",
+      "reading": "引き出[ひきだ;k3]し",
+      "meanings": [
+        "引き出し (ひきだし) ★★★\n∙ drawer\n∙ withdrawal (of money from an account)\n∙ variety of knowledge and experience useful for handling things impromptu"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -13386,11 +14214,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 47,
-        "best_interval": 2,
+        "reviews": 48,
+        "best_interval": 3,
         "lapses": 1,
-        "ease": 2.15,
-        "last_reviewed": "2026-08-16",
+        "ease": 2.0,
+        "last_reviewed": "2026-08-17",
         "state": "review"
       }
     },
@@ -13794,6 +14622,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "性別",
+      "reading": "性別[せいべつ;h]",
+      "meanings": [
+        "性別 (せいべつ) ★★★\n∙ gender; distinction of sex; sex"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -15852,6 +16696,22 @@
       }
     },
     {
+      "word": "改札口",
+      "reading": "改札口[かいさつぐち;n4]",
+      "meanings": [
+        "改札口 (かいさつぐち)\n∙ ticket barrier; ticket gate; wicket"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "攻撃",
       "reading": "こうげき",
       "meanings": [
@@ -15966,6 +16826,22 @@
       }
     },
     {
+      "word": "教科書",
+      "reading": "教科書[きょうかしょ;n3]",
+      "meanings": [
+        "教科書 (きょうかしょ)\n∙ textbook; coursebook; schoolbook"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "数",
       "reading": "かず",
       "meanings": [
@@ -16057,6 +16933,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "文房具",
+      "reading": "文房具[ぶんぼうぐ;n3]",
+      "meanings": [
+        "文房具 (ぶんぼうぐ)\n∙ stationery"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -16445,6 +17337,22 @@
       }
     },
     {
+      "word": "明太子",
+      "reading": "明太子[めんたいこ;n3,h]",
+      "meanings": [
+        "明太子 (めんたいこ)\n∙ walleye pollack roe (generally served salted and spiced with red pepper)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "明日",
       "reading": "あした",
       "meanings": [
@@ -16591,11 +17499,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 0,
+        "reviews": 5,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-17",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -16782,11 +17691,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 0,
+        "reviews": 4,
+        "best_interval": 6,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -17533,6 +18443,22 @@
       }
     },
     {
+      "word": "果物",
+      "reading": "果物[くだもの;n2]",
+      "meanings": [
+        "果物 (くだもの) ★★★★\n∙ fruit"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "染まる",
       "reading": "そまる",
       "meanings": [
@@ -17627,6 +18553,54 @@
       }
     },
     {
+      "word": "案内",
+      "reading": "案内[あんない;n3]",
+      "meanings": [
+        "案内 (あんない) ★★★★★\n∙ guidance; leading (the way); showing around\n∙ information; notice; notification\n∙ announcement (of one's arrival)\n∙ invitation\n∙ acquaintance; knowledge"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "梅",
+      "reading": "梅[うめ;h]",
+      "meanings": [
+        "梅 (うめ) ★\n∙ Japanese apricot (Prunus mume); Japanese plum; ume; Chinese plum\n∙ lowest (of a three-tier ranking system)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "梅肉",
+      "reading": "梅肉[ばいにく;h]",
+      "meanings": [
+        "梅肉 (ばいにく)\n∙ shredded dried plum; plum pulp"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "森",
       "reading": "もり",
       "meanings": [
@@ -17661,6 +18635,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "検査",
+      "reading": "検査[けんさ;a]",
+      "meanings": [
+        "検査 (けんさ) ★★★★★\n∙ inspection (e.g. customs, factory); examination; scan (e.g. MRI, PET, etc.)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -18121,6 +19111,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "歯科",
+      "reading": "歯科[しか;a,o]",
+      "meanings": [
+        "歯科 (しか) ★★★\n∙ dentistry"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -18774,6 +19780,22 @@
       }
     },
     {
+      "word": "沈菜",
+      "reading": "沈菜[キムチ;a]",
+      "meanings": [
+        "沈菜 (キムチ) ★★\n∙ kimchi; kimchee; spicy Korean pickled cabbage\n∙ Korea; Korean"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "沈黙",
       "reading": "ちんもく",
       "meanings": [
@@ -18810,6 +19832,22 @@
         "ease": 2.65,
         "last_reviewed": "2026-08-11",
         "state": "review"
+      }
+    },
+    {
+      "word": "油",
+      "reading": "油[あぶら;h]",
+      "meanings": [
+        "油 (あぶら) ★★★★\n∙ oil"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -19022,6 +20060,38 @@
       }
     },
     {
+      "word": "海苔",
+      "reading": "海苔[のり;o]",
+      "meanings": [
+        "海苔 (のり) ★★\n∙ nori; laver; edible seaweed, usu. Porphyra yezoensis or P. tenera, usu. dried and pressed into sheets"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "海鮮",
+      "reading": "海鮮[かいせん;h]",
+      "meanings": [
+        "海鮮 (かいせん) ★★★\n∙ seafood"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "消える",
       "reading": "きえる",
       "meanings": [
@@ -19075,6 +20145,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "涼しい",
+      "reading": "涼[すず;k3]しい",
+      "meanings": [
+        "涼しい (すずしい) ★★★\n∙ cool; refreshing\n∙ clear (e.g. eyes); bright\n∙ clear; distinct\n∙ composed (facial expression); unruffled; unconcerned\n∙ pure; upright; innocent"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -19326,6 +20412,22 @@
       }
     },
     {
+      "word": "漬け",
+      "reading": "漬[づ]け",
+      "meanings": [
+        "漬け (づけ) ★★★\n∙ pickled (something)\n∙ pickled in (something); preserved in; dipped in\n∙ overreliance on (e.g. medication); excessive use of; addiction to; immersion in; intense involvement in"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "潰す",
       "reading": "つぶす",
       "meanings": [
@@ -19474,6 +20576,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "烏龍茶",
+      "reading": "烏龍茶[ウーロンちゃ]",
+      "meanings": [
+        "烏龍茶 (ウーロンちゃ)\n∙ oolong tea"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -19650,6 +20768,22 @@
       }
     },
     {
+      "word": "焼きそば",
+      "reading": "焼[や;h]きそば",
+      "meanings": [
+        "焼きそば (やきそば) ★★★\n∙ yakisoba; fried noodles, usu. with vegetables and meat"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "焼く",
       "reading": "やく",
       "meanings": [
@@ -19665,6 +20799,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "焼く",
+      "reading": "焼[や;h]く",
+      "meanings": [
+        "焼く (やく) ★★★★★\n∙ to burn\n∙ to roast; to broil; to grill; to bake; to toast; to barbecue\n∙ to heat; to heat up\n∙ to make (charcoal, pottery, bricks, etc.); to bake; to fire; to burn\n∙ to tan (i.e. suntan); to burn\n∙ to print (a photo); to burn (an optical disc)\n∙ to be jealous of; to be envious of; to envy"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -19722,6 +20872,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "燗酒",
+      "reading": "燗酒[かんざけ;h,a]",
+      "meanings": [
+        "燗酒 (かんざけ)\n∙ warmed sake"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -19842,6 +21008,22 @@
       }
     },
     {
+      "word": "特上",
+      "reading": "特上[とくじょう;a]",
+      "meanings": [
+        "特上 (とくじょう) ★★\n∙ first class plus; extra special"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "特別",
       "reading": "とくべつ",
       "meanings": [
@@ -19876,6 +21058,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "特製",
+      "reading": "特製[とくせい;h]",
+      "meanings": [
+        "特製 (とくせい) ★★★\n∙ special make; deluxe"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -20028,6 +21226,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "玉子",
+      "reading": "玉子[たまご;n2,h]",
+      "meanings": [
+        "玉子 (たまご) ★★\n∙ (hen's) egg"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -20242,6 +21456,22 @@
       }
     },
     {
+      "word": "瓶ビール",
+      "reading": "瓶[びん]ビール",
+      "meanings": [
+        "瓶ビール (びんビール)\n∙ bottled beer; bottle beer"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "甘い",
       "reading": "あまい",
       "meanings": [
@@ -20394,6 +21624,22 @@
       }
     },
     {
+      "word": "産婦人科",
+      "reading": "産婦人科[さんふじんか;h]",
+      "meanings": [
+        "産婦人科 (さんふじんか)\n∙ maternity and gynaecology department (gynecology); department of obstetrics and gynaecology (gynecology)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "用",
       "reading": "よう",
       "meanings": [
@@ -20428,6 +21674,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "用品",
+      "reading": "用品[ようひん;h]",
+      "meanings": [
+        "用品 (ようひん) ★\n∙ articles; supplies; parts"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -20909,6 +22171,22 @@
       }
     },
     {
+      "word": "皮膚科",
+      "reading": "皮膚科[ひふか;h]",
+      "meanings": [
+        "皮膚科 (ひふか)\n∙ dermatology"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "目",
       "reading": "め",
       "meanings": [
@@ -21309,6 +22587,22 @@
       }
     },
     {
+      "word": "眼科",
+      "reading": "眼科[がんか;h,a]",
+      "meanings": [
+        "眼科 (がんか) ★★\n∙ ophthalmology"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "着く",
       "reading": "つく",
       "meanings": [
@@ -21481,6 +22775,22 @@
       }
     },
     {
+      "word": "砂糖",
+      "reading": "砂糖[さとう;n2]",
+      "meanings": [
+        "砂糖 (さとう) ★★★★\n∙ sugar"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "研究",
       "reading": "けんきゅう",
       "meanings": [
@@ -21629,6 +22939,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "磯汁",
+      "reading": "磯汁[いそじる;h]",
+      "meanings": [
+        "磯汁 (いそじる) ★★\n∙ seafood soup; soup made from fish, seaweed, etc. according to local availability"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -21881,6 +23207,22 @@
       }
     },
     {
+      "word": "穴子",
+      "reading": "穴子[あなご;h]",
+      "meanings": [
+        "穴子 (あなご) ★\n∙ garden eel; conger eel (esp. the common Japanese conger, Conger myriaster)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "空",
       "reading": "そら",
       "meanings": [
@@ -22029,6 +23371,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "窓口",
+      "reading": "窓口[まどぐち;n2]",
+      "meanings": [
+        "窓口 (まどぐち) ★★★\n∙ counter; window; teller window; ticket window\n∙ contact person; point of contact"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -22223,6 +23581,22 @@
       }
     },
     {
+      "word": "筋子",
+      "reading": "筋子[すじこ;o,h]",
+      "meanings": [
+        "筋子 (すじこ)\n∙ salted salmon roe"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "答え",
       "reading": "こたえ",
       "meanings": [
@@ -22377,6 +23751,22 @@
       }
     },
     {
+      "word": "納豆",
+      "reading": "納豆[なっとう;n3]",
+      "meanings": [
+        "納豆 (なっとう) ★★★\n∙ natto (fermented soybeans)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "紙",
       "reading": "かみ",
       "meanings": [
@@ -22468,6 +23858,38 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "紳士",
+      "reading": "紳士[しんし;a]",
+      "meanings": [
+        "紳士 (しんし) ★★★★\n∙ gentleman"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
+      "word": "紳士服",
+      "reading": "紳士服[しんしふく;n3]",
+      "meanings": [
+        "紳士服 (しんしふく)\n∙ suits for gentlemen; menswear"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -22929,6 +24351,22 @@
       }
     },
     {
+      "word": "締め鯖",
+      "reading": "締め鯖[しめさば;o]",
+      "meanings": [
+        "締め鯖 (しめさば) ★★★\n∙ soused (vinegared) mackerel"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "練習",
       "reading": "れんしゅう",
       "meanings": [
@@ -23159,6 +24597,22 @@
       }
     },
     {
+      "word": "耳鼻科",
+      "reading": "耳鼻科[じびか;a]",
+      "meanings": [
+        "耳鼻科 (じびか) ★\n∙ otolaryngology; ear, nose, and throat department"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "聞く",
       "reading": "きく",
       "meanings": [
@@ -23347,6 +24801,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "胡瓜",
+      "reading": "胡瓜[きゅうり;a]",
+      "meanings": [
+        "胡瓜 (きゅうり)\n∙ cucumber (Cucumis sativus)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -23884,6 +25354,22 @@
       }
     },
     {
+      "word": "茶碗蒸し",
+      "reading": "茶碗蒸[ちゃわんむ;n2,h]し",
+      "meanings": [
+        "茶碗蒸し (ちゃわんむし)\n∙ chawanmushi; savoury steamed egg custard with chicken, mushrooms, etc. (savory)"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "荷物",
       "reading": "にもつ",
       "meanings": [
@@ -23979,6 +25465,22 @@
       }
     },
     {
+      "word": "薄い",
+      "reading": "薄[うす;h]い",
+      "meanings": [
+        "薄い (うすい) ★★★★\n∙ thin\n∙ pale; light; faint\n∙ watery; thin; dilute\n∙ weak (taste, etc.); little (affection, etc.) not much (of a presence)\n∙ slim (probability, etc.); small\n∙ sparse; patchy; scattered"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "薬",
       "reading": "くすり",
       "meanings": [
@@ -23994,6 +25496,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "薬局",
+      "reading": "薬局[やっきょく;h]",
+      "meanings": [
+        "薬局 (やっきょく) ★★★\n∙ pharmacy; drugstore; chemist's (shop)\n∙ hospital pharmacy; dispensary"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -24887,11 +26405,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 9,
+        "best_interval": 3,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -24910,6 +26429,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "診察",
+      "reading": "診察[しんさつ;h]",
+      "meanings": [
+        "診察 (しんさつ) ★★★★\n∙ medical examination"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -25406,6 +26941,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "警察",
+      "reading": "警察[けいさつ;h]",
+      "meanings": [
+        "警察 (けいさつ) ★★★★★\n∙ police\n∙ police officer\n∙ police station"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -26619,11 +28170,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 0,
+        "reviews": 4,
+        "best_interval": 4,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -27066,6 +28618,22 @@
       }
     },
     {
+      "word": "郵便番号",
+      "reading": "郵便番号[ゆうびんばんごう;n5]",
+      "meanings": [
+        "郵便番号 (ゆうびんばんごう)\n∙ postal code"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "酒",
       "reading": "さけ",
       "meanings": [
@@ -27081,6 +28649,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "酢",
+      "reading": "酢[す;o]",
+      "meanings": [
+        "酢 (す) ★★★\n∙ vinegar"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -27119,6 +28703,22 @@
         "ease": 2.35,
         "last_reviewed": "2026-08-09",
         "state": "review"
+      }
+    },
+    {
+      "word": "醤油",
+      "reading": "醤油[しょうゆ;h]",
+      "meanings": [
+        "醤油 (しょうゆ) ★★★\n∙ soy sauce; shoyu"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -27179,6 +28779,22 @@
       }
     },
     {
+      "word": "野菜",
+      "reading": "野菜[やさい;h]",
+      "meanings": [
+        "野菜 (やさい) ★★★★\n∙ vegetable"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "量",
       "reading": "りょう",
       "meanings": [
@@ -27232,6 +28848,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "鉄火巻",
+      "reading": "鉄火巻[てっかまき;h]",
+      "meanings": [
+        "鉄火巻 (てっかまき)\n∙ vinegared rice and sliced raw tuna wrapped in seaweed"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
@@ -27919,6 +29551,22 @@
       }
     },
     {
+      "word": "雑誌",
+      "reading": "雑誌[ざっし;h]",
+      "meanings": [
+        "雑誌 (ざっし) ★★★★\n∙ journal; magazine; periodical"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "離す",
       "reading": "はなす",
       "meanings": [
@@ -27968,11 +29616,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 5,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -28388,11 +30037,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 9,
+        "best_interval": 3,
         "lapses": 0,
-        "last_reviewed": "2026-08-16",
-        "state": "learning"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -28445,11 +30095,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 39,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-17",
+        "state": "review"
       }
     },
     {
@@ -28644,6 +30295,22 @@
       }
     },
     {
+      "word": "食料品",
+      "reading": "食料品[しょくりょうひん;h,n3]",
+      "meanings": [
+        "食料品 (しょくりょうひん)\n∙ foodstuff; groceries"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "飲み込む",
       "reading": "のみこむ",
       "meanings": [
@@ -28680,6 +30347,22 @@
         "ease": 2.5,
         "last_reviewed": "2026-08-16",
         "state": "review"
+      }
+    },
+    {
+      "word": "餅",
+      "reading": "餅[もち;h]",
+      "meanings": [
+        "餅 (もち) ★★★\n∙ mochi; (sticky) rice cake"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
       }
     },
     {
@@ -28796,6 +30479,22 @@
       }
     },
     {
+      "word": "駐車場",
+      "reading": "駐車場[ちゅうしゃじょう;h]",
+      "meanings": [
+        "駐車場 (ちゅうしゃじょう)\n∙ parking lot; car park; carpark; parking garage"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new"
+      }
+    },
+    {
       "word": "騒ぐ",
       "reading": "さわぐ",
       "meanings": [
@@ -28908,6 +30607,22 @@
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-07-19",
+        "state": "new"
+      }
+    },
+    {
+      "word": "鬢とろ",
+      "reading": "鬢とろ[びんとろ;a]",
+      "meanings": [
+        "鬢とろ (びんとろ) ★\n∙ albacore belly"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
         "state": "new"
       }
     },
