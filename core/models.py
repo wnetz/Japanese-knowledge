@@ -93,6 +93,7 @@ class Vocabulary:
     frequency: int | None = None
     sources: set[str] = field(default_factory=set)
     writable: bool = False
+    write_score: dict[str, Any] | None = None
     study: dict[str, AnkiStudy | WaniKaniStudy | MigakuStudy] = field(default_factory=dict)
     confidence: float | None = None
     source_ids: dict[str, Any] = field(default_factory=dict)
@@ -119,6 +120,8 @@ class Vocabulary:
         self.pitch_accents.update(other.pitch_accents)
         self.sources.update(other.sources)
         self.writable = self.writable or other.writable
+        if self.write_score is None and other.write_score is not None:
+            self.write_score = dict(other.write_score)
         self.source_ids.update(other.source_ids)
         self.study.update(other.study)
         if self.frequency is None:
@@ -136,6 +139,8 @@ class Vocabulary:
             "confidence": self.confidence,
         }
         result["writable"] = self.writable
+        if self.write_score is not None:
+            result["write_score"] = dict(self.write_score)
         if self.study:
             result["study"] = {
                 name: data.to_dict() for name, data in sorted(self.study.items())

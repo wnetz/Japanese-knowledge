@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "anki",
-  "generated_at": "2026-08-18T11:50:21.656500+00:00",
+  "generated_at": "2026-08-19T08:19:55.451567+00:00",
   "decks": [
     "日本語::Kaishi 1.5k",
     "日本語::mining",
@@ -459,9 +459,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -2159,9 +2160,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -2760,11 +2762,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 6,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -2795,11 +2798,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 7,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -3220,11 +3224,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 15,
-        "best_interval": 11,
+        "reviews": 16,
+        "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -3238,11 +3242,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 15,
-        "best_interval": 11,
+        "reviews": 16,
+        "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -3370,11 +3374,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 12,
-        "best_interval": 8,
+        "reviews": 13,
+        "best_interval": 17,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-12",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -3616,11 +3620,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 6,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -3729,11 +3734,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 13,
-        "best_interval": 13,
+        "reviews": 14,
+        "best_interval": 16,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-16",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -3765,11 +3770,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 12,
+        "reviews": 15,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-18",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -4017,7 +4022,7 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 13,
+        "reviews": 14,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
@@ -4035,11 +4040,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 15,
+        "reviews": 17,
         "best_interval": 5,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -4187,11 +4192,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 13,
+        "reviews": 9,
+        "best_interval": 47,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-09",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -4519,11 +4524,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 17,
         "best_interval": 25,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-13",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -4553,11 +4558,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 15,
-        "best_interval": 1,
+        "reviews": 19,
+        "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-18",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -4571,11 +4576,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 13,
+        "reviews": 14,
         "best_interval": 10,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -4589,9 +4594,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -5101,11 +5107,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 6,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -5118,11 +5125,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 10,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -5135,9 +5143,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -5249,9 +5258,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -5331,11 +5341,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 17,
         "best_interval": 25,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-13",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -5381,11 +5391,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 15,
-        "best_interval": 11,
+        "reviews": 16,
+        "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -5399,10 +5409,12 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-19",
+        "state": "review"
       }
     },
     {
@@ -5549,11 +5561,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 18,
         "best_interval": 7,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -5599,11 +5611,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 25,
+        "reviews": 26,
         "best_interval": 30,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -5737,11 +5749,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 14,
+        "reviews": 16,
         "best_interval": 2,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -5919,11 +5931,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 11,
-        "best_interval": 5,
+        "reviews": 12,
+        "best_interval": 12,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-15",
+        "last_reviewed": "2026-08-19",
         "state": "review"
       }
     },
@@ -5953,11 +5965,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 10,
+        "reviews": 11,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -6537,9 +6549,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 2,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -8063,9 +8076,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -8079,9 +8093,10 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
+        "last_reviewed": "2026-08-19",
         "state": "new"
       }
     },
@@ -8415,10 +8430,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 7,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -9973,11 +9989,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -10051,11 +10067,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-18",
-        "state": "learning"
+        "state": "review"
       }
     },
     {
@@ -11162,11 +11179,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 8,
+        "reviews": 4,
+        "best_interval": 24,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-11",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -12064,7 +12081,7 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-08-18",
@@ -12236,10 +12253,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -12268,10 +12286,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -12316,10 +12335,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -12380,10 +12400,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -12396,10 +12417,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -12444,10 +12466,12 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 2,
+        "best_interval": 2,
         "lapses": 0,
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-18",
+        "state": "review"
       }
     },
     {
@@ -12578,10 +12602,12 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 2,
+        "best_interval": 2,
         "lapses": 0,
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-18",
+        "state": "review"
       }
     },
     {
@@ -15763,11 +15789,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 36,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-18",
+        "state": "review"
       }
     },
     {
@@ -15952,11 +15979,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 2,
+        "reviews": 7,
+        "best_interval": 3,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -16581,10 +16608,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 6,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -18192,11 +18220,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -19491,11 +19519,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -20157,11 +20185,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -21894,11 +21922,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -22916,11 +22944,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 6,
+        "reviews": 5,
+        "best_interval": 25,
         "lapses": 0,
         "ease": 2.35,
-        "last_reviewed": "2026-08-13",
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -23239,11 +23267,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -27203,10 +27231,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -27407,11 +27436,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 6,
+        "reviews": 8,
+        "best_interval": 9,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-13",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -28419,10 +28448,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -28716,10 +28746,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -29491,10 +29522,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -29712,10 +29744,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -30160,10 +30193,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -30218,11 +30252,12 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 2,
+        "best_interval": 2,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "ease": 2.5,
+        "last_reviewed": "2026-08-19",
+        "state": "review"
       }
     },
     {
@@ -30612,11 +30647,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 9,
-        "best_interval": 11,
+        "reviews": 10,
+        "best_interval": 17,
         "lapses": 0,
-        "ease": 2.35,
-        "last_reviewed": "2026-08-08",
+        "ease": 2.2,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -30690,11 +30725,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -31719,10 +31754,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 6,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -33089,11 +33125,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 5,
+        "reviews": 8,
+        "best_interval": 8,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -34150,10 +34186,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-18",
+        "state": "learning"
       }
     },
     {
@@ -34206,11 +34243,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -37620,10 +37657,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -37784,11 +37822,11 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -39364,10 +39402,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {
@@ -39418,11 +39457,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 17,
+        "reviews": 7,
+        "best_interval": 29,
         "lapses": 0,
-        "ease": 2.35,
-        "last_reviewed": "2026-08-02",
+        "ease": 2.2,
+        "last_reviewed": "2026-08-18",
         "state": "review"
       }
     },
@@ -39659,10 +39698,11 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new"
+        "last_reviewed": "2026-08-19",
+        "state": "learning"
       }
     },
     {

@@ -21,7 +21,7 @@
     "default_note_type": "reference"
   },
   "wanikani": {
-    "enabled": false,
+    "enabled": true,
     "api_key": "",
     "api_version": "20170710",
     "subject_types": [
@@ -73,7 +73,7 @@
     "level": "INFO"
   },
   "bunpro": {
-    "enabled": false,
+    "enabled": true,
     "email": "",
     "password": "",
     "api_url": "https://api.bunpro.jp",

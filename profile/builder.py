@@ -37,12 +37,14 @@ class ProfileBuilder:
         self.statistics = BuildStatistics()
         self._items: dict[tuple[str, str], Vocabulary] = {}
         self._writable_kanji: set[str] = set()
+        self._existing_write_scores: dict[tuple[str, str], dict[str, Any]] = {}
 
     def build(self) -> VocabularyProfile:
         # A builder instance may be reused safely.
         self.statistics = BuildStatistics()
         self._items = {}
         self._writable_kanji = self._load_writable_kanji()
+        self._existing_write_scores = self._load_existing_write_scores()
 
         sources = self._load_available_sources()
 
@@ -58,6 +60,7 @@ class ProfileBuilder:
         vocabulary = sorted(self._items.values(), key=lambda item: (item.word, item.reading))
         for item in vocabulary:
             self._apply_writable_tag(item)
+            self._apply_existing_write_score(item)
             item.confidence = calculate_confidence(item)
 
         self.statistics.vocabulary_count = len(vocabulary)
@@ -85,6 +88,31 @@ class ProfileBuilder:
         profile = self.build()
         self.write(profile)
         return profile
+
+    def _load_existing_write_scores(self) -> dict[tuple[str, str], dict[str, Any]]:
+        if not self.output_path.exists():
+            return {}
+        data = read_json(self.output_path)
+        if not isinstance(data, dict):
+            return {}
+
+        scores: dict[tuple[str, str], dict[str, Any]] = {}
+        for item in data.get("vocabulary", []):
+            if not isinstance(item, dict):
+                continue
+            write_score = item.get("write_score")
+            if not isinstance(write_score, dict):
+                continue
+            word = self._clean(item.get("word"))
+            reading = Vocabulary._canonical_reading(self._clean(item.get("reading")))
+            if word:
+                scores[(word, reading)] = dict(write_score)
+        return scores
+
+    def _apply_existing_write_score(self, item: Vocabulary) -> None:
+        score = self._existing_write_scores.get(item.key)
+        if score is not None:
+            item.write_score = dict(score)
 
     def _load_writable_kanji(self) -> set[str]:
         path = self.output_dir / "writable_kanji.json"

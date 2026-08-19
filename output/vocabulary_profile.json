@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-08-18T11:50:21.972207+00:00",
+    "generated_at": "2026-08-19T08:20:09.042107+00:00",
     "sources": [
       "wanikani",
       "anki",
       "migaku"
     ],
     "vocabulary_count": 8487,
-    "confidence_scored_count": 2787,
+    "confidence_scored_count": 2822,
     "unresolved_reading_count": 93,
     "source_counts": {
       "wanikani": 6821,
@@ -594,14 +594,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -2820,14 +2820,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -3598,13 +3598,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.3084,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 6,
           "last_reviewed": "2026-08-18"
         }
       }
@@ -3640,13 +3640,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.3136,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 7,
           "last_reviewed": "2026-08-18"
         }
       }
@@ -4186,14 +4186,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4131,
+      "confidence": 0.4973,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 15,
+          "reviews": 16,
           "ease": 2.5,
-          "interval": 11,
-          "last_reviewed": "2026-08-14"
+          "interval": 28,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -4207,14 +4207,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4131,
+      "confidence": 0.4973,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 15,
+          "reviews": 16,
           "ease": 2.5,
-          "interval": 11,
-          "last_reviewed": "2026-08-14"
+          "interval": 28,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -4375,14 +4375,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3697,
+      "confidence": 0.4235,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 12,
+          "reviews": 13,
           "ease": 2.5,
-          "interval": 8,
-          "last_reviewed": "2026-08-12"
+          "interval": 17,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -4690,13 +4690,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.3084,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 6,
           "last_reviewed": "2026-08-18"
         }
       }
@@ -4837,14 +4837,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4047,
+      "confidence": 0.4283,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 13,
+          "reviews": 14,
           "ease": 2.5,
-          "interval": 13,
-          "last_reviewed": "2026-08-16"
+          "interval": 16,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -4879,14 +4879,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3489,
+      "confidence": 0.3773,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 12,
+          "reviews": 15,
           "ease": 2.5,
           "interval": 4,
-          "last_reviewed": "2026-08-18"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -5194,11 +5194,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3592,
+      "confidence": 0.3686,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 13,
+          "reviews": 14,
           "ease": 2.5,
           "interval": 4,
           "last_reviewed": "2026-08-18"
@@ -5215,14 +5215,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3826,
+      "confidence": 0.398,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 15,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 5,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -5404,14 +5404,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3434,
+      "confidence": 0.494,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
+          "reviews": 9,
           "ease": 2.5,
-          "interval": 13,
-          "last_reviewed": "2026-08-09"
+          "interval": 47,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -5824,14 +5824,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4849,
+      "confidence": 0.4923,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 25,
-          "last_reviewed": "2026-08-13"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -5866,14 +5866,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3611,
+      "confidence": 0.4058,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 15,
+          "reviews": 19,
           "ease": 2.5,
-          "interval": 1,
-          "last_reviewed": "2026-08-18"
+          "interval": 4,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -5887,14 +5887,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.39,
+      "confidence": 0.3995,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 13,
+          "reviews": 14,
           "ease": 2.5,
           "interval": 10,
-          "last_reviewed": "2026-08-14"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -5908,14 +5908,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -6559,13 +6559,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.3084,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
+          "reviews": 8,
+          "ease": 2.5,
+          "interval": 6,
           "last_reviewed": "2026-08-18"
         }
       }
@@ -6580,13 +6580,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.3255,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
+          "reviews": 10,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-18"
         }
       }
@@ -6601,14 +6601,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -6748,14 +6748,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -6853,14 +6853,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4849,
+      "confidence": 0.4923,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 25,
-          "last_reviewed": "2026-08-13"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -6916,14 +6916,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4131,
+      "confidence": 0.4973,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 15,
+          "reviews": 16,
           "ease": 2.5,
-          "interval": 11,
-          "last_reviewed": "2026-08-14"
+          "interval": 28,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -6937,14 +6937,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.3203,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": null
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -7126,14 +7126,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.401,
+      "confidence": 0.4152,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 18,
           "ease": 2.5,
           "interval": 7,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -7189,14 +7189,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.554,
+      "confidence": 0.5575,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 25,
+          "reviews": 26,
           "ease": 2.5,
           "interval": 30,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -7357,14 +7357,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3579,
+      "confidence": 0.3746,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 14,
+          "reviews": 16,
           "ease": 2.5,
           "interval": 2,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -7588,14 +7588,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.343,
+      "confidence": 0.3895,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 11,
+          "reviews": 12,
           "ease": 2.5,
-          "interval": 5,
-          "last_reviewed": "2026-08-15"
+          "interval": 12,
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -7630,14 +7630,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3255,
+      "confidence": 0.3377,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 10,
+          "reviews": 11,
           "ease": 2.5,
           "interval": 4,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -8365,14 +8365,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1596,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 2,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -10339,14 +10339,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -10360,14 +10360,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -11934,8 +11934,8 @@
       "word": "あそこ",
       "reading": "あそこ",
       "meanings": [
-        "over there",
-        "Over There"
+        "Over There",
+        "over there"
       ],
       "parts_of_speech": [
         "noun",
@@ -12369,14 +12369,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2606,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 7,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -12711,8 +12711,8 @@
       "word": "いつ",
       "reading": "いつ",
       "meanings": [
-        "When",
-        "when"
+        "when",
+        "When"
       ],
       "parts_of_speech": [
         "pronoun"
@@ -13754,8 +13754,8 @@
       "reading": "おにいさん",
       "meanings": [
         "Guy",
-        "older brother",
-        "Older Brother"
+        "Older Brother",
+        "older brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -14211,8 +14211,8 @@
       "reading": "おとうさん",
       "meanings": [
         "Dad",
-        "father",
         "Father",
+        "father",
         "Papa"
       ],
       "parts_of_speech": [
@@ -16378,14 +16378,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -16455,8 +16455,8 @@
       "word": "そこ",
       "reading": "そこ",
       "meanings": [
-        "there",
-        "There"
+        "There",
+        "there"
       ],
       "parts_of_speech": [
         "noun",
@@ -16496,13 +16496,13 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.3367,
+      "confidence": 0.3697,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-18"
         },
         "migaku": {
@@ -18253,14 +18253,14 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.3505,
+      "confidence": 0.4059,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 3,
-          "ease": 2.5,
-          "interval": 8,
-          "last_reviewed": "2026-08-11"
+          "reviews": 4,
+          "ease": 2.35,
+          "interval": 24,
+          "last_reviewed": "2026-08-18"
         },
         "migaku": {
           "status": "KNOWN"
@@ -19917,11 +19917,11 @@
         "anki",
         "migaku"
       ],
-      "confidence": 0.3367,
+      "confidence": 0.3501,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-08-18"
@@ -20378,14 +20378,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -20674,14 +20674,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -20922,14 +20922,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -21303,14 +21303,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -21957,14 +21957,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -22672,14 +22672,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1706,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": null
+          "reviews": 2,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -23005,8 +23005,8 @@
       "word": "テレビ",
       "reading": "テレビ",
       "meanings": [
-        "Television",
         "television",
+        "Television",
         "TV"
       ],
       "parts_of_speech": [
@@ -25077,14 +25077,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1706,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": null
+          "reviews": 2,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -26877,8 +26877,8 @@
       "meanings": [
         "At Once",
         "In One Breath",
-        "In One Go",
-        "in one go"
+        "in one go",
+        "In One Go"
       ],
       "parts_of_speech": [
         "adverb"
@@ -27143,8 +27143,8 @@
       "word": "一緒",
       "reading": "いっしょ",
       "meanings": [
-        "together",
-        "Together"
+        "Together",
+        "together"
       ],
       "parts_of_speech": [
         "noun",
@@ -27657,8 +27657,8 @@
       "word": "万",
       "reading": "まん",
       "meanings": [
-        "Ten Thousand",
-        "ten thousand"
+        "ten thousand",
+        "Ten Thousand"
       ],
       "parts_of_speech": [
         "numeral"
@@ -27798,8 +27798,8 @@
       "word": "三",
       "reading": "さん",
       "meanings": [
-        "three",
-        "Three"
+        "Three",
+        "three"
       ],
       "parts_of_speech": [
         "numeral"
@@ -30932,14 +30932,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.6249,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -30991,8 +30991,8 @@
       "word": "中央",
       "reading": "ちゅうおう",
       "meanings": [
-        "Center",
         "center",
+        "Center",
         "Central",
         "Centre"
       ],
@@ -32352,8 +32352,8 @@
       "word": "九",
       "reading": "きゅう",
       "meanings": [
-        "Nine",
-        "nine"
+        "nine",
+        "Nine"
       ],
       "parts_of_speech": [
         "numeral"
@@ -32365,6 +32365,14 @@
       ],
       "confidence": 0.95,
       "writable": true,
+      "write_score": {
+        "attempts": 1,
+        "passes": 1,
+        "fails": 0,
+        "score": 1.0,
+        "last_result": "pass",
+        "last_reviewed": "2026-08-19T08:05:26.051664+00:00"
+      },
       "study": {
         "anki": {
           "reviews": 1,
@@ -32902,7 +32910,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.396,
+      "confidence": 0.494,
       "writable": false,
       "study": {
         "anki": {
@@ -32912,7 +32920,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -32975,11 +32983,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.512,
+      "confidence": 0.642,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -33870,8 +33878,8 @@
       "word": "五",
       "reading": "ご",
       "meanings": [
-        "five",
-        "Five"
+        "Five",
+        "five"
       ],
       "parts_of_speech": [
         "numeral"
@@ -34576,8 +34584,8 @@
       "word": "人",
       "reading": "ひと",
       "meanings": [
-        "Person",
-        "person"
+        "person",
+        "Person"
       ],
       "parts_of_speech": [
         "noun"
@@ -34608,8 +34616,8 @@
       "word": "人々",
       "reading": "ひとびと",
       "meanings": [
-        "people",
-        "People"
+        "People",
+        "people"
       ],
       "parts_of_speech": [
         "noun",
@@ -34733,8 +34741,8 @@
       "word": "人形",
       "reading": "にんぎょう",
       "meanings": [
-        "Doll",
         "doll",
+        "Doll",
         "Puppet"
       ],
       "parts_of_speech": [
@@ -34921,8 +34929,8 @@
       "reading": "にんき",
       "meanings": [
         "Popular",
-        "Popularity",
-        "popularity"
+        "popularity",
+        "Popularity"
       ],
       "parts_of_speech": [
         "noun",
@@ -35298,8 +35306,8 @@
       "word": "今",
       "reading": "いま",
       "meanings": [
-        "Now",
-        "now"
+        "now",
+        "Now"
       ],
       "parts_of_speech": [
         "noun"
@@ -35370,8 +35378,8 @@
       "reading": "いままで",
       "meanings": [
         "So Far",
-        "until now",
         "Until Now",
+        "until now",
         "Up To Now"
       ],
       "parts_of_speech": [
@@ -35399,8 +35407,8 @@
       "word": "今回",
       "reading": "こんかい",
       "meanings": [
-        "This Time",
-        "this time"
+        "this time",
+        "This Time"
       ],
       "parts_of_speech": [
         "noun"
@@ -35464,8 +35472,8 @@
       "word": "今年",
       "reading": "ことし",
       "meanings": [
-        "This Year",
-        "this year"
+        "this year",
+        "This Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -35498,8 +35506,8 @@
       "meanings": [
         "Next Time",
         "next time",
-        "This Time",
-        "this time"
+        "this time",
+        "This Time"
       ],
       "parts_of_speech": [
         "noun"
@@ -35695,8 +35703,8 @@
       "word": "今朝",
       "reading": "けさ",
       "meanings": [
-        "this morning",
-        "This Morning"
+        "This Morning",
+        "this morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -36714,8 +36722,8 @@
       "word": "以外",
       "reading": "いがい",
       "meanings": [
-        "Except For",
         "except for",
+        "Except For",
         "Excepting",
         "Other Than"
       ],
@@ -37124,7 +37132,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.41,
+      "confidence": 0.506,
       "writable": false,
       "study": {
         "anki": {
@@ -37134,7 +37142,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -37795,14 +37803,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8613,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -38625,14 +38633,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6218,
+      "confidence": 0.6964,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -39845,7 +39853,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7742,
+      "confidence": 0.6218,
       "writable": true,
       "study": {
         "anki": {
@@ -39858,7 +39866,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 5
         }
       }
     },
@@ -40115,8 +40123,8 @@
       "word": "例えば",
       "reading": "たとえば",
       "meanings": [
-        "for example",
         "For Example",
+        "for example",
         "For Instance",
         "Supposing That"
       ],
@@ -41769,8 +41777,8 @@
       "word": "借りる",
       "reading": "かりる",
       "meanings": [
-        "to borrow",
-        "To Borrow"
+        "To Borrow",
+        "to borrow"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -43204,8 +43212,8 @@
       "meanings": [
         "To Commit",
         "To Labor",
-        "to work",
-        "To Work"
+        "To Work",
+        "to work"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -43782,8 +43790,8 @@
       "meanings": [
         "Big Brother",
         "Elder Brother",
-        "older brother",
-        "Older Brother"
+        "Older Brother",
+        "older brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -44155,14 +44163,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6264,
+      "confidence": 0.5256,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 36,
+          "last_reviewed": "2026-08-18"
         },
         "migaku": {
           "status": "KNOWN"
@@ -44201,8 +44209,8 @@
       "reading": "せんせい",
       "meanings": [
         "Sensei",
-        "Teacher",
-        "teacher"
+        "teacher",
+        "Teacher"
       ],
       "parts_of_speech": [
         "noun"
@@ -44809,8 +44817,8 @@
       "word": "入り口",
       "reading": "いりぐち",
       "meanings": [
-        "Entrance",
-        "entrance"
+        "entrance",
+        "Entrance"
       ],
       "parts_of_speech": [
         "noun"
@@ -44909,8 +44917,8 @@
       "reading": "いれる",
       "meanings": [
         "To Insert",
-        "to put in",
-        "To Put In"
+        "To Put In",
+        "to put in"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -45357,14 +45365,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5637,
+      "confidence": 0.5665,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-17"
+          "reviews": 7,
+          "ease": 2.35,
+          "interval": 3,
+          "last_reviewed": "2026-08-18"
         },
         "migaku": {
           "status": "KNOWN"
@@ -45836,8 +45844,8 @@
       "word": "八",
       "reading": "はち",
       "meanings": [
-        "eight",
-        "Eight"
+        "Eight",
+        "eight"
       ],
       "parts_of_speech": [
         "numeral"
@@ -46267,8 +46275,8 @@
       "word": "六",
       "reading": "ろく",
       "meanings": [
-        "six",
-        "Six"
+        "Six",
+        "six"
       ],
       "parts_of_speech": [
         "numeral"
@@ -46586,8 +46594,8 @@
       "word": "兵士",
       "reading": "へいし",
       "meanings": [
-        "Soldier",
-        "soldier"
+        "soldier",
+        "Soldier"
       ],
       "parts_of_speech": [
         "noun"
@@ -47355,8 +47363,8 @@
       "word": "冗談",
       "reading": "じょうだん",
       "meanings": [
-        "Joke",
-        "joke"
+        "joke",
+        "Joke"
       ],
       "parts_of_speech": [
         "noun",
@@ -47438,8 +47446,8 @@
       "reading": "しゃしん",
       "meanings": [
         "Photo",
-        "photograph",
         "Photograph",
+        "photograph",
         "Picture"
       ],
       "parts_of_speech": [
@@ -47579,8 +47587,8 @@
       "word": "冬",
       "reading": "ふゆ",
       "meanings": [
-        "Winter",
-        "winter"
+        "winter",
+        "Winter"
       ],
       "parts_of_speech": [
         "noun"
@@ -48558,8 +48566,8 @@
       "meanings": [
         "To Let Out",
         "To Put Out",
-        "To Take Out",
         "to take out",
+        "To Take Out",
         "To Turn In"
       ],
       "parts_of_speech": [
@@ -48853,14 +48861,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2436,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 6,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -49876,8 +49884,8 @@
       "reading": "はじめて",
       "meanings": [
         "First Time",
-        "for the first time",
-        "For The First Time"
+        "For The First Time",
+        "for the first time"
       ],
       "parts_of_speech": [
         "adverb",
@@ -50159,7 +50167,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8536,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "anki": {
@@ -50172,7 +50180,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -50544,8 +50552,8 @@
       "word": "制服",
       "reading": "せいふく",
       "meanings": [
-        "uniform",
-        "Uniform"
+        "Uniform",
+        "uniform"
       ],
       "parts_of_speech": [
         "noun"
@@ -52112,8 +52120,8 @@
       "word": "効く",
       "reading": "きく",
       "meanings": [
-        "to be effective",
         "To Be Effective",
+        "to be effective",
         "To Work Effectively"
       ],
       "parts_of_speech": [
@@ -52310,8 +52318,8 @@
       "reading": "べんきょう",
       "meanings": [
         "Studies",
-        "Study",
-        "study"
+        "study",
+        "Study"
       ],
       "parts_of_speech": [
         "noun",
@@ -52430,8 +52438,8 @@
       "meanings": [
         "move",
         "To Function",
-        "To Move",
-        "to move"
+        "to move",
+        "To Move"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -52686,8 +52694,8 @@
       "word": "勘違い",
       "reading": "かんちがい",
       "meanings": [
-        "misunderstanding",
         "Misunderstanding",
+        "misunderstanding",
         "Wrong Guess"
       ],
       "parts_of_speech": [
@@ -54046,8 +54054,8 @@
       "word": "十",
       "reading": "じゅう",
       "meanings": [
-        "ten",
-        "Ten"
+        "Ten",
+        "ten"
       ],
       "parts_of_speech": [
         "numeral"
@@ -54120,8 +54128,8 @@
       "reading": "じゅうぶん",
       "meanings": [
         "Enough",
-        "plenty",
         "Plenty",
+        "plenty",
         "Sufficient"
       ],
       "parts_of_speech": [
@@ -54457,8 +54465,8 @@
       "word": "半分",
       "reading": "はんぶん",
       "meanings": [
-        "half",
-        "Half"
+        "Half",
+        "half"
       ],
       "parts_of_speech": [
         "noun"
@@ -56040,8 +56048,8 @@
       "meanings": [
         "Harsh",
         "Severe",
-        "Strict",
-        "strict"
+        "strict",
+        "Strict"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -56151,8 +56159,8 @@
       "word": "去年",
       "reading": "きょねん",
       "meanings": [
-        "last year",
-        "Last Year"
+        "Last Year",
+        "last year"
       ],
       "parts_of_speech": [
         "noun"
@@ -56417,8 +56425,8 @@
       "word": "友人",
       "reading": "ゆうじん",
       "meanings": [
-        "friend",
-        "Friend"
+        "Friend",
+        "friend"
       ],
       "parts_of_speech": [
         "noun"
@@ -57810,8 +57818,8 @@
       "reading": "ふるい",
       "meanings": [
         "Ancient",
-        "old",
         "Old",
+        "old",
         "Out-Of-Date"
       ],
       "parts_of_speech": [
@@ -59183,11 +59191,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.62,
+      "confidence": 0.718,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -59385,8 +59393,8 @@
         "First Name",
         "Full Name",
         "Given Name",
-        "Name",
-        "name"
+        "name",
+        "Name"
       ],
       "parts_of_speech": [
         "noun"
@@ -59688,14 +59696,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": null
@@ -60158,8 +60166,8 @@
       "reading": "すう",
       "meanings": [
         "To Inhale",
-        "To Smoke",
         "to smoke",
+        "To Smoke",
         "To Suck"
       ],
       "parts_of_speech": [
@@ -60721,14 +60729,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5191,
+      "confidence": 0.6202,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -61029,8 +61037,8 @@
       "word": "命",
       "reading": "いのち",
       "meanings": [
-        "life",
-        "Life"
+        "Life",
+        "life"
       ],
       "parts_of_speech": [
         "independent_noun"
@@ -62724,8 +62732,8 @@
       "word": "嘘",
       "reading": "うそ",
       "meanings": [
-        "Lie",
-        "lie"
+        "lie",
+        "Lie"
       ],
       "parts_of_speech": [
         "noun",
@@ -64882,8 +64890,8 @@
       "word": "地上",
       "reading": "ちじょう",
       "meanings": [
-        "above ground",
         "Above Ground",
+        "above ground",
         "On The Ground",
         "The Earth's Surface"
       ],
@@ -66309,8 +66317,8 @@
       "reading": "ほうこく",
       "meanings": [
         "Information",
-        "Report",
-        "report"
+        "report",
+        "Report"
       ],
       "parts_of_speech": [
         "noun",
@@ -67537,14 +67545,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8411,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -67718,14 +67726,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.926,
+      "confidence": 0.75,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": 8
@@ -68202,8 +68210,8 @@
       "word": "外",
       "reading": "そと",
       "meanings": [
-        "Outside",
-        "outside"
+        "outside",
+        "Outside"
       ],
       "parts_of_speech": [
         "noun",
@@ -68237,8 +68245,8 @@
       "meanings": [
         "To Exclude",
         "To Miss Something",
-        "To Remove",
-        "to remove"
+        "to remove",
+        "To Remove"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -68896,8 +68904,8 @@
       "word": "夢",
       "reading": "ゆめ",
       "meanings": [
-        "dream",
-        "Dream"
+        "Dream",
+        "dream"
       ],
       "parts_of_speech": [
         "noun"
@@ -69076,11 +69084,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.64,
+      "confidence": 0.738,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -69222,8 +69230,8 @@
       "word": "大人",
       "reading": "おとな",
       "meanings": [
-        "Adult",
         "adult",
+        "Adult",
         "Mature"
       ],
       "parts_of_speech": [
@@ -69513,14 +69521,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.6264,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -69592,8 +69600,8 @@
       "meanings": [
         "Like A Lot",
         "Lovable",
-        "Love",
         "love",
+        "Love",
         "Really Like"
       ],
       "parts_of_speech": [
@@ -70565,8 +70573,8 @@
       "word": "天井",
       "reading": "てんじょう",
       "meanings": [
-        "ceiling",
-        "Ceiling"
+        "Ceiling",
+        "ceiling"
       ],
       "parts_of_speech": [
         "noun"
@@ -70916,8 +70924,8 @@
       "word": "太陽",
       "reading": "たいよう",
       "meanings": [
-        "sun",
-        "Sun"
+        "Sun",
+        "sun"
       ],
       "parts_of_speech": [
         "noun"
@@ -71543,14 +71551,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": null
@@ -72499,8 +72507,8 @@
       "reading": "いもうと",
       "meanings": [
         "Little Sister",
-        "younger sister",
-        "Younger Sister"
+        "Younger Sister",
+        "younger sister"
       ],
       "parts_of_speech": [
         "noun"
@@ -72532,8 +72540,8 @@
       "reading": "つま",
       "meanings": [
         "My Wife",
-        "Wife",
-        "wife"
+        "wife",
+        "Wife"
       ],
       "parts_of_speech": [
         "noun"
@@ -73030,8 +73038,8 @@
       "word": "娘",
       "reading": "むすめ",
       "meanings": [
-        "Daughter",
         "daughter",
+        "Daughter",
         "Young Woman"
       ],
       "parts_of_speech": [
@@ -74169,8 +74177,8 @@
       "word": "学校",
       "reading": "がっこう",
       "meanings": [
-        "School",
-        "school"
+        "school",
+        "School"
       ],
       "parts_of_speech": [
         "noun"
@@ -74222,8 +74230,8 @@
       "word": "学生",
       "reading": "がくせい",
       "meanings": [
-        "Student",
-        "student"
+        "student",
+        "Student"
       ],
       "parts_of_speech": [
         "noun"
@@ -75559,8 +75567,8 @@
       "word": "宣言",
       "reading": "せんげん",
       "meanings": [
-        "declaration",
         "Declaration",
+        "declaration",
         "Proclamation"
       ],
       "parts_of_speech": [
@@ -78048,14 +78056,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7073,
+      "confidence": 0.5316,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -78465,8 +78473,8 @@
       "word": "少年",
       "reading": "しょうねん",
       "meanings": [
-        "Boy",
         "boy",
+        "Boy",
         "Young Boy",
         "Youth"
       ],
@@ -79649,11 +79657,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.738,
+      "confidence": 0.834,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -80523,8 +80531,8 @@
       "word": "左",
       "reading": "ひだり",
       "meanings": [
-        "left",
         "Left",
+        "left",
         "Left Direction"
       ],
       "parts_of_speech": [
@@ -81205,8 +81213,8 @@
       "word": "布",
       "reading": "ぬの",
       "meanings": [
-        "cloth",
         "Cloth",
+        "cloth",
         "Fabric"
       ],
       "parts_of_speech": [
@@ -81544,8 +81552,8 @@
       "word": "席",
       "reading": "せき",
       "meanings": [
-        "seat",
-        "Seat"
+        "Seat",
+        "seat"
       ],
       "parts_of_speech": [
         "noun"
@@ -82719,14 +82727,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": null
@@ -83393,8 +83401,8 @@
       "word": "床",
       "reading": "ゆか",
       "meanings": [
-        "Floor",
-        "floor"
+        "floor",
+        "Floor"
       ],
       "parts_of_speech": [
         "noun"
@@ -83446,8 +83454,8 @@
       "word": "底",
       "reading": "そこ",
       "meanings": [
-        "bottom",
-        "Bottom"
+        "Bottom",
+        "bottom"
       ],
       "parts_of_speech": [
         "noun"
@@ -83586,8 +83594,8 @@
       "word": "座る",
       "reading": "すわる",
       "meanings": [
-        "To Sit",
-        "to sit"
+        "to sit",
+        "To Sit"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -83950,8 +83958,8 @@
       "reading": "ろうか",
       "meanings": [
         "Corridor",
-        "Hallway",
-        "hallway"
+        "hallway",
+        "Hallway"
       ],
       "parts_of_speech": [
         "noun"
@@ -84378,8 +84386,8 @@
       "word": "式",
       "reading": "しき",
       "meanings": [
-        "Ceremony",
         "ceremony",
+        "Ceremony",
         "Equation",
         "Ritual",
         "Style"
@@ -84751,8 +84759,8 @@
       "reading": "おとうと",
       "meanings": [
         "Little Brother",
-        "Younger Brother",
-        "younger brother"
+        "younger brother",
+        "Younger Brother"
       ],
       "parts_of_speech": [
         "noun"
@@ -85460,7 +85468,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3371,
+      "confidence": 0.3884,
       "writable": false,
       "study": {
         "anki": {
@@ -85473,7 +85481,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -86506,8 +86514,8 @@
       "word": "後悔",
       "reading": "こうかい",
       "meanings": [
-        "regret",
         "Regret",
+        "regret",
         "Repentance"
       ],
       "parts_of_speech": [
@@ -87500,8 +87508,8 @@
       "word": "心臓",
       "reading": "しんぞう",
       "meanings": [
-        "Heart",
-        "heart"
+        "heart",
+        "Heart"
       ],
       "parts_of_speech": [
         "noun"
@@ -88043,8 +88051,8 @@
       "word": "忘れる",
       "reading": "わすれる",
       "meanings": [
-        "to forget",
         "To Forget",
+        "to forget",
         "To Forget Something"
       ],
       "parts_of_speech": [
@@ -88129,14 +88137,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2241,
+      "confidence": 0.3332,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
+          "reviews": 5,
           "ease": 2.35,
-          "interval": 6,
-          "last_reviewed": "2026-08-13"
+          "interval": 25,
+          "last_reviewed": "2026-08-18"
         },
         "wanikani": {
           "srs_stage": null
@@ -88765,7 +88773,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6311,
+      "confidence": 0.7073,
       "writable": false,
       "study": {
         "anki": {
@@ -88778,7 +88786,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -89591,14 +89599,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": null
@@ -89823,8 +89831,8 @@
       "word": "恐怖",
       "reading": "きょうふ",
       "meanings": [
-        "fear",
         "Fear",
+        "fear",
         "Terror"
       ],
       "parts_of_speech": [
@@ -90594,8 +90602,8 @@
       "word": "悪い",
       "reading": "わるい",
       "meanings": [
-        "Bad",
         "bad",
+        "Bad",
         "Poor",
         "Wrong"
       ],
@@ -90973,8 +90981,8 @@
       "word": "悲しい",
       "reading": "かなしい",
       "meanings": [
-        "Sad",
-        "sad"
+        "sad",
+        "Sad"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -91222,8 +91230,8 @@
       "reading": "じょうほう",
       "meanings": [
         "Data",
-        "information",
-        "Information"
+        "Information",
+        "information"
       ],
       "parts_of_speech": [
         "noun"
@@ -92281,8 +92289,8 @@
       "word": "感心",
       "reading": "かんしん",
       "meanings": [
-        "Admiration",
         "admiration",
+        "Admiration",
         "Being Impressed",
         "Praiseworthy"
       ],
@@ -92479,8 +92487,8 @@
       "word": "感覚",
       "reading": "かんかく",
       "meanings": [
-        "sensation",
         "Sensation",
+        "sensation",
         "Sense",
         "The Senses"
       ],
@@ -94788,8 +94796,8 @@
       "word": "扉",
       "reading": "とびら",
       "meanings": [
-        "door",
         "Door",
+        "door",
         "Hinged Door"
       ],
       "parts_of_speech": [
@@ -95099,8 +95107,8 @@
       "word": "手紙",
       "reading": "てがみ",
       "meanings": [
-        "Letter",
-        "letter"
+        "letter",
+        "Letter"
       ],
       "parts_of_speech": [
         "noun",
@@ -95435,8 +95443,8 @@
       "reading": "はらう",
       "meanings": [
         "To Brush Off",
-        "to pay",
-        "To Pay"
+        "To Pay",
+        "to pay"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -95770,8 +95778,8 @@
         "Craft",
         "Skill",
         "Technique",
-        "Technology",
-        "technology"
+        "technology",
+        "Technology"
       ],
       "parts_of_speech": [
         "noun"
@@ -96016,14 +96024,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5191,
+      "confidence": 0.4429,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -98578,8 +98586,8 @@
       "reading": "すてる",
       "meanings": [
         "To Abandon",
-        "to throw away",
-        "To Throw Away"
+        "To Throw Away",
+        "to throw away"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -102333,14 +102341,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7058,
+      "confidence": 0.5238,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -102785,8 +102793,8 @@
       "meanings": [
         "Amount",
         "Count",
-        "number",
-        "Number"
+        "Number",
+        "number"
       ],
       "parts_of_speech": [
         "noun"
@@ -105559,8 +105567,8 @@
       "reading": "さっそく",
       "meanings": [
         "At Once",
-        "Immediately",
         "immediately",
+        "Immediately",
         "Right Away",
         "Right Now",
         "Without Delay"
@@ -105802,8 +105810,8 @@
       "word": "明るい",
       "reading": "あかるい",
       "meanings": [
-        "Bright",
         "bright",
+        "Bright",
         "Cheerful"
       ],
       "parts_of_speech": [
@@ -106289,8 +106297,8 @@
       "word": "春",
       "reading": "はる",
       "meanings": [
-        "spring",
-        "Spring"
+        "Spring",
+        "spring"
       ],
       "parts_of_speech": [
         "noun"
@@ -107193,8 +107201,8 @@
       "reading": "けしき",
       "meanings": [
         "Landscape",
-        "Scenery",
         "scenery",
+        "Scenery",
         "View"
       ],
       "parts_of_speech": [
@@ -107481,8 +107489,8 @@
       "word": "暗い",
       "reading": "くらい",
       "meanings": [
-        "dark",
-        "Dark"
+        "Dark",
+        "dark"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -108565,8 +108573,8 @@
       "meanings": [
         "Extremely",
         "Most",
-        "the most",
-        "The Most"
+        "The Most",
+        "the most"
       ],
       "parts_of_speech": [
         "adverb"
@@ -108889,8 +108897,8 @@
         "Lately",
         "Latest",
         "Recent",
-        "recently",
-        "Recently"
+        "Recently",
+        "recently"
       ],
       "parts_of_speech": [
         "noun",
@@ -109200,8 +109208,8 @@
       "word": "有名",
       "reading": "ゆうめい",
       "meanings": [
-        "famous",
-        "Famous"
+        "Famous",
+        "famous"
       ],
       "parts_of_speech": [
         "な_adjective"
@@ -109533,8 +109541,8 @@
       "word": "朝",
       "reading": "あさ",
       "meanings": [
-        "morning",
-        "Morning"
+        "Morning",
+        "morning"
       ],
       "parts_of_speech": [
         "noun"
@@ -109740,11 +109748,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.404,
+      "confidence": 0.5,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -109999,8 +110007,8 @@
       "reading": "みらい",
       "meanings": [
         "Distant Future",
-        "Future",
         "future",
+        "Future",
         "The Distant Future",
         "The Future"
       ],
@@ -110130,8 +110138,8 @@
       "word": "本",
       "reading": "ほん",
       "meanings": [
-        "book",
-        "Book"
+        "Book",
+        "book"
       ],
       "parts_of_speech": [
         "noun"
@@ -110423,8 +110431,8 @@
       "reading": "ほんき",
       "meanings": [
         "Serious",
-        "seriousness",
-        "Seriousness"
+        "Seriousness",
+        "seriousness"
       ],
       "parts_of_speech": [
         "noun",
@@ -110858,8 +110866,8 @@
       "reading": "むら",
       "meanings": [
         "Rural Town",
-        "Village",
-        "village"
+        "village",
+        "Village"
       ],
       "parts_of_speech": [
         "noun"
@@ -111050,8 +111058,8 @@
       "word": "来年",
       "reading": "らいねん",
       "meanings": [
-        "Next Year",
-        "next year"
+        "next year",
+        "Next Year"
       ],
       "parts_of_speech": [
         "noun"
@@ -112193,8 +112201,8 @@
       "reading": "やわらかい",
       "meanings": [
         "Flexible",
-        "Soft",
         "soft",
+        "Soft",
         "Tender"
       ],
       "parts_of_speech": [
@@ -113258,14 +113266,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -114247,8 +114255,8 @@
       "reading": "かまう",
       "meanings": [
         "To Care About",
-        "To Mind",
         "to mind",
+        "To Mind",
         "to mind, to care for"
       ],
       "parts_of_speech": [
@@ -114459,14 +114467,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2928,
+      "confidence": 0.3105,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": 2.5,
-          "interval": 6,
-          "last_reviewed": "2026-08-13"
+          "reviews": 8,
+          "ease": 2.35,
+          "interval": 9,
+          "last_reviewed": "2026-08-18"
         },
         "wanikani": {
           "srs_stage": null
@@ -114995,14 +115003,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6218,
+      "confidence": 0.446,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -115402,8 +115410,8 @@
       "word": "歌う",
       "reading": "うたう",
       "meanings": [
-        "To Sing",
-        "to sing"
+        "to sing",
+        "To Sing"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -115747,8 +115755,8 @@
       "word": "正しい",
       "reading": "ただしい",
       "meanings": [
-        "correct",
         "Correct",
+        "correct",
         "Right",
         "True"
       ],
@@ -115992,7 +116000,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8427,
+      "confidence": 0.7042,
       "writable": false,
       "study": {
         "anki": {
@@ -116005,7 +116013,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -116419,8 +116427,8 @@
       "word": "歴史",
       "reading": "れきし",
       "meanings": [
-        "History",
-        "history"
+        "history",
+        "History"
       ],
       "parts_of_speech": [
         "noun",
@@ -116922,14 +116930,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7073,
+      "confidence": 0.782,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -117183,8 +117191,8 @@
       "word": "殺す",
       "reading": "ころす",
       "meanings": [
-        "To Kill",
-        "to kill"
+        "to kill",
+        "To Kill"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -118817,7 +118825,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.334,
+      "confidence": 0.3324,
       "writable": false,
       "study": {
         "migaku": {
@@ -119923,14 +119931,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -121579,8 +121587,8 @@
       "word": "洗う",
       "reading": "あらう",
       "meanings": [
-        "To Wash",
-        "to wash"
+        "to wash",
+        "To Wash"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -121918,8 +121926,8 @@
       "word": "活動",
       "reading": "かつどう",
       "meanings": [
-        "Activity",
-        "activity"
+        "activity",
+        "Activity"
       ],
       "parts_of_speech": [
         "noun",
@@ -122409,11 +122417,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.318,
+      "confidence": 0.4,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -122572,8 +122580,8 @@
       "word": "浮く",
       "reading": "うく",
       "meanings": [
-        "to float",
-        "To Float"
+        "To Float",
+        "to float"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -122940,14 +122948,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -126840,8 +126848,8 @@
       "reading": "ぬれる",
       "meanings": [
         "To Be Wet",
-        "to get wet",
-        "To Get Wet"
+        "To Get Wet",
+        "to get wet"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -126933,8 +126941,8 @@
       "word": "火",
       "reading": "ひ",
       "meanings": [
-        "Fire",
-        "fire"
+        "fire",
+        "Fire"
       ],
       "parts_of_speech": [
         "noun"
@@ -127701,14 +127709,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4476,
+      "confidence": 0.5238,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -128961,14 +128969,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -129449,8 +129457,8 @@
       "word": "熱",
       "reading": "ねつ",
       "meanings": [
-        "Fever",
         "fever",
+        "Fever",
         "Heat"
       ],
       "parts_of_speech": [
@@ -130414,14 +130422,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -131492,8 +131500,8 @@
       "word": "猫",
       "reading": "ねこ",
       "meanings": [
-        "Cat",
-        "cat"
+        "cat",
+        "Cat"
       ],
       "parts_of_speech": [
         "noun"
@@ -131947,8 +131955,8 @@
       "word": "王",
       "reading": "おう",
       "meanings": [
-        "King",
-        "king"
+        "king",
+        "King"
       ],
       "parts_of_speech": [
         "noun",
@@ -132070,8 +132078,8 @@
       "word": "王子",
       "reading": "おうじ",
       "meanings": [
-        "Prince",
-        "prince"
+        "prince",
+        "Prince"
       ],
       "parts_of_speech": [
         "noun",
@@ -132930,14 +132938,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -133194,14 +133202,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6311,
+      "confidence": 0.4894,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 2,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-19"
         },
         "migaku": {
           "status": "KNOWN"
@@ -133306,8 +133314,8 @@
       "word": "生まれる",
       "reading": "うまれる",
       "meanings": [
-        "To Be Born",
-        "to be born"
+        "to be born",
+        "To Be Born"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -134433,8 +134441,8 @@
       "word": "男の子",
       "reading": "おとこのこ",
       "meanings": [
-        "Boy",
-        "boy"
+        "boy",
+        "Boy"
       ],
       "parts_of_speech": [
         "noun"
@@ -135152,14 +135160,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3348,
+      "confidence": 0.3634,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 9,
-          "ease": 2.35,
-          "interval": 11,
-          "last_reviewed": "2026-08-08"
+          "reviews": 10,
+          "ease": 2.2,
+          "interval": 17,
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -135501,8 +135509,8 @@
       "word": "疲れる",
       "reading": "つかれる",
       "meanings": [
-        "to get tired",
-        "To Get Tired"
+        "To Get Tired",
+        "to get tired"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -135781,8 +135789,8 @@
       "reading": "びょうき",
       "meanings": [
         "Disease",
-        "Illness",
         "illness",
+        "Illness",
         "Sick",
         "Sickness"
       ],
@@ -135794,14 +135802,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.846,
+      "confidence": 0.605,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": 7
@@ -135814,8 +135822,8 @@
       "meanings": [
         "Clinic",
         "Doctor's Office",
-        "hospital",
-        "Hospital"
+        "Hospital",
+        "hospital"
       ],
       "parts_of_speech": [
         "noun",
@@ -136673,8 +136681,8 @@
       "word": "白",
       "reading": "しろ",
       "meanings": [
-        "White",
-        "white"
+        "white",
+        "White"
       ],
       "parts_of_speech": [
         "noun"
@@ -139311,8 +139319,8 @@
       "word": "着く",
       "reading": "つく",
       "meanings": [
-        "To Arrive",
-        "to arrive"
+        "to arrive",
+        "To Arrive"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -139846,8 +139854,8 @@
       "reading": "ちしき",
       "meanings": [
         "Information",
-        "knowledge",
-        "Knowledge"
+        "Knowledge",
+        "knowledge"
       ],
       "parts_of_speech": [
         "noun"
@@ -140317,8 +140325,8 @@
       "reading": "けんきゅう",
       "meanings": [
         "Investigation",
-        "Research",
         "research",
+        "Research",
         "Study"
       ],
       "parts_of_speech": [
@@ -141119,14 +141127,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2436,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 6,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -142524,8 +142532,8 @@
       "reading": "あき",
       "meanings": [
         "Autumn",
-        "Fall",
-        "fall"
+        "fall",
+        "Fall"
       ],
       "parts_of_speech": [
         "noun"
@@ -144879,8 +144887,8 @@
       "reading": "わらう",
       "meanings": [
         "laugh, smile",
-        "to laugh",
-        "To Laugh"
+        "To Laugh",
+        "to laugh"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -144920,7 +144928,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.498,
+      "confidence": 0.628,
       "writable": false,
       "study": {
         "anki": {
@@ -144930,7 +144938,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -145339,8 +145347,8 @@
       "word": "答える",
       "reading": "こたえる",
       "meanings": [
-        "To Answer",
         "to answer",
+        "To Answer",
         "To Reply",
         "To Respond"
       ],
@@ -148395,8 +148403,8 @@
       "word": "結婚",
       "reading": "けっこん",
       "meanings": [
-        "marriage",
-        "Marriage"
+        "Marriage",
+        "marriage"
       ],
       "parts_of_speech": [
         "noun",
@@ -149023,8 +149031,8 @@
       "word": "絶対",
       "reading": "ぜったい",
       "meanings": [
-        "absolutely",
         "Absolutely",
+        "absolutely",
         "Unconditionally",
         "Without Fail"
       ],
@@ -149318,14 +149326,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.2876,
+      "confidence": 0.3055,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": 2.5,
-          "interval": 5,
-          "last_reviewed": "2026-08-14"
+          "reviews": 8,
+          "ease": 2.35,
+          "interval": 8,
+          "last_reviewed": "2026-08-18"
         },
         "wanikani": {
           "srs_stage": null
@@ -151062,8 +151070,8 @@
       "word": "繰り返す",
       "reading": "くりかえす",
       "meanings": [
-        "To Repeat",
         "to repeat",
+        "To Repeat",
         "To Repeat Over And Over"
       ],
       "parts_of_speech": [
@@ -151537,8 +151545,8 @@
       "word": "美人",
       "reading": "びじん",
       "meanings": [
-        "beautiful woman",
-        "Beautiful Woman"
+        "Beautiful Woman",
+        "beautiful woman"
       ],
       "parts_of_speech": [
         "noun"
@@ -154843,8 +154851,8 @@
       "word": "腕",
       "reading": "うで",
       "meanings": [
-        "Arm",
-        "arm"
+        "arm",
+        "Arm"
       ],
       "parts_of_speech": [
         "noun"
@@ -155006,8 +155014,8 @@
       "reading": "はら",
       "meanings": [
         "Abdomen",
-        "Belly",
         "belly",
+        "Belly",
         "Stomach"
       ],
       "parts_of_speech": [
@@ -155917,8 +155925,8 @@
       "reading": "しぜん",
       "meanings": [
         "Natural",
-        "Nature",
-        "nature"
+        "nature",
+        "Nature"
       ],
       "parts_of_speech": [
         "noun",
@@ -156102,8 +156110,8 @@
       "word": "自覚",
       "reading": "じかく",
       "meanings": [
-        "awareness",
         "Awareness",
+        "awareness",
         "Consciousness",
         "Realization",
         "Self-Awareness"
@@ -156433,8 +156441,8 @@
       "word": "舐める",
       "reading": "なめる",
       "meanings": [
-        "to lick",
         "To Lick",
+        "to lick",
         "To Look Down On",
         "To Underestimate"
       ],
@@ -157031,8 +157039,8 @@
       "word": "色",
       "reading": "いろ",
       "meanings": [
-        "Color",
-        "color"
+        "color",
+        "Color"
       ],
       "parts_of_speech": [
         "noun"
@@ -157246,8 +157254,8 @@
       "word": "花",
       "reading": "はな",
       "meanings": [
-        "Flower",
-        "flower"
+        "flower",
+        "Flower"
       ],
       "parts_of_speech": [
         "noun"
@@ -157943,14 +157951,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3231,
+      "confidence": 0.3744,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -158482,14 +158490,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -159154,14 +159162,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.718,
+      "confidence": 0.5315,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": 6
@@ -160869,8 +160877,8 @@
       "word": "血",
       "reading": "ち",
       "meanings": [
-        "blood",
-        "Blood"
+        "Blood",
+        "blood"
       ],
       "parts_of_speech": [
         "noun"
@@ -161201,11 +161209,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.312,
+      "confidence": 0.392,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -164180,8 +164188,8 @@
       "word": "親",
       "reading": "おや",
       "meanings": [
-        "parent",
-        "Parent"
+        "Parent",
+        "parent"
       ],
       "parts_of_speech": [
         "noun"
@@ -164761,8 +164769,8 @@
       "word": "解く",
       "reading": "とく",
       "meanings": [
-        "To Solve",
         "to solve",
+        "To Solve",
         "To Solve Something"
       ],
       "parts_of_speech": [
@@ -165067,8 +165075,8 @@
       "word": "触る",
       "reading": "さわる",
       "meanings": [
-        "To Touch",
         "to touch",
+        "To Touch",
         "To Touch Something"
       ],
       "parts_of_speech": [
@@ -165696,8 +165704,8 @@
       "word": "記憶",
       "reading": "きおく",
       "meanings": [
-        "memory",
         "Memory",
+        "memory",
         "Recollection"
       ],
       "parts_of_speech": [
@@ -167739,8 +167747,8 @@
       "word": "誤解",
       "reading": "ごかい",
       "meanings": [
-        "misunderstanding",
-        "Misunderstanding"
+        "Misunderstanding",
+        "misunderstanding"
       ],
       "parts_of_speech": [
         "noun",
@@ -167812,8 +167820,8 @@
       "reading": "せつめい",
       "meanings": [
         "Description",
-        "explanation",
-        "Explanation"
+        "Explanation",
+        "explanation"
       ],
       "parts_of_speech": [
         "noun",
@@ -167984,8 +167992,8 @@
       "word": "誰",
       "reading": "だれ",
       "meanings": [
-        "who",
-        "Who"
+        "Who",
+        "who"
       ],
       "parts_of_speech": [
         "pronoun",
@@ -168017,8 +168025,8 @@
       "word": "誰か",
       "reading": "だれか",
       "meanings": [
-        "Someone",
-        "someone"
+        "someone",
+        "Someone"
       ],
       "parts_of_speech": [
         "noun"
@@ -168114,7 +168122,7 @@
         "anki",
         "wanikani"
       ],
-      "confidence": 0.398,
+      "confidence": 0.316,
       "writable": false,
       "study": {
         "anki": {
@@ -168124,7 +168132,7 @@
           "last_reviewed": "2026-07-19"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -168871,8 +168879,8 @@
       "word": "警察",
       "reading": "けいさつ",
       "meanings": [
-        "police",
-        "Police"
+        "Police",
+        "police"
       ],
       "parts_of_speech": [
         "noun",
@@ -169580,8 +169588,8 @@
       "reading": "まける",
       "meanings": [
         "To Be Defeated",
-        "To Lose",
-        "to lose"
+        "to lose",
+        "To Lose"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -170380,8 +170388,8 @@
       "word": "買い物",
       "reading": "かいもの",
       "meanings": [
-        "Shopping",
-        "shopping"
+        "shopping",
+        "Shopping"
       ],
       "parts_of_speech": [
         "noun",
@@ -170413,8 +170421,8 @@
       "word": "買う",
       "reading": "かう",
       "meanings": [
-        "to buy",
-        "To Buy"
+        "To Buy",
+        "to buy"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -171159,8 +171167,8 @@
       "word": "質問",
       "reading": "しつもん",
       "meanings": [
-        "Question",
-        "question"
+        "question",
+        "Question"
       ],
       "parts_of_speech": [
         "noun",
@@ -172506,8 +172514,8 @@
       "reading": "とぶ",
       "meanings": [
         "To Hop",
-        "to jump",
         "To Jump",
+        "to jump",
         "To Leap"
       ],
       "parts_of_speech": [
@@ -173470,14 +173478,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7089,
+      "confidence": 0.53,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -173507,8 +173515,8 @@
       "word": "軽い",
       "reading": "かるい",
       "meanings": [
-        "Light",
         "light",
+        "Light",
         "Light Weight",
         "Lightweight"
       ],
@@ -174848,14 +174856,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7011,
+      "confidence": 0.7758,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -175004,8 +175012,8 @@
       "word": "返事",
       "reading": "へんじ",
       "meanings": [
-        "reply",
         "Reply",
+        "reply",
         "Response"
       ],
       "parts_of_speech": [
@@ -176181,8 +176189,8 @@
       "meanings": [
         "Avenue",
         "Road",
-        "street",
         "Street",
+        "street",
         "Way"
       ],
       "parts_of_speech": [
@@ -176889,8 +176897,8 @@
       "reading": "すすむ",
       "meanings": [
         "To Advance",
-        "To Move Forward",
         "to move forward",
+        "To Move Forward",
         "To Progress"
       ],
       "parts_of_speech": [
@@ -177492,8 +177500,8 @@
       "word": "運ぶ",
       "reading": "はこぶ",
       "meanings": [
-        "To Carry",
         "to carry",
+        "To Carry",
         "To Move",
         "To Transport"
       ],
@@ -177860,8 +177868,8 @@
       "reading": "かこ",
       "meanings": [
         "Past",
-        "the past",
-        "The Past"
+        "The Past",
+        "the past"
       ],
       "parts_of_speech": [
         "noun"
@@ -180577,14 +180585,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -180751,8 +180759,8 @@
       "word": "重い",
       "reading": "おもい",
       "meanings": [
-        "heavy",
-        "Heavy"
+        "Heavy",
+        "heavy"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -182044,11 +182052,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 1.0,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -182279,14 +182287,14 @@
         "anki",
         "wanikani"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-19"
         },
         "wanikani": {
           "srs_stage": null
@@ -182690,8 +182698,8 @@
       "word": "鍵",
       "reading": "かぎ",
       "meanings": [
-        "Key",
         "key",
+        "Key",
         "Lock"
       ],
       "parts_of_speech": [
@@ -182902,8 +182910,8 @@
       "word": "鏡",
       "reading": "かがみ",
       "meanings": [
-        "Mirror",
-        "mirror"
+        "mirror",
+        "Mirror"
       ],
       "parts_of_speech": [
         "noun"
@@ -183020,8 +183028,8 @@
       "word": "長い",
       "reading": "ながい",
       "meanings": [
-        "long",
-        "Long"
+        "Long",
+        "long"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -183394,8 +183402,8 @@
       "reading": "あく",
       "meanings": [
         "To Be Open",
-        "To Open",
-        "to open"
+        "to open",
+        "To Open"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -183477,8 +183485,8 @@
       "word": "開始",
       "reading": "かいし",
       "meanings": [
-        "Beginning",
         "beginning",
+        "Beginning",
         "Opening",
         "Start"
       ],
@@ -183962,8 +183970,8 @@
       "word": "間違える",
       "reading": "まちがえる",
       "meanings": [
-        "to make a mistake",
         "To Make A Mistake",
+        "to make a mistake",
         "To Mistake",
         "to mistake, to confuse"
       ],
@@ -184250,8 +184258,8 @@
       "word": "闇",
       "reading": "やみ",
       "meanings": [
-        "Darkness",
         "darkness",
+        "Darkness",
         "The Dark"
       ],
       "parts_of_speech": [
@@ -186740,8 +186748,8 @@
       "word": "難しい",
       "reading": "むずかしい",
       "meanings": [
-        "difficult",
         "Difficult",
+        "difficult",
         "Hard"
       ],
       "parts_of_speech": [
@@ -187445,8 +187453,8 @@
       "reading": "でんわ",
       "meanings": [
         "Phone",
-        "Telephone",
-        "telephone"
+        "telephone",
+        "Telephone"
       ],
       "parts_of_speech": [
         "noun",
@@ -187916,8 +187924,8 @@
       "word": "青い",
       "reading": "あおい",
       "meanings": [
-        "blue",
         "Blue",
+        "blue",
         "Unripe"
       ],
       "parts_of_speech": [
@@ -188126,8 +188134,8 @@
       "word": "静か",
       "reading": "しずか",
       "meanings": [
-        "Quiet",
-        "quiet"
+        "quiet",
+        "Quiet"
       ],
       "parts_of_speech": [
         "な_adjective"
@@ -188785,8 +188793,8 @@
       "reading": "おと",
       "meanings": [
         "Noise",
-        "sound",
-        "Sound"
+        "Sound",
+        "sound"
       ],
       "parts_of_speech": [
         "noun",
@@ -189800,8 +189808,8 @@
       "reading": "がく",
       "meanings": [
         "Frame",
-        "Picture Frame",
-        "picture frame"
+        "picture frame",
+        "Picture Frame"
       ],
       "parts_of_speech": [
         "noun",
@@ -189894,11 +189902,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 1.0,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -190077,14 +190085,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.3309,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -190135,8 +190143,8 @@
       "word": "風",
       "reading": "かぜ",
       "meanings": [
-        "Wind",
-        "wind"
+        "wind",
+        "Wind"
       ],
       "parts_of_speech": [
         "noun"
@@ -190467,8 +190475,8 @@
       "word": "飛ぶ",
       "reading": "とぶ",
       "meanings": [
-        "to fly",
         "To Fly",
+        "to fly",
         "To Jump"
       ],
       "parts_of_speech": [
@@ -191437,14 +191445,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -191602,8 +191610,8 @@
       "word": "首",
       "reading": "くび",
       "meanings": [
-        "neck",
-        "Neck"
+        "Neck",
+        "neck"
       ],
       "parts_of_speech": [
         "noun"
@@ -191761,14 +191769,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3164,
+      "confidence": 0.3718,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": 2.35,
-          "interval": 17,
-          "last_reviewed": "2026-08-02"
+          "reviews": 7,
+          "ease": 2.2,
+          "interval": 29,
+          "last_reviewed": "2026-08-18"
         }
       }
     },
@@ -191857,8 +191865,8 @@
       "word": "馬",
       "reading": "うま",
       "meanings": [
-        "horse",
-        "Horse"
+        "Horse",
+        "horse"
       ],
       "parts_of_speech": [
         "noun"
@@ -192678,8 +192686,8 @@
       "word": "骨",
       "reading": "ほね",
       "meanings": [
-        "bone",
-        "Bone"
+        "Bone",
+        "bone"
       ],
       "parts_of_speech": [
         "noun"
@@ -193272,14 +193280,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-19"
         }
       }
     },
@@ -193816,8 +193824,8 @@
       "word": "鳥",
       "reading": "とり",
       "meanings": [
-        "Bird",
-        "bird"
+        "bird",
+        "Bird"
       ],
       "parts_of_speech": [
         "noun"
@@ -194747,8 +194755,8 @@
       "word": "鼻",
       "reading": "はな",
       "meanings": [
-        "nose",
-        "Nose"
+        "Nose",
+        "nose"
       ],
       "parts_of_speech": [
         "noun"
