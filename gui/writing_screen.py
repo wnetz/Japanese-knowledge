@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import random
+import re
 import tkinter as tk
 from datetime import datetime, timezone
 from tkinter import messagebox, ttk
 from typing import Any
 
+from .style import COLORS, FONTS, style_scale
+
 from .shared import (
-    JMDictReader,
     VOCABULARY_PROFILE_PATH,
     has_kanji,
     load_json,
@@ -25,7 +27,6 @@ class WritingScreen(ttk.Frame):
         self.current: dict[str, Any] | None = None
         self.previous_key: tuple[str, str] | None = None
         self.answer_revealed = False
-        self.dictionary: JMDictReader | None = None
 
         self._build_ui()
         self.reload_profile(show_errors=False)
@@ -34,7 +35,7 @@ class WritingScreen(ttk.Frame):
         ttk.Label(
             self,
             text="Writing Quiz",
-            font=("Segoe UI", 20, "bold"),
+            style="Heading.TLabel",
         ).pack(anchor="w")
 
         ttk.Label(
@@ -76,6 +77,7 @@ class WritingScreen(ttk.Frame):
         )
         self.confidence_scale.set(0.0)
         self.confidence_scale.pack(fill="x")
+        style_scale(self.confidence_scale)
 
         self.quiz_progress_var = tk.StringVar()
         ttk.Label(self, textvariable=self.quiz_progress_var).pack(
@@ -85,14 +87,14 @@ class WritingScreen(ttk.Frame):
         ttk.Label(
             self,
             text="Write this word in Japanese",
-            font=("Segoe UI", 16, "bold"),
+            style="Subheading.TLabel",
         ).pack(pady=(10, 8))
 
         self.reading_var = tk.StringVar()
         ttk.Label(
             self,
             textvariable=self.reading_var,
-            font=("Yu Gothic UI", 30),
+            font=FONTS["japanese_large"],
         ).pack(pady=(6, 5))
 
         self.meaning_var = tk.StringVar()
@@ -108,13 +110,14 @@ class WritingScreen(ttk.Frame):
         ttk.Label(
             self,
             textvariable=self.answer_var,
-            font=("Yu Gothic UI", 38, "bold"),
+            font=FONTS["japanese_answer"],
         ).pack(pady=(8, 16))
 
         self.reveal_button = ttk.Button(
             self,
             text="Reveal Answer",
             command=self.reveal_answer,
+            style="Accent.TButton",
         )
         self.reveal_button.pack(ipadx=18, ipady=7)
 
@@ -124,6 +127,7 @@ class WritingScreen(ttk.Frame):
         self.fail_button = ttk.Button(
             buttons,
             text="Fail",
+            style="Danger.TButton",
             command=lambda: self.record_result(False),
             state="disabled",
         )
@@ -132,6 +136,7 @@ class WritingScreen(ttk.Frame):
         self.pass_button = ttk.Button(
             buttons,
             text="Pass",
+            style="Success.TButton",
             command=lambda: self.record_result(True),
             state="disabled",
         )
@@ -139,6 +144,22 @@ class WritingScreen(ttk.Frame):
 
         self.quiz_stats_var = tk.StringVar()
         ttk.Label(self, textvariable=self.quiz_stats_var).pack(pady=(8, 0))
+
+    @staticmethod
+    def _dictionary_lookup_candidates(word: str) -> list[str]:
+        candidates = [word]
+
+        # Many imported deck entries may contain grammar scaffolding such as
+        # "N + を + 食べる". JMdict will not match the full expression, so try
+        # Japanese-looking lexical segments from right to left.
+        parts = re.findall(r"[一-龯々〆ヵヶぁ-ゖァ-ヺー]+", word)
+
+        for part in reversed(parts):
+            cleaned = part.strip()
+            if cleaned and cleaned not in candidates:
+                candidates.append(cleaned)
+
+        return candidates
 
     def _ensure_dictionary(self) -> bool:
         if self.dictionary is not None:
@@ -171,6 +192,11 @@ class WritingScreen(ttk.Frame):
             and item.get("writable") is True
             and str(item.get("word") or "").strip()
             and has_kanji(str(item.get("word") or ""))
+            and str(item.get("reading") or "").strip()
+            and any(
+                str(value).strip()
+                for value in item.get("meanings", [])
+            )
         ]
         self.apply_confidence_filter()
 
@@ -233,23 +259,19 @@ class WritingScreen(ttk.Frame):
     def next_question(self) -> None:
         if not self.quiz_entries:
             return
-        if not self._ensure_dictionary():
-            return
-
         self.current = self._pick_quiz_entry()
         word = str(self.current.get("word") or "").strip()
         stored_reading = str(self.current.get("reading") or "").strip()
         self.previous_key = (word, stored_reading)
 
-        dictionary_reading = self.dictionary.reading(word) if self.dictionary else None
-        self.reading_var.set(dictionary_reading or "Reading unavailable")
+        self.reading_var.set(stored_reading)
 
         meanings = [
             str(value).strip()
             for value in self.current.get("meanings", [])
             if str(value).strip()
         ]
-        self.meaning_var.set(", ".join(meanings) if meanings else "")
+        self.meaning_var.set(", ".join(meanings))
 
         self.answer_revealed = False
         self.answer_var.set("")

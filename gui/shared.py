@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -46,17 +45,6 @@ def has_kanji(value: str) -> bool:
     return False
 
 
-def katakana_to_hiragana(value: str) -> str:
-    result = []
-    for char in value:
-        code = ord(char)
-        if 0x30A1 <= code <= 0x30F6:
-            result.append(chr(code - 0x60))
-        else:
-            result.append(char)
-    return "".join(result)
-
-
 def parse_iso_datetime(value: Any) -> datetime | None:
     if not value:
         return None
@@ -72,52 +60,3 @@ def parse_iso_datetime(value: Any) -> datetime | None:
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
     return parsed.astimezone()
-
-
-class JMDictReader:
-    def __init__(self) -> None:
-        try:
-            from jamdict import Jamdict
-        except ImportError as exc:
-            raise RuntimeError(
-                "JMdict support is not installed.\n\n"
-                "Run:\n"
-                "python -m pip install jamdict jamdict-data"
-            ) from exc
-        self.jam = Jamdict()
-
-    @staticmethod
-    def _reading_from_entry_text(entry: Any, word: str) -> str | None:
-        text = str(entry)
-        escaped = re.escape(word)
-
-        match = re.search(
-            r"\]\s+([ぁ-ゖァ-ヺー]+)\s+\(" + escaped + r"\)\s*:",
-            text,
-        )
-        if match:
-            return katakana_to_hiragana(match.group(1))
-
-        match = re.search(r"\]\s+([ぁ-ゖァ-ヺー]+)\s*:", text)
-        if match and not has_kanji(word):
-            return katakana_to_hiragana(match.group(1))
-        return None
-
-    def reading(self, word: str) -> str | None:
-        result = self.jam.lookup(word)
-        exact: list[str] = []
-        fallback: list[str] = []
-
-        for entry in result.entries:
-            reading = self._reading_from_entry_text(entry, word)
-            if reading:
-                if f"({word})" in str(entry):
-                    exact.append(reading)
-                else:
-                    fallback.append(reading)
-
-        if exact:
-            return exact[0]
-        if fallback:
-            return fallback[0]
-        return None

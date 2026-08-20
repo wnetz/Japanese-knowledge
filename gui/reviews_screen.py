@@ -6,6 +6,8 @@ from datetime import datetime, time, timedelta
 from tkinter import ttk
 from typing import Any
 
+from .style import COLORS
+
 from .shared import (
     ANKI_INDEX_PATH,
     BUNPRO_FALLBACK_PATH,
@@ -29,7 +31,7 @@ class ReviewsScreen(ttk.Frame):
         ttk.Label(
             self,
             text="Upcoming Reviews",
-            font=("Segoe UI", 20, "bold"),
+            style="Heading.TLabel",
         ).pack(anchor="w")
 
         ttk.Label(
@@ -438,8 +440,25 @@ class ReviewsScreen(ttk.Frame):
 
         figure = Figure(figsize=(8.8, 5.4), dpi=100)
         axis = figure.add_subplot(111)
+        figure.patch.set_facecolor(COLORS["bg"])
+        axis.set_facecolor(COLORS["panel"])
+        axis.tick_params(colors=COLORS["text"])
+        axis.xaxis.label.set_color(COLORS["text"])
+        axis.yaxis.label.set_color(COLORS["text"])
+        axis.title.set_color(COLORS["text"])
+        for spine in axis.spines.values():
+            spine.set_color(COLORS["border"])
 
         return FigureCanvasTkAgg, figure, axis
+
+    @staticmethod
+    def _line_color(source: str) -> str:
+        return {
+            "WaniKani": COLORS["wanikani"],
+            "Bunpro": COLORS["bunpro"],
+            "Anki": COLORS["anki"],
+            "Total": COLORS["total"],
+        }.get(source, COLORS["text"])
 
     def _selected_source_names(self) -> list[str]:
         selected = []
@@ -504,6 +523,7 @@ class ReviewsScreen(ttk.Frame):
                 marker="o",
                 markersize=3,
                 linewidth=1.8,
+                color=self._line_color(source),
                 label=source,
             )
 
@@ -513,7 +533,8 @@ class ReviewsScreen(ttk.Frame):
                 hours,
                 total_values,
                 linewidth=2.4,
-                linestyle="--",
+                linestyle="-",
+                color=self._line_color("Total"),
                 label="Total",
             )
 
@@ -528,7 +549,12 @@ class ReviewsScreen(ttk.Frame):
             else "Reviews due"
         )
         axis.grid(True, alpha=0.25)
-        axis.legend()
+        legend = axis.legend()
+        if legend is not None:
+            legend.get_frame().set_facecolor(COLORS["panel_alt"])
+            legend.get_frame().set_edgecolor(COLORS["border"])
+            for item in legend.get_texts():
+                item.set_color(COLORS["text"])
         axis.set_ylim(bottom=0)
 
         tick_hours = hours[::3]
@@ -596,6 +622,7 @@ class ReviewsScreen(ttk.Frame):
                 marker="o",
                 markersize=3,
                 linewidth=1.8,
+                color=self._line_color(source),
                 label=source,
             )
 
@@ -605,7 +632,8 @@ class ReviewsScreen(ttk.Frame):
                 dates,
                 total_values,
                 linewidth=2.4,
-                linestyle="--",
+                linestyle="-",
+                color=self._line_color("Total"),
                 label="Total",
             )
 
@@ -620,7 +648,12 @@ class ReviewsScreen(ttk.Frame):
             else "Reviews due"
         )
         axis.grid(True, alpha=0.25)
-        axis.legend()
+        legend = axis.legend()
+        if legend is not None:
+            legend.get_frame().set_facecolor(COLORS["panel_alt"])
+            legend.get_frame().set_edgecolor(COLORS["border"])
+            for item in legend.get_texts():
+                item.set_color(COLORS["text"])
         axis.set_ylim(bottom=0)
 
         if len(dates) <= 10:

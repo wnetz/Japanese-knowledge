@@ -8,6 +8,7 @@ from datetime import datetime
 from tkinter import messagebox, ttk
 
 from .shared import PROJECT_DIR, UPDATE_PROFILE_PATH
+from .style import FONTS, style_text_widget
 
 
 class UpdateScreen(ttk.Frame):
@@ -20,7 +21,7 @@ class UpdateScreen(ttk.Frame):
         ttk.Label(
             self,
             text="Update Profiles",
-            font=("Segoe UI", 20, "bold"),
+            style="Heading.TLabel",
         ).pack(anchor="w")
 
         ttk.Label(
@@ -61,6 +62,7 @@ class UpdateScreen(ttk.Frame):
             self,
             text="Update Selected Sources",
             command=self.update_selected_profiles,
+            style="Accent.TButton",
         )
         self.update_button.pack(anchor="w", pady=(18, 12), ipadx=18, ipady=7)
 
@@ -74,7 +76,7 @@ class UpdateScreen(ttk.Frame):
         ttk.Label(
             self,
             text="Update log",
-            font=("Segoe UI", 11, "bold"),
+            style="Subheading.TLabel",
         ).pack(anchor="w", pady=(12, 4))
 
         log_frame = ttk.Frame(self)
@@ -85,7 +87,7 @@ class UpdateScreen(ttk.Frame):
             height=18,
             wrap="word",
             state="disabled",
-            font=("Consolas", 9),
+            font=FONTS["mono"],
         )
 
         scrollbar = ttk.Scrollbar(
@@ -95,6 +97,7 @@ class UpdateScreen(ttk.Frame):
         )
 
         self.update_log.configure(yscrollcommand=scrollbar.set)
+        style_text_widget(self.update_log)
         self.update_log.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
 

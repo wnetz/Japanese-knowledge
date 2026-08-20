@@ -3,7 +3,10 @@ from __future__ import annotations
 import tkinter as tk
 from tkinter import ttk
 
+from .style import configure_root, COLORS, PADDING
+
 from .reviews_screen import ReviewsScreen
+from .kanji_heatmap_screen import KanjiHeatmapScreen
 from .update_screen import UpdateScreen
 from .writing_screen import WritingScreen
 
@@ -15,6 +18,7 @@ class JapaneseKnowledgeApp(tk.Tk):
         self.title("Japanese Knowledge")
         self.geometry("1100x760")
         self.minsize(900, 650)
+        configure_root(self)
 
         self.frames = {}
 
@@ -25,13 +29,19 @@ class JapaneseKnowledgeApp(tk.Tk):
         outer = ttk.Frame(self)
         outer.pack(fill="both", expand=True)
 
-        sidebar = ttk.Frame(outer, padding=(12, 14))
+        sidebar = ttk.Frame(
+            outer,
+            padding=(PADDING["sidebar_x"], PADDING["sidebar_y"]),
+            style="Panel.TFrame",
+        )
         sidebar.pack(side="left", fill="y")
 
         ttk.Label(
             sidebar,
             text="Japanese\nKnowledge",
             font=("Segoe UI", 16, "bold"),
+            foreground=COLORS["purple_hover"],
+            background=COLORS["panel"],
             justify="left",
         ).pack(anchor="w", pady=(0, 22))
 
@@ -56,17 +66,26 @@ class JapaneseKnowledgeApp(tk.Tk):
             width=22,
         ).pack(fill="x", pady=4)
 
+        ttk.Button(
+            sidebar,
+            text="Kanji Heatmap",
+            command=lambda: self.show_screen("heatmap"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
         ttk.Separator(
             outer,
             orient="vertical",
         ).pack(side="left", fill="y")
 
-        self.content = ttk.Frame(outer, padding=20)
+        self.content = ttk.Frame(outer, padding=PADDING["outer"])
         self.content.pack(side="left", fill="both", expand=True)
 
         self.frames["writing"] = WritingScreen(self.content)
 
         self.frames["reviews"] = ReviewsScreen(self.content)
+
+        self.frames["heatmap"] = KanjiHeatmapScreen(self.content)
 
         self.frames["update"] = UpdateScreen(
             self.content,
@@ -80,6 +99,10 @@ class JapaneseKnowledgeApp(tk.Tk):
         writing.reload_profile(show_errors=False)
         reviews.refresh_reviews()
 
+        heatmap = self.frames.get("heatmap")
+        if heatmap is not None:
+            heatmap.refresh_heatmap()
+
     def show_screen(self, name: str) -> None:
         for frame in self.frames.values():
             frame.pack_forget()
@@ -89,3 +112,5 @@ class JapaneseKnowledgeApp(tk.Tk):
 
         if name == "reviews":
             frame.refresh_reviews()
+        elif name == "heatmap":
+            frame.refresh_heatmap()
