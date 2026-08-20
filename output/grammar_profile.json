@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "source": "bunpro",
-  "generated_at": "2026-08-19T08:20:08.779005+00:00",
+  "generated_at": "2026-08-20T08:59:16.558707+00:00",
   "api": "unofficial_frontend",
   "user": {
     "id": 321879,
     "username": "greengriffin",
     "level": 51,
-    "xp": 158190,
+    "xp": 159340,
     "language": "english",
     "vacation_mode": false,
     "created_at": "2026-07-18T04:19:50.374Z"
   },
   "counts": {
-    "grammar": 92,
-    "vocabulary": 1562
+    "grammar": 96,
+    "vocabulary": 1565
   },
   "srs_overview": {
     "grammar": {
-      "beginner": 17,
-      "adept": 35,
-      "seasoned": 40,
+      "beginner": 16,
+      "adept": 38,
+      "seasoned": 42,
       "expert": 0,
       "master": 0,
       "ghost": 3,
@@ -31,7 +31,7 @@
       "adept": 0,
       "seasoned": 0,
       "expert": 0,
-      "master": 1562,
+      "master": 1565,
       "self_study": 0,
       "ghost": 0
     }
@@ -39,9 +39,9 @@
   "jlpt_progress": {
     "grammar": {
       "5": {
-        "beginner": 17,
-        "adept": 35,
-        "seasoned": 40,
+        "beginner": 16,
+        "adept": 38,
+        "seasoned": 42,
         "expert": 0,
         "master": 0,
         "total_count": 132
@@ -93,7 +93,7 @@
         "adept": 0,
         "seasoned": 0,
         "expert": 0,
-        "master": 240,
+        "master": 241,
         "total_count": 1095
       },
       "3": {
@@ -101,7 +101,7 @@
         "adept": 0,
         "seasoned": 0,
         "expert": 0,
-        "master": 238,
+        "master": 239,
         "total_count": 1998
       },
       "2": {
@@ -148,10 +148,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 0,
-        "accuracy": 40,
-        "times_studied": 10,
-        "next_review": "2026-08-19T07:00:00.000Z",
+        "streak": 2,
+        "accuracy": 46,
+        "times_studied": 13,
+        "next_review": "2026-08-20T11:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-15T02:00:00.000Z",
         "ghost_count": 0
@@ -199,10 +199,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 1,
-        "accuracy": 40,
-        "times_studied": 10,
-        "next_review": "2026-08-19T08:00:00.000Z",
+        "streak": 2,
+        "accuracy": 46,
+        "times_studied": 13,
+        "next_review": "2026-08-20T11:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-12T03:00:00.000Z",
         "ghost_count": 0
@@ -284,10 +284,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 85,
-        "times_studied": 7,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "streak": 6,
+        "accuracy": 87,
+        "times_studied": 8,
+        "next_review": "2026-08-28T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-08T01:00:00.000Z",
         "ghost_count": 0
@@ -334,11 +334,11 @@
       "meaning": "Adjectives ending in い",
       "level": "JLPT5",
       "study": {
-        "srs_level": "adept",
-        "streak": 6,
-        "accuracy": 71,
-        "times_studied": 14,
-        "next_review": "2026-08-20T02:00:00.000Z",
+        "srs_level": "seasoned",
+        "streak": 7,
+        "accuracy": 73,
+        "times_studied": 15,
+        "next_review": "2026-09-01T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-18T14:00:00.000Z",
         "ghost_count": 0
@@ -487,11 +487,11 @@
       "meaning": "Because, Since",
       "level": "JLPT5",
       "study": {
-        "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 44,
-        "times_studied": 25,
-        "next_review": "2026-08-19T12:00:00.000Z",
+        "srs_level": "adept",
+        "streak": 4,
+        "accuracy": 46,
+        "times_studied": 26,
+        "next_review": "2026-08-21T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-02T02:00:00.000Z",
         "ghost_count": 0
@@ -539,10 +539,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 85,
-        "times_studied": 7,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "streak": 4,
+        "accuracy": 75,
+        "times_studied": 8,
+        "next_review": "2026-08-21T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-02T02:00:00.000Z",
         "ghost_count": 0
@@ -573,10 +573,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 6,
-        "accuracy": 80,
-        "times_studied": 10,
-        "next_review": "2026-08-20T02:00:00.000Z",
+        "streak": 5,
+        "accuracy": 72,
+        "times_studied": 11,
+        "next_review": "2026-08-22T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-01T04:00:00.000Z",
         "ghost_count": 0
@@ -647,6 +647,23 @@
         "next_review": "2026-08-21T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-28T23:00:00.000Z",
+        "ghost_count": 0
+      }
+    },
+    {
+      "id": 359,
+      "slug": "けっこう",
+      "title": "けっこう",
+      "meaning": "Quite, A lot, Fairly, Rather",
+      "level": "JLPT5",
+      "study": {
+        "srs_level": "beginner",
+        "streak": 0,
+        "accuracy": 50,
+        "times_studied": 2,
+        "next_review": "2026-08-20T04:00:00.000Z",
+        "complete": true,
+        "started_studying_at": "2026-08-19T23:00:00.000Z",
         "ghost_count": 0
       }
     },
@@ -742,11 +759,11 @@
       "meaning": "Was not, Wasn't",
       "level": "JLPT5",
       "study": {
-        "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 63,
-        "times_studied": 11,
-        "next_review": "2026-08-19T17:00:00.000Z",
+        "srs_level": "adept",
+        "streak": 4,
+        "accuracy": 66,
+        "times_studied": 12,
+        "next_review": "2026-08-21T22:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-10T02:00:00.000Z",
         "ghost_count": 0
@@ -777,10 +794,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "seasoned",
-        "streak": 7,
-        "accuracy": 88,
-        "times_studied": 9,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "streak": 8,
+        "accuracy": 90,
+        "times_studied": 10,
+        "next_review": "2026-09-13T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-20T01:00:00.000Z",
         "ghost_count": 0
@@ -827,13 +844,30 @@
       "meaning": "Want to do",
       "level": "JLPT5",
       "study": {
-        "srs_level": "beginner",
-        "streak": 3,
+        "srs_level": "adept",
+        "streak": 4,
         "accuracy": 100,
-        "times_studied": 3,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "times_studied": 4,
+        "next_review": "2026-08-22T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-17T23:00:00.000Z",
+        "ghost_count": 0
+      }
+    },
+    {
+      "id": 715,
+      "slug": "たくさん",
+      "title": "たくさん",
+      "meaning": "Many, A lot of, Plenty, Enough",
+      "level": "JLPT5",
+      "study": {
+        "srs_level": "beginner",
+        "streak": 1,
+        "accuracy": 50,
+        "times_studied": 2,
+        "next_review": "2026-08-20T07:00:00.000Z",
+        "complete": true,
+        "started_studying_at": "2026-08-19T23:00:00.000Z",
         "ghost_count": 0
       }
     },
@@ -845,10 +879,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 100,
-        "times_studied": 3,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "streak": 2,
+        "accuracy": 75,
+        "times_studied": 4,
+        "next_review": "2026-08-20T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-17T23:00:00.000Z",
         "ghost_count": 0
@@ -879,10 +913,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 2,
+        "streak": 3,
         "accuracy": 100,
-        "times_studied": 2,
-        "next_review": "2026-08-19T14:00:00.000Z",
+        "times_studied": 3,
+        "next_review": "2026-08-20T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-19T01:00:00.000Z",
         "ghost_count": 0
@@ -896,10 +930,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 85,
-        "times_studied": 7,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "streak": 6,
+        "accuracy": 87,
+        "times_studied": 8,
+        "next_review": "2026-08-28T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-09T04:00:00.000Z",
         "ghost_count": 0
@@ -913,10 +947,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "seasoned",
-        "streak": 7,
-        "accuracy": 80,
-        "times_studied": 10,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "streak": 8,
+        "accuracy": 81,
+        "times_studied": 11,
+        "next_review": "2026-09-13T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-21T09:00:00.000Z",
         "ghost_count": 0
@@ -930,10 +964,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
+        "streak": 6,
         "accuracy": 100,
-        "times_studied": 5,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "times_studied": 6,
+        "next_review": "2026-08-28T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-11T02:00:00.000Z",
         "ghost_count": 0
@@ -946,11 +980,11 @@
       "meaning": "Is, Am, Are (~ing)",
       "level": "JLPT5",
       "study": {
-        "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 47,
-        "times_studied": 21,
-        "next_review": "2026-08-19T12:00:00.000Z",
+        "srs_level": "adept",
+        "streak": 4,
+        "accuracy": 50,
+        "times_studied": 22,
+        "next_review": "2026-08-21T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-03T23:00:00.000Z",
         "ghost_count": 0
@@ -964,10 +998,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 2,
-        "accuracy": 44,
-        "times_studied": 9,
-        "next_review": "2026-08-19T10:00:00.000Z",
+        "streak": 3,
+        "accuracy": 50,
+        "times_studied": 10,
+        "next_review": "2026-08-20T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-14T02:00:00.000Z",
         "ghost_count": 0
@@ -981,10 +1015,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 2,
-        "accuracy": 55,
-        "times_studied": 9,
-        "next_review": "2026-08-19T14:00:00.000Z",
+        "streak": 3,
+        "accuracy": 60,
+        "times_studied": 10,
+        "next_review": "2026-08-20T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-15T02:00:00.000Z",
         "ghost_count": 0
@@ -998,10 +1032,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 0,
-        "accuracy": 25,
-        "times_studied": 8,
-        "next_review": "2026-08-19T07:00:00.000Z",
+        "streak": 2,
+        "accuracy": 40,
+        "times_studied": 10,
+        "next_review": "2026-08-20T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-16T23:00:00.000Z",
         "ghost_count": 0
@@ -1100,10 +1134,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 33,
-        "times_studied": 15,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "streak": 2,
+        "accuracy": 31,
+        "times_studied": 16,
+        "next_review": "2026-08-20T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-11T02:00:00.000Z",
         "ghost_count": 0
@@ -1144,6 +1178,40 @@
       }
     },
     {
+      "id": 56,
+      "slug": "どこ",
+      "title": "どこ",
+      "meaning": "Where",
+      "level": "JLPT5",
+      "study": {
+        "srs_level": "beginner",
+        "streak": 2,
+        "accuracy": 100,
+        "times_studied": 2,
+        "next_review": "2026-08-20T07:00:00.000Z",
+        "complete": true,
+        "started_studying_at": "2026-08-19T14:00:00.000Z",
+        "ghost_count": 0
+      }
+    },
+    {
+      "id": 713,
+      "slug": "どの",
+      "title": "どの",
+      "meaning": "Which (of three or more), What (kind)",
+      "level": "JLPT5",
+      "study": {
+        "srs_level": "beginner",
+        "streak": 2,
+        "accuracy": 100,
+        "times_studied": 2,
+        "next_review": "2026-08-20T11:00:00.000Z",
+        "complete": true,
+        "started_studying_at": "2026-08-19T23:00:00.000Z",
+        "ghost_count": 0
+      }
+    },
+    {
       "id": 712,
       "slug": "どれ",
       "title": "どれ",
@@ -1151,10 +1219,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 0,
-        "accuracy": 50,
-        "times_studied": 2,
-        "next_review": "2026-08-19T07:00:00.000Z",
+        "streak": 1,
+        "accuracy": 60,
+        "times_studied": 5,
+        "next_review": "2026-08-20T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-19T01:00:00.000Z",
         "ghost_count": 0
@@ -1202,10 +1270,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 85,
-        "times_studied": 7,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "streak": 6,
+        "accuracy": 87,
+        "times_studied": 8,
+        "next_review": "2026-08-28T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-08T01:00:00.000Z",
         "ghost_count": 0
@@ -1253,10 +1321,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 70,
-        "times_studied": 10,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "streak": 4,
+        "accuracy": 63,
+        "times_studied": 11,
+        "next_review": "2026-08-21T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-06T23:00:00.000Z",
         "ghost_count": 0
@@ -1372,10 +1440,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "adept",
-        "streak": 5,
-        "accuracy": 72,
-        "times_studied": 11,
-        "next_review": "2026-08-20T03:00:00.000Z",
+        "streak": 6,
+        "accuracy": 75,
+        "times_studied": 12,
+        "next_review": "2026-08-28T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-30T23:00:00.000Z",
         "ghost_count": 0
@@ -1388,11 +1456,11 @@
       "meaning": "Because, So, Since, The reason being",
       "level": "JLPT5",
       "study": {
-        "srs_level": "beginner",
-        "streak": 3,
-        "accuracy": 52,
-        "times_studied": 25,
-        "next_review": "2026-08-20T00:00:00.000Z",
+        "srs_level": "adept",
+        "streak": 4,
+        "accuracy": 53,
+        "times_studied": 26,
+        "next_review": "2026-08-22T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-02T02:00:00.000Z",
         "ghost_count": 1
@@ -1475,9 +1543,9 @@
       "study": {
         "srs_level": "beginner",
         "streak": 2,
-        "accuracy": 57,
-        "times_studied": 7,
-        "next_review": "2026-08-19T09:00:00.000Z",
+        "accuracy": 55,
+        "times_studied": 9,
+        "next_review": "2026-08-20T07:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-16T04:00:00.000Z",
         "ghost_count": 0
@@ -1491,10 +1559,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 1,
-        "accuracy": 33,
-        "times_studied": 9,
-        "next_review": "2026-08-19T10:00:00.000Z",
+        "streak": 3,
+        "accuracy": 45,
+        "times_studied": 11,
+        "next_review": "2026-08-20T22:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-16T23:00:00.000Z",
         "ghost_count": 0
@@ -1525,10 +1593,10 @@
       "level": "JLPT5",
       "study": {
         "srs_level": "beginner",
-        "streak": 2,
-        "accuracy": 66,
-        "times_studied": 6,
-        "next_review": "2026-08-19T09:00:00.000Z",
+        "streak": 3,
+        "accuracy": 71,
+        "times_studied": 7,
+        "next_review": "2026-08-20T13:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-08-16T04:00:00.000Z",
         "ghost_count": 0
@@ -1575,11 +1643,11 @@
       "meaning": "Will/Does/Do (not)",
       "level": "JLPT5",
       "study": {
-        "srs_level": "adept",
-        "streak": 6,
-        "accuracy": 71,
-        "times_studied": 14,
-        "next_review": "2026-08-20T02:00:00.000Z",
+        "srs_level": "seasoned",
+        "streak": 7,
+        "accuracy": 73,
+        "times_studied": 15,
+        "next_review": "2026-09-01T02:00:00.000Z",
         "complete": true,
         "started_studying_at": "2026-07-19T02:00:00.000Z",
         "ghost_count": 0
@@ -8253,7 +8321,7 @@
       "id": 909,
       "slug": "自転車",
       "title": "自転車",
-      "meaning": "bicycle",
+      "meaning": "bicycle, bike",
       "level": "N5",
       "study": {
         "srs_level": "master",
@@ -11930,6 +11998,22 @@
       }
     },
     {
+      "id": 1757,
+      "slug": "植える",
+      "title": "植える",
+      "meaning": "to plant, to grow, to raise, to insert, to transplant, to implant, to set (type), to inoculate (e.g. an infectious agent), to instill (idea, value, etc.), to instil, to inculcate",
+      "level": "N4",
+      "study": {
+        "srs_level": "master",
+        "streak": 12,
+        "times_studied": 0,
+        "next_review": "2046-08-20T03:19:14.057Z",
+        "complete": true,
+        "started_studying_at": "2026-08-20T03:19:14.035Z",
+        "ghost_count": 0
+      }
+    },
+    {
       "id": 1802,
       "slug": "正しい",
       "title": "正しい",
@@ -14550,6 +14634,22 @@
         "next_review": "2046-07-18T15:57:11.620Z",
         "complete": true,
         "started_studying_at": "2026-07-18T15:57:11.604Z",
+        "ghost_count": 0
+      }
+    },
+    {
+      "id": 4055,
+      "slug": "名字",
+      "title": "名字",
+      "meaning": "surname, family name",
+      "level": "N3",
+      "study": {
+        "srs_level": "master",
+        "streak": 12,
+        "times_studied": 0,
+        "next_review": "2046-08-20T03:19:13.997Z",
+        "complete": true,
+        "started_studying_at": "2026-08-20T03:19:13.974Z",
         "ghost_count": 0
       }
     },
@@ -21958,6 +22058,22 @@
         "next_review": "2046-07-18T15:57:06.357Z",
         "complete": true,
         "started_studying_at": "2026-07-18T15:57:06.339Z",
+        "ghost_count": 0
+      }
+    },
+    {
+      "id": 26430,
+      "slug": "全治",
+      "title": "全治",
+      "meaning": "complete recovery, healing",
+      "level": "A17",
+      "study": {
+        "srs_level": "master",
+        "streak": 12,
+        "times_studied": 0,
+        "next_review": "2046-08-20T03:19:14.121Z",
+        "complete": true,
+        "started_studying_at": "2026-08-20T03:19:14.096Z",
         "ghost_count": 0
       }
     },

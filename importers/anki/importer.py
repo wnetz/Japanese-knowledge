@@ -3,7 +3,7 @@ from __future__ import annotations
 import html
 import re
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from typing import Any, Iterable
 
@@ -122,31 +122,51 @@ def _last_reviewed(review_entries: Iterable[Any]) -> str | None:
     return datetime.fromtimestamp(latest_ms / 1000, tz=timezone.utc).date().isoformat()
 
 
+def _exact_due_at(card: dict[str, Any]) -> str | None:
+    """Return an exact timestamp for time-scheduled learning/relearning cards."""
+    state = _state_for_card(card)
+    if state not in {"learning", "relearning"}:
+        return None
 
-_FURIGANA_RE = re.compile(r"([\u3400-\u4dbf\u4e00-\u9fff々]+)\[([^\]]+)\]")
+    try:
+        due = int(card.get("due"))
+    except (TypeError, ValueError):
+        return None
+
+    # Learning/relearning timestamps are Unix seconds. Scheduler-day integers
+    # for ordinary review cards are much smaller.
+    if due < 1_000_000_000:
+        return None
+
+    try:
+        return datetime.fromtimestamp(due, tz=timezone.utc).isoformat()
+    except (OverflowError, OSError, ValueError):
+        return None
 
 
-def _parse_furigana_word(value: str) -> tuple[str, str]:
-    """Convert Anki-style 食[た]べる into (食べる, たべる)."""
-    cleaned = _clean_field(value)
+def _review_due_date(
+    card: dict[str, Any],
+    *,
+    scheduler_today: int | None,
+) -> str | None:
+    """Convert Anki's scheduler-day `due` value to a local calendar date."""
+    if _state_for_card(card) != "review" or scheduler_today is None:
+        return None
 
-    reading_parts: list[str] = []
-    last = 0
-    for match in _FURIGANA_RE.finditer(cleaned):
-        reading_parts.append(cleaned[last:match.start()])
-        reading_parts.append(match.group(2))
-        last = match.end()
-    reading_parts.append(cleaned[last:])
+    try:
+        due_day = int(card.get("due"))
+    except (TypeError, ValueError):
+        return None
 
-    word = _FURIGANA_RE.sub(lambda m: m.group(1), cleaned)
-    reading = "".join(reading_parts)
-    return word.strip(), reading.strip()
+    # A timestamp here would not be a normal scheduler-day review value.
+    if due_day >= 1_000_000_000:
+        return None
+
+    local_today = datetime.now().astimezone().date()
+    offset = due_day - scheduler_today
+    return (local_today + timedelta(days=offset)).isoformat()
 
 
-def _split_note_values(value: str, split_lines: bool) -> list[str]:
-    if not split_lines:
-        return [value]
-    return [line.strip() for line in value.splitlines() if line.strip()]
 
 
 class AnkiImporter:
@@ -165,6 +185,44 @@ class AnkiImporter:
             timeout_seconds=config.timeout_seconds,
         )
 
+    def _resolve_scheduler_today(self, deck: str) -> int | None:
+        """Resolve Anki's internal scheduler-day number using Browser due search.
+
+        `prop:due=N` is relative to Anki's own current review day. Once a
+        normal review card with a known offset is found, its raw `due` field
+        gives us the scheduler-day origin for converting all review cards.
+        """
+        escaped_deck = deck.replace('"', '\\"')
+
+        # Prefer current/future cards, then a small overdue window. Usually
+        # offset 0 or 1 succeeds immediately.
+        offsets = list(range(0, 31)) + list(range(-1, -31, -1))
+
+        for offset in offsets:
+            query = (
+                f'deck:"{escaped_deck}" '
+                f'-is:learn is:review prop:due={offset}'
+            )
+            card_ids = self.client.find_cards(query)
+            if not card_ids:
+                continue
+
+            info = self.client.cards_info(card_ids[:1])
+            if not info:
+                continue
+
+            try:
+                raw_due = int(info[0].get("due"))
+            except (TypeError, ValueError):
+                continue
+
+            if raw_due >= 1_000_000_000:
+                continue
+
+            return raw_due - offset
+
+        return None
+
     def import_data(self) -> dict[str, Any]:
         available_decks = set(self.client.deck_names())
         configured_decks = list(dict.fromkeys(self.config.decks))
@@ -177,6 +235,7 @@ class AnkiImporter:
         for deck in selected_decks:
             escaped_deck = deck.replace('"', '\\"')
             query = f'deck:"{escaped_deck}"'
+            scheduler_today = self._resolve_scheduler_today(deck)
             card_ids = self.client.find_cards(query)
             for batch in _chunks(card_ids, self.config.batch_size):
                 batch_cards = self.client.cards_info(batch)
@@ -187,6 +246,11 @@ class AnkiImporter:
                 for card in batch_cards:
                     card_id = card.get("cardId") or card.get("card_id")
                     card["_review_history"] = review_history.get(str(card_id), [])
+                    card["_due_date"] = _review_due_date(
+                        card,
+                        scheduler_today=scheduler_today,
+                    )
+                    card["_due_at"] = _exact_due_at(card)
                 cards.extend(batch_cards)
 
         entries, conflicts, skipped = self._merge_cards(cards)
@@ -226,23 +290,10 @@ class AnkiImporter:
         skipped = 0
         for note_cards in by_note.values():
             primary = note_cards[0]
-            deck = str(primary.get("deckName") or "")
-            fields = self.config.deck_fields.get(deck, self.config.fields)
-
-            raw_word = _field_value(primary, fields.word)
-            if not raw_word:
+            word = _field_value(primary, self.config.fields.word)
+            if not word:
                 skipped += len(note_cards)
                 continue
-
-            raw_reading = _field_value(primary, fields.reading) if fields.reading else ""
-            meaning = _field_value(primary, fields.meaning) if fields.meaning else ""
-            pitch_accent = (
-                _field_value(primary, fields.pitch_accent) if fields.pitch_accent else ""
-            )
-            frequency = (
-                _parse_frequency(_field_value(primary, fields.frequency))
-                if fields.frequency else None
-            )
 
             interval_cards = sorted(
                 note_cards,
@@ -251,57 +302,44 @@ class AnkiImporter:
             )
             best_card = interval_cards[0]
             ease_values = [_ease(card.get("factor")) for card in note_cards]
-            study = {
-                "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
-                "best_interval": max(
-                    (_positive_int(card.get("interval")) for card in note_cards),
-                    default=0,
-                ),
-                "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
-                "ease": max((value for value in ease_values if value is not None), default=None),
-                "last_reviewed": max(
-                    (
-                        value
-                        for value in (
-                            _last_reviewed(card.get("_review_history") or [])
-                            for card in note_cards
-                        )
-                        if value is not None
+            normalized_notes.append(
+                {
+                    "word": word,
+                    "reading": _field_value(primary, self.config.fields.reading),
+                    "meaning": _field_value(primary, self.config.fields.meaning),
+                    "pitch_accent": _field_value(primary, self.config.fields.pitch_accent),
+                    "frequency": _parse_frequency(
+                        _field_value(primary, self.config.fields.frequency)
                     ),
-                    default=None,
-                ),
-                "state": _state_for_card(best_card),
-            }
-
-            raw_words = _split_note_values(raw_word, fields.split_lines)
-            raw_readings = _split_note_values(raw_reading, fields.split_lines) if raw_reading else []
-
-            for index, raw_word_item in enumerate(raw_words):
-                if fields.furigana_in_word:
-                    word, derived_reading = _parse_furigana_word(raw_word_item)
-                else:
-                    word = raw_word_item.strip()
-                    derived_reading = ""
-
-                reading = (
-                    raw_readings[index].strip()
-                    if index < len(raw_readings)
-                    else derived_reading
-                )
-                if not word:
-                    continue
-
-                normalized_notes.append(
-                    {
-                        "word": word,
-                        "reading": reading,
-                        "meaning": meaning,
-                        "pitch_accent": pitch_accent,
-                        "frequency": frequency,
-                        "deck": deck,
-                        "study": study.copy(),
-                    }
-                )
+                    "deck": str(primary.get("deckName") or ""),
+                    "study": {
+                        "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
+                        "best_interval": max(
+                            (_positive_int(card.get("interval")) for card in note_cards),
+                            default=0,
+                        ),
+                        "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
+                        "ease": max((value for value in ease_values if value is not None), default=None),
+                        "last_reviewed": max(
+                            (
+                                value
+                                for value in (
+                                    _last_reviewed(card.get("_review_history") or [])
+                                    for card in note_cards
+                                )
+                                if value is not None
+                            ),
+                            default=None,
+                        ),
+                        "state": _state_for_card(best_card),
+                        "due": best_card.get("due"),
+                        "due_date": best_card.get("_due_date"),
+                        "due_at": best_card.get("_due_at"),
+                        "queue": best_card.get("queue"),
+                        "card_type": best_card.get("type"),
+                    },
+                }
+            )
 
         grouped: dict[tuple[str,str], list[dict[str, Any]]] = defaultdict(list)
         for item in normalized_notes:
@@ -350,6 +388,11 @@ class AnkiImporter:
                         default=None,
                     ),
                     "state": best_item["study"].get("state", "unknown"),
+                    "due": best_item["study"].get("due"),
+                    "due_date": best_item["study"].get("due_date"),
+                    "due_at": best_item["study"].get("due_at"),
+                    "queue": best_item["study"].get("queue"),
+                    "card_type": best_item["study"].get("card_type"),
                 },
             }
             merged.append(_remove_empty(entry))

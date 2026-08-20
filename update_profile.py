@@ -61,6 +61,15 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--config", default=None, help="Path to config.json")
     parser.add_argument("--local-config", default=None, help="Path to config.local.json")
+    parser.add_argument(
+        "--sources",
+        default="anki,wanikani,bunpro",
+        help=(
+            "Comma-separated external sources to refresh. "
+            "Supported: anki, wanikani, bunpro. "
+            "Unselected source index files are preserved."
+        ),
+    )
     return parser
 
 
@@ -74,6 +83,20 @@ def main(argv: list[str] | None = None) -> int:
 
     output_dir = config.output.folder
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    supported_sources = {"anki", "wanikani", "bunpro"}
+    selected_sources = {
+        value.strip().lower()
+        for value in str(args.sources).split(",")
+        if value.strip()
+    }
+    unknown_sources = selected_sources - supported_sources
+    if unknown_sources:
+        print(
+            "Unknown source(s): " + ", ".join(sorted(unknown_sources)),
+            file=sys.stderr,
+        )
+        return 2
 
     source_results: dict[str, Any] = {}
 
@@ -104,7 +127,7 @@ def main(argv: list[str] | None = None) -> int:
 
     source_results["wanikani"] = _run_source(
         "WaniKani",
-        config.wanikani.enabled,
+        config.wanikani.enabled and "wanikani" in selected_sources,
         make_wanikani,
         output_dir / config.output.wanikani_index,
     )
@@ -119,7 +142,7 @@ def main(argv: list[str] | None = None) -> int:
 
     source_results["anki"] = _run_source(
         "Anki",
-        config.anki.enabled,
+        config.anki.enabled and "anki" in selected_sources,
         make_anki,
         output_dir / config.output.anki_index,
     )
@@ -143,7 +166,7 @@ def main(argv: list[str] | None = None) -> int:
 
     source_results["bunpro"] = _run_source(
         "Bunpro",
-        config.bunpro.enabled,
+        config.bunpro.enabled and "bunpro" in selected_sources,
         make_bunpro,
         output_dir / config.output.grammar_profile,
     )

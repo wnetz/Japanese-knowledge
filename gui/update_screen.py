@@ -1,0 +1,198 @@
+from __future__ import annotations
+
+import subprocess
+import sys
+import threading
+import tkinter as tk
+from datetime import datetime
+from tkinter import messagebox, ttk
+
+from .shared import PROJECT_DIR, UPDATE_PROFILE_PATH
+
+
+class UpdateScreen(ttk.Frame):
+    def __init__(self, parent, *, on_update_complete=None) -> None:
+        super().__init__(parent)
+        self.on_update_complete = on_update_complete
+        self._build_ui()
+
+    def _build_ui(self) -> None:
+        ttk.Label(
+            self,
+            text="Update Profiles",
+            font=("Segoe UI", 20, "bold"),
+        ).pack(anchor="w")
+
+        ttk.Label(
+            self,
+            text=(
+                "Select the external sources you want to refresh. "
+                "Unselected source indexes remain unchanged."
+            ),
+            wraplength=760,
+        ).pack(anchor="w", pady=(2, 18))
+
+        selection = ttk.LabelFrame(self, text="Sources", padding=14)
+        selection.pack(fill="x")
+
+        self.update_anki_var = tk.BooleanVar(value=True)
+        self.update_wanikani_var = tk.BooleanVar(value=False)
+        self.update_bunpro_var = tk.BooleanVar(value=False)
+
+        ttk.Checkbutton(
+            selection,
+            text="Anki",
+            variable=self.update_anki_var,
+        ).pack(anchor="w", pady=4)
+
+        ttk.Checkbutton(
+            selection,
+            text="WaniKani",
+            variable=self.update_wanikani_var,
+        ).pack(anchor="w", pady=4)
+
+        ttk.Checkbutton(
+            selection,
+            text="Bunpro",
+            variable=self.update_bunpro_var,
+        ).pack(anchor="w", pady=4)
+
+        self.update_button = ttk.Button(
+            self,
+            text="Update Selected Sources",
+            command=self.update_selected_profiles,
+        )
+        self.update_button.pack(anchor="w", pady=(18, 12), ipadx=18, ipady=7)
+
+        self.update_status_var = tk.StringVar(value="Ready.")
+        ttk.Label(
+            self,
+            textvariable=self.update_status_var,
+            wraplength=780,
+        ).pack(anchor="w", pady=(0, 10))
+
+        ttk.Label(
+            self,
+            text="Update log",
+            font=("Segoe UI", 11, "bold"),
+        ).pack(anchor="w", pady=(12, 4))
+
+        log_frame = ttk.Frame(self)
+        log_frame.pack(fill="both", expand=True)
+
+        self.update_log = tk.Text(
+            log_frame,
+            height=18,
+            wrap="word",
+            state="disabled",
+            font=("Consolas", 9),
+        )
+
+        scrollbar = ttk.Scrollbar(
+            log_frame,
+            orient="vertical",
+            command=self.update_log.yview,
+        )
+
+        self.update_log.configure(yscrollcommand=scrollbar.set)
+        self.update_log.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+    def _append_update_log(self, text: str) -> None:
+        self.update_log.config(state="normal")
+        self.update_log.insert("end", text.rstrip() + "\n")
+        self.update_log.see("end")
+        self.update_log.config(state="disabled")
+
+    def update_selected_profiles(self) -> None:
+        selected = []
+
+        if self.update_anki_var.get():
+            selected.append("anki")
+        if self.update_wanikani_var.get():
+            selected.append("wanikani")
+        if self.update_bunpro_var.get():
+            selected.append("bunpro")
+
+        if not selected:
+            messagebox.showinfo(
+                "No sources selected",
+                "Select at least one of Anki, WaniKani, or Bunpro.",
+            )
+            return
+
+        if not UPDATE_PROFILE_PATH.exists():
+            messagebox.showerror(
+                "Missing update_profile.py",
+                f"Could not find:\n{UPDATE_PROFILE_PATH}",
+            )
+            return
+
+        self.update_button.config(state="disabled")
+        self.update_status_var.set(
+            "Updating " + ", ".join(name.title() for name in selected) + "..."
+        )
+
+        self._append_update_log(
+            "\n=== " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " ==="
+        )
+        self._append_update_log("Selected: " + ", ".join(selected))
+
+        threading.Thread(
+            target=self._run_profile_update,
+            args=(selected,),
+            daemon=True,
+        ).start()
+
+    def _run_profile_update(self, selected: list[str]) -> None:
+        command = [
+            sys.executable,
+            str(UPDATE_PROFILE_PATH),
+            "--sources",
+            ",".join(selected),
+        ]
+
+        try:
+            process = subprocess.run(
+                command,
+                cwd=PROJECT_DIR,
+                capture_output=True,
+                text=True,
+            )
+            self.after(
+                0,
+                self._finish_profile_update,
+                process.returncode,
+                process.stdout.strip(),
+                process.stderr.strip(),
+            )
+        except Exception as exc:
+            self.after(
+                0,
+                self._finish_profile_update,
+                1,
+                "",
+                f"{type(exc).__name__}: {exc}",
+            )
+
+    def _finish_profile_update(
+        self,
+        returncode: int,
+        stdout: str,
+        stderr: str,
+    ) -> None:
+        self.update_button.config(state="normal")
+
+        if stdout:
+            self._append_update_log(stdout)
+        if stderr:
+            self._append_update_log("ERROR:\n" + stderr)
+
+        if returncode == 0:
+            self.update_status_var.set(
+                "Update complete — profiles and quiz data refreshed."
+            )
+            if callable(self.on_update_complete):
+                self.on_update_complete()
+        else:
+            self.update_status_var.set("Update failed. See the log below.")
