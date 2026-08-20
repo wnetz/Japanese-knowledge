@@ -8,12 +8,15 @@ from typing import Any
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = PROJECT_DIR / "output"
+AUTO_OUTPUT_DIR = OUTPUT_DIR / "auto"
+MANUAL_OUTPUT_DIR = OUTPUT_DIR / "manual"
 
-VOCABULARY_PROFILE_PATH = OUTPUT_DIR / "vocabulary_profile.json"
-ANKI_INDEX_PATH = OUTPUT_DIR / "anki_index.json"
-WANIKANI_INDEX_PATH = OUTPUT_DIR / "wanikani_index.json"
-BUNPRO_PRIMARY_PATH = OUTPUT_DIR / "grammar_profile.json"
-BUNPRO_FALLBACK_PATH = OUTPUT_DIR / "bunpro_index.json"
+VOCABULARY_PROFILE_PATH = AUTO_OUTPUT_DIR / "vocabulary_profile.json"
+WRITING_PROFILE_PATH = MANUAL_OUTPUT_DIR / "writing_profile.json"
+ANKI_INDEX_PATH = AUTO_OUTPUT_DIR / "anki_index.json"
+WANIKANI_INDEX_PATH = AUTO_OUTPUT_DIR / "wanikani_index.json"
+BUNPRO_PRIMARY_PATH = AUTO_OUTPUT_DIR / "grammar_profile.json"
+BUNPRO_FALLBACK_PATH = AUTO_OUTPUT_DIR / "bunpro_index.json"
 UPDATE_PROFILE_PATH = PROJECT_DIR / "update_profile.py"
 
 
@@ -26,6 +29,7 @@ def load_json(path: Path) -> dict[str, Any]:
 
 
 def save_json(path: Path, value: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
     with temp.open("w", encoding="utf-8") as handle:
         json.dump(value, handle, ensure_ascii=False, indent=2)

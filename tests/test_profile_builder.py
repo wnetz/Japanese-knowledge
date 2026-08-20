@@ -1,8 +1,16 @@
 from pathlib import Path
+
+import pytest
 import json
 
 from core.models import AnkiStudy, Vocabulary, WaniKaniStudy
 from profile import ProfileBuilder
+
+
+@pytest.fixture(autouse=True)
+def _make_output_dirs(tmp_path: Path) -> None:
+    (tmp_path / "auto").mkdir(exist_ok=True)
+    (tmp_path / "manual").mkdir(exist_ok=True)
 from profile.scoring import calculate_confidence
 
 
@@ -11,7 +19,7 @@ def _write(path: Path, value: dict) -> None:
 
 
 def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -> None:
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [{
             "id": 1,
             "subject_type": "vocabulary",
@@ -23,7 +31,7 @@ def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -
             "review_statistics": {},
         }]
     })
-    _write(tmp_path / "anki_index.json", {
+    _write(tmp_path / "auto" / "anki_index.json", {
         "notes": [{
             "word": "食べる",
             "reading": "たべる",
@@ -53,7 +61,7 @@ def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -
 
 
 def test_builder_writes_vocabulary_profile_by_default(tmp_path: Path) -> None:
-    _write(tmp_path / "anki_index.json", {
+    _write(tmp_path / "auto" / "anki_index.json", {
         "notes": [{
             "word": "猫",
             "reading": "ねこ",
@@ -74,7 +82,7 @@ def test_builder_writes_vocabulary_profile_by_default(tmp_path: Path) -> None:
 
 
 def test_final_json_contains_only_compact_study_fields(tmp_path: Path) -> None:
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [{
             "id": 1,
             "subject_type": "vocabulary",
@@ -92,7 +100,7 @@ def test_final_json_contains_only_compact_study_fields(tmp_path: Path) -> None:
             "review_statistics": {"percentage_correct": 90},
         }]
     })
-    _write(tmp_path / "anki_index.json", {
+    _write(tmp_path / "auto" / "anki_index.json", {
         "notes": [{
             "word": "食べる",
             "reading": "たべる",
@@ -128,7 +136,7 @@ def test_final_json_contains_only_compact_study_fields(tmp_path: Path) -> None:
 
 
 def test_builder_merges_migaku_known_words_and_scores_them(tmp_path: Path) -> None:
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [{
             "id": 1,
             "subject_type": "kana_vocabulary",
@@ -140,7 +148,7 @@ def test_builder_merges_migaku_known_words_and_scores_them(tmp_path: Path) -> No
             "review_statistics": {},
         }]
     })
-    _write(tmp_path / "migaku_known_words.json", {
+    _write(tmp_path / "manual" / "migaku_known_words.json", {
         "words": [{
             "word": "コーヒー",
             "reading": "こーひー",
@@ -170,7 +178,7 @@ def test_builder_merges_migaku_known_words_and_scores_them(tmp_path: Path) -> No
 
 
 def test_migaku_different_real_readings_remain_separate(tmp_path: Path) -> None:
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [{
             "id": 1,
             "subject_type": "vocabulary",
@@ -182,7 +190,7 @@ def test_migaku_different_real_readings_remain_separate(tmp_path: Path) -> None:
             "review_statistics": {},
         }]
     })
-    _write(tmp_path / "migaku_known_words.json", {
+    _write(tmp_path / "manual" / "migaku_known_words.json", {
         "words": [{
             "word": "日本",
             "reading": "にほん",
@@ -196,14 +204,14 @@ def test_migaku_different_real_readings_remain_separate(tmp_path: Path) -> None:
     assert {item.reading for item in profile.vocabulary} == {"にっぽん", "にほん"}
 
 def test_writable_tag_requires_all_kanji_to_be_writable(tmp_path: Path) -> None:
-    _write(tmp_path / "writable_kanji.json", {
+    _write(tmp_path / "manual" / "writable_kanji.json", {
         "writable_kanji": [
             {"character": "日", "example_words": ["日本"]},
             {"character": "本", "example_words": ["日本"]},
             {"character": "人", "example_words": ["日本人"]},
         ]
     })
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [
             {
                 "id": 1,
@@ -247,10 +255,10 @@ def test_writable_tag_requires_all_kanji_to_be_writable(tmp_path: Path) -> None:
 
 
 def test_writable_tag_is_serialized_only_when_present(tmp_path: Path) -> None:
-    _write(tmp_path / "writable_kanji.json", {
+    _write(tmp_path / "manual" / "writable_kanji.json", {
         "writable_kanji": [{"character": "猫", "example_words": ["猫"]}]
     })
-    _write(tmp_path / "wanikani_index.json", {
+    _write(tmp_path / "auto" / "wanikani_index.json", {
         "subjects": [{
             "id": 1,
             "subject_type": "vocabulary",

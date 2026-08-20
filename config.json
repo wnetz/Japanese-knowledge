@@ -1,13 +1,14 @@
 {
   "output": {
     "folder": "./output",
-    "textbook_profile": "textbook_profile.json",
-    "wanikani_index": "wanikani_index.json",
-    "profile_manifest": "profile_manifest.json",
-    "anki_index": "anki_index.json",
-    "vocabulary_profile": "vocabulary_profile.json",
-    "grammar_profile": "grammar_profile.json",
-    "knowledge_profile": "knowledge_profile.json"
+    "textbook_profile": "auto/textbook_profile.json",
+    "wanikani_index": "auto/wanikani_index.json",
+    "profile_manifest": "auto/profile_manifest.json",
+    "anki_index": "auto/anki_index.json",
+    "vocabulary_profile": "auto/vocabulary_profile.json",
+    "grammar_profile": "auto/grammar_profile.json",
+    "knowledge_profile": "knowledge_profile.json",
+    "writing_profile": "manual/writing_profile.json"
   },
   "obsidian": {
     "enabled": true,
@@ -81,5 +82,10 @@
     "timeout_seconds": 30,
     "include_grammar": true,
     "include_vocabulary": true
+  },
+  "writing": {
+    "daily_new_limit": 10,
+    "new_fail_cooldown_min": 3,
+    "new_fail_cooldown_max": 5
   }
 }

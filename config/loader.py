@@ -15,6 +15,7 @@ from .models import (
     OutputConfig,
     WaniKaniConfig,
     WaniKaniDownloadConfig,
+    WritingConfig,
 )
 
 
@@ -78,6 +79,7 @@ def load_config(
     )
     #file paths to be used in the output section of the config
     output_section = merged.get("output") or {}
+    writing_section = merged.get("writing") or {}
     #data for obsidian import
     obsidian_section = merged.get("obsidian") or {}
     #data for wanikani import
@@ -125,14 +127,29 @@ def load_config(
 
     return AppConfig(
         project_dir=project_dir,
+        writing=WritingConfig(
+            daily_new_limit=max(
+                0,
+                int(writing_section.get("daily_new_limit", 10)),
+            ),
+            new_fail_cooldown_min=max(
+                0,
+                int(writing_section.get("new_fail_cooldown_min", 3)),
+            ),
+            new_fail_cooldown_max=max(
+                0,
+                int(writing_section.get("new_fail_cooldown_max", 5)),
+            ),
+        ),
         output=OutputConfig(
             folder=_resolve_path(output_value, project_dir),
-            textbook_profile=    str(output_section.get("textbook_profile", "textbook_profile.json")),
-            wanikani_index=     str(output_section.get("wanikani_index", "wanikani_index.json")),
-            anki_index=         str(output_section.get("anki_index", "anki_index.json")),
-            profile_manifest=   str(output_section.get("profile_manifest", "profile_manifest.json")),
-            vocabulary_profile= str(output_section.get("vocabulary_profile", "vocabulary_profile.json")),
-            grammar_profile=        str(output_section.get("grammar_profile", "grammar_profile.json")),
+            textbook_profile=    str(output_section.get("textbook_profile", "auto/textbook_profile.json")),
+            wanikani_index=     str(output_section.get("wanikani_index", "auto/wanikani_index.json")),
+            anki_index=         str(output_section.get("anki_index", "auto/anki_index.json")),
+            profile_manifest=   str(output_section.get("profile_manifest", "auto/profile_manifest.json")),
+            vocabulary_profile= str(output_section.get("vocabulary_profile", "auto/vocabulary_profile.json")),
+            writing_profile=    str(output_section.get("writing_profile", "manual/writing_profile.json")),
+            grammar_profile=        str(output_section.get("grammar_profile", "auto/grammar_profile.json")),
             knowledge_profile=      str(output_section.get("knowledge_profile", "knowledge_profile.json")),
         ),
         obsidian=ObsidianConfig(

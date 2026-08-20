@@ -117,13 +117,6 @@ class UpdateScreen(ttk.Frame):
         if self.update_bunpro_var.get():
             selected.append("bunpro")
 
-        if not selected:
-            messagebox.showinfo(
-                "No sources selected",
-                "Select at least one of Anki, WaniKani, or Bunpro.",
-            )
-            return
-
         if not UPDATE_PROFILE_PATH.exists():
             messagebox.showerror(
                 "Missing update_profile.py",
@@ -132,14 +125,25 @@ class UpdateScreen(ttk.Frame):
             return
 
         self.update_button.config(state="disabled")
-        self.update_status_var.set(
-            "Updating " + ", ".join(name.title() for name in selected) + "..."
-        )
+        if selected:
+            self.update_status_var.set(
+                "Updating "
+                + ", ".join(name.title() for name in selected)
+                + "..."
+            )
+        else:
+            self.update_status_var.set(
+                "Rebuilding profiles from existing source data..."
+            )
 
         self._append_update_log(
             "\n=== " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " ==="
         )
-        self._append_update_log("Selected: " + ", ".join(selected))
+        self._append_update_log(
+            "Selected: " + ", ".join(selected)
+            if selected
+            else "Selected: none — rebuild only"
+        )
 
         threading.Thread(
             target=self._run_profile_update,
@@ -148,26 +152,46 @@ class UpdateScreen(ttk.Frame):
         ).start()
 
     def _run_profile_update(self, selected: list[str]) -> None:
+        # -u forces unbuffered Python output in the child process so each
+        # progress line becomes visible in the GUI immediately.
         command = [
             sys.executable,
+            "-u",
             str(UPDATE_PROFILE_PATH),
             "--sources",
             ",".join(selected),
         ]
 
         try:
-            process = subprocess.run(
+            process = subprocess.Popen(
                 command,
                 cwd=PROJECT_DIR,
-                capture_output=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
                 text=True,
+                bufsize=1,
             )
+
+            if process.stdout is not None:
+                for line in iter(process.stdout.readline, ""):
+                    line = line.rstrip("\r\n")
+                    if line:
+                        self.after(
+                            0,
+                            self._append_update_log,
+                            line,
+                        )
+
+                process.stdout.close()
+
+            returncode = process.wait()
+
             self.after(
                 0,
                 self._finish_profile_update,
-                process.returncode,
-                process.stdout.strip(),
-                process.stderr.strip(),
+                returncode,
+                "",
+                "",
             )
         except Exception as exc:
             self.after(

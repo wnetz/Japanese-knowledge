@@ -5,15 +5,23 @@ from pathlib import Path
 from typing import Any
 
 
+@dataclass
+class WritingConfig:
+    daily_new_limit: int = 10
+    new_fail_cooldown_min: int = 3
+    new_fail_cooldown_max: int = 5
+
+
 @dataclass(frozen=True)
 class OutputConfig:
     folder: Path
-    textbook_profile: str = "textbook_profile.json"
-    wanikani_index: str = "wanikani_index.json"
-    anki_index: str = "anki_index.json"
-    profile_manifest: str = "profile_manifest.json"
-    vocabulary_profile: str = "vocabulary_profile.json"
-    grammar_profile: str = "grammar_profile.json"
+    textbook_profile: str = "auto/textbook_profile.json"
+    wanikani_index: str = "auto/wanikani_index.json"
+    anki_index: str = "auto/anki_index.json"
+    profile_manifest: str = "auto/profile_manifest.json"
+    vocabulary_profile: str = "auto/vocabulary_profile.json"
+    writing_profile: str = "manual/writing_profile.json"
+    grammar_profile: str = "auto/grammar_profile.json"
     knowledge_profile: str = "knowledge_profile.json"
 
 
@@ -94,6 +102,7 @@ class LoggingConfig:
 @dataclass(frozen=True)
 class AppConfig:
     project_dir: Path
+    writing: WritingConfig
     output: OutputConfig
     obsidian: ObsidianConfig
     wanikani: WaniKaniConfig

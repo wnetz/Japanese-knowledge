@@ -13,6 +13,7 @@ from .shared import (
     BUNPRO_FALLBACK_PATH,
     BUNPRO_PRIMARY_PATH,
     WANIKANI_INDEX_PATH,
+    WRITING_PROFILE_PATH,
     load_json,
     parse_iso_datetime,
 )
@@ -37,7 +38,7 @@ class ReviewsScreen(ttk.Frame):
         ttk.Label(
             self,
             text=(
-                "Reviews due across Anki, WaniKani, and Bunpro. "
+                "Reviews due across Anki, WaniKani, Bunpro, and Writing. "
                 "The 24-hour view uses exact timestamps only. "
                 "Day-only Anki review cards are included in daily views but "
                 "excluded from the hourly graph."
@@ -54,6 +55,7 @@ class ReviewsScreen(ttk.Frame):
         self.review_anki_var = tk.BooleanVar(value=True)
         self.review_wanikani_var = tk.BooleanVar(value=True)
         self.review_bunpro_var = tk.BooleanVar(value=True)
+        self.review_writing_var = tk.BooleanVar(value=True)
 
         ttk.Checkbutton(
             source_row,
@@ -73,6 +75,13 @@ class ReviewsScreen(ttk.Frame):
             source_row,
             text="Bunpro",
             variable=self.review_bunpro_var,
+            command=self.refresh_reviews,
+        ).pack(side="left", padx=(0, 18))
+
+        ttk.Checkbutton(
+            source_row,
+            text="Writing",
+            variable=self.review_writing_var,
             command=self.refresh_reviews,
         ).pack(side="left", padx=(0, 18))
 
@@ -275,6 +284,50 @@ class ReviewsScreen(ttk.Frame):
 
         return reviews
 
+    def _load_writing_reviews(self) -> list[dict[str, Any]]:
+        if not WRITING_PROFILE_PATH.exists():
+            return []
+
+        data = load_json(WRITING_PROFILE_PATH)
+        reviews: list[dict[str, Any]] = []
+
+        for record in data.get("kanji", {}).values():
+            if not isinstance(record, dict):
+                continue
+
+            srs = record.get("srs") or {}
+            if not isinstance(srs, dict):
+                continue
+
+            # Only kanji that have successfully entered the normal writing
+            # review cycle belong on the due graph. Failed New kanji remain in
+            # the New queue with no scheduled due time.
+            graduated = bool(srs.get("graduated_at"))
+            try:
+                stage = int(srs.get("stage") or 0)
+            except (TypeError, ValueError):
+                stage = 0
+
+            # Backward compatibility for older writing profiles created before
+            # graduated_at was added.
+            if not graduated and stage <= 0:
+                continue
+
+            due = parse_iso_datetime(srs.get("due"))
+            if due is None:
+                continue
+
+            reviews.append(
+                {
+                    "due": due,
+                    "source": "Writing",
+                    "exact": True,
+                    "precision": "hour",
+                }
+            )
+
+        return reviews
+
     def _selected_reviews(self) -> tuple[list[dict[str, Any]], list[str]]:
         reviews: list[dict[str, Any]] = []
         errors: list[str] = []
@@ -289,6 +342,9 @@ class ReviewsScreen(ttk.Frame):
 
         if self.review_bunpro_var.get():
             loaders.append(("Bunpro", self._load_bunpro_reviews))
+
+        if self.review_writing_var.get():
+            loaders.append(("Writing", self._load_writing_reviews))
 
         for source, loader in loaders:
             try:
@@ -457,6 +513,7 @@ class ReviewsScreen(ttk.Frame):
             "WaniKani": COLORS["wanikani"],
             "Bunpro": COLORS["bunpro"],
             "Anki": COLORS["anki"],
+            "Writing": COLORS["writing"],
             "Total": COLORS["total"],
         }.get(source, COLORS["text"])
 
@@ -471,6 +528,9 @@ class ReviewsScreen(ttk.Frame):
 
         if self.review_bunpro_var.get():
             selected.append("Bunpro")
+
+        if self.review_writing_var.get():
+            selected.append("Writing")
 
         return selected
 
@@ -490,6 +550,7 @@ class ReviewsScreen(ttk.Frame):
             "Anki": Counter(),
             "WaniKani": Counter(),
             "Bunpro": Counter(),
+            "Writing": Counter(),
         }
 
         now = datetime.now().astimezone()
@@ -599,6 +660,7 @@ class ReviewsScreen(ttk.Frame):
             "Anki": Counter(),
             "WaniKani": Counter(),
             "Bunpro": Counter(),
+            "Writing": Counter(),
         }
 
         now = datetime.now().astimezone()

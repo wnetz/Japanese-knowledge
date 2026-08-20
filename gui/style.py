@@ -16,12 +16,20 @@ COLORS = {
     "purple_dark": "#5930b8",
     "green": "#42c77a",
     "green_hover": "#59d98d",
+    "well_known": "#315a9b",
+    "well_known_hover": "#3f70bd",
+    "well_known_pressed": "#244578",
+    "close": "#d29b3d",
+    "close_hover": "#e0ad52",
+    "close_pressed": "#ad7d2e",
     "red": "#ef5350",
     "yellow": "#f4d35e",
     "cyan": "#26d9d9",
     "wanikani": "#ff69b4",
     "bunpro": "#e85d3f",
     "anki": "#4a90e2",
+    "writing": "#42c77a",
+    "status_blue": "#4a90e2",
     "total": "#b388ff",
     "input_bg": "#242424",
     "selection": "#523b78",
@@ -243,6 +251,91 @@ def configure_root(root: tk.Tk) -> None:
         darkcolor=[
             ("active", "#ff6b68"),
             ("pressed", "#c93f3c"),
+        ],
+    )
+
+    style.configure(
+        "TRadiobutton",
+        background=COLORS["bg"],
+        foreground=COLORS["text"],
+    )
+    style.map(
+        "TRadiobutton",
+        background=[("active", COLORS["bg"])],
+        foreground=[("active", COLORS["text"])],
+    )
+
+    style.configure(
+        "WellKnown.TButton",
+        background=COLORS["well_known"],
+        foreground="#111111",
+        bordercolor=COLORS["well_known"],
+        lightcolor=COLORS["well_known"],
+        darkcolor=COLORS["well_known"],
+        focuscolor=COLORS["well_known"],
+        focusthickness=0,
+        borderwidth=0,
+        relief="flat",
+        padding=(12, 8),
+    )
+    style.map(
+        "WellKnown.TButton",
+        background=[
+            ("active", COLORS["well_known_hover"]),
+            ("pressed", COLORS["well_known_pressed"]),
+        ],
+        foreground=[
+            ("active", "#111111"),
+            ("pressed", "#111111"),
+        ],
+        bordercolor=[
+            ("active", COLORS["well_known_hover"]),
+            ("pressed", COLORS["well_known_pressed"]),
+        ],
+        lightcolor=[
+            ("active", COLORS["well_known_hover"]),
+            ("pressed", COLORS["well_known_pressed"]),
+        ],
+        darkcolor=[
+            ("active", COLORS["well_known_hover"]),
+            ("pressed", COLORS["well_known_pressed"]),
+        ],
+    )
+
+    style.configure(
+        "Close.TButton",
+        background=COLORS["close"],
+        foreground="#111111",
+        bordercolor=COLORS["close"],
+        lightcolor=COLORS["close"],
+        darkcolor=COLORS["close"],
+        focuscolor=COLORS["close"],
+        focusthickness=0,
+        borderwidth=0,
+        relief="flat",
+        padding=(12, 8),
+    )
+    style.map(
+        "Close.TButton",
+        background=[
+            ("active", COLORS["close_hover"]),
+            ("pressed", COLORS["close_pressed"]),
+        ],
+        foreground=[
+            ("active", "#111111"),
+            ("pressed", "#111111"),
+        ],
+        bordercolor=[
+            ("active", COLORS["close_hover"]),
+            ("pressed", COLORS["close_pressed"]),
+        ],
+        lightcolor=[
+            ("active", COLORS["close_hover"]),
+            ("pressed", COLORS["close_pressed"]),
+        ],
+        darkcolor=[
+            ("active", COLORS["close_hover"]),
+            ("pressed", COLORS["close_pressed"]),
         ],
     )
 

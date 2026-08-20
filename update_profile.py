@@ -15,6 +15,11 @@ from importers.wanikani import WaniKaniImporter
 from profile import ProfileBuilder, build_knowledge_profile
 
 
+def progress(message: str) -> None:
+    """Print one progress line immediately for GUI/CLI consumers."""
+    print(message, flush=True)
+
+
 def _run_source(
     name: str,
     enabled: bool,
@@ -22,17 +27,17 @@ def _run_source(
     output_path: Path,
 ) -> dict[str, Any]:
     if not enabled:
-        print(f"{name}: disabled")
+        progress(f"{name}: disabled")
         return {"enabled": False, "status": "disabled"}
 
-    print(f"{name}: importing...")
+    progress(f"{name}: importing...")
     try:
         importer = importer_factory()
         data = importer.import_data()
         write_json(data, output_path)
         errors = data.get("errors", []) if isinstance(data, dict) else []
         status = "completed_with_errors" if errors else "completed"
-        print(f"{name}: {status}; wrote {output_path}")
+        progress(f"{name}: {status}; wrote {output_path}")
         item_count = data.get("note_count", data.get("subject_count"))
         if item_count is None and isinstance(data.get("counts"), dict):
             item_count = sum(
@@ -46,7 +51,7 @@ def _run_source(
             "error_count": len(errors),
         }
     except Exception as exc:
-        print(f"{name}: failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        print(f"{name}: failed: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         return {
             "enabled": True,
             "status": "failed",
@@ -83,6 +88,8 @@ def main(argv: list[str] | None = None) -> int:
 
     output_dir = config.output.folder
     output_dir.mkdir(parents=True, exist_ok=True)
+    (output_dir / "auto").mkdir(parents=True, exist_ok=True)
+    (output_dir / "manual").mkdir(parents=True, exist_ok=True)
 
     supported_sources = {"anki", "wanikani", "bunpro"}
     selected_sources = {
@@ -171,15 +178,21 @@ def main(argv: list[str] | None = None) -> int:
         output_dir / config.output.grammar_profile,
     )
 
-    print("Profile: building vocabulary profile...")
+    progress("Profile: building vocabulary profile...")
     try:
         builder = ProfileBuilder(
             output_dir,
             output_filename=config.output.vocabulary_profile,
+            source_files={
+                "wanikani": config.output.wanikani_index,
+                "anki": config.output.anki_index,
+                "migaku": "manual/migaku_known_words.json",
+            },
+            writable_kanji_filename="manual/writable_kanji.json",
         )
         profile = builder.build_and_write()
-        print(f"Profile: wrote {builder.output_path}")
-        print(builder.statistics.format())
+        progress(f"Profile: wrote {builder.output_path}")
+        progress(builder.statistics.format())
         profile_result = {
             "status": "completed",
             "output": str(builder.output_path),
@@ -187,7 +200,7 @@ def main(argv: list[str] | None = None) -> int:
             "confidence_scored_count": profile.metadata.confidence_scored_count,
         }
     except Exception as exc:
-        print(f"Profile: failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        print(f"Profile: failed: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         profile_result = {
             "status": "failed",
             "error": f"{type(exc).__name__}: {exc}",
@@ -201,10 +214,10 @@ def main(argv: list[str] | None = None) -> int:
             vocabulary_filename=config.output.vocabulary_profile,
             output_filename=config.output.knowledge_profile,
         )
-        print(f"Knowledge profile: wrote {knowledge_profile_path}")
+        progress(f"Knowledge profile: wrote {knowledge_profile_path}")
         knowledge_profile_result = {"status": "completed", "output": str(knowledge_profile_path)}
     except Exception as exc:
-        print(f"Knowledge profile: failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        print(f"Knowledge profile: failed: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         knowledge_profile_result = {"status": "failed", "error": f"{type(exc).__name__}: {exc}"}
 
     manifest = {
@@ -216,7 +229,7 @@ def main(argv: list[str] | None = None) -> int:
         "knowledge_profile": knowledge_profile_result,
     }
     manifest_path = write_json(manifest, output_dir / config.output.profile_manifest)
-    print(f"Profile manifest: {manifest_path}")
+    progress(f"Profile manifest: {manifest_path}")
 
     failed = (
         any(item.get("status") == "failed" for item in source_results.values())

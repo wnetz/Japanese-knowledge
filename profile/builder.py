@@ -21,30 +21,34 @@ class ProfileBuilder:
     """Build William's vocabulary profile from WaniKani, Anki, and Migaku indexes."""
 
     SOURCE_FILES = {
-        "wanikani": "wanikani_index.json",
-        "anki": "anki_index.json",
-        "migaku": "migaku_known_words.json",
+        "wanikani": "auto/wanikani_index.json",
+        "anki": "auto/anki_index.json",
+        "migaku": "manual/migaku_known_words.json",
     }
 
     def __init__(
         self,
         output_dir: str | Path,
         *,
-        output_filename: str = "vocabulary_profile.json",
+        output_filename: str = "auto/vocabulary_profile.json",
+        source_files: dict[str, str] | None = None,
+        writable_kanji_filename: str = "manual/writable_kanji.json",
     ) -> None:
         self.output_dir = Path(output_dir)
         self.output_path = self.output_dir / output_filename
+        self.source_files = dict(self.SOURCE_FILES)
+        if source_files:
+            self.source_files.update(source_files)
+        self.writable_kanji_filename = writable_kanji_filename
         self.statistics = BuildStatistics()
         self._items: dict[tuple[str, str], Vocabulary] = {}
         self._writable_kanji: set[str] = set()
-        self._existing_write_scores: dict[tuple[str, str], dict[str, Any]] = {}
 
     def build(self) -> VocabularyProfile:
         # A builder instance may be reused safely.
         self.statistics = BuildStatistics()
         self._items = {}
         self._writable_kanji = self._load_writable_kanji()
-        self._existing_write_scores = self._load_existing_write_scores()
 
         sources = self._load_available_sources()
 
@@ -60,7 +64,6 @@ class ProfileBuilder:
         vocabulary = sorted(self._items.values(), key=lambda item: (item.word, item.reading))
         for item in vocabulary:
             self._apply_writable_tag(item)
-            self._apply_existing_write_score(item)
             item.confidence = calculate_confidence(item)
 
         self.statistics.vocabulary_count = len(vocabulary)
@@ -89,33 +92,8 @@ class ProfileBuilder:
         self.write(profile)
         return profile
 
-    def _load_existing_write_scores(self) -> dict[tuple[str, str], dict[str, Any]]:
-        if not self.output_path.exists():
-            return {}
-        data = read_json(self.output_path)
-        if not isinstance(data, dict):
-            return {}
-
-        scores: dict[tuple[str, str], dict[str, Any]] = {}
-        for item in data.get("vocabulary", []):
-            if not isinstance(item, dict):
-                continue
-            write_score = item.get("write_score")
-            if not isinstance(write_score, dict):
-                continue
-            word = self._clean(item.get("word"))
-            reading = Vocabulary._canonical_reading(self._clean(item.get("reading")))
-            if word:
-                scores[(word, reading)] = dict(write_score)
-        return scores
-
-    def _apply_existing_write_score(self, item: Vocabulary) -> None:
-        score = self._existing_write_scores.get(item.key)
-        if score is not None:
-            item.write_score = dict(score)
-
     def _load_writable_kanji(self) -> set[str]:
-        path = self.output_dir / "writable_kanji.json"
+        path = self.output_dir / self.writable_kanji_filename
         if not path.exists():
             return set()
         data = read_json(path)
@@ -152,7 +130,7 @@ class ProfileBuilder:
 
     def _load_available_sources(self) -> dict[str, dict[str, Any]]:
         loaded: dict[str, dict[str, Any]] = {}
-        for source, filename in self.SOURCE_FILES.items():
+        for source, filename in self.source_files.items():
             path = self.output_dir / filename
             if not path.exists():
                 continue
