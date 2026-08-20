@@ -13,6 +13,7 @@ from importers.bunpro import BunproImporter
 from importers.obsidian import GrammarProfileImporter
 from importers.wanikani import WaniKaniImporter
 from profile import ProfileBuilder, build_knowledge_profile
+from history import capture_daily_srs_snapshot
 
 
 def progress(message: str) -> None:
@@ -230,6 +231,24 @@ def main(argv: list[str] | None = None) -> int:
     }
     manifest_path = write_json(manifest, output_dir / config.output.profile_manifest)
     progress(f"Profile manifest: {manifest_path}")
+
+    try:
+        history_path = capture_daily_srs_snapshot(
+            history_path=output_dir / config.output.srs_history,
+            wanikani_path=output_dir / config.output.wanikani_index,
+            anki_path=output_dir / config.output.anki_index,
+            bunpro_path=output_dir / config.output.grammar_profile,
+            writing_path=output_dir / config.output.writing_profile,
+        )
+        progress(f"SRS history: updated {history_path}")
+    except Exception as exc:
+        # History is valuable, but a logging problem should not destroy a
+        # successful source/profile update.
+        print(
+            f"SRS history: failed: {type(exc).__name__}: {exc}",
+            file=sys.stderr,
+            flush=True,
+        )
 
     failed = (
         any(item.get("status") == "failed" for item in source_results.values())

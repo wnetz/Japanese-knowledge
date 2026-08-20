@@ -54,6 +54,30 @@ def _field_value(card: dict[str, Any], field_name: str) -> str:
     return _clean_field(field)
 
 
+_FURIGANA_RE = re.compile(
+    r"([\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff々]+)\[([^\]]+)\]"
+)
+
+
+def _furigana_word_and_reading(value: str) -> tuple[str, str]:
+    """Convert Anki-style 食[た]べる into (食べる, たべる)."""
+    source = str(value or "").strip()
+    if not source:
+        return "", ""
+
+    word = _FURIGANA_RE.sub(lambda match: match.group(1), source)
+    reading = _FURIGANA_RE.sub(lambda match: match.group(2), source)
+    return word, reading
+
+
+def _split_nonempty_lines(value: str) -> list[str]:
+    return [
+        line.strip()
+        for line in str(value or "").splitlines()
+        if line.strip()
+    ]
+
+
 def _parse_frequency(value: str) -> int | str | None:
     cleaned = value.replace(",", "").strip()
     if not cleaned:
@@ -288,12 +312,53 @@ class AnkiImporter:
 
         normalized_notes: list[dict[str, Any]] = []
         skipped = 0
+
         for note_cards in by_note.values():
             primary = note_cards[0]
-            word = _field_value(primary, self.config.fields.word)
-            if not word:
+            deck = str(primary.get("deckName") or "")
+
+            field_config = self.config.deck_fields.get(
+                deck,
+                self.config.fields,
+            )
+
+            raw_word = _field_value(primary, field_config.word)
+            if not raw_word:
                 skipped += len(note_cards)
                 continue
+
+            raw_reading = (
+                _field_value(primary, field_config.reading)
+                if field_config.reading
+                else ""
+            )
+            raw_meaning = (
+                _field_value(primary, field_config.meaning)
+                if field_config.meaning
+                else ""
+            )
+            raw_pitch = (
+                _field_value(primary, field_config.pitch_accent)
+                if field_config.pitch_accent
+                else ""
+            )
+            raw_frequency = (
+                _field_value(primary, field_config.frequency)
+                if field_config.frequency
+                else ""
+            )
+
+            word_lines = (
+                _split_nonempty_lines(raw_word)
+                if field_config.split_lines
+                else [raw_word]
+            )
+
+            reading_lines = (
+                _split_nonempty_lines(raw_reading)
+                if field_config.split_lines and raw_reading
+                else []
+            )
 
             interval_cards = sorted(
                 note_cards,
@@ -302,44 +367,64 @@ class AnkiImporter:
             )
             best_card = interval_cards[0]
             ease_values = [_ease(card.get("factor")) for card in note_cards]
-            normalized_notes.append(
-                {
-                    "word": word,
-                    "reading": _field_value(primary, self.config.fields.reading),
-                    "meaning": _field_value(primary, self.config.fields.meaning),
-                    "pitch_accent": _field_value(primary, self.config.fields.pitch_accent),
-                    "frequency": _parse_frequency(
-                        _field_value(primary, self.config.fields.frequency)
+
+            study = {
+                "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
+                "best_interval": max(
+                    (_positive_int(card.get("interval")) for card in note_cards),
+                    default=0,
+                ),
+                "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
+                "ease": max(
+                    (value for value in ease_values if value is not None),
+                    default=None,
+                ),
+                "last_reviewed": max(
+                    (
+                        value
+                        for value in (
+                            _last_reviewed(card.get("_review_history") or [])
+                            for card in note_cards
+                        )
+                        if value is not None
                     ),
-                    "deck": str(primary.get("deckName") or ""),
-                    "study": {
-                        "reviews": sum(_positive_int(card.get("reps")) for card in note_cards),
-                        "best_interval": max(
-                            (_positive_int(card.get("interval")) for card in note_cards),
-                            default=0,
-                        ),
-                        "lapses": sum(_positive_int(card.get("lapses")) for card in note_cards),
-                        "ease": max((value for value in ease_values if value is not None), default=None),
-                        "last_reviewed": max(
-                            (
-                                value
-                                for value in (
-                                    _last_reviewed(card.get("_review_history") or [])
-                                    for card in note_cards
-                                )
-                                if value is not None
-                            ),
-                            default=None,
-                        ),
-                        "state": _state_for_card(best_card),
-                        "due": best_card.get("due"),
-                        "due_date": best_card.get("_due_date"),
-                        "due_at": best_card.get("_due_at"),
-                        "queue": best_card.get("queue"),
-                        "card_type": best_card.get("type"),
-                    },
-                }
-            )
+                    default=None,
+                ),
+                "state": _state_for_card(best_card),
+                "due": best_card.get("due"),
+                "due_date": best_card.get("_due_date"),
+                "due_at": best_card.get("_due_at"),
+                "queue": best_card.get("queue"),
+                "card_type": best_card.get("type"),
+            }
+
+            for line_index, word_line in enumerate(word_lines):
+                word = word_line
+                reading = (
+                    reading_lines[line_index]
+                    if line_index < len(reading_lines)
+                    else ""
+                )
+
+                if field_config.furigana_in_word:
+                    word, furigana_reading = _furigana_word_and_reading(word_line)
+                    if furigana_reading:
+                        reading = furigana_reading
+
+                if not word:
+                    continue
+
+                normalized_notes.append(
+                    {
+                        "word": word,
+                        "reading": reading,
+                        "meaning": raw_meaning,
+                        "pitch_accent": raw_pitch,
+                        "frequency": _parse_frequency(raw_frequency),
+                        "deck": deck,
+                        "study": dict(study),
+                    }
+                )
 
         grouped: dict[tuple[str,str], list[dict[str, Any]]] = defaultdict(list)
         for item in normalized_notes:

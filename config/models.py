@@ -21,6 +21,7 @@ class OutputConfig:
     profile_manifest: str = "auto/profile_manifest.json"
     vocabulary_profile: str = "auto/vocabulary_profile.json"
     writing_profile: str = "manual/writing_profile.json"
+    srs_history: str = "manual/srs_history.json"
     grammar_profile: str = "auto/grammar_profile.json"
     knowledge_profile: str = "knowledge_profile.json"
 

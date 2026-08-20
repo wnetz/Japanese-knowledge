@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "days": {
+    "2026-08-20": {
+      "captured_at": "2026-08-20T23:02:20.790062+09:00",
+      "sources": {
+        "wanikani": {
+          "subject_types": {
+            "kana_vocabulary": {
+              "locked": 6,
+              "lesson": 0,
+              "apprentice_1": 0,
+              "apprentice_2": 0,
+              "apprentice_3": 0,
+              "apprentice_4": 0,
+              "guru_1": 0,
+              "guru_2": 1,
+              "master": 0,
+              "enlightened": 5,
+              "burned": 48
+            },
+            "radical": {
+              "locked": 200,
+              "lesson": 2,
+              "apprentice_1": 0,
+              "apprentice_2": 0,
+              "apprentice_3": 1,
+              "apprentice_4": 2,
+              "guru_1": 4,
+              "guru_2": 10,
+              "master": 10,
+              "enlightened": 49,
+              "burned": 226
+            },
+            "vocabulary": {
+              "locked": 4902,
+              "lesson": 78,
+              "apprentice_1": 68,
+              "apprentice_2": 53,
+              "apprentice_3": 97,
+              "apprentice_4": 87,
+              "guru_1": 87,
+              "guru_2": 128,
+              "master": 134,
+              "enlightened": 436,
+              "burned": 695
+            },
+            "kanji": {
+              "locked": 1524,
+              "lesson": 8,
+              "apprentice_1": 12,
+              "apprentice_2": 12,
+              "apprentice_3": 18,
+              "apprentice_4": 21,
+              "guru_1": 31,
+              "guru_2": 30,
+              "master": 36,
+              "enlightened": 133,
+              "burned": 277
+            }
+          },
+          "total": 9431
+        },
+        "anki": {
+          "decks": {
+            "日本語::Japanese verbs (N5 - N4)": {
+              "new": 478,
+              "learning": 4,
+              "relearning": 0,
+              "review": 98
+            },
+            "日本語::Kaishi 1.5k": {
+              "new": 1233,
+              "learning": 7,
+              "relearning": 0,
+              "review": 236
+            },
+            "日本語::mining": {
+              "new": 76,
+              "learning": 13,
+              "relearning": 0,
+              "review": 52
+            }
+          },
+          "total": 2197
+        },
+        "bunpro": {
+          "types": {
+            "grammar": {
+              "beginner": 16,
+              "adept": 38,
+              "seasoned": 42,
+              "expert": 0,
+              "master": 0,
+              "ghost": 3,
+              "self_study": 0
+            },
+            "vocabulary": {
+              "beginner": 0,
+              "adept": 0,
+              "seasoned": 0,
+              "expert": 0,
+              "master": 1565,
+              "ghost": 0,
+              "self_study": 0
+            }
+          },
+          "total": 1664
+        },
+        "writing": {
+          "levels": {
+            "new_active": 0,
+            "new_unintroduced": 0,
+            "stage_1": 8,
+            "stage_2": 2,
+            "stage_3": 0,
+            "stage_4": 0,
+            "stage_5": 0,
+            "stage_6": 0,
+            "stage_7": 0,
+            "stage_8": 0
+          },
+          "total": 10
+        }
+      }
+    }
+  }
+}

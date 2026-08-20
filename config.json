@@ -8,7 +8,8 @@
     "vocabulary_profile": "auto/vocabulary_profile.json",
     "grammar_profile": "auto/grammar_profile.json",
     "knowledge_profile": "knowledge_profile.json",
-    "writing_profile": "manual/writing_profile.json"
+    "writing_profile": "manual/writing_profile.json",
+    "srs_history": "manual/srs_history.json"
   },
   "obsidian": {
     "enabled": true,

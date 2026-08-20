@@ -15,6 +15,7 @@ def test_config_output_layout():
     assert c.output.vocabulary_profile == "auto/vocabulary_profile.json"
     assert c.output.wanikani_index == "auto/wanikani_index.json"
     assert c.output.writing_profile == "manual/writing_profile.json"
+    assert c.output.srs_history == "manual/srs_history.json"
     assert c.output.knowledge_profile == "knowledge_profile.json"
 
 

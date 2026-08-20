@@ -149,6 +149,7 @@ def load_config(
             profile_manifest=   str(output_section.get("profile_manifest", "auto/profile_manifest.json")),
             vocabulary_profile= str(output_section.get("vocabulary_profile", "auto/vocabulary_profile.json")),
             writing_profile=    str(output_section.get("writing_profile", "manual/writing_profile.json")),
+            srs_history=        str(output_section.get("srs_history", "manual/srs_history.json")),
             grammar_profile=        str(output_section.get("grammar_profile", "auto/grammar_profile.json")),
             knowledge_profile=      str(output_section.get("knowledge_profile", "knowledge_profile.json")),
         ),
