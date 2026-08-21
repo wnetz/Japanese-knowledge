@@ -269,14 +269,6 @@ class DailyGoalsScreen(ttk.Frame):
         )
         self.clear_button.pack(side="left", padx=(6, 0))
 
-        self.save_button = ttk.Button(
-            buttons,
-            text="Save Day",
-            command=self._save_selected_day,
-            style="Success.TButton",
-        )
-        self.save_button.pack(side="right")
-
         ttk.Label(
             detail_panel,
             text="Notes",
@@ -474,6 +466,7 @@ class DailyGoalsScreen(ttk.Frame):
                 variable=variable,
                 text=activity,
                 state="normal" if editable else "disabled",
+                command=self._save_selected_day,
             )
             checkbox.grid(
                 row=0,
@@ -519,7 +512,6 @@ class DailyGoalsScreen(ttk.Frame):
         )
 
         state = "normal" if editable else "disabled"
-        self.save_button.config(state=state)
         self.mark_all_button.config(state=state)
         self.clear_button.config(state=state)
 
@@ -562,10 +554,12 @@ class DailyGoalsScreen(ttk.Frame):
     def _mark_all(self) -> None:
         for variable in self.goal_vars.values():
             variable.set(True)
+        self._save_selected_day()
 
     def _clear_all(self) -> None:
         for variable in self.goal_vars.values():
             variable.set(False)
+        self._save_selected_day()
 
     def _save_selected_day(self) -> None:
         if self.selected_date > date.today():

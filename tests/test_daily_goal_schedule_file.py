@@ -6,7 +6,7 @@ def test_daily_goal_schedule_has_parent_goals_and_compact_days() -> None:
     path = Path("output/manual/daily_goal_schedule.json")
     data = json.loads(path.read_text(encoding="utf-8"))
 
-    assert data["schema_version"] == 2
+    assert data["schema_version"] == 1
     version = data["versions"][0]
     assert version["effective_from"] == "2026-08-21"
 

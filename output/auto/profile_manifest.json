@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-21T08:15:07.425794+00:00",
+  "generated_at": "2026-08-21T08:36:35.678259+00:00",
   "output_folder": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output",
   "sources": {
     "obsidian": {
@@ -12,8 +12,10 @@
     },
     "wanikani": {
       "refreshed": true,
-      "status": "failed",
-      "error": "ConfigError: wanikani.api_key is empty. Put it in config.local.json."
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\wanikani_index.json",
+      "item_count": 9431,
+      "error_count": 0
     },
     "anki": {
       "refreshed": true,
@@ -24,8 +26,10 @@
     },
     "bunpro": {
       "refreshed": true,
-      "status": "failed",
-      "error": "ConfigError: bunpro.email/password are empty. Put them in config.local.json."
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\grammar_profile.json",
+      "item_count": 1668,
+      "error_count": 0
     }
   },
   "profile": {

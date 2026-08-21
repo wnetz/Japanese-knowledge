@@ -12,6 +12,7 @@ from .writing_screen import WritingScreen
 from .grammar_review_screen import GrammarReviewScreen
 from .history_screen import HistoryScreen
 from .daily_goals_screen import DailyGoalsScreen
+from .home_screen import HomeScreen
 
 
 class JapaneseKnowledgeApp(tk.Tk):
@@ -26,7 +27,7 @@ class JapaneseKnowledgeApp(tk.Tk):
         self.frames = {}
 
         self._build_shell()
-        self.show_screen("reviews")
+        self.show_screen("home")
 
     def _build_shell(self) -> None:
         outer = ttk.Frame(self)
@@ -50,6 +51,27 @@ class JapaneseKnowledgeApp(tk.Tk):
 
         ttk.Button(
             sidebar,
+            text="Home",
+            command=lambda: self.show_screen("home"),
+            width=22,
+        ).pack(fill="x", pady=(0, 8))
+
+        ttk.Button(
+            sidebar,
+            text="Update Profile",
+            command=lambda: self.show_screen("update"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
+        ttk.Button(
+            sidebar,
+            text="Daily Goals",
+            command=lambda: self.show_screen("daily_goals"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
+        ttk.Button(
+            sidebar,
             text="Writing Quiz",
             command=lambda: self.show_screen("writing"),
             width=22,
@@ -64,22 +86,8 @@ class JapaneseKnowledgeApp(tk.Tk):
 
         ttk.Button(
             sidebar,
-            text="Update Profiles",
-            command=lambda: self.show_screen("update"),
-            width=22,
-        ).pack(fill="x", pady=4)
-
-        ttk.Button(
-            sidebar,
             text="Upcoming Reviews",
             command=lambda: self.show_screen("reviews"),
-            width=22,
-        ).pack(fill="x", pady=4)
-
-        ttk.Button(
-            sidebar,
-            text="Daily Goals",
-            command=lambda: self.show_screen("daily_goals"),
             width=22,
         ).pack(fill="x", pady=4)
 
@@ -105,6 +113,8 @@ class JapaneseKnowledgeApp(tk.Tk):
         self.content = ttk.Frame(outer, padding=PADDING["outer"])
         self.content.pack(side="left", fill="both", expand=True)
 
+        self.frames["home"] = HomeScreen(self.content)
+
         self.frames["writing"] = WritingScreen(self.content)
         self.frames["grammar_review"] = GrammarReviewScreen(self.content)
 
@@ -126,6 +136,10 @@ class JapaneseKnowledgeApp(tk.Tk):
         writing.reload_profile(show_errors=False)
         reviews.refresh_reviews()
 
+        home = self.frames.get("home")
+        if home is not None:
+            home.refresh()
+
         history = self.frames.get("history")
         if history is not None:
             history.refresh_history(show_errors=False)
@@ -145,7 +159,9 @@ class JapaneseKnowledgeApp(tk.Tk):
         frame = self.frames[name]
         frame.pack(fill="both", expand=True)
 
-        if name == "reviews":
+        if name == "home":
+            frame.refresh()
+        elif name == "reviews":
             frame.refresh_reviews()
         elif name == "history":
             frame.refresh_history(show_errors=False)

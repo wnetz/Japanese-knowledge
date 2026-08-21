@@ -27,7 +27,7 @@ ANKI_INTERVAL_FLOORS = (
     (120, 0.75),
 #    (30, 0.55),
 #    (14, 0.35),
-#   (7, 0.15),
+#    (7, 0.15),
 )
 
 # WaniKani stages: 0 locked/unstarted, 1-4 apprentice, 5-6 guru,

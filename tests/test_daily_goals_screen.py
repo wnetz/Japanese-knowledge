@@ -13,7 +13,6 @@ def test_calendar_dates_are_clickable_and_past_dates_editable() -> None:
     assert "monthdatescalendar" in source
     assert "command=lambda d=target_date: self._select_date(d)" in source
     assert "self.selected_date <= date.today()" in source
-    assert 'text="Save Day"' in source
 
 
 def test_calendar_colors_are_centralized() -> None:
@@ -43,3 +42,12 @@ def test_goal_option_uses_activity_text_and_hover_details() -> None:
 def test_goal_rows_use_estimated_time() -> None:
     source = Path("gui/daily_goals_screen.py").read_text(encoding="utf-8")
     assert 'goal.get("estimated_time")' in source
+
+
+def test_daily_goals_autosave_on_changes() -> None:
+    source = Path("gui/daily_goals_screen.py").read_text(encoding="utf-8")
+    assert 'text="Save Day"' not in source
+    assert 'command=self._save_selected_day' in source
+    assert 'def _mark_all(self) -> None:' in source
+    assert 'def _clear_all(self) -> None:' in source
+    assert source.count('self._save_selected_day()') >= 2

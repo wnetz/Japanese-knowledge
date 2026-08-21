@@ -55,9 +55,9 @@ def test_builder_merges_wanikani_and_anki_and_ignores_obsidian(tmp_path: Path) -
     assert item.confidence is not None
     assert profile.metadata.sources == ["wanikani", "anki"]
 
-    # Unstudied WaniKani is ignored. The 60-day Anki interval establishes
-    # the configured 0.75 confidence floor.
-    assert item.confidence == 0.75
+    # Unstudied WaniKani is ignored. A 60-day Anki interval is below the
+    # first active interval floor (120 days), so it keeps its calculated score.
+    assert item.confidence == 0.5471
 
 
 def test_builder_writes_vocabulary_profile_by_default(tmp_path: Path) -> None:

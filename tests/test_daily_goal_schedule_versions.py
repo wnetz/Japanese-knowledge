@@ -15,7 +15,7 @@ def write_schedule(path: Path) -> None:
     path.write_text(
         json.dumps(
             {
-                "schema_version": 2,
+                "schema_version": 1,
                 "versions": [
                     {
                         "id": "old",

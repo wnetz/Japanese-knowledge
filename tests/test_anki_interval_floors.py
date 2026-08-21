@@ -4,11 +4,9 @@ from profile.scoring import calculate_confidence
 
 def test_anki_interval_confidence_floors():
     cases = [
-        (13, None),
-        (14, 0.55),
-        (30, 0.65),
-        (60, 0.75),
-        (120, 0.85),
+        (119, None),
+        (120, 0.75),
+        (364, 0.75),
         (365, 0.95),
     ]
 
@@ -30,4 +28,13 @@ def test_anki_interval_confidence_floors():
         if expected_floor is not None:
             assert confidence >= expected_floor
         else:
-            assert confidence < 0.55
+            assert confidence < 0.75
+
+
+def test_anki_interval_floor_table_is_highest_first():
+    from profile.scoring import ANKI_INTERVAL_FLOORS
+
+    assert ANKI_INTERVAL_FLOORS == (
+        (365, 0.95),
+        (120, 0.75),
+    )

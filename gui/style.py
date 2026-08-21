@@ -37,6 +37,13 @@ COLORS = {
 }
 
 
+
+TIMER_SEGMENT_COLORS = {
+    "on": COLORS["purple_dark"],
+    "off": COLORS["bg"],
+    "background": COLORS["bg"],
+}
+
 # SRS history graph palettes.
 # Keep graph appearance here so history_screen.py contains only graph behavior.
 WANIKANI_STAGE_STYLES = {

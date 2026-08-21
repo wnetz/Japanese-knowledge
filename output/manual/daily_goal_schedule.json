@@ -48,13 +48,14 @@
       },
       "weekly_schedule": {
         "monday": {
-          "approx": "1½–2h",
+          "approx": "1½–2½h",
           "goals": [
             {
               "id": "srs"
             },
             {
-              "id": "textbook_new_grammar"
+              "id": "textbook_new_grammar",              
+              "estimated_time": "30m"
             },
             {
               "id": "typed_production",
@@ -62,7 +63,7 @@
             },
             {
               "id": "reading",
-              "estimated_time": "15–20m"
+              "estimated_time": "20m"
             },
             {
               "id": "listening",
@@ -71,7 +72,7 @@
           ]
         },
         "tuesday": {
-          "approx": "45–60m",
+          "approx": "45–1¾h",
           "goals": [
             {
               "id": "srs"
@@ -86,18 +87,19 @@
             },
             {
               "id": "listening",
-              "estimated_time": "15–20m"
+              "estimated_time": "20m"
             }
           ]
         },
         "wednesday": {
-          "approx": "1½–2h",
+          "approx": "1¾–2¾h",
           "goals": [
             {
               "id": "srs"
             },
             {
-              "id": "textbook_new_grammar"
+              "id": "textbook_new_grammar",
+              "estimated_time": "30m"
             },
             {
               "id": "typed_production",
@@ -105,7 +107,7 @@
             },
             {
               "id": "written_production",
-              "estimated_time": "10–15m"
+              "estimated_time": "15m"
             },
             {
               "id": "reading",
@@ -118,7 +120,7 @@
           ]
         },
         "thursday": {
-          "approx": "45–60m",
+          "approx": "45–1¾h",
           "goals": [
             {
               "id": "srs"
@@ -133,26 +135,27 @@
             },
             {
               "id": "listening",
-              "estimated_time": "15–20m"
+              "estimated_time": "20m"
             }
           ]
         },
         "friday": {
-          "approx": "1½–2h",
+          "approx": "1½–2½h",
           "goals": [
             {
               "id": "srs"
             },
             {
-              "id": "targeted_grammar_repair"
+              "id": "targeted_grammar_repair",
+              "estimated_time": "30m"
             },
             {
               "id": "typed_production",
-              "estimated_time": "20–30m"
+              "estimated_time": "25m"
             },
             {
               "id": "reading",
-              "estimated_time": "20–30m"
+              "estimated_time": "25m"
             },
             {
               "id": "listening",
@@ -161,13 +164,14 @@
           ]
         },
         "saturday": {
-          "approx": "2½–3h",
+          "approx": "3½–4½h",
           "goals": [
             {
               "id": "srs"
             },
             {
-              "id": "textbook_new_grammar"
+              "id": "textbook_new_grammar",
+              "estimated_time": "45m"
             },
             {
               "id": "typed_production",
@@ -175,35 +179,35 @@
             },
             {
               "id": "written_production",
-              "estimated_time": "20–30m"
+              "estimated_time": "30m"
             },
             {
               "id": "reading",
-              "estimated_time": "45–60m"
+              "estimated_time": "60m"
             },
             {
               "id": "listening",
-              "estimated_time": "30–45m"
+              "estimated_time": "45m"
             }
           ]
         },
         "sunday": {
-          "approx": "2–3h",
+          "approx": "2¾–3¾h",
           "goals": [
             {
               "id": "srs"
             },
             {
               "id": "blind_cumulative_check",
-              "estimated_time": "Typed 30–45m + written 15–20m"
+              "estimated_time": "60m"
             },
             {
               "id": "reading",
-              "estimated_time": "45–60m"
+              "estimated_time": "60m"
             },
             {
               "id": "listening",
-              "estimated_time": "30–45m"
+              "estimated_time": "45m"
             }
           ]
         }

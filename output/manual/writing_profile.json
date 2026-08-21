@@ -62,15 +62,15 @@
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 3,
+        "attempts": 4,
         "well_known": 0,
-        "correct": 2,
+        "correct": 3,
         "close": 1,
         "forgot": 0,
-        "score": 0.8333,
+        "score": 0.875,
         "first_reviewed": "2026-08-20T12:41:12.193239+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:08:00.613917+00:00"
+        "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
       },
       "contexts": {
         "有る|ある": {
@@ -98,6 +98,34 @@
               "first_reviewed": "2026-08-20T12:41:12.193239+00:00",
               "last_result": "correct",
               "last_reviewed": "2026-08-21T04:08:00.613917+00:00"
+            }
+          }
+        },
+        "有名|ゆうめい": {
+          "word": "有名",
+          "reading": "ゆうめい",
+          "performance": {
+            "attempts": 1,
+            "well_known": 0,
+            "correct": 1,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T08:40:39.707458+00:00",
+            "last_result": "correct",
+            "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
+          },
+          "positions": {
+            "0": {
+              "attempts": 1,
+              "well_known": 0,
+              "correct": 1,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T08:40:39.707458+00:00",
+              "last_result": "correct",
+              "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
             }
           }
         }
@@ -681,50 +709,50 @@
     },
     "親": {
       "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:14:19.415627+00:00",
+        "stage": 2,
+        "due": "2026-08-22T08:39:42.413000+00:00",
         "introduced_at": "2026-08-21T04:07:20.749666+00:00",
         "graduated_at": "2026-08-21T04:14:19.415627+00:00",
-        "last_reviewed": "2026-08-21T04:14:19.415627+00:00",
+        "last_reviewed": "2026-08-21T08:39:42.413000+00:00",
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 3,
+        "attempts": 4,
         "well_known": 0,
-        "correct": 1,
+        "correct": 2,
         "close": 1,
         "forgot": 1,
-        "score": 0.5,
+        "score": 0.625,
         "first_reviewed": "2026-08-21T04:07:20.749666+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:14:19.415627+00:00"
+        "last_reviewed": "2026-08-21T08:39:42.413000+00:00"
       },
       "contexts": {
         "親しい|したしい": {
           "word": "親しい",
           "reading": "したしい",
           "performance": {
-            "attempts": 2,
+            "attempts": 3,
             "well_known": 0,
-            "correct": 1,
+            "correct": 2,
             "close": 0,
             "forgot": 1,
-            "score": 0.5,
+            "score": 0.6667,
             "first_reviewed": "2026-08-21T04:07:20.749666+00:00",
             "last_result": "correct",
-            "last_reviewed": "2026-08-21T04:14:19.415627+00:00"
+            "last_reviewed": "2026-08-21T08:39:42.413000+00:00"
           },
           "positions": {
             "0": {
-              "attempts": 2,
+              "attempts": 3,
               "well_known": 0,
-              "correct": 1,
+              "correct": 2,
               "close": 0,
               "forgot": 1,
-              "score": 0.5,
+              "score": 0.6667,
               "first_reviewed": "2026-08-21T04:07:20.749666+00:00",
               "last_result": "correct",
-              "last_reviewed": "2026-08-21T04:14:19.415627+00:00"
+              "last_reviewed": "2026-08-21T08:39:42.413000+00:00"
             }
           }
         },
@@ -1048,23 +1076,23 @@
     },
     "近": {
       "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:15:59.786613+00:00",
+        "stage": 2,
+        "due": "2026-08-22T08:40:07.106053+00:00",
         "introduced_at": "2026-08-21T04:12:53.615811+00:00",
         "graduated_at": "2026-08-21T04:15:59.786613+00:00",
-        "last_reviewed": "2026-08-21T04:15:59.786613+00:00",
+        "last_reviewed": "2026-08-21T08:40:07.106053+00:00",
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 2,
+        "attempts": 3,
         "well_known": 0,
-        "correct": 1,
+        "correct": 2,
         "close": 0,
         "forgot": 1,
-        "score": 0.5,
+        "score": 0.6667,
         "first_reviewed": "2026-08-21T04:12:53.615811+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:15:59.786613+00:00"
+        "last_reviewed": "2026-08-21T08:40:07.106053+00:00"
       },
       "contexts": {
         "近づく|ちかづく": {
@@ -1122,28 +1150,56 @@
               "last_reviewed": "2026-08-21T04:15:59.786613+00:00"
             }
           }
+        },
+        "近い|ちかい": {
+          "word": "近い",
+          "reading": "ちかい",
+          "performance": {
+            "attempts": 1,
+            "well_known": 0,
+            "correct": 1,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T08:40:07.106053+00:00",
+            "last_result": "correct",
+            "last_reviewed": "2026-08-21T08:40:07.106053+00:00"
+          },
+          "positions": {
+            "0": {
+              "attempts": 1,
+              "well_known": 0,
+              "correct": 1,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T08:40:07.106053+00:00",
+              "last_result": "correct",
+              "last_reviewed": "2026-08-21T08:40:07.106053+00:00"
+            }
+          }
         }
       }
     },
     "決": {
       "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:16:48.276332+00:00",
+        "stage": 2,
+        "due": "2026-08-22T08:39:09.731649+00:00",
         "introduced_at": "2026-08-21T04:13:53.287747+00:00",
         "graduated_at": "2026-08-21T04:16:48.276332+00:00",
-        "last_reviewed": "2026-08-21T04:16:48.276332+00:00",
+        "last_reviewed": "2026-08-21T08:39:09.731649+00:00",
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 2,
+        "attempts": 3,
         "well_known": 0,
-        "correct": 1,
+        "correct": 2,
         "close": 0,
         "forgot": 1,
-        "score": 0.5,
+        "score": 0.6667,
         "first_reviewed": "2026-08-21T04:13:53.287747+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:16:48.276332+00:00"
+        "last_reviewed": "2026-08-21T08:39:09.731649+00:00"
       },
       "contexts": {
         "決|けつ": {
@@ -1201,28 +1257,56 @@
               "last_reviewed": "2026-08-21T04:16:48.276332+00:00"
             }
           }
+        },
+        "決まる|きまる": {
+          "word": "決まる",
+          "reading": "きまる",
+          "performance": {
+            "attempts": 1,
+            "well_known": 0,
+            "correct": 1,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T08:39:09.731649+00:00",
+            "last_result": "correct",
+            "last_reviewed": "2026-08-21T08:39:09.731649+00:00"
+          },
+          "positions": {
+            "0": {
+              "attempts": 1,
+              "well_known": 0,
+              "correct": 1,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T08:39:09.731649+00:00",
+              "last_result": "correct",
+              "last_reviewed": "2026-08-21T08:39:09.731649+00:00"
+            }
+          }
         }
       }
     },
     "旅": {
       "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:17:16.765996+00:00",
+        "stage": 2,
+        "due": "2026-08-22T08:38:38.165444+00:00",
         "introduced_at": "2026-08-21T04:14:56.485698+00:00",
         "graduated_at": "2026-08-21T04:17:16.765996+00:00",
-        "last_reviewed": "2026-08-21T04:17:16.765996+00:00",
+        "last_reviewed": "2026-08-21T08:38:38.165444+00:00",
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 2,
+        "attempts": 3,
         "well_known": 0,
-        "correct": 1,
+        "correct": 2,
         "close": 1,
         "forgot": 0,
-        "score": 0.75,
+        "score": 0.8333,
         "first_reviewed": "2026-08-21T04:14:56.485698+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:17:16.765996+00:00"
+        "last_reviewed": "2026-08-21T08:38:38.165444+00:00"
       },
       "contexts": {
         "旅|たび": {
@@ -1257,27 +1341,27 @@
           "word": "N + を + 旅する",
           "reading": "N + を + たびする",
           "performance": {
-            "attempts": 1,
+            "attempts": 2,
             "well_known": 0,
-            "correct": 1,
+            "correct": 2,
             "close": 0,
             "forgot": 0,
             "score": 1.0,
             "first_reviewed": "2026-08-21T04:17:16.765996+00:00",
             "last_result": "correct",
-            "last_reviewed": "2026-08-21T04:17:16.765996+00:00"
+            "last_reviewed": "2026-08-21T08:38:38.165444+00:00"
           },
           "positions": {
             "8": {
-              "attempts": 1,
+              "attempts": 2,
               "well_known": 0,
-              "correct": 1,
+              "correct": 2,
               "close": 0,
               "forgot": 0,
               "score": 1.0,
               "first_reviewed": "2026-08-21T04:17:16.765996+00:00",
               "last_result": "correct",
-              "last_reviewed": "2026-08-21T04:17:16.765996+00:00"
+              "last_reviewed": "2026-08-21T08:38:38.165444+00:00"
             }
           }
         }
@@ -1285,23 +1369,23 @@
     },
     "名": {
       "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:18:17.895241+00:00",
+        "stage": 2,
+        "due": "2026-08-22T08:40:39.707458+00:00",
         "introduced_at": "2026-08-21T04:16:18.010411+00:00",
         "graduated_at": "2026-08-21T04:18:17.895241+00:00",
-        "last_reviewed": "2026-08-21T04:18:17.895241+00:00",
+        "last_reviewed": "2026-08-21T08:40:39.707458+00:00",
         "last_result": "correct"
       },
       "performance": {
-        "attempts": 2,
+        "attempts": 3,
         "well_known": 0,
-        "correct": 1,
+        "correct": 2,
         "close": 0,
         "forgot": 1,
-        "score": 0.5,
+        "score": 0.6667,
         "first_reviewed": "2026-08-21T04:16:18.010411+00:00",
         "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:18:17.895241+00:00"
+        "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
       },
       "contexts": {
         "名|な": {
@@ -1359,33 +1443,10 @@
               "last_reviewed": "2026-08-21T04:18:17.895241+00:00"
             }
           }
-        }
-      }
-    },
-    "台": {
-      "srs": {
-        "stage": 1,
-        "due": "2026-08-21T08:17:47.686984+00:00",
-        "introduced_at": "2026-08-21T04:17:47.686984+00:00",
-        "graduated_at": "2026-08-21T04:17:47.686984+00:00",
-        "last_reviewed": "2026-08-21T04:17:47.686984+00:00",
-        "last_result": "correct"
-      },
-      "performance": {
-        "attempts": 1,
-        "well_known": 0,
-        "correct": 1,
-        "close": 0,
-        "forgot": 0,
-        "score": 1.0,
-        "first_reviewed": "2026-08-21T04:17:47.686984+00:00",
-        "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:17:47.686984+00:00"
-      },
-      "contexts": {
-        "〜台|だい": {
-          "word": "〜台",
-          "reading": "だい",
+        },
+        "有名|ゆうめい": {
+          "word": "有名",
+          "reading": "ゆうめい",
           "performance": {
             "attempts": 1,
             "well_known": 0,
@@ -1393,9 +1454,9 @@
             "close": 0,
             "forgot": 0,
             "score": 1.0,
-            "first_reviewed": "2026-08-21T04:17:47.686984+00:00",
+            "first_reviewed": "2026-08-21T08:40:39.707458+00:00",
             "last_result": "correct",
-            "last_reviewed": "2026-08-21T04:17:47.686984+00:00"
+            "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
           },
           "positions": {
             "1": {
@@ -1405,9 +1466,60 @@
               "close": 0,
               "forgot": 0,
               "score": 1.0,
+              "first_reviewed": "2026-08-21T08:40:39.707458+00:00",
+              "last_result": "correct",
+              "last_reviewed": "2026-08-21T08:40:39.707458+00:00"
+            }
+          }
+        }
+      }
+    },
+    "台": {
+      "srs": {
+        "stage": 2,
+        "due": "2026-08-22T08:38:49.257689+00:00",
+        "introduced_at": "2026-08-21T04:17:47.686984+00:00",
+        "graduated_at": "2026-08-21T04:17:47.686984+00:00",
+        "last_reviewed": "2026-08-21T08:38:49.257689+00:00",
+        "last_result": "correct"
+      },
+      "performance": {
+        "attempts": 2,
+        "well_known": 0,
+        "correct": 2,
+        "close": 0,
+        "forgot": 0,
+        "score": 1.0,
+        "first_reviewed": "2026-08-21T04:17:47.686984+00:00",
+        "last_result": "correct",
+        "last_reviewed": "2026-08-21T08:38:49.257689+00:00"
+      },
+      "contexts": {
+        "〜台|だい": {
+          "word": "〜台",
+          "reading": "だい",
+          "performance": {
+            "attempts": 2,
+            "well_known": 0,
+            "correct": 2,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T04:17:47.686984+00:00",
+            "last_result": "correct",
+            "last_reviewed": "2026-08-21T08:38:49.257689+00:00"
+          },
+          "positions": {
+            "1": {
+              "attempts": 2,
+              "well_known": 0,
+              "correct": 2,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
               "first_reviewed": "2026-08-21T04:17:47.686984+00:00",
               "last_result": "correct",
-              "last_reviewed": "2026-08-21T04:17:47.686984+00:00"
+              "last_reviewed": "2026-08-21T08:38:49.257689+00:00"
             }
           }
         }

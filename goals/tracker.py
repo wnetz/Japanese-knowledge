@@ -33,6 +33,13 @@ def load_goal_schedule(path: Path | None = None) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError("Daily goal schedule root must be an object.")
 
+    schema_version = int(data.get("schema_version") or 0)
+    if schema_version != SCHEDULE_SCHEMA_VERSION:
+        raise ValueError(
+            "Unsupported daily goal schedule schema_version "
+            f"{schema_version}; expected {SCHEDULE_SCHEMA_VERSION}."
+        )
+
     versions = data.get("versions")
     if not isinstance(versions, list) or not versions:
         raise ValueError("Daily goal schedule must contain at least one version.")

@@ -7,9 +7,9 @@
         "srs"
       ],
       "notes": "",
-      "updated_at": "2026-08-21T16:46:37.791404+09:00",
+      "updated_at": "2026-08-21T18:33:04.246745+09:00",
       "schedule_version": "2026-08-21-revised",
-      "approx_snapshot": "1½–2h",
+      "approx_snapshot": "1½–2½h",
       "goals_snapshot": [
         {
           "id": "srs",
@@ -21,21 +21,22 @@
           "id": "targeted_grammar_repair",
           "display": "Targeted Grammar Repair",
           "what_to_do": "Deliberately work on weak V1 items",
-          "main_purpose": "Repair"
+          "main_purpose": "Repair",
+          "estimated_time": "30m"
         },
         {
           "id": "typed_production",
           "display": "Typed Production",
           "what_to_do": "English → Japanese, typed, no grammar hints",
           "main_purpose": "High-volume grammar/vocabulary retrieval",
-          "estimated_time": "20–30m"
+          "estimated_time": "25m"
         },
         {
           "id": "reading",
           "display": "Reading",
           "what_to_do": "Read Japanese for comprehension without translating every sentence",
           "main_purpose": "Comprehension/automaticity",
-          "estimated_time": "20–30m"
+          "estimated_time": "25m"
         },
         {
           "id": "listening",
