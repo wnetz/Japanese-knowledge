@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "tracking_started": "2026-08-21",
+  "schedule": {
+    "monday": {
+      "approx": "1½–2h",
+      "goals": [
+        {
+          "id": "grammar",
+          "label": "Grammar / Textbook",
+          "target": "New material"
+        },
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "15–20m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "20m"
+        },
+        {
+          "id": "production",
+          "label": "Production / Writing",
+          "target": "10m"
+        }
+      ]
+    },
+    "tuesday": {
+      "approx": "45–60m",
+      "goals": [
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "10m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "15–20m"
+        }
+      ]
+    },
+    "wednesday": {
+      "approx": "1½–2h",
+      "goals": [
+        {
+          "id": "grammar",
+          "label": "Grammar / Textbook",
+          "target": "New material"
+        },
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "20m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "20m"
+        },
+        {
+          "id": "production",
+          "label": "Production / Writing",
+          "target": "10–15m"
+        }
+      ]
+    },
+    "thursday": {
+      "approx": "45–60m",
+      "goals": [
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "10m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "15–20m"
+        }
+      ]
+    },
+    "friday": {
+      "approx": "1½–2h",
+      "goals": [
+        {
+          "id": "grammar",
+          "label": "Grammar / Textbook",
+          "target": "Review / weak grammar"
+        },
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "20–30m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "20m"
+        },
+        {
+          "id": "production",
+          "label": "Production / Writing",
+          "target": "Random review with me"
+        }
+      ]
+    },
+    "saturday": {
+      "approx": "2½–3h",
+      "goals": [
+        {
+          "id": "grammar",
+          "label": "Grammar / Textbook",
+          "target": "New material + cumulative review"
+        },
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "45–60m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "30–45m"
+        },
+        {
+          "id": "production",
+          "label": "Production / Writing",
+          "target": "20m"
+        }
+      ]
+    },
+    "sunday": {
+      "approx": "2–3h",
+      "goals": [
+        {
+          "id": "grammar",
+          "label": "Grammar / Textbook",
+          "target": "Weekly consolidation"
+        },
+        {
+          "id": "reading",
+          "label": "Reading",
+          "target": "45–60m"
+        },
+        {
+          "id": "listening",
+          "label": "Listening",
+          "target": "30–45m"
+        },
+        {
+          "id": "production",
+          "label": "Production / Writing",
+          "target": "Weekly test/review"
+        }
+      ]
+    }
+  },
+  "records": {
+    "2026-08-21": {
+      "completed": [
+        "grammar",
+        "listening",
+        "production",
+        "reading"
+      ],
+      "notes": "",
+      "updated_at": "2026-08-21T15:55:16.800317+09:00"
+    }
+  }
+}

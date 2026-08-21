@@ -9,7 +9,10 @@
     "grammar_profile": "auto/grammar_profile.json",
     "knowledge_profile": "knowledge_profile.json",
     "writing_profile": "manual/writing_profile.json",
-    "srs_history": "manual/srs_history.json"
+    "srs_history": "manual/srs_history.json",
+    "grammar_mastery": "manual/grammar_mastery.json",
+    "daily_goals": "manual/daily_goals.json",
+    "study_schedule": "manual/study_schedule.txt"
   },
   "obsidian": {
     "enabled": true,

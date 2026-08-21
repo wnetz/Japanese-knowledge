@@ -33,35 +33,25 @@ def make_sources(tmp_path: Path):
         anki,
         {
             "notes": [
-                {"study": {"state": "new"}},
-                {"study": {"state": "learning"}},
-                {"study": {"state": "review"}},
+                {"decks": ["Core"], "study": {"state": "new"}},
+                {"decks": ["Core"], "study": {"state": "learning"}},
+                {"decks": ["Mining"], "study": {"state": "review"}},
+                {"decks": ["Core", "Mining"], "study": {"state": "review"}},
             ]
         },
     )
     write(
         bunpro,
         {
-            "srs_overview": {
-                "grammar": {
-                    "beginner": 2,
-                    "adept": 3,
-                    "seasoned": 4,
-                    "expert": 5,
-                    "master": 6,
-                    "ghost": 1,
-                    "self_study": 0,
-                },
-                "vocab": {
-                    "beginner": 7,
-                    "adept": 8,
-                    "seasoned": 9,
-                    "expert": 10,
-                    "master": 11,
-                    "ghost": 0,
-                    "self_study": 0,
-                },
-            }
+            "grammar": [
+                {"level": "JLPT5", "study": {"srs_level": "beginner"}},
+                {"level": "JLPT5", "study": {"srs_level": "adept"}},
+                {"level": "JLPT4", "study": {"srs_level": "seasoned"}}
+            ],
+            "vocabulary": [
+                {"level": "N5", "study": {"srs_level": "master"}},
+                {"level": "N4", "study": {"srs_level": "beginner"}}
+            ]
         },
     )
     write(
@@ -155,10 +145,38 @@ def test_native_source_levels_are_recorded(tmp_path: Path) -> None:
 
     sources = json.loads(history.read_text(encoding="utf-8"))["days"]["2026-08-20"]["sources"]
 
-    assert sources["anki"]["states"]["new"] == 1
-    assert sources["anki"]["states"]["learning"] == 1
-    assert sources["anki"]["states"]["review"] == 1
-    assert sources["bunpro"]["types"]["grammar"]["master"] == 6
-    assert sources["bunpro"]["types"]["vocabulary"]["master"] == 11
+    assert sources["anki"]["decks"]["Core"]["new"] == 1
+    assert sources["anki"]["decks"]["Core"]["learning"] == 1
+    assert sources["anki"]["decks"]["Core"]["review"] == 1
+    assert sources["anki"]["decks"]["Mining"]["review"] == 2
+    assert sources["bunpro"]["levels"]["grammar"]["N5"]["beginner"] == 1
+    assert sources["bunpro"]["levels"]["grammar"]["N5"]["adept"] == 1
+    assert sources["bunpro"]["levels"]["grammar"]["N4"]["seasoned"] == 1
+    assert sources["bunpro"]["levels"]["vocabulary"]["N5"]["master"] == 1
+    assert sources["bunpro"]["levels"]["vocabulary"]["N4"]["beginner"] == 1
     assert sources["writing"]["levels"]["new_active"] == 1
     assert sources["writing"]["levels"]["stage_3"] == 1
+
+
+def test_anki_history_is_split_by_deck(tmp_path: Path) -> None:
+    wk, anki, bunpro, writing = make_sources(tmp_path)
+    history = tmp_path / "manual" / "srs_history.json"
+
+    capture_daily_srs_snapshot(
+        history_path=history,
+        wanikani_path=wk,
+        anki_path=anki,
+        bunpro_path=bunpro,
+        writing_path=writing,
+        now=datetime(2026, 8, 20, 12, 0, tzinfo=timezone.utc),
+    )
+
+    anki_history = json.loads(
+        history.read_text(encoding="utf-8")
+    )["days"]["2026-08-20"]["sources"]["anki"]["decks"]
+
+    assert set(anki_history) == {"Core", "Mining"}
+    assert anki_history["Core"]["new"] == 1
+    assert anki_history["Core"]["learning"] == 1
+    assert anki_history["Core"]["review"] == 1
+    assert anki_history["Mining"]["review"] == 2

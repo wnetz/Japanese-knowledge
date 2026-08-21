@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "reviewed_at": "2026-08-21T14:19:27.168054+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        },
+        {
+          "item_id": "～たほうがいい",
+          "lesson_id": "",
+          "grammar": "～たほうがいい",
+          "mode": "production",
+          "score": 2,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～と思います",
+          "lesson_id": "",
+          "grammar": "～と思います",
+          "mode": "production",
+          "score": 0,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T14:23:40.442992+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たことがあります／ありません",
+          "lesson_id": "",
+          "grammar": "～たことがあります／ありません",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～たい",
+          "lesson_id": "",
+          "grammar": "～たい",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "particle::に",
+          "lesson_id": "",
+          "grammar": "particle::に",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        }
+      ]
+    }
+  ],
+  "items": {
+    "～ば": {
+      "item_id": "～ば",
+      "lesson_id": "",
+      "grammar": "～ば",
+      "attempts": 2,
+      "score_sum": 6,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T14:23:40.442992+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 6,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T14:23:40.442992+09:00"
+        }
+      }
+    },
+    "～たほうがいい": {
+      "item_id": "～たほうがいい",
+      "lesson_id": "",
+      "grammar": "～たほうがいい",
+      "attempts": 1,
+      "score_sum": 2,
+      "average_score": 2.0,
+      "last_score": 2,
+      "last_reviewed": "2026-08-21T14:19:27.168054+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 2,
+          "average_score": 2.0,
+          "last_score": 2,
+          "last_reviewed": "2026-08-21T14:19:27.168054+09:00"
+        }
+      }
+    },
+    "～と思います": {
+      "item_id": "～と思います",
+      "lesson_id": "",
+      "grammar": "～と思います",
+      "attempts": 1,
+      "score_sum": 0,
+      "average_score": 0.0,
+      "last_score": 0,
+      "last_reviewed": "2026-08-21T14:19:27.168054+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 0,
+          "average_score": 0.0,
+          "last_score": 0,
+          "last_reviewed": "2026-08-21T14:19:27.168054+09:00"
+        }
+      }
+    },
+    "～たことがあります／ありません": {
+      "item_id": "～たことがあります／ありません",
+      "lesson_id": "",
+      "grammar": "～たことがあります／ありません",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T14:23:40.442992+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T14:23:40.442992+09:00"
+        }
+      }
+    },
+    "～たい": {
+      "item_id": "～たい",
+      "lesson_id": "",
+      "grammar": "～たい",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T14:23:40.442992+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T14:23:40.442992+09:00"
+        }
+      }
+    },
+    "particle::に": {
+      "item_id": "particle::に",
+      "lesson_id": "",
+      "grammar": "particle::に",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T14:23:40.442992+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T14:23:40.442992+09:00"
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,25 @@
-| Day         | Grammar / Textbook                   | Reading    | Listening  | Production / Writing      |    Approx. |
-| ----------- | ------------------------------------ | ---------- | ---------- | ------------------------- | ---------: |
-| **Mon**     | **New material**                     | 15–20m     | 20m        | 10m                       |  **1½–2h** |
-| **Tue 🏋️** | —                                    | 10m        | 15–20m     | —                         | **45–60m** |
-| **Wed**     | **New material**                     | 20m        | 20m        | 10–15m                    |  **1½–2h** |
-| **Thu 🏋️** | —                                    | 10m        | 15–20m     | —                         | **45–60m** |
-| **Fri**     | Review / weak grammar                | 20–30m     | 20m        | **Random review with me** |  **1½–2h** |
-| **Sat**     | **New material + cumulative review** | **45–60m** | **30–45m** | 20m                       |  **2½–3h** |
-| **Sun**     | Weekly consolidation                 | **45–60m** | **30–45m** | **Weekly test/review**    |   **2–3h** |
+| Activity                    | What you do                                        | Main purpose                                  |
+| --------------------------- | -------------------------------------------------- | --------------------------------------------- |
+| **Typed Production**        | English → Japanese, typed, no grammar hints        | **High-volume grammar/vocabulary retrieval**  |
+| **Written Production**      | English → Japanese by hand                         | Verify independent recall + handwriting/kanji |
+| **SRS**                     | Anki, WaniKani, Bunpro, kanji-writing SRS          | Retention                                     |
+| **Textbook / New Grammar**  | Learn new material + textbook exercises            | Acquisition                                   |
+| **Targeted Grammar Repair** | Deliberately work on weak V1 items                 | Repair                                        |
+| **Japanese Input**          | Reading + active listening                         | Comprehension/automaticity                    |
+| **Blind Cumulative Check**  | Test everything learned without knowing the target | Measurement                                   |
+
+Revised weekly structure
+| Day         | Core Focus                        | Typed Production | Written Production | Reading | Listening | Expected Total |
+| ----------- | --------------------------------- | ---------------: | -----------------: | ------: | --------: | -------------: |
+| **Mon**     | SRS + **Textbook / New Grammar**  |              20m |                  — |  15–20m |       20m |      **1½–2h** |
+| **Tue 🏋️** | **SRS Maintenance**               |              10m |                  — |     10m |    15–20m |     **45–60m** |
+| **Wed**     | SRS + **Textbook / New Grammar**  |              20m |             10–15m |     20m |       20m |      **1½–2h** |
+| **Thu 🏋️** | **SRS Maintenance**               |              10m |                  — |     10m |    15–20m |     **45–60m** |
+| **Fri**     | SRS + **Targeted Grammar Repair** |           20–30m |                  — |  20–30m |       20m |      **1½–2h** |
+| **Sat**     | SRS + **Textbook / New Grammar**  |              30m |             20–30m |  45–60m |    30–45m |      **2½–3h** |
+| **Sun**     | SRS + **Blind Cumulative Check**  |          30–45m* |            15–20m* |  45–60m |    30–45m |       **2–3h** |
+
+*On Sunday, the typed/written production should be part of the Blind Cumulative Check, not additional work on top of it.
 
 September 2026 — solidify N5
 

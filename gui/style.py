@@ -13,6 +13,7 @@ COLORS = {
     "muted": "#b8b8b8",
     "purple": "#6d3fd8",
     "purple_hover": "#7d55df",
+    "purple_light": "#b89cff",
     "purple_dark": "#5930b8",
     "green": "#42c77a",
     "green_hover": "#59d98d",
@@ -33,6 +34,74 @@ COLORS = {
     "total": "#b388ff",
     "input_bg": "#242424",
     "selection": "#523b78",
+}
+
+
+# SRS history graph palettes.
+# Keep graph appearance here so history_screen.py contains only graph behavior.
+WANIKANI_STAGE_STYLES = {
+    "lesson": {"color": "#9e9e9e", "linestyle": "-"},
+    "apprentice_1": {"color": "#ef5350", "linestyle": "-"},
+    "apprentice_2": {"color": "#ff8c42", "linestyle": "-"},
+    "apprentice_3": {"color": "#f4d35e", "linestyle": "-"},
+    "apprentice_4": {"color": "#42c77a", "linestyle": "-"},
+    "guru_1": {"color": "#26c6da", "linestyle": "-"},
+    "guru_2": {"color": "#4a90e2", "linestyle": "-"},
+    "master": {"color": "#5c6bc0", "linestyle": "-"},
+    "enlightened": {"color": "#8e5cd9", "linestyle": "-"},
+    "burned": {"color": "#4b237a", "linestyle": "-"},
+}
+
+ANKI_STAGE_STYLES = {
+    "new": {"color": "#26d9d9", "linestyle": "-"},
+    "learning": {"color": "#42c77a", "linestyle": "-"},
+    "review": {"color": "#ef5350", "linestyle": "-"},
+    "relearning": {"color": "#d0d0d0", "linestyle": "-"},
+}
+
+BUNPRO_STAGE_STYLES = {
+    "beginner": {"color": "#ef5350", "linestyle": "-"},
+    "adept": {"color": "#ff9f43", "linestyle": "-"},
+    "seasoned": {"color": "#f4d35e", "linestyle": "-"},
+    "expert": {"color": "#42c77a", "linestyle": "-"},
+    "master": {"color": "#7e57c2", "linestyle": "-"},
+    "ghost": {"color": "#ffffff", "linestyle": ":"},
+    "self_study": {"color": "#9e9e9e", "linestyle": "-"},
+}
+
+
+def _hex_to_rgb(value: str) -> tuple[int, int, int]:
+    value = value.lstrip("#")
+    return tuple(int(value[index:index + 2], 16) for index in (0, 2, 4))
+
+
+def _rgb_to_hex(rgb: tuple[int, int, int]) -> str:
+    return "#{:02x}{:02x}{:02x}".format(*rgb)
+
+
+def daily_goal_progress_color(progress: float) -> str:
+    """Interpolate partial completion from light purple to dark purple."""
+    progress = max(0.0, min(1.0, float(progress)))
+    start = _hex_to_rgb(COLORS["purple_light"])
+    end = _hex_to_rgb(COLORS["purple_dark"])
+    rgb = tuple(
+        round(start[index] + (end[index] - start[index]) * progress)
+        for index in range(3)
+    )
+    return _rgb_to_hex(rgb)
+
+
+
+DAILY_GOAL_CALENDAR_COLORS = {
+    # Reuse the application's existing palette.
+    "complete": COLORS["purple_dark"],
+    "partial": COLORS["purple_hover"],
+    "missed": COLORS["panel_alt"],
+    "untracked": COLORS["panel_alt"],
+    "future": COLORS["panel"],
+    "selected_border": COLORS["purple"],
+    "day_text": COLORS["text"],
+    "muted_day_text": COLORS["muted"],
 }
 
 FONTS = {

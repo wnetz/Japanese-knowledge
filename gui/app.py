@@ -9,6 +9,9 @@ from .reviews_screen import ReviewsScreen
 from .kanji_heatmap_screen import KanjiHeatmapScreen
 from .update_screen import UpdateScreen
 from .writing_screen import WritingScreen
+from .grammar_review_screen import GrammarReviewScreen
+from .history_screen import HistoryScreen
+from .daily_goals_screen import DailyGoalsScreen
 
 
 class JapaneseKnowledgeApp(tk.Tk):
@@ -23,7 +26,7 @@ class JapaneseKnowledgeApp(tk.Tk):
         self.frames = {}
 
         self._build_shell()
-        self.show_screen("writing")
+        self.show_screen("reviews")
 
     def _build_shell(self) -> None:
         outer = ttk.Frame(self)
@@ -54,6 +57,13 @@ class JapaneseKnowledgeApp(tk.Tk):
 
         ttk.Button(
             sidebar,
+            text="Grammar Review",
+            command=lambda: self.show_screen("grammar_review"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
+        ttk.Button(
+            sidebar,
             text="Update Profiles",
             command=lambda: self.show_screen("update"),
             width=22,
@@ -63,6 +73,20 @@ class JapaneseKnowledgeApp(tk.Tk):
             sidebar,
             text="Upcoming Reviews",
             command=lambda: self.show_screen("reviews"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
+        ttk.Button(
+            sidebar,
+            text="Daily Goals",
+            command=lambda: self.show_screen("daily_goals"),
+            width=22,
+        ).pack(fill="x", pady=4)
+
+        ttk.Button(
+            sidebar,
+            text="SRS History",
+            command=lambda: self.show_screen("history"),
             width=22,
         ).pack(fill="x", pady=4)
 
@@ -82,8 +106,11 @@ class JapaneseKnowledgeApp(tk.Tk):
         self.content.pack(side="left", fill="both", expand=True)
 
         self.frames["writing"] = WritingScreen(self.content)
+        self.frames["grammar_review"] = GrammarReviewScreen(self.content)
 
         self.frames["reviews"] = ReviewsScreen(self.content)
+        self.frames["daily_goals"] = DailyGoalsScreen(self.content)
+        self.frames["history"] = HistoryScreen(self.content)
 
         self.frames["heatmap"] = KanjiHeatmapScreen(self.content)
 
@@ -99,6 +126,14 @@ class JapaneseKnowledgeApp(tk.Tk):
         writing.reload_profile(show_errors=False)
         reviews.refresh_reviews()
 
+        history = self.frames.get("history")
+        if history is not None:
+            history.refresh_history(show_errors=False)
+
+        grammar_review = self.frames.get("grammar_review")
+        if grammar_review is not None:
+            grammar_review.reload_data(show_errors=False)
+
         heatmap = self.frames.get("heatmap")
         if heatmap is not None:
             heatmap.refresh_heatmap()
@@ -112,5 +147,11 @@ class JapaneseKnowledgeApp(tk.Tk):
 
         if name == "reviews":
             frame.refresh_reviews()
+        elif name == "history":
+            frame.refresh_history(show_errors=False)
+        elif name == "daily_goals":
+            frame.refresh()
         elif name == "heatmap":
             frame.refresh_heatmap()
+        elif name == "grammar_review":
+            frame.reload_data(show_errors=False)

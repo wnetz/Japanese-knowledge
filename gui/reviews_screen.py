@@ -87,7 +87,7 @@ class ReviewsScreen(ttk.Frame):
 
         ttk.Label(source_row, text="Show:").pack(side="left")
 
-        self.review_horizon_var = tk.StringVar(value="30 days")
+        self.review_horizon_var = tk.StringVar(value="24 hours")
         horizon = ttk.Combobox(
             source_row,
             textvariable=self.review_horizon_var,
@@ -112,7 +112,7 @@ class ReviewsScreen(ttk.Frame):
 
         self.show_total_var = tk.BooleanVar(value=True)
         self.running_sum_var = tk.BooleanVar(value=False)
-        self.new_only_var = tk.BooleanVar(value=False)
+        self.new_only_var = tk.BooleanVar(value=True)
 
         ttk.Checkbutton(
             mode_row,

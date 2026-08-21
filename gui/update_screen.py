@@ -37,8 +37,8 @@ class UpdateScreen(ttk.Frame):
         selection.pack(fill="x")
 
         self.update_anki_var = tk.BooleanVar(value=True)
-        self.update_wanikani_var = tk.BooleanVar(value=False)
-        self.update_bunpro_var = tk.BooleanVar(value=False)
+        self.update_wanikani_var = tk.BooleanVar(value=True)
+        self.update_bunpro_var = tk.BooleanVar(value=True)
 
         ttk.Checkbutton(
             selection,
