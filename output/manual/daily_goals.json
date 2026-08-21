@@ -4,10 +4,12 @@
   "records": {
     "2026-08-21": {
       "completed": [
-        "srs"
+        "srs",
+        "targeted_grammar_repair",
+        "typed_production"
       ],
       "notes": "",
-      "updated_at": "2026-08-21T18:33:04.246745+09:00",
+      "updated_at": "2026-08-21T20:30:26.680864+09:00",
       "schedule_version": "2026-08-21-revised",
       "approx_snapshot": "1½–2½h",
       "goals_snapshot": [
