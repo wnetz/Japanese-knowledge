@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from importers.bunpro import BunproImporter
+from input.bunpro import BunproImporter
 
 
 class FakeBunproClient:

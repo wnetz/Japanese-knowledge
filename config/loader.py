@@ -10,7 +10,6 @@ from .models import (
     AnkiFieldConfig,
     AppConfig,
     BunproConfig,
-    LoggingConfig,
     ObsidianConfig,
     OutputConfig,
     WaniKaniConfig,
@@ -89,7 +88,6 @@ def load_config(
     #data for anki import
     anki_section = merged.get("anki") or {}
     bunpro_section = merged.get("bunpro") or {}
-    logging_section = merged.get("logging") or {}
 
     vault_value = obsidian_section.get("path")
     if not isinstance(vault_value, str) or not vault_value.strip():
@@ -153,12 +151,10 @@ def load_config(
             grammar_mastery=    str(output_section.get("grammar_mastery", "manual/grammar_mastery.json")),
             daily_goals=        str(output_section.get("daily_goals", "manual/daily_goals.json")),
             daily_goal_schedule=str(output_section.get("daily_goal_schedule", "manual/daily_goal_schedule.json")),
-            study_schedule=     str(output_section.get("study_schedule", "manual/study_schedule.txt")),
             grammar_profile=        str(output_section.get("grammar_profile", "auto/grammar_profile.json")),
             knowledge_profile=      str(output_section.get("knowledge_profile", "knowledge_profile.json")),
         ),
         obsidian=ObsidianConfig(
-            enabled=bool(obsidian_section.get("enabled", True)),
             vault=_resolve_path(vault_value, project_dir),
             #holds path to the key in the obsidian vault for linking
             knowledge_engine_folder=str(obsidian_section.get("knowledge_engine_folder", "Knowledge Engine")),
@@ -168,9 +164,7 @@ def load_config(
             default_note_type=str(obsidian_section.get("default_note_type", "reference")),
         ),
         wanikani=WaniKaniConfig(
-            enabled=bool(wk_section.get("enabled", False)),
             api_key=str(wk_section.get("api_key", "")).strip(),
-            api_version=str(wk_section.get("api_version", "20170710")),
             subject_types=tuple(subject_types),
             download=WaniKaniDownloadConfig(
                 subjects=bool(wk_download.get("subjects", wk_section.get("download_subjects", True))),
@@ -182,7 +176,6 @@ def load_config(
             ),
         ),
         anki=AnkiConfig(
-            enabled=bool(anki_section.get("enabled", False)),
             host=str(anki_section.get("host", "http://localhost:8765")),
             api_version=int(anki_section.get("api_version", 6)),
             timeout_seconds=float(anki_section.get("timeout_seconds", 30)),
@@ -192,7 +185,6 @@ def load_config(
             deck_fields=deck_fields,
         ),
         bunpro=BunproConfig(
-            enabled=bool(bunpro_section.get("enabled", False)),
             email=str(bunpro_section.get("email", "")).strip(),
             password=str(bunpro_section.get("password", "")),
             api_url=str(bunpro_section.get("api_url", "https://api.bunpro.jp")).rstrip("/"),
@@ -201,6 +193,4 @@ def load_config(
             include_grammar=bool(bunpro_section.get("include_grammar", True)),
             include_vocabulary=bool(bunpro_section.get("include_vocabulary", True)),
         ),
-        logging=LoggingConfig(level=str(logging_section.get("level", "INFO")).upper()),
-        raw=merged,
     )

@@ -5,13 +5,13 @@ indexes and calculate familiarity confidence.
 
 It reads any available files named:
 
-- `output/wanikani_index.json`
-- `output/anki_index.json`
-- `output/migaku_known_words.json`
+- `output/auto/wanikani_index.json`
+- `output/auto/anki_index.json`
+- `output/manual/migaku_known_words.json`
 
 It writes:
 
-- `output/vocabulary_profile.json`
+- `output/auto/vocabulary_profile.json`
 
 `textbook_profile.json` is intentionally ignored, even when it exists in the same
 output directory.
@@ -87,7 +87,7 @@ rebuilding and confidence calculation.
 
 ## Migaku
 
-If `output/migaku_known_words.json` exists, the builder consumes its `words`
+If `output/manual/migaku_known_words.json` exists, the builder consumes its `words`
 array as a third vocabulary source. Migaku records are matched by written word
 and a canonicalized reading. Katakana and hiragana readings are treated as the
 same reading for identity purposes, so `コーヒー / コーヒー` can merge with

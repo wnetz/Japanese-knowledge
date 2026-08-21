@@ -8,10 +8,10 @@ from typing import Any, Callable
 
 from config import ConfigError, load_config
 from core import write_json
-from importers.anki import AnkiImporter
-from importers.bunpro import BunproImporter
-from importers.obsidian import GrammarProfileImporter
-from importers.wanikani import WaniKaniImporter
+from input.anki import AnkiImporter
+from input.bunpro import BunproImporter
+from input.obsidian import GrammarProfileImporter
+from input.wanikani import WaniKaniImporter
 from profile import ProfileBuilder, build_knowledge_profile
 from history import capture_daily_srs_snapshot
 
@@ -21,16 +21,11 @@ def progress(message: str) -> None:
     print(message, flush=True)
 
 
-def _run_source(
+def _refresh_source(
     name: str,
-    enabled: bool,
     importer_factory: Callable[[], Any],
     output_path: Path,
 ) -> dict[str, Any]:
-    if not enabled:
-        progress(f"{name}: disabled")
-        return {"enabled": False, "status": "disabled"}
-
     progress(f"{name}: importing...")
     try:
         importer = importer_factory()
@@ -45,19 +40,32 @@ def _run_source(
                 value for value in data["counts"].values() if isinstance(value, int)
             )
         return {
-            "enabled": True,
+            "refreshed": True,
             "status": status,
             "output": str(output_path),
             "item_count": item_count,
             "error_count": len(errors),
         }
     except Exception as exc:
-        print(f"{name}: failed: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
+        print(
+            f"{name}: failed: {type(exc).__name__}: {exc}",
+            file=sys.stderr,
+            flush=True,
+        )
         return {
-            "enabled": True,
+            "refreshed": True,
             "status": "failed",
             "error": f"{type(exc).__name__}: {exc}",
         }
+
+
+def _preserve_source(name: str, output_path: Path) -> dict[str, Any]:
+    progress(f"{name}: not selected; preserving {output_path}")
+    return {
+        "refreshed": False,
+        "status": "preserved",
+        "output": str(output_path),
+    }
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -108,9 +116,8 @@ def main(argv: list[str] | None = None) -> int:
 
     source_results: dict[str, Any] = {}
 
-    source_results["obsidian"] = _run_source(
-        "Grammar profile",
-        config.obsidian.enabled,
+    source_results["obsidian"] = _refresh_source(
+        "Obsidian",
         lambda: GrammarProfileImporter(config.obsidian),
         output_dir / config.output.textbook_profile,
     )
@@ -119,7 +126,7 @@ def main(argv: list[str] | None = None) -> int:
         wk = config.wanikani
         if not wk.api_key:
             raise ConfigError(
-                "WaniKani is enabled but wanikani.api_key is empty. "
+                "wanikani.api_key is empty. "
                 "Put it in config.local.json."
             )
         return WaniKaniImporter(
@@ -133,33 +140,33 @@ def main(argv: list[str] | None = None) -> int:
             subject_types=wk.subject_types,
         )
 
-    source_results["wanikani"] = _run_source(
-        "WaniKani",
-        config.wanikani.enabled and "wanikani" in selected_sources,
-        make_wanikani,
-        output_dir / config.output.wanikani_index,
+    wanikani_output = output_dir / config.output.wanikani_index
+    source_results["wanikani"] = (
+        _refresh_source("WaniKani", make_wanikani, wanikani_output)
+        if "wanikani" in selected_sources
+        else _preserve_source("WaniKani", wanikani_output)
     )
 
     def make_anki() -> AnkiImporter:
         if not config.anki.decks:
             raise ConfigError(
-                "Anki is enabled but anki.decks is empty. Add the deck names "
+                "anki.decks is empty. Add the deck names "
                 "to config.json or config.local.json."
             )
         return AnkiImporter(config.anki)
 
-    source_results["anki"] = _run_source(
-        "Anki",
-        config.anki.enabled and "anki" in selected_sources,
-        make_anki,
-        output_dir / config.output.anki_index,
+    anki_output = output_dir / config.output.anki_index
+    source_results["anki"] = (
+        _refresh_source("Anki", make_anki, anki_output)
+        if "anki" in selected_sources
+        else _preserve_source("Anki", anki_output)
     )
 
     def make_bunpro() -> BunproImporter:
         bp = config.bunpro
         if not bp.email or not bp.password:
             raise ConfigError(
-                "Bunpro is enabled but bunpro.email/password are empty. "
+                "bunpro.email/password are empty. "
                 "Put them in config.local.json."
             )
         return BunproImporter(
@@ -172,11 +179,11 @@ def main(argv: list[str] | None = None) -> int:
             include_vocabulary=bp.include_vocabulary,
         )
 
-    source_results["bunpro"] = _run_source(
-        "Bunpro",
-        config.bunpro.enabled and "bunpro" in selected_sources,
-        make_bunpro,
-        output_dir / config.output.grammar_profile,
+    bunpro_output = output_dir / config.output.grammar_profile
+    source_results["bunpro"] = (
+        _refresh_source("Bunpro", make_bunpro, bunpro_output)
+        if "bunpro" in selected_sources
+        else _preserve_source("Bunpro", bunpro_output)
     )
 
     progress("Profile: building vocabulary profile...")

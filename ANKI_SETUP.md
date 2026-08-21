@@ -10,7 +10,6 @@ Add the exact deck names to `config.local.json` (recommended) or `config.json`:
 ```json
 {
   "anki": {
-    "enabled": true,
     "host": "http://localhost:8765",
     "decks": [
       "Your first deck",

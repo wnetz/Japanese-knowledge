@@ -125,7 +125,7 @@
       }
     },
     "2026-08-21": {
-      "captured_at": "2026-08-21T13:56:33.624735+09:00",
+      "captured_at": "2026-08-21T17:15:07.425794+09:00",
       "sources": {
         "wanikani": {
           "subject_types": {
@@ -472,8 +472,8 @@
           "levels": {
             "new_active": 0,
             "new_unintroduced": 0,
-            "stage_1": 10,
-            "stage_2": 10,
+            "stage_1": 6,
+            "stage_2": 14,
             "stage_3": 0,
             "stage_4": 0,
             "stage_5": 0,

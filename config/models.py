@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
 
 
 @dataclass
@@ -25,14 +24,12 @@ class OutputConfig:
     grammar_mastery: str = "manual/grammar_mastery.json"
     daily_goals: str = "manual/daily_goals.json"
     daily_goal_schedule: str = "manual/daily_goal_schedule.json"
-    study_schedule: str = "manual/study_schedule.txt"
     grammar_profile: str = "auto/grammar_profile.json"
     knowledge_profile: str = "knowledge_profile.json"
 
 
 @dataclass(frozen=True)
 class ObsidianConfig:
-    enabled: bool
     vault: Path
     knowledge_engine_folder: str = "Knowledge Engine"
     exclude_folders: tuple[str, ...] = (".obsidian", ".trash")
@@ -52,9 +49,7 @@ class WaniKaniDownloadConfig:
 
 @dataclass(frozen=True)
 class WaniKaniConfig:
-    enabled: bool
     api_key: str = ""
-    api_version: str = "20170710"
     subject_types: tuple[str, ...] = (
         "radical",
         "kanji",
@@ -77,7 +72,6 @@ class AnkiFieldConfig:
 
 @dataclass(frozen=True)
 class AnkiConfig:
-    enabled: bool = False
     host: str = "http://localhost:8765"
     api_version: int = 6
     timeout_seconds: float = 30.0
@@ -89,7 +83,6 @@ class AnkiConfig:
 
 @dataclass(frozen=True)
 class BunproConfig:
-    enabled: bool = False
     email: str = ""
     password: str = ""
     api_url: str = "https://api.bunpro.jp"
@@ -98,10 +91,6 @@ class BunproConfig:
     include_grammar: bool = True
     include_vocabulary: bool = True
 
-
-@dataclass(frozen=True)
-class LoggingConfig:
-    level: str = "INFO"
 
 
 @dataclass(frozen=True)
@@ -113,5 +102,3 @@ class AppConfig:
     wanikani: WaniKaniConfig
     anki: AnkiConfig
     bunpro: BunproConfig
-    logging: LoggingConfig
-    raw: dict[str, Any] = field(repr=False, compare=False, default_factory=dict)

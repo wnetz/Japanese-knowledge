@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import unittest
 
-from wanikani.importer import WaniKaniImporter
-from wanikani.normalization import normalize_parts_of_speech
+from input.wanikani.importer import WaniKaniImporter
+from input.wanikani.normalization import normalize_parts_of_speech
 
 
 class FakeClient:

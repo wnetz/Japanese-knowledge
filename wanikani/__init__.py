@@ -1,1 +1,0 @@
-from importers.wanikani import *

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from importers.obsidian import ObsidianParser
+from input.obsidian import ObsidianParser
 
 
 def test_group_export_removes_parser_metadata_and_duplicate_pos_name(tmp_path: Path) -> None:

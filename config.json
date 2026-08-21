@@ -12,11 +12,9 @@
     "srs_history": "manual/srs_history.json",
     "grammar_mastery": "manual/grammar_mastery.json",
     "daily_goals": "manual/daily_goals.json",
-    "study_schedule": "manual/study_schedule.txt",
     "daily_goal_schedule": "manual/daily_goal_schedule.json"
   },
   "obsidian": {
-    "enabled": true,
     "path": "C:/Users/wnetz/OneDrive/Documents/GitHub/notes/日本語",
     "knowledge_engine_folder": "Knowledge Engine",
     "exclude_folders": [
@@ -27,9 +25,7 @@
     "default_note_type": "reference"
   },
   "wanikani": {
-    "enabled": true,
     "api_key": "",
-    "api_version": "20170710",
     "subject_types": [
       "radical",
       "kanji",
@@ -46,7 +42,6 @@
     }
   },
   "anki": {
-    "enabled": true,
     "host": "http://localhost:8765",
     "api_version": 6,
     "timeout_seconds": 30,
@@ -75,11 +70,7 @@
       }
     }
   },
-  "logging": {
-    "level": "INFO"
-  },
   "bunpro": {
-    "enabled": true,
     "email": "",
     "password": "",
     "api_url": "https://api.bunpro.jp",

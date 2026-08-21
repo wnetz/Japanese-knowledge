@@ -1,5 +1,5 @@
-from importers.obsidian.base import BaseNoteParser
-from importers.obsidian.key import KeyParser
+from input.obsidian.base import BaseNoteParser
+from input.obsidian.key import KeyParser
 from pathlib import Path
 
 

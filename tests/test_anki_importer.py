@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 
 from config.models import AnkiConfig, AnkiFieldConfig
-from importers.anki import AnkiImporter
+from input.anki import AnkiImporter
 
 
 class FakeClient:
@@ -88,7 +88,6 @@ class FakeClient:
 class AnkiImporterTests(unittest.TestCase):
     def test_merges_duplicate_words_across_decks(self):
         config = AnkiConfig(
-            enabled=True,
             decks=("Core 2K", "Mining"),
             fields=AnkiFieldConfig(),
         )
@@ -164,7 +163,6 @@ class MultiStructureClient(FakeClient):
 
 def test_supports_per_deck_fields_and_furigana_lines():
     config = AnkiConfig(
-        enabled=True,
         decks=("Core 2K", "Japanese verbs (N5 - N4)"),
         fields=AnkiFieldConfig(),
         deck_fields={

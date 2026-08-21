@@ -5,7 +5,7 @@ import sys
 PROJECT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT))
 
-from importers.obsidian import ObsidianParser
+from input.obsidian import ObsidianParser
 
 
 def main() -> None:

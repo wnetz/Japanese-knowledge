@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from importers.obsidian import ObsidianParser
+from input.obsidian import ObsidianParser
 
 
 def test_parses_compact_verb_form_and_conjugation_profile(tmp_path: Path) -> None:

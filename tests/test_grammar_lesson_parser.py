@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from importers.obsidian import ObsidianParser
+from input.obsidian import ObsidianParser
 
 
 def test_lesson_sections_are_merged_classified_and_exported_as_strings(tmp_path: Path) -> None:

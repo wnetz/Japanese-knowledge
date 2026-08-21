@@ -1,26 +1,31 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-21T04:56:33.624735+00:00",
+  "generated_at": "2026-08-21T08:15:07.425794+00:00",
   "output_folder": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output",
   "sources": {
     "obsidian": {
-      "enabled": true,
+      "refreshed": true,
       "status": "completed",
       "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\textbook_profile.json",
       "item_count": null,
       "error_count": 0
     },
     "wanikani": {
-      "enabled": false,
-      "status": "disabled"
+      "refreshed": true,
+      "status": "failed",
+      "error": "ConfigError: wanikani.api_key is empty. Put it in config.local.json."
     },
     "anki": {
-      "enabled": false,
-      "status": "disabled"
+      "refreshed": true,
+      "status": "completed",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\anki_index.json",
+      "item_count": 2179,
+      "error_count": 0
     },
     "bunpro": {
-      "enabled": false,
-      "status": "disabled"
+      "refreshed": true,
+      "status": "failed",
+      "error": "ConfigError: bunpro.email/password are empty. Put them in config.local.json."
     }
   },
   "profile": {
