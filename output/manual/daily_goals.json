@@ -1,173 +1,50 @@
 {
-  "schema_version": 1,
+  "schema_version": 4,
   "tracking_started": "2026-08-21",
-  "schedule": {
-    "monday": {
-      "approx": "1½–2h",
-      "goals": [
-        {
-          "id": "grammar",
-          "label": "Grammar / Textbook",
-          "target": "New material"
-        },
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "15–20m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "20m"
-        },
-        {
-          "id": "production",
-          "label": "Production / Writing",
-          "target": "10m"
-        }
-      ]
-    },
-    "tuesday": {
-      "approx": "45–60m",
-      "goals": [
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "10m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "15–20m"
-        }
-      ]
-    },
-    "wednesday": {
-      "approx": "1½–2h",
-      "goals": [
-        {
-          "id": "grammar",
-          "label": "Grammar / Textbook",
-          "target": "New material"
-        },
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "20m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "20m"
-        },
-        {
-          "id": "production",
-          "label": "Production / Writing",
-          "target": "10–15m"
-        }
-      ]
-    },
-    "thursday": {
-      "approx": "45–60m",
-      "goals": [
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "10m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "15–20m"
-        }
-      ]
-    },
-    "friday": {
-      "approx": "1½–2h",
-      "goals": [
-        {
-          "id": "grammar",
-          "label": "Grammar / Textbook",
-          "target": "Review / weak grammar"
-        },
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "20–30m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "20m"
-        },
-        {
-          "id": "production",
-          "label": "Production / Writing",
-          "target": "Random review with me"
-        }
-      ]
-    },
-    "saturday": {
-      "approx": "2½–3h",
-      "goals": [
-        {
-          "id": "grammar",
-          "label": "Grammar / Textbook",
-          "target": "New material + cumulative review"
-        },
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "45–60m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "30–45m"
-        },
-        {
-          "id": "production",
-          "label": "Production / Writing",
-          "target": "20m"
-        }
-      ]
-    },
-    "sunday": {
-      "approx": "2–3h",
-      "goals": [
-        {
-          "id": "grammar",
-          "label": "Grammar / Textbook",
-          "target": "Weekly consolidation"
-        },
-        {
-          "id": "reading",
-          "label": "Reading",
-          "target": "45–60m"
-        },
-        {
-          "id": "listening",
-          "label": "Listening",
-          "target": "30–45m"
-        },
-        {
-          "id": "production",
-          "label": "Production / Writing",
-          "target": "Weekly test/review"
-        }
-      ]
-    }
-  },
   "records": {
     "2026-08-21": {
       "completed": [
-        "grammar",
-        "listening",
-        "production",
-        "reading"
+        "srs"
       ],
       "notes": "",
-      "updated_at": "2026-08-21T15:55:16.800317+09:00"
+      "updated_at": "2026-08-21T16:46:37.791404+09:00",
+      "schedule_version": "2026-08-21-revised",
+      "approx_snapshot": "1½–2h",
+      "goals_snapshot": [
+        {
+          "id": "srs",
+          "display": "SRS",
+          "what_to_do": "Anki, WaniKani, Bunpro, kanji-writing SRS",
+          "main_purpose": "Retention"
+        },
+        {
+          "id": "targeted_grammar_repair",
+          "display": "Targeted Grammar Repair",
+          "what_to_do": "Deliberately work on weak V1 items",
+          "main_purpose": "Repair"
+        },
+        {
+          "id": "typed_production",
+          "display": "Typed Production",
+          "what_to_do": "English → Japanese, typed, no grammar hints",
+          "main_purpose": "High-volume grammar/vocabulary retrieval",
+          "estimated_time": "20–30m"
+        },
+        {
+          "id": "reading",
+          "display": "Reading",
+          "what_to_do": "Read Japanese for comprehension without translating every sentence",
+          "main_purpose": "Comprehension/automaticity",
+          "estimated_time": "20–30m"
+        },
+        {
+          "id": "listening",
+          "display": "Listening",
+          "what_to_do": "Active Japanese listening",
+          "main_purpose": "Comprehension/automaticity",
+          "estimated_time": "20m"
+        }
+      ]
     }
   }
 }

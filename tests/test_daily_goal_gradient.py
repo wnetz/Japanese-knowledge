@@ -5,7 +5,7 @@ from gui.style import COLORS, daily_goal_progress_color
 
 
 def test_progress_color_moves_light_to_dark_purple() -> None:
-    assert daily_goal_progress_color(0.0) == COLORS["purple_hover"]
+    assert daily_goal_progress_color(0.0) == COLORS["purple_light"]
     assert daily_goal_progress_color(1.0) == COLORS["purple_dark"]
     assert daily_goal_progress_color(0.5) not in {
         COLORS["purple_hover"],
@@ -17,6 +17,11 @@ def test_completion_ratio_uses_number_of_scheduled_goals() -> None:
     target = date(2026, 8, 21)  # Friday: four goals
     data = empty_goal_data(start_date=target)
     data["records"][target.isoformat()] = {
-        "completed": ["grammar", "reading"],
+        "completed": ["targeted_grammar_repair", "reading"],
     }
-    assert completion_ratio(data, target) == 0.5
+    assert completion_ratio(data, target) == 0.4
+
+
+def test_light_purple_is_distinct_from_existing_purple() -> None:
+    assert COLORS["purple_light"] == "#b89cff"
+    assert COLORS["purple_light"] != COLORS["purple_hover"]

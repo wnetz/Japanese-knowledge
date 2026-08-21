@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,"versions": [
+    {
+      "id": "2026-08-21-revised",
+      "effective_from": "2026-08-21",
+      "effective_to": null,
+      "goals": {
+        "srs": {
+          "display": "SRS",
+          "what_to_do": "Anki, WaniKani, Bunpro, kanji-writing SRS",
+          "main_purpose": "Retention"
+        },
+        "textbook_new_grammar": {
+          "display": "Textbook / New Grammar",
+          "what_to_do": "Learn new material + textbook exercises",
+          "main_purpose": "Acquisition"
+        },
+        "typed_production": {
+          "display": "Typed Production",
+          "what_to_do": "English → Japanese, typed, no grammar hints",
+          "main_purpose": "High-volume grammar/vocabulary retrieval"
+        },
+        "written_production": {
+          "display": "Written Production",
+          "what_to_do": "English → Japanese by hand",
+          "main_purpose": "Verify independent recall + handwriting/kanji"
+        },
+        "targeted_grammar_repair": {
+          "display": "Targeted Grammar Repair",
+          "what_to_do": "Deliberately work on weak V1 items",
+          "main_purpose": "Repair"
+        },
+        "reading": {
+          "display": "Reading",
+          "what_to_do": "Read Japanese for comprehension without translating every sentence",
+          "main_purpose": "Comprehension/automaticity"
+        },
+        "listening": {
+          "display": "Listening",
+          "what_to_do": "Active Japanese listening",
+          "main_purpose": "Comprehension/automaticity"
+        },
+        "blind_cumulative_check": {
+          "display": "Blind Cumulative Check",
+          "what_to_do": "Test everything learned without knowing the target",
+          "main_purpose": "Measurement"
+        }
+      },
+      "weekly_schedule": {
+        "monday": {
+          "approx": "1½–2h",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "textbook_new_grammar"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "20m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "15–20m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "20m"
+            }
+          ]
+        },
+        "tuesday": {
+          "approx": "45–60m",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "10m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "10m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "15–20m"
+            }
+          ]
+        },
+        "wednesday": {
+          "approx": "1½–2h",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "textbook_new_grammar"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "20m"
+            },
+            {
+              "id": "written_production",
+              "estimated_time": "10–15m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "20m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "20m"
+            }
+          ]
+        },
+        "thursday": {
+          "approx": "45–60m",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "10m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "10m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "15–20m"
+            }
+          ]
+        },
+        "friday": {
+          "approx": "1½–2h",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "targeted_grammar_repair"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "20–30m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "20–30m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "20m"
+            }
+          ]
+        },
+        "saturday": {
+          "approx": "2½–3h",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "textbook_new_grammar"
+            },
+            {
+              "id": "typed_production",
+              "estimated_time": "30m"
+            },
+            {
+              "id": "written_production",
+              "estimated_time": "20–30m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "45–60m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "30–45m"
+            }
+          ]
+        },
+        "sunday": {
+          "approx": "2–3h",
+          "goals": [
+            {
+              "id": "srs"
+            },
+            {
+              "id": "blind_cumulative_check",
+              "estimated_time": "Typed 30–45m + written 15–20m"
+            },
+            {
+              "id": "reading",
+              "estimated_time": "45–60m"
+            },
+            {
+              "id": "listening",
+              "estimated_time": "30–45m"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

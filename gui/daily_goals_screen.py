@@ -13,12 +13,77 @@ from goals.tracker import (
     save_day_record,
     streaks,
 )
-from .shared import DAILY_GOALS_PATH
+from .shared import DAILY_GOALS_PATH, DAILY_GOAL_SCHEDULE_PATH
 from .style import (
     COLORS,
     DAILY_GOAL_CALENDAR_COLORS,
     daily_goal_progress_color,
 )
+
+
+class HoverTooltip:
+    def __init__(self, widget, text: str, *, delay_ms: int = 350) -> None:
+        self.widget = widget
+        self.text = text
+        self.delay_ms = delay_ms
+        self.after_id = None
+        self.window = None
+
+        widget.bind("<Enter>", self._schedule, add="+")
+        widget.bind("<Leave>", self._hide, add="+")
+        widget.bind("<ButtonPress>", self._hide, add="+")
+
+    def _schedule(self, _event=None) -> None:
+        self._cancel()
+        self.after_id = self.widget.after(self.delay_ms, self._show)
+
+    def _cancel(self) -> None:
+        if self.after_id is not None:
+            try:
+                self.widget.after_cancel(self.after_id)
+            except tk.TclError:
+                pass
+            self.after_id = None
+
+    def _show(self) -> None:
+        self.after_id = None
+        if self.window is not None or not self.text:
+            return
+
+        self.window = tk.Toplevel(self.widget)
+        self.window.wm_overrideredirect(True)
+        try:
+            self.window.attributes("-topmost", True)
+        except tk.TclError:
+            pass
+
+        x = self.widget.winfo_rootx() + 18
+        y = self.widget.winfo_rooty() + self.widget.winfo_height() + 6
+        self.window.wm_geometry(f"+{x}+{y}")
+
+        tk.Label(
+            self.window,
+            text=self.text,
+            justify="left",
+            anchor="w",
+            wraplength=360,
+            bg=COLORS["input_bg"],
+            fg=COLORS["text"],
+            relief="solid",
+            borderwidth=1,
+            padx=10,
+            pady=8,
+            font=("Segoe UI", 9),
+        ).pack()
+
+    def _hide(self, _event=None) -> None:
+        self._cancel()
+        if self.window is not None:
+            try:
+                self.window.destroy()
+            except tk.TclError:
+                pass
+            self.window = None
 
 
 class DailyGoalsScreen(ttk.Frame):
@@ -34,6 +99,7 @@ class DailyGoalsScreen(ttk.Frame):
         self.data = ensure_goal_file(
             DAILY_GOALS_PATH,
             start_date=today,
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
         )
 
         self._build_ui()
@@ -242,8 +308,14 @@ class DailyGoalsScreen(ttk.Frame):
         ).pack(anchor="w", pady=(10, 0))
 
     def refresh(self) -> None:
-        self.data = ensure_goal_file(DAILY_GOALS_PATH)
-        current, longest = streaks(self.data)
+        self.data = ensure_goal_file(
+            DAILY_GOALS_PATH,
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
+        )
+        current, longest = streaks(
+            self.data,
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
+        )
         self.current_streak_var.set(str(current))
         self.longest_streak_var.set(str(longest))
         self._render_calendar()
@@ -295,11 +367,13 @@ class DailyGoalsScreen(ttk.Frame):
                     self.data,
                     target_date,
                     today=today,
+                    schedule_path=DAILY_GOAL_SCHEDULE_PATH,
                 )
 
                 progress = completion_ratio(
                     self.data,
                     target_date,
+                    schedule_path=DAILY_GOAL_SCHEDULE_PATH,
                 )
                 if progress > 0:
                     bg = daily_goal_progress_color(progress)
@@ -355,6 +429,7 @@ class DailyGoalsScreen(ttk.Frame):
         schedule = goals_for_date(
             self.data,
             self.selected_date,
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
         )
 
         self.selected_title_var.set(
@@ -373,6 +448,8 @@ class DailyGoalsScreen(ttk.Frame):
 
         editable = self.selected_date <= date.today()
 
+        self.goals_frame.grid_columnconfigure(0, weight=1)
+
         for index, goal in enumerate(schedule["goals"]):
             goal_id = str(goal.get("id"))
             variable = tk.BooleanVar(
@@ -380,17 +457,48 @@ class DailyGoalsScreen(ttk.Frame):
             )
             self.goal_vars[goal_id] = variable
 
-            ttk.Checkbutton(
-                self.goals_frame,
-                variable=variable,
-                text=f"{goal.get('label')}:  {goal.get('target')}",
-                state="normal" if editable else "disabled",
-            ).grid(
+            row = ttk.Frame(self.goals_frame)
+            row.grid(
                 row=index,
                 column=0,
-                sticky="w",
-                pady=4,
+                sticky="ew",
+                pady=3,
             )
+            row.grid_columnconfigure(0, weight=1)
+
+            activity = str(goal.get("display") or goal.get("activity") or goal_id)
+            target = str(goal.get("estimated_time") or "").strip()
+
+            checkbox = ttk.Checkbutton(
+                row,
+                variable=variable,
+                text=activity,
+                state="normal" if editable else "disabled",
+            )
+            checkbox.grid(
+                row=0,
+                column=0,
+                sticky="w",
+            )
+
+            target_label = ttk.Label(
+                row,
+                text=target,
+                style="Muted.TLabel",
+            )
+            target_label.grid(
+                row=0,
+                column=1,
+                sticky="e",
+                padx=(12, 0),
+            )
+
+            tooltip_text = (
+                f"What to do: {goal.get('what_to_do') or ''}\n"
+                f"Main purpose: {goal.get('main_purpose') or ''}"
+            )
+            HoverTooltip(checkbox, tooltip_text)
+            HoverTooltip(target_label, tooltip_text)
 
         self.notes_text.config(state="normal")
         self.notes_text.delete("1.0", "end")
@@ -404,6 +512,7 @@ class DailyGoalsScreen(ttk.Frame):
         status = day_status(
             self.data,
             self.selected_date,
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
         )
         self.day_status_var.set(
             f"Status: {status.replace('_', ' ').title()}"
@@ -474,6 +583,7 @@ class DailyGoalsScreen(ttk.Frame):
                 self.selected_date,
                 completed,
                 notes=self.notes_text.get("1.0", "end").strip(),
+                schedule_path=DAILY_GOAL_SCHEDULE_PATH,
             )
         except Exception as exc:
             messagebox.showerror(

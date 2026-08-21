@@ -152,6 +152,7 @@ def load_config(
             srs_history=        str(output_section.get("srs_history", "manual/srs_history.json")),
             grammar_mastery=    str(output_section.get("grammar_mastery", "manual/grammar_mastery.json")),
             daily_goals=        str(output_section.get("daily_goals", "manual/daily_goals.json")),
+            daily_goal_schedule=str(output_section.get("daily_goal_schedule", "manual/daily_goal_schedule.json")),
             study_schedule=     str(output_section.get("study_schedule", "manual/study_schedule.txt")),
             grammar_profile=        str(output_section.get("grammar_profile", "auto/grammar_profile.json")),
             knowledge_profile=      str(output_section.get("knowledge_profile", "knowledge_profile.json")),

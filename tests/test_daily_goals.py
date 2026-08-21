@@ -20,14 +20,32 @@ def complete_ids(data, target_date):
 
 
 def test_schedule_matches_source_file() -> None:
-    assert DEFAULT_WEEKLY_SCHEDULE["monday"]["goals"][0]["target"] == "New material"
-    assert DEFAULT_WEEKLY_SCHEDULE["tuesday"]["goals"] == [
-        {"id": "reading", "label": "Reading", "target": "10m"},
-        {"id": "listening", "label": "Listening", "target": "15–20m"},
+    data = empty_goal_data(start_date=date(2026, 8, 21))
+
+    monday = goals_for_date(data, date(2026, 8, 24))["goals"]
+    assert [goal["display"] for goal in monday] == [
+        "SRS",
+        "Textbook / New Grammar",
+        "Typed Production",
+        "Reading",
+        "Listening",
     ]
-    assert DEFAULT_WEEKLY_SCHEDULE["friday"]["goals"][3]["target"] == "Random review with me"
-    assert DEFAULT_WEEKLY_SCHEDULE["saturday"]["goals"][0]["target"] == "New material + cumulative review"
-    assert DEFAULT_WEEKLY_SCHEDULE["sunday"]["goals"][3]["target"] == "Weekly test/review"
+    assert monday[2]["estimated_time"] == "20m"
+    assert monday[3]["estimated_time"] == "15–20m"
+    assert monday[4]["estimated_time"] == "20m"
+
+    friday = goals_for_date(data, date(2026, 8, 21))["goals"]
+    assert friday[1]["display"] == "Targeted Grammar Repair"
+    assert friday[2]["estimated_time"] == "20–30m"
+
+    sunday = goals_for_date(data, date(2026, 8, 23))["goals"]
+    assert [goal["display"] for goal in sunday] == [
+        "SRS",
+        "Blind Cumulative Check",
+        "Reading",
+        "Listening",
+    ]
+    assert sunday[1]["estimated_time"] == "Typed 30–45m + written 15–20m"
 
 
 def test_complete_and_partial_status(tmp_path: Path) -> None:
@@ -39,7 +57,7 @@ def test_complete_and_partial_status(tmp_path: Path) -> None:
     save_day_record(
         path,
         target,
-        {"grammar", "reading"},
+        {"targeted_grammar_repair", "reading"},
         now=datetime(2026, 8, 21, 12, tzinfo=timezone.utc),
     )
     data = json.loads(path.read_text(encoding="utf-8"))

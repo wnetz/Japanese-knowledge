@@ -24,6 +24,7 @@ class OutputConfig:
     srs_history: str = "manual/srs_history.json"
     grammar_mastery: str = "manual/grammar_mastery.json"
     daily_goals: str = "manual/daily_goals.json"
+    daily_goal_schedule: str = "manual/daily_goal_schedule.json"
     study_schedule: str = "manual/study_schedule.txt"
     grammar_profile: str = "auto/grammar_profile.json"
     knowledge_profile: str = "knowledge_profile.json"

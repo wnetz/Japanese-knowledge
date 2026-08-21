@@ -12,7 +12,8 @@
     "srs_history": "manual/srs_history.json",
     "grammar_mastery": "manual/grammar_mastery.json",
     "daily_goals": "manual/daily_goals.json",
-    "study_schedule": "manual/study_schedule.txt"
+    "study_schedule": "manual/study_schedule.txt",
+    "daily_goal_schedule": "manual/daily_goal_schedule.json"
   },
   "obsidian": {
     "enabled": true,

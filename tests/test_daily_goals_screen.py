@@ -30,3 +30,16 @@ def test_calendar_uses_existing_palette() -> None:
     assert '"missed": COLORS["panel_alt"]' in style
     assert '"untracked": COLORS["panel_alt"]' in style
     assert '"future": COLORS["panel"]' in style
+
+
+def test_goal_option_uses_activity_text_and_hover_details() -> None:
+    source = Path("gui/daily_goals_screen.py").read_text(encoding="utf-8")
+    assert "text=activity" in source
+    assert "What to do:" in source
+    assert "Main purpose:" in source
+    assert "HoverTooltip(" in source
+
+
+def test_goal_rows_use_estimated_time() -> None:
+    source = Path("gui/daily_goals_screen.py").read_text(encoding="utf-8")
+    assert 'goal.get("estimated_time")' in source
