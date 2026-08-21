@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-20T14:02:20.788540+00:00",
+  "generated_at": "2026-08-21T04:56:33.624735+00:00",
   "output_folder": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output",
   "sources": {
     "obsidian": {
@@ -15,11 +15,8 @@
       "status": "disabled"
     },
     "anki": {
-      "enabled": true,
-      "status": "completed",
-      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\anki_index.json",
-      "item_count": 2179,
-      "error_count": 0
+      "enabled": false,
+      "status": "disabled"
     },
     "bunpro": {
       "enabled": false,
@@ -30,7 +27,7 @@
     "status": "completed",
     "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\vocabulary_profile.json",
     "vocabulary_count": 9667,
-    "confidence_scored_count": 3035
+    "confidence_scored_count": 3061
   },
   "knowledge_profile": {
     "status": "completed",

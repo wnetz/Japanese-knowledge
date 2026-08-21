@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-08-20T14:02:20.208678+00:00",
+    "generated_at": "2026-08-21T04:56:33.205154+00:00",
     "sources": [
       "wanikani",
       "anki",
       "migaku"
     ],
     "vocabulary_count": 9667,
-    "confidence_scored_count": 3035,
+    "confidence_scored_count": 3061,
     "unresolved_reading_count": 1692,
     "source_counts": {
       "wanikani": 6825,
@@ -4018,13 +4018,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2361,
+      "confidence": 0.2823,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
+          "reviews": 7,
           "ease": 2.5,
-          "interval": 2,
+          "interval": 4,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -4186,14 +4186,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4973,
+      "confidence": 0.5047,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 28,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -4207,14 +4207,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4973,
+      "confidence": 0.5047,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 28,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -4606,14 +4606,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2906,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 9,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -4879,11 +4879,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3995,
+      "confidence": 0.4115,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 18,
+          "reviews": 20,
           "ease": 2.5,
           "interval": 4,
           "last_reviewed": "2026-08-20"
@@ -4900,13 +4900,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3585,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
+          "reviews": 11,
+          "ease": 2.5,
+          "interval": 8,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -4942,14 +4942,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2906,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 9,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -5047,14 +5047,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3748,
+      "confidence": 0.4189,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 13,
+          "reviews": 14,
           "ease": 2.5,
-          "interval": 7,
-          "last_reviewed": "2026-08-16"
+          "interval": 14,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -5194,14 +5194,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3686,
+      "confidence": 0.3773,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 14,
+          "reviews": 15,
           "ease": 2.5,
           "interval": 4,
-          "last_reviewed": "2026-08-18"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -5215,14 +5215,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.398,
+      "confidence": 0.4561,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 17,
+          "reviews": 19,
           "ease": 2.5,
-          "interval": 5,
-          "last_reviewed": "2026-08-18"
+          "interval": 14,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -5299,14 +5299,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.49,
+      "confidence": 0.4937,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 24,
+          "reviews": 25,
           "ease": 2.5,
           "interval": 16,
-          "last_reviewed": "2026-08-17"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -5383,14 +5383,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2762,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 8,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -5467,14 +5467,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2762,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 8,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -5488,14 +5488,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2606,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 7,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -5782,14 +5782,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3084,
+      "confidence": 0.3812,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
+          "reviews": 9,
           "ease": 2.5,
-          "interval": 6,
-          "last_reviewed": "2026-08-17"
+          "interval": 18,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -5866,14 +5866,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4115,
+      "confidence": 0.4168,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 20,
+          "reviews": 21,
           "ease": 2.5,
           "interval": 4,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -6916,14 +6916,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4973,
+      "confidence": 0.5047,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 16,
+          "reviews": 17,
           "ease": 2.5,
           "interval": 28,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7126,14 +7126,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4214,
+      "confidence": 0.4272,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 19,
+          "reviews": 20,
           "ease": 2.5,
           "interval": 7,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7357,14 +7357,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3925,
+      "confidence": 0.4036,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 19,
+          "reviews": 21,
           "ease": 2.35,
           "interval": 4,
-          "last_reviewed": "2026-08-19"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7672,14 +7672,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4056,
+      "confidence": 0.4151,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 13,
+          "reviews": 14,
           "ease": 2.35,
           "interval": 16,
-          "last_reviewed": "2026-08-16"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7735,14 +7735,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4623,
+      "confidence": 0.4672,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 21,
+          "reviews": 22,
           "ease": 2.5,
           "interval": 13,
-          "last_reviewed": "2026-08-15"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7756,14 +7756,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4623,
+      "confidence": 0.4672,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 21,
+          "reviews": 22,
           "ease": 2.5,
           "interval": 13,
-          "last_reviewed": "2026-08-15"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7777,14 +7777,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4623,
+      "confidence": 0.4672,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 21,
+          "reviews": 22,
           "ease": 2.5,
           "interval": 13,
-          "last_reviewed": "2026-08-15"
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -7798,14 +7798,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2361,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": null
+          "reviews": 5,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -8092,13 +8092,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.3594,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
+          "reviews": 12,
+          "ease": 2.5,
+          "interval": 6,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -8155,14 +8155,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3739,
+      "confidence": 0.3981,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 14,
+          "reviews": 15,
           "ease": 2.5,
-          "interval": 5,
-          "last_reviewed": "2026-08-17"
+          "interval": 8,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -8449,13 +8449,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3489,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
+          "reviews": 12,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -8659,14 +8659,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3136,
+      "confidence": 0.4033,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
+          "reviews": 9,
           "ease": 2.5,
-          "interval": 7,
-          "last_reviewed": "2026-08-17"
+          "interval": 23,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -12457,14 +12457,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.3148,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-19"
+          "reviews": 10,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -15563,14 +15563,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3331,
+      "confidence": 0.3431,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 9,
-          "ease": 2.5,
-          "interval": 8,
-          "last_reviewed": "2026-08-13"
+          "reviews": 10,
+          "ease": 2.35,
+          "interval": 10,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -16925,13 +16925,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3015,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
+          "reviews": 9,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -17067,14 +17067,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2546,
+      "confidence": 0.2691,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-18"
+          "reviews": 7,
+          "ease": 2.35,
+          "interval": 4,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -17574,13 +17574,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.3381,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
+          "reviews": 12,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -17769,13 +17769,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2051,
+      "confidence": 0.2661,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 7,
+          "ease": 2.5,
+          "interval": 1,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -17790,14 +17790,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3425,
+      "confidence": 0.4396,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": 2.35,
-          "interval": 19,
-          "last_reviewed": "2026-08-02"
+          "reviews": 8,
+          "ease": 2.2,
+          "interval": 43,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -18201,14 +18201,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2979,
+      "confidence": 0.353,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
+          "reviews": 9,
           "ease": 2.5,
-          "interval": 4,
-          "last_reviewed": "2026-08-17"
+          "interval": 12,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -18551,14 +18551,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.278,
+      "confidence": 0.4961,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 3,
+          "reviews": 4,
           "ease": 2.65,
-          "interval": 16,
-          "last_reviewed": "2026-08-04"
+          "interval": 73,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -20835,14 +20835,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2546,
+      "confidence": 0.2876,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
+          "reviews": 7,
           "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-19"
+          "interval": 5,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -21333,14 +21333,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2361,
+      "confidence": 0.2678,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
-          "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-19"
+          "reviews": 6,
+          "ease": 2.35,
+          "interval": 7,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -21482,13 +21482,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2051,
+      "confidence": 0.26,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 3,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -21691,14 +21691,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2436,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 6,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -21824,13 +21824,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.2685,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
+          "reviews": 8,
+          "ease": 2.35,
+          "interval": 1,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -21898,14 +21898,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -22019,13 +22019,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.1833,
+      "confidence": 0.2469,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 3,
-          "ease": null,
-          "interval": 0,
+          "reviews": 5,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -22205,14 +22205,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -23215,13 +23215,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.2961,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
+          "reviews": 9,
+          "ease": 2.5,
+          "interval": 1,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -23929,13 +23929,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2051,
+      "confidence": 0.2546,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -25833,11 +25833,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2251,
+      "confidence": 0.2762,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 5,
+          "reviews": 8,
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-08-20"
@@ -26095,11 +26095,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.2762,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
+          "reviews": 8,
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-08-20"
@@ -26136,14 +26136,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8613,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -27985,11 +27985,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.402,
+      "confidence": 0.322,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -29331,14 +29331,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2987,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 36,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -29480,14 +29480,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8536,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -29504,11 +29504,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.402,
+      "confidence": 0.5,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -30236,13 +30236,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2051,
+      "confidence": 0.2653,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 6,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -33133,14 +33133,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.3324,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -33555,14 +33555,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7151,
+      "confidence": 0.7913,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -34373,14 +34373,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.4491,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -34793,14 +34793,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3231,
+      "confidence": 0.3729,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -36874,14 +36874,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.3203,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -37592,11 +37592,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.622,
+      "confidence": 0.72,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -37855,14 +37855,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6249,
+      "confidence": 0.4491,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -37971,11 +37971,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.912,
+      "confidence": 0.734,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -41074,14 +41074,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4538,
+      "confidence": 0.53,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -41864,14 +41864,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.3203,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 42,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -45416,14 +45416,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4272,
+      "confidence": 0.4244,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 20,
-          "ease": 2.5,
-          "interval": 7,
-          "last_reviewed": "2026-08-14"
+          "reviews": 21,
+          "ease": 2.35,
+          "interval": 8,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -45675,8 +45675,8 @@
       "meanings": [
         "To Commit",
         "To Labor",
-        "to work",
-        "To Work"
+        "To Work",
+        "to work"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -48055,14 +48055,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7011,
+      "confidence": 0.7758,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -49538,7 +49538,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3278,
+      "confidence": 0.3262,
       "writable": false,
       "study": {
         "migaku": {
@@ -50778,14 +50778,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -51494,14 +51494,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -60911,14 +60911,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.4476,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -63597,14 +63597,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2661,
+      "confidence": 0.2926,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
+          "reviews": 8,
           "ease": 2.5,
-          "interval": 1,
-          "last_reviewed": "2026-08-19"
+          "interval": 3,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -66042,11 +66042,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.732,
+      "confidence": 0.828,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -66440,8 +66440,8 @@
       "word": "喋る",
       "reading": "しゃべる",
       "meanings": [
-        "To Chat",
         "to chat",
+        "To Chat",
         "To Talk"
       ],
       "parts_of_speech": [
@@ -73334,10 +73334,10 @@
     },
     {
       "word": "外面",
-      "reading": "がいめん",
+      "reading": "そとづら",
       "meanings": [
         "External Appearance",
-        "Outward Appearance",
+        "Outward Demeanor",
         "Surface"
       ],
       "parts_of_speech": [
@@ -73411,14 +73411,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1943,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 3,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -75577,14 +75577,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7867,
+      "confidence": 0.6342,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 5
         }
       }
     },
@@ -75736,11 +75736,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.738,
+      "confidence": 0.834,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -75981,11 +75981,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.634,
+      "confidence": 0.406,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -76409,9 +76409,8 @@
       "word": "奉仕",
       "reading": "ほうし",
       "meanings": [
-        "Attendance",
-        "Ministry",
-        "Service"
+        "Service",
+        "Serving"
       ],
       "parts_of_speech": [
         "noun",
@@ -76551,14 +76550,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.2739,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-08-19"
+          "reviews": 8,
+          "ease": 2.35,
+          "interval": 2,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -83702,14 +83701,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8613,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -87537,11 +87536,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.406,
+      "confidence": 0.324,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -88204,11 +88203,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.498,
+      "confidence": 0.628,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -89290,14 +89289,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8458,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -91228,14 +91227,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.295,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 35,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -91303,14 +91302,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.6249,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -91715,14 +91714,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3884,
+      "confidence": 0.4507,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -91789,14 +91788,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6296,
+      "confidence": 0.7058,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -91860,14 +91859,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5238,
+      "confidence": 0.6233,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -92630,11 +92629,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.322,
+      "confidence": 0.402,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -93260,14 +93259,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3842,
+      "confidence": 0.3776,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 48,
-          "ease": 2.0,
-          "interval": 3,
-          "last_reviewed": "2026-08-17"
+          "reviews": 49,
+          "ease": 1.85,
+          "interval": 4,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -94104,11 +94103,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.916,
+      "confidence": 0.736,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -95846,8 +95845,8 @@
       "word": "急ぐ",
       "reading": "いそぐ",
       "meanings": [
-        "To Hurry",
-        "to hurry"
+        "to hurry",
+        "To Hurry"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -95971,11 +95970,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.624,
+      "confidence": 0.722,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -96102,14 +96101,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5238,
+      "confidence": 0.6249,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -98451,11 +98450,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 0.748,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -99229,14 +99228,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.3097,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 39,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -105142,14 +105141,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7058,
+      "confidence": 0.53,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -109523,11 +109522,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.724,
+      "confidence": 0.822,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -111316,11 +111315,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.32,
+      "confidence": 0.4,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -112364,14 +112363,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.446,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -113962,11 +113961,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.64,
+      "confidence": 0.736,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -114431,11 +114430,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 1.0,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -115088,11 +115087,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.84,
+      "confidence": 0.922,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -115779,11 +115778,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.25,
+      "confidence": 0.316,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -119252,11 +119251,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.5,
+      "confidence": 0.63,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -121959,6 +121958,7 @@
       "word": "梅",
       "reading": "うめ",
       "meanings": [
+        "Japanese Apricot",
         "Japanese Plum",
         "Ume"
       ],
@@ -121980,7 +121980,7 @@
       "word": "梅干し",
       "reading": "うめぼし",
       "meanings": [
-        "Pickled Plums",
+        "Pickled Japanese Plum",
         "Pickled Ume",
         "Umeboshi"
       ],
@@ -122023,10 +122023,9 @@
       "word": "梅酒",
       "reading": "うめしゅ",
       "meanings": [
-        "Plum Liquor",
-        "Plum Wine",
-        "Ume Wine",
-        "Umeshu"
+        "Japanese Plum Liqueur",
+        "Japanese Plum Wine",
+        "Ume Wine"
       ],
       "parts_of_speech": [
         "noun"
@@ -122721,14 +122720,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3791,
+      "confidence": 0.3293,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -123578,11 +123577,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 1.0,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -125531,8 +125530,8 @@
       "word": "死ぬ",
       "reading": "しぬ",
       "meanings": [
-        "To Die",
-        "to die"
+        "to die",
+        "To Die"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -126644,14 +126643,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1943,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 3,
+          "ease": 2.5,
+          "interval": 2,
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -126801,14 +126800,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.1833,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 3,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -128944,14 +128943,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4491,
+      "confidence": 0.5253,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -129230,8 +129229,8 @@
       "meanings": [
         "To Become Depressed",
         "To Go Down",
-        "to sink",
-        "To Sink"
+        "To Sink",
+        "to sink"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -130253,14 +130252,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6249,
+      "confidence": 0.6996,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -134157,14 +134156,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.6249,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -137732,14 +137731,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -139481,7 +139480,8 @@
       "reading": "あつい",
       "meanings": [
         "Hot",
-        "Hot Thing"
+        "Hot To The Touch",
+        "Passionate"
       ],
       "parts_of_speech": [
         "い_adjective"
@@ -139686,14 +139686,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -140584,11 +140584,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.838,
+      "confidence": 0.92,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -142143,14 +142143,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2436,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 6,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -143555,14 +143555,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4894,
+      "confidence": 0.508,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 2,
+          "reviews": 3,
           "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-19"
+          "interval": 9,
+          "last_reviewed": "2026-08-20"
         },
         "migaku": {
           "status": "KNOWN"
@@ -144075,11 +144075,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.744,
+      "confidence": 0.84,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -146001,14 +146001,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5253,
+      "confidence": 0.6249,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -146678,8 +146678,8 @@
       "reading": "やせる",
       "meanings": [
         "To Get Thin",
-        "to lose weight",
-        "To Lose Weight"
+        "To Lose Weight",
+        "to lose weight"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -146936,11 +146936,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.916,
+      "confidence": 0.736,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -149757,11 +149757,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.25,
+      "confidence": 0.318,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -152178,13 +152178,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2906,
+      "confidence": 0.3082,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 9,
-          "ease": null,
-          "interval": 0,
+          "reviews": 11,
+          "ease": 2.35,
+          "interval": 1,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -153244,11 +153244,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.846,
+      "confidence": 0.926,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -153753,14 +153753,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8473,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -154714,14 +154714,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2051,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 4,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -154886,11 +154886,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.636,
+      "confidence": 0.734,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -156202,14 +156202,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2987,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
-          "ease": null,
-          "interval": 0,
-          "last_reviewed": "2026-07-19"
+          "reviews": 1,
+          "ease": 2.5,
+          "interval": 36,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -156217,8 +156217,8 @@
       "word": "笑う",
       "reading": "わらう",
       "meanings": [
-        "To Laugh",
-        "to laugh"
+        "to laugh",
+        "To Laugh"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -156490,11 +156490,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.632,
+      "confidence": 0.406,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -156595,14 +156595,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2436,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 6,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -161867,14 +161867,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2606,
+      "confidence": 0.3159,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
+          "reviews": 11,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-08-20"
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -162210,14 +162210,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8536,
+      "confidence": 0.95,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -166140,14 +166140,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": null,
+      "confidence": 0.2251,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 0,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
-          "last_reviewed": null
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -168193,14 +168193,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8427,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -169319,11 +169319,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.31,
+      "confidence": 0.244,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -169887,14 +169887,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5238,
+      "confidence": 0.6249,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -170052,7 +170052,7 @@
       "word": "苗床",
       "reading": "なえどこ",
       "meanings": [
-        "Nursery",
+        "Nursery Bed",
         "Seedbed"
       ],
       "parts_of_speech": [
@@ -170897,14 +170897,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2546,
+      "confidence": 0.2876,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
+          "reviews": 7,
           "ease": 2.5,
-          "interval": 2,
-          "last_reviewed": "2026-08-19"
+          "interval": 5,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -173565,11 +173565,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.394,
+      "confidence": 0.492,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -173625,14 +173625,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6249,
+      "confidence": 0.7011,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -174245,14 +174245,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3853,
+      "confidence": 0.334,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -175938,11 +175938,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.1833,
+      "confidence": 0.2251,
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 3,
+          "reviews": 5,
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-08-20"
@@ -177808,11 +177808,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.404,
+      "confidence": 0.502,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -179909,14 +179909,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5222,
+      "confidence": 0.4476,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 3
         }
       }
     },
@@ -180187,14 +180187,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.8613,
+      "confidence": 0.95,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -180684,11 +180684,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.322,
+      "confidence": 0.256,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -182877,11 +182877,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.736,
+      "confidence": 0.832,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -185181,9 +185181,9 @@
       "writable": true,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": null,
-          "interval": 0,
+          "reviews": 11,
+          "ease": 2.5,
+          "interval": 4,
           "last_reviewed": "2026-08-20"
         },
         "migaku": {
@@ -185912,14 +185912,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.4048,
+      "confidence": 0.4266,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 18,
+          "reviews": 19,
           "ease": 2.5,
-          "interval": 5,
-          "last_reviewed": "2026-08-16"
+          "interval": 8,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -187144,14 +187144,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7913,
+      "confidence": 0.8536,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -187855,7 +187855,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3371,
+      "confidence": 0.3356,
       "writable": false,
       "study": {
         "migaku": {
@@ -190335,14 +190335,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6949,
+      "confidence": 0.7711,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -190829,14 +190829,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2268,
+      "confidence": 0.3158,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
+          "reviews": 5,
           "ease": 2.5,
-          "interval": 4,
-          "last_reviewed": "2026-08-17"
+          "interval": 18,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -190940,7 +190940,8 @@
       "word": "進呈",
       "reading": "しんてい",
       "meanings": [
-        "Presentation"
+        "Giving",
+        "Presenting"
       ],
       "parts_of_speech": [
         "noun",
@@ -191526,14 +191527,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6264,
+      "confidence": 0.4491,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -192312,13 +192313,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2051,
+      "confidence": 0.2361,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 4,
-          "ease": null,
-          "interval": 0,
+          "reviews": 5,
+          "ease": 2.5,
+          "interval": 2,
           "last_reviewed": "2026-08-20"
         }
       }
@@ -193699,11 +193700,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.328,
+      "confidence": 0.41,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -194283,14 +194284,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.628,
+      "confidence": 0.7027,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -194541,14 +194542,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3097,
+      "confidence": 0.3312,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": 2.35,
-          "interval": 12,
-          "last_reviewed": "2026-08-09"
+          "reviews": 8,
+          "ease": 2.2,
+          "interval": 16,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -194801,14 +194802,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2661,
+      "confidence": 0.2739,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 7,
-          "ease": 2.5,
-          "interval": 1,
-          "last_reviewed": "2026-08-19"
+          "reviews": 8,
+          "ease": 2.35,
+          "interval": 2,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -196041,11 +196042,11 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2436,
+      "confidence": 0.2906,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 6,
+          "reviews": 9,
           "ease": null,
           "interval": 0,
           "last_reviewed": "2026-08-20"
@@ -196291,11 +196292,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.936,
+      "confidence": 0.748,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 6
         }
       }
     },
@@ -196587,14 +196588,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.3469,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
+          "reviews": 14,
           "ease": null,
           "interval": 0,
-          "last_reviewed": "2026-08-20"
+          "last_reviewed": "2026-08-21"
         }
       }
     },
@@ -198025,14 +198026,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3776,
+      "confidence": 0.4413,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -198402,8 +198403,8 @@
       "word": "間違える",
       "reading": "まちがえる",
       "meanings": [
-        "to make a mistake",
         "To Make A Mistake",
+        "to make a mistake",
         "To Mistake"
       ],
       "parts_of_speech": [
@@ -200909,14 +200910,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3262,
+      "confidence": 0.376,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 1
+          "srs_stage": 2
         }
       }
     },
@@ -202801,14 +202802,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4491,
+      "confidence": 0.5253,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -204665,14 +204666,14 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.3069,
+      "confidence": 0.3412,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 9,
+          "reviews": 10,
           "ease": 2.5,
-          "interval": 3,
-          "last_reviewed": "2026-08-17"
+          "interval": 7,
+          "last_reviewed": "2026-08-20"
         }
       }
     },
@@ -204838,14 +204839,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.712,
+      "confidence": 0.5331,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 4
         }
       }
     },
@@ -208472,13 +208473,13 @@
       "sources": [
         "anki"
       ],
-      "confidence": 0.2762,
+      "confidence": 0.2961,
       "writable": false,
       "study": {
         "anki": {
-          "reviews": 8,
-          "ease": null,
-          "interval": 0,
+          "reviews": 10,
+          "ease": 2.35,
+          "interval": 1,
           "last_reviewed": "2026-08-20"
         }
       }

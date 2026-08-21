@@ -161,35 +161,62 @@ def _anki_snapshot(path: Path) -> dict[str, Any]:
 
 def _bunpro_snapshot(path: Path) -> dict[str, Any]:
     data = _read_json(path)
-    overview = data.get("srs_overview") or {}
 
-    result: dict[str, dict[str, int]] = {}
+    # Bunpro's grammar profile already carries the JLPT level for every
+    # grammar/vocabulary item, so preserve that dimension in history instead
+    # of collapsing all N5-N1 material together.
+    result: dict[str, dict[str, dict[str, int]]] = {}
+
     for source_key, output_key in (
         ("grammar", "grammar"),
-        ("vocab", "vocabulary"),
+        ("vocabulary", "vocabulary"),
     ):
-        raw = overview.get(source_key) or {}
-        levels: dict[str, int] = {}
-        for level in BUNPRO_LEVELS:
-            try:
-                levels[level] = int(raw.get(level) or 0)
-            except (TypeError, ValueError):
-                levels[level] = 0
+        by_level: dict[str, Counter[str]] = {}
 
-        for level, value in raw.items():
-            if level in levels:
-                continue
-            try:
-                levels[str(level)] = int(value or 0)
-            except (TypeError, ValueError):
+        for item in data.get(source_key, []):
+            if not isinstance(item, dict):
                 continue
 
-        result[output_key] = levels
+            raw_level = str(item.get("level") or "unknown").upper()
+            if raw_level.startswith("JLPT"):
+                level = "N" + raw_level[4:]
+            elif raw_level.startswith("N"):
+                level = raw_level
+            else:
+                level = raw_level.lower() or "unknown"
+
+            study = item.get("study") or {}
+            if not isinstance(study, dict):
+                study = {}
+
+            srs_level = str(study.get("srs_level") or "self_study").strip().lower()
+            if not srs_level:
+                srs_level = "self_study"
+
+            by_level.setdefault(level, Counter())[srs_level] += 1
+
+        ordered_levels: dict[str, dict[str, int]] = {}
+        level_order = ["N5", "N4", "N3", "N2", "N1"]
+        extras = sorted(level for level in by_level if level not in level_order)
+
+        for level in level_order + extras:
+            if level not in by_level:
+                continue
+            counts = by_level[level]
+            stages = {
+                stage: counts.pop(stage, 0)
+                for stage in BUNPRO_LEVELS
+            }
+            for stage, count in sorted(counts.items()):
+                stages[stage] = count
+            ordered_levels[level] = stages
+
+        result[output_key] = ordered_levels
 
     return {
-        "types": result,
+        "levels": result,
         "total": sum(
-            sum(levels.values())
+            sum(sum(stages.values()) for stages in levels.values())
             for levels in result.values()
         ),
     }

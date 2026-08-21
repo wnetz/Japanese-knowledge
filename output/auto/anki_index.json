@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "anki",
-  "generated_at": "2026-08-20T14:02:19.829751+00:00",
+  "generated_at": "2026-08-21T04:04:46.933451+00:00",
   "decks": [
     "日本語::Kaishi 1.5k",
     "日本語::mining",
@@ -3678,14 +3678,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 2,
+        "reviews": 7,
+        "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
         "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 713,
-        "due_date": "2026-08-22",
+        "due": 716,
+        "due_date": "2026-08-25",
         "queue": 2,
         "card_type": 2
       }
@@ -3836,11 +3836,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 17,
         "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 738,
         "due_date": "2026-09-16",
@@ -3858,11 +3858,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 17,
         "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 738,
         "due_date": "2026-09-16",
@@ -4234,13 +4234,15 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 9,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1727,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312628,
+        "due_at": "2026-08-21T11:43:48+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -4490,7 +4492,7 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 18,
+        "reviews": 20,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
@@ -4512,15 +4514,16 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 11,
+        "best_interval": 8,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226352,
-        "due_at": "2026-08-20T11:45:52+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 720,
+        "due_date": "2026-08-29",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -4555,13 +4558,15 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 9,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1724,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312536,
+        "due_at": "2026-08-21T11:42:16+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -4656,14 +4661,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 13,
-        "best_interval": 7,
+        "reviews": 14,
+        "best_interval": 14,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-16",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 726,
+        "due_date": "2026-09-04",
         "queue": 2,
         "card_type": 2
       }
@@ -4795,11 +4800,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 14,
+        "reviews": 15,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-18",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 713,
         "due_date": "2026-08-22",
@@ -4817,14 +4822,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 17,
-        "best_interval": 5,
+        "reviews": 19,
+        "best_interval": 14,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-18",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 726,
+        "due_date": "2026-09-04",
         "queue": 2,
         "card_type": 2
       }
@@ -4899,11 +4904,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 24,
+        "reviews": 25,
         "best_interval": 16,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 719,
         "due_date": "2026-08-28",
@@ -4981,13 +4986,15 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 8,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1726,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787298140,
+        "due_at": "2026-08-21T07:42:20+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -5060,13 +5067,15 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 8,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1726,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787298140,
+        "due_at": "2026-08-21T07:42:20+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -5079,13 +5088,15 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 7,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1725,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312495,
+        "due_at": "2026-08-21T11:41:35+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -5357,14 +5368,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 6,
+        "reviews": 9,
+        "best_interval": 18,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 714,
-        "due_date": "2026-08-23",
+        "due": 730,
+        "due_date": "2026-09-08",
         "queue": 2,
         "card_type": 2
       }
@@ -5439,11 +5450,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 20,
+        "reviews": 21,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 714,
         "due_date": "2026-08-23",
@@ -6437,11 +6448,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 16,
+        "reviews": 17,
         "best_interval": 28,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 738,
         "due_date": "2026-09-16",
@@ -6642,11 +6653,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 19,
+        "reviews": 20,
         "best_interval": 7,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 715,
         "due_date": "2026-08-24",
@@ -6869,11 +6880,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 19,
+        "reviews": 21,
         "best_interval": 4,
         "lapses": 0,
         "ease": 2.35,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 715,
         "due_date": "2026-08-24",
@@ -7172,11 +7183,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 13,
+        "reviews": 14,
         "best_interval": 16,
         "lapses": 0,
         "ease": 2.35,
-        "last_reviewed": "2026-08-16",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 723,
         "due_date": "2026-09-01",
@@ -7232,11 +7243,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 21,
+        "reviews": 22,
         "best_interval": 13,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-15",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 717,
         "due_date": "2026-08-26",
@@ -7254,11 +7265,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 21,
+        "reviews": 22,
         "best_interval": 13,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-15",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 717,
         "due_date": "2026-08-26",
@@ -7276,11 +7287,11 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 21,
+        "reviews": 22,
         "best_interval": 13,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-15",
+        "last_reviewed": "2026-08-20",
         "state": "review",
         "due": 717,
         "due_date": "2026-08-26",
@@ -7298,13 +7309,16 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 5,
+        "best_interval": 2,
         "lapses": 0,
-        "state": "new",
-        "due": 1728,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-21",
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -7579,15 +7593,16 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 12,
+        "best_interval": 6,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226376,
-        "due_at": "2026-08-20T11:46:16+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 718,
+        "due_date": "2026-08-27",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -7638,14 +7653,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 14,
-        "best_interval": 5,
+        "reviews": 15,
+        "best_interval": 8,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 713,
-        "due_date": "2026-08-22",
+        "due": 720,
+        "due_date": "2026-08-29",
         "queue": 2,
         "card_type": 2
       }
@@ -7911,15 +7926,16 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 12,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226277,
-        "due_at": "2026-08-20T11:44:37+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 716,
+        "due_date": "2026-08-25",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -8118,14 +8134,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 7,
+        "reviews": 9,
+        "best_interval": 23,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 715,
-        "due_date": "2026-08-24",
+        "due": 735,
+        "due_date": "2026-09-13",
         "queue": 2,
         "card_type": 2
       }
@@ -10059,15 +10075,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 10,
+        "best_interval": 2,
         "lapses": 0,
-        "last_reviewed": "2026-08-19",
-        "state": "learning",
-        "due": 1787209857,
-        "due_at": "2026-08-20T07:10:57+00:00",
-        "queue": 1,
-        "card_type": 1
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -11182,14 +11199,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 9,
-        "best_interval": 8,
+        "reviews": 10,
+        "best_interval": 10,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-13",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 722,
+        "due_date": "2026-08-31",
         "queue": 2,
         "card_type": 2
       }
@@ -11834,15 +11851,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 9,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226182,
-        "due_at": "2026-08-20T11:43:02+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -11923,14 +11941,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 2,
+        "reviews": 7,
+        "best_interval": 4,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-18",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 716,
+        "due_date": "2026-08-25",
         "queue": 2,
         "card_type": 2
       }
@@ -12268,15 +12286,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 12,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787212031,
-        "due_at": "2026-08-20T07:47:11+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -12416,15 +12435,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 7,
+        "best_interval": 1,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787211845,
-        "due_at": "2026-08-20T07:44:05+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -12436,14 +12456,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 19,
+        "reviews": 8,
+        "best_interval": 43,
         "lapses": 0,
-        "ease": 2.35,
-        "last_reviewed": "2026-08-02",
+        "ease": 2.2,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 755,
+        "due_date": "2026-10-03",
         "queue": 2,
         "card_type": 2
       }
@@ -12652,14 +12672,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 4,
+        "reviews": 9,
+        "best_interval": 12,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 724,
+        "due_date": "2026-09-02",
         "queue": 2,
         "card_type": 2
       }
@@ -12847,14 +12867,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 16,
+        "reviews": 4,
+        "best_interval": 73,
         "lapses": 0,
         "ease": 2.65,
-        "last_reviewed": "2026-08-04",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 785,
+        "due_date": "2026-11-02",
         "queue": 2,
         "card_type": 2
       }
@@ -14181,14 +14201,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 2,
+        "reviews": 7,
+        "best_interval": 5,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 717,
+        "due_date": "2026-08-26",
         "queue": 2,
         "card_type": 2
       }
@@ -14375,14 +14395,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 5,
-        "best_interval": 2,
+        "reviews": 6,
+        "best_interval": 7,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 719,
+        "due_date": "2026-08-28",
         "queue": 2,
         "card_type": 2
       }
@@ -14396,15 +14416,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 3,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226095,
-        "due_at": "2026-08-20T11:41:35+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 715,
+        "due_date": "2026-08-24",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -14437,13 +14458,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 6,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1893,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312584,
+        "due_at": "2026-08-21T11:43:04+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -14455,15 +14478,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 1,
         "lapses": 0,
+        "ease": 2.35,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226137,
-        "due_at": "2026-08-20T11:42:17+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -14496,13 +14520,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1895,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312649,
+        "due_at": "2026-08-21T11:44:09+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -14514,15 +14540,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 3,
-        "best_interval": 0,
+        "reviews": 5,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226060,
-        "due_at": "2026-08-20T11:41:00+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 716,
+        "due_date": "2026-08-25",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -14534,13 +14561,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1889,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312564,
+        "due_at": "2026-08-21T11:42:44+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -14594,15 +14623,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 9,
+        "best_interval": 1,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226196,
-        "due_at": "2026-08-20T11:43:16+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -14654,15 +14684,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226266,
-        "due_at": "2026-08-20T11:44:26+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -14771,13 +14802,13 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 5,
+        "reviews": 8,
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-08-20",
         "state": "learning",
-        "due": 1787211840,
-        "due_at": "2026-08-20T07:44:00+00:00",
+        "due": 1787295519,
+        "due_at": "2026-08-21T06:58:39+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -14812,13 +14843,13 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 6,
+        "reviews": 8,
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-08-20",
         "state": "learning",
-        "due": 1787211937,
-        "due_at": "2026-08-20T07:45:37+00:00",
+        "due": 1787295414,
+        "due_at": "2026-08-21T06:56:54+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -15301,14 +15332,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 36,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 237,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 748,
+        "due_date": "2026-09-26",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -15510,15 +15543,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 6,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226100,
-        "due_at": "2026-08-20T11:41:40+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 716,
+        "due_date": "2026-08-25",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -16445,14 +16479,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 234,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 754,
+        "due_date": "2026-10-02",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -17601,14 +17637,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 42,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 235,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 754,
+        "due_date": "2026-10-02",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -18084,14 +18122,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 20,
-        "best_interval": 7,
+        "reviews": 21,
+        "best_interval": 8,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-14",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 720,
+        "due_date": "2026-08-29",
         "queue": 2,
         "card_type": 2
       }
@@ -19056,13 +19094,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1898,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312362,
+        "due_at": "2026-08-21T11:39:22+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -19139,14 +19179,15 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 239,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312523,
+        "due_at": "2026-08-21T11:42:03+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -21073,14 +21114,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 1,
+        "reviews": 8,
+        "best_interval": 3,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 715,
+        "due_date": "2026-08-24",
         "queue": 2,
         "card_type": 2
       }
@@ -22786,14 +22827,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 3,
+        "best_interval": 2,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 243,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-21",
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -23323,15 +23366,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 0,
+        "reviews": 8,
+        "best_interval": 2,
         "lapses": 0,
-        "last_reviewed": "2026-08-19",
-        "state": "learning",
-        "due": 1787210644,
-        "due_at": "2026-08-20T07:24:04+00:00",
-        "queue": 1,
-        "card_type": 1
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -25706,14 +25750,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 35,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 238,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 747,
+        "due_date": "2026-09-25",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -26172,14 +26218,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 48,
-        "best_interval": 3,
+        "reviews": 49,
+        "best_interval": 4,
         "lapses": 1,
-        "ease": 2.0,
-        "last_reviewed": "2026-08-17",
+        "ease": 1.85,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 716,
+        "due_date": "2026-08-25",
         "queue": 2,
         "card_type": 2
       }
@@ -27357,14 +27403,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 39,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 236,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 751,
+        "due_date": "2026-09-29",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -31954,14 +32002,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 3,
+        "best_interval": 2,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 242,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-21",
+        "state": "review",
+        "due": 714,
+        "due_date": "2026-08-23",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -31998,14 +32048,15 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 3,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 241,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787298105,
+        "due_at": "2026-08-21T07:41:45+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -33408,13 +33459,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1901,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312426,
+        "due_at": "2026-08-21T11:40:26+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -33760,13 +33813,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1897,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312492,
+        "due_at": "2026-08-21T11:41:32+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -34157,13 +34212,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 6,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1903,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312446,
+        "due_at": "2026-08-21T11:40:46+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -34493,14 +34550,14 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 2,
-        "best_interval": 2,
+        "reviews": 3,
+        "best_interval": 9,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 721,
+        "due_date": "2026-08-30",
         "queue": 2,
         "card_type": 2
       }
@@ -36223,15 +36280,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 9,
-        "best_interval": 0,
+        "reviews": 11,
+        "best_interval": 1,
         "lapses": 0,
+        "ease": 2.35,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226277,
-        "due_at": "2026-08-20T11:44:37+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -36537,13 +36595,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 4,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1894,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312464,
+        "due_at": "2026-08-21T11:41:04+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -36855,14 +36915,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 0,
-        "best_interval": 0,
+        "reviews": 1,
+        "best_interval": 36,
         "lapses": 0,
-        "last_reviewed": "2026-07-19",
-        "state": "new",
-        "due": 240,
-        "queue": 0,
-        "card_type": 0
+        "ease": 2.5,
+        "last_reviewed": "2026-08-20",
+        "state": "review",
+        "due": 748,
+        "due_date": "2026-09-26",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -36935,13 +36997,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 6,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1904,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787297917,
+        "due_at": "2026-08-21T07:38:37+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -37774,13 +37838,13 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 7,
+        "reviews": 11,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-08-21",
         "state": "learning",
-        "due": 1787211788,
-        "due_at": "2026-08-20T07:43:08+00:00",
+        "due": 1787298100,
+        "due_at": "2026-08-21T07:41:40+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -38281,13 +38345,15 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 0,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
-        "state": "new",
-        "due": 1905,
-        "queue": 0,
-        "card_type": 0
+        "last_reviewed": "2026-08-21",
+        "state": "learning",
+        "due": 1787312645,
+        "due_at": "2026-08-21T11:44:05+00:00",
+        "queue": 1,
+        "card_type": 1
       }
     },
     {
@@ -38908,14 +38974,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 6,
-        "best_interval": 2,
+        "reviews": 7,
+        "best_interval": 5,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 717,
+        "due_date": "2026-08-26",
         "queue": 2,
         "card_type": 2
       }
@@ -39396,13 +39462,13 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 3,
+        "reviews": 5,
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-08-20",
         "state": "learning",
-        "due": 1787226217,
-        "due_at": "2026-08-20T11:43:37+00:00",
+        "due": 1787296084,
+        "due_at": "2026-08-21T07:08:04+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -40989,15 +41055,16 @@
         "日本語::Japanese verbs (N5 - N4)"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 0,
+        "reviews": 11,
+        "best_interval": 4,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226395,
-        "due_at": "2026-08-20T11:46:35+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 716,
+        "due_date": "2026-08-25",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -41203,14 +41270,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 18,
-        "best_interval": 5,
+        "reviews": 19,
+        "best_interval": 8,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-16",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 720,
+        "due_date": "2026-08-29",
         "queue": 2,
         "card_type": 2
       }
@@ -42080,14 +42147,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 4,
+        "reviews": 5,
+        "best_interval": 18,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 730,
+        "due_date": "2026-09-08",
         "queue": 2,
         "card_type": 2
       }
@@ -42377,15 +42444,16 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 4,
-        "best_interval": 0,
+        "reviews": 5,
+        "best_interval": 2,
         "lapses": 0,
+        "ease": 2.5,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226203,
-        "due_at": "2026-08-20T11:43:23+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {
@@ -42710,14 +42778,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 12,
+        "reviews": 8,
+        "best_interval": 16,
         "lapses": 0,
-        "ease": 2.35,
-        "last_reviewed": "2026-08-09",
+        "ease": 2.2,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 728,
+        "due_date": "2026-09-06",
         "queue": 2,
         "card_type": 2
       }
@@ -42731,14 +42799,14 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 7,
-        "best_interval": 1,
+        "reviews": 8,
+        "best_interval": 2,
         "lapses": 0,
-        "ease": 2.5,
-        "last_reviewed": "2026-08-19",
+        "ease": 2.35,
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 714,
+        "due_date": "2026-08-23",
         "queue": 2,
         "card_type": 2
       }
@@ -42896,13 +42964,13 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 6,
+        "reviews": 9,
         "best_interval": 0,
         "lapses": 0,
         "last_reviewed": "2026-08-20",
         "state": "learning",
-        "due": 1787211627,
-        "due_at": "2026-08-20T07:40:27+00:00",
+        "due": 1787295631,
+        "due_at": "2026-08-21T07:00:31+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -42918,13 +42986,13 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 8,
+        "reviews": 14,
         "best_interval": 0,
         "lapses": 0,
-        "last_reviewed": "2026-08-20",
+        "last_reviewed": "2026-08-21",
         "state": "learning",
-        "due": 1787211826,
-        "due_at": "2026-08-20T07:43:46+00:00",
+        "due": 1787312385,
+        "due_at": "2026-08-21T11:39:45+00:00",
         "queue": 1,
         "card_type": 1
       }
@@ -44259,14 +44327,14 @@
         "日本語::Kaishi 1.5k"
       ],
       "study": {
-        "reviews": 9,
-        "best_interval": 3,
+        "reviews": 10,
+        "best_interval": 7,
         "lapses": 0,
         "ease": 2.5,
-        "last_reviewed": "2026-08-17",
+        "last_reviewed": "2026-08-20",
         "state": "review",
-        "due": 712,
-        "due_date": "2026-08-21",
+        "due": 719,
+        "due_date": "2026-08-28",
         "queue": 2,
         "card_type": 2
       }
@@ -44991,15 +45059,16 @@
         "日本語::mining"
       ],
       "study": {
-        "reviews": 8,
-        "best_interval": 0,
+        "reviews": 10,
+        "best_interval": 1,
         "lapses": 0,
+        "ease": 2.35,
         "last_reviewed": "2026-08-20",
-        "state": "learning",
-        "due": 1787226102,
-        "due_at": "2026-08-20T11:41:42+00:00",
-        "queue": 1,
-        "card_type": 1
+        "state": "review",
+        "due": 713,
+        "due_date": "2026-08-22",
+        "queue": 2,
+        "card_type": 2
       }
     },
     {

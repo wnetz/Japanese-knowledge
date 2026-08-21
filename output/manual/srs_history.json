@@ -123,6 +123,367 @@
           "total": 10
         }
       }
+    },
+    "2026-08-21": {
+      "captured_at": "2026-08-21T13:56:33.624735+09:00",
+      "sources": {
+        "wanikani": {
+          "subject_types": {
+            "kana_vocabulary": {
+              "locked": 6,
+              "lesson": 0,
+              "apprentice_1": 0,
+              "apprentice_2": 0,
+              "apprentice_3": 0,
+              "apprentice_4": 0,
+              "guru_1": 0,
+              "guru_2": 1,
+              "master": 0,
+              "enlightened": 4,
+              "burned": 49
+            },
+            "radical": {
+              "locked": 200,
+              "lesson": 2,
+              "apprentice_1": 0,
+              "apprentice_2": 0,
+              "apprentice_3": 1,
+              "apprentice_4": 2,
+              "guru_1": 4,
+              "guru_2": 10,
+              "master": 10,
+              "enlightened": 47,
+              "burned": 228
+            },
+            "vocabulary": {
+              "locked": 4902,
+              "lesson": 78,
+              "apprentice_1": 69,
+              "apprentice_2": 47,
+              "apprentice_3": 102,
+              "apprentice_4": 85,
+              "guru_1": 84,
+              "guru_2": 131,
+              "master": 137,
+              "enlightened": 426,
+              "burned": 704
+            },
+            "kanji": {
+              "locked": 1524,
+              "lesson": 8,
+              "apprentice_1": 11,
+              "apprentice_2": 13,
+              "apprentice_3": 18,
+              "apprentice_4": 24,
+              "guru_1": 25,
+              "guru_2": 34,
+              "master": 36,
+              "enlightened": 131,
+              "burned": 278
+            }
+          },
+          "total": 9431
+        },
+        "anki": {
+          "decks": {
+            "日本語::Japanese verbs (N5 - N4)": {
+              "new": 472,
+              "learning": 5,
+              "relearning": 0,
+              "review": 103
+            },
+            "日本語::Kaishi 1.5k": {
+              "new": 1223,
+              "learning": 4,
+              "relearning": 0,
+              "review": 249
+            },
+            "日本語::mining": {
+              "new": 66,
+              "learning": 14,
+              "relearning": 0,
+              "review": 61
+            }
+          },
+          "total": 2197
+        },
+        "bunpro": {
+          "levels": {
+            "grammar": {
+              "N5": {
+                "beginner": 15,
+                "adept": 40,
+                "seasoned": 44,
+                "expert": 0,
+                "master": 0,
+                "ghost": 0,
+                "self_study": 0
+              }
+            },
+            "vocabulary": {
+              "N5": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 500,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "N4": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 241,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "N3": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 240,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "N2": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 100,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "N1": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 90,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a1": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 18,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a10": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a11": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 6,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a12": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a13": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a14": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a15": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 4,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a16": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 9,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a17": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 174,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a18": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 10,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a19": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a2": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 11,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a20": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 1,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a3": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 12,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a4": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 16,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a5": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 18,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a6": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 20,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a7": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 4,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a8": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 4,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "a9": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 3,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "genki2-extra": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 11,
+                "ghost": 0,
+                "self_study": 0
+              },
+              "unclassified": {
+                "beginner": 0,
+                "adept": 0,
+                "seasoned": 0,
+                "expert": 0,
+                "master": 62,
+                "ghost": 0,
+                "self_study": 0
+              }
+            }
+          },
+          "total": 1668
+        },
+        "writing": {
+          "levels": {
+            "new_active": 0,
+            "new_unintroduced": 0,
+            "stage_1": 10,
+            "stage_2": 10,
+            "stage_3": 0,
+            "stage_4": 0,
+            "stage_5": 0,
+            "stage_6": 0,
+            "stage_7": 0,
+            "stage_8": 0
+          },
+          "total": 20
+        }
+      }
     }
   }
 }
