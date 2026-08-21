@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-21T14:05:12.170640+00:00",
+  "candidates": [
+    {
+      "source": "bunpro",
+      "value": "いい",
+      "current_id": "grammar::いい",
+      "suggested_matches": [
+        {
+          "canonical_id": "conjugation::い",
+          "display": "い",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "skill::[[い]]",
+          "display": "[[い]]",
+          "type": "skill",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "skill::[[い]]です",
+          "display": "[[い]]です",
+          "type": "skill",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "bunpro",
+      "value": "じゃなかった",
+      "current_id": "grammar::じゃなかった",
+      "suggested_matches": [
+        {
+          "canonical_id": "conjugation::なかった形",
+          "display": "なかった形",
+          "type": "conjugation",
+          "score": 0.7273
+        },
+        {
+          "canonical_id": "pattern::#～ じゃった",
+          "display": "#～ じゃった",
+          "type": "pattern",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "source": "bunpro",
+      "value": "たい",
+      "current_id": "grammar::たい",
+      "suggested_matches": [
+        {
+          "canonical_id": "conjugation::たい形",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.8
+        },
+        {
+          "canonical_id": "conjugation::たい形::2",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.8
+        },
+        {
+          "canonical_id": "conjugation::たい形::3",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.8
+        },
+        {
+          "canonical_id": "conjugation::い",
+          "display": "い",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "skill::[[い]]",
+          "display": "[[い]]",
+          "type": "skill",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "bunpro",
+      "value": "な",
+      "current_id": "grammar::な",
+      "suggested_matches": [
+        {
+          "canonical_id": "conjugation::な",
+          "display": "な",
+          "type": "conjugation",
+          "score": 1.0
+        },
+        {
+          "canonical_id": "skill::[[な]]",
+          "display": "[[な]]",
+          "type": "skill",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "source": "bunpro",
+      "value": "なぜ",
+      "current_id": "grammar::なぜ",
+      "suggested_matches": [
+        {
+          "canonical_id": "conjugation::な",
+          "display": "な",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "skill::[[な]]",
+          "display": "[[な]]",
+          "type": "skill",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "たい形",
+      "current_id": "conjugation::たい形",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::たい",
+          "display": "たい",
+          "type": "grammar",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "なかった形",
+      "current_id": "conjugation::なかった形",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::じゃなかった",
+          "display": "じゃなかった",
+          "type": "grammar",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "い",
+      "current_id": "conjugation::い",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::いい",
+          "display": "いい",
+          "type": "grammar",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "grammar::たい",
+          "display": "たい",
+          "type": "grammar",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "な",
+      "current_id": "conjugation::な",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::な",
+          "display": "な",
+          "type": "grammar",
+          "score": 1.0
+        },
+        {
+          "canonical_id": "grammar::なぜ",
+          "display": "なぜ",
+          "type": "grammar",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "#～ じゃった",
+      "current_id": "pattern::#～ じゃった",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::じゃなかった",
+          "display": "じゃなかった",
+          "type": "grammar",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "[[い]]",
+      "current_id": "skill::[[い]]",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::いい",
+          "display": "いい",
+          "type": "grammar",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "grammar::たい",
+          "display": "たい",
+          "type": "grammar",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "[[な]]",
+      "current_id": "skill::[[な]]",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::な",
+          "display": "な",
+          "type": "grammar",
+          "score": 1.0
+        },
+        {
+          "canonical_id": "grammar::なぜ",
+          "display": "なぜ",
+          "type": "grammar",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "textbook",
+      "value": "[[い]]です",
+      "current_id": "skill::[[い]]です",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::いい",
+          "display": "いい",
+          "type": "grammar",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "grammar::たい",
+          "display": "たい",
+          "type": "grammar",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "grammar_use",
+      "value": "～たほうがいい",
+      "current_id": "observed::～たほうがいい",
+      "suggested_matches": [
+        {
+          "canonical_id": "pattern::#～ たほがいいです",
+          "display": "#～ たほがいいです",
+          "type": "pattern",
+          "score": 0.9231
+        },
+        {
+          "canonical_id": "pattern::#～ ないほがいいです",
+          "display": "#～ ないほがいいです",
+          "type": "pattern",
+          "score": 0.7143
+        }
+      ]
+    },
+    {
+      "source": "grammar_use",
+      "value": "～たい",
+      "current_id": "observed::～たい",
+      "suggested_matches": [
+        {
+          "canonical_id": "grammar::たい",
+          "display": "たい",
+          "type": "grammar",
+          "score": 0.8
+        },
+        {
+          "canonical_id": "conjugation::たい形",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "conjugation::たい形::2",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "conjugation::たい形::3",
+          "display": "たい形",
+          "type": "conjugation",
+          "score": 0.6667
+        },
+        {
+          "canonical_id": "pattern::#～ たほがいいです",
+          "display": "#～ たほがいいです",
+          "type": "pattern",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "grammar_use",
+      "value": "～になります",
+      "current_id": "observed::～になります",
+      "suggested_matches": [
+        {
+          "canonical_id": "pattern::お #～ になります",
+          "display": "お #～ になります",
+          "type": "pattern",
+          "score": 0.9231
+        },
+        {
+          "canonical_id": "pattern::ご #～ になります",
+          "display": "ご #～ になります",
+          "type": "pattern",
+          "score": 0.9231
+        },
+        {
+          "canonical_id": "pattern::#～ になりました",
+          "display": "#～ になりました",
+          "type": "pattern",
+          "score": 0.7692
+        },
+        {
+          "canonical_id": "pattern::#～ にいきます",
+          "display": "#～ にいきます",
+          "type": "pattern",
+          "score": 0.6667
+        }
+      ]
+    },
+    {
+      "source": "grammar_use",
+      "value": "まだ～ていません",
+      "current_id": "pattern::まだ #～ ています",
+      "suggested_matches": [
+        {
+          "canonical_id": "pattern::#～ てはいけません",
+          "display": "#～ てはいけません",
+          "type": "pattern",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "source": "grammar_use",
+      "value": "～くなります",
+      "current_id": "observed::～くなります",
+      "suggested_matches": [
+        {
+          "canonical_id": "pattern::#～ くなりました",
+          "display": "#～ くなりました",
+          "type": "pattern",
+          "score": 0.7692
+        },
+        {
+          "canonical_id": "pattern::お #～ になります",
+          "display": "お #～ になります",
+          "type": "pattern",
+          "score": 0.7692
+        },
+        {
+          "canonical_id": "pattern::ご #～ になります",
+          "display": "ご #～ になります",
+          "type": "pattern",
+          "score": 0.7692
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ It writes:
 
 - `output/auto/vocabulary_profile.json`
 
-`textbook_profile.json` is intentionally ignored, even when it exists in the same
+`textbook_index.json` is intentionally ignored, even when it exists in the same
 output directory.
 
 ## Use from the command line

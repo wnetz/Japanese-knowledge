@@ -69,8 +69,12 @@ WaniKani API credentials should likewise be kept in `config.local.json`.
 
 - `output/auto/wanikani_index.json` — WaniKani source index
 - `output/auto/anki_index.json` — Anki source index
-- `output/auto/grammar_profile.json` — Bunpro grammar/vocabulary study data
-- `output/auto/textbook_profile.json` — Obsidian textbook/lesson knowledge
+- `output/auto/grammar_index.json` — Bunpro grammar/vocabulary source index
+- `output/auto/textbook_index.json` — Obsidian textbook/curriculum source index
+- `output/manual/grammar_use_index.json` — review/production usage history
+- `output/manual/grammar_aliases.json` — confirmed cross-source grammar aliases
+- `output/auto/grammar_alias_candidates.json` — disposable alias suggestions
+- `output/auto/grammar_profile.json` — merged canonical grammar profile
 - `output/auto/vocabulary_profile.json` — merged vocabulary profile
 - `output/manual/` — irreplaceable/local data such as writing history, goals,
   Migaku-known words, grammar mastery, and SRS history

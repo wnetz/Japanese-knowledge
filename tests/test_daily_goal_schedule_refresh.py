@@ -16,6 +16,6 @@ def test_embedded_history_schedule_cannot_override_external_schedule() -> None:
     listening = next(goal for goal in goals if goal["id"] == "listening")
 
     assert reading["display"] == "Reading"
-    assert reading["estimated_time"] == "20–30m"
+    assert reading["estimated_time"] == "25m"
     assert listening["display"] == "Listening"
     assert listening["estimated_time"] == "20m"

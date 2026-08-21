@@ -1,16 +1,19 @@
 {
   "output": {
     "folder": "./output",
-    "textbook_profile": "auto/textbook_profile.json",
     "wanikani_index": "auto/wanikani_index.json",
-    "profile_manifest": "auto/profile_manifest.json",
     "anki_index": "auto/anki_index.json",
+    "grammar_index": "auto/grammar_index.json",
+    "textbook_index": "auto/textbook_index.json",
+    "profile_manifest": "auto/profile_manifest.json",
     "vocabulary_profile": "auto/vocabulary_profile.json",
     "grammar_profile": "auto/grammar_profile.json",
+    "grammar_alias_candidates": "auto/grammar_alias_candidates.json",
     "knowledge_profile": "knowledge_profile.json",
     "writing_profile": "manual/writing_profile.json",
+    "grammar_use_index": "manual/grammar_use_index.json",
+    "grammar_aliases": "manual/grammar_aliases.json",
     "srs_history": "manual/srs_history.json",
-    "grammar_mastery": "manual/grammar_mastery.json",
     "daily_goals": "manual/daily_goals.json",
     "daily_goal_schedule": "manual/daily_goal_schedule.json"
   },

@@ -125,7 +125,7 @@
       }
     },
     "2026-08-21": {
-      "captured_at": "2026-08-21T17:36:35.678259+09:00",
+      "captured_at": "2026-08-21T23:05:12.481468+09:00",
       "sources": {
         "wanikani": {
           "subject_types": {
@@ -158,23 +158,23 @@
             "vocabulary": {
               "locked": 4902,
               "lesson": 78,
-              "apprentice_1": 69,
+              "apprentice_1": 70,
               "apprentice_2": 47,
-              "apprentice_3": 102,
-              "apprentice_4": 85,
-              "guru_1": 84,
-              "guru_2": 131,
-              "master": 137,
+              "apprentice_3": 100,
+              "apprentice_4": 84,
+              "guru_1": 85,
+              "guru_2": 129,
+              "master": 139,
               "enlightened": 426,
-              "burned": 704
+              "burned": 705
             },
             "kanji": {
               "locked": 1524,
               "lesson": 8,
               "apprentice_1": 11,
               "apprentice_2": 13,
-              "apprentice_3": 18,
-              "apprentice_4": 24,
+              "apprentice_3": 17,
+              "apprentice_4": 25,
               "guru_1": 25,
               "guru_2": 34,
               "master": 36,
@@ -199,21 +199,21 @@
               "review": 249
             },
             "日本語::mining": {
-              "new": 66,
+              "new": 69,
               "learning": 14,
               "relearning": 0,
               "review": 61
             }
           },
-          "total": 2197
+          "total": 2200
         },
         "bunpro": {
           "levels": {
             "grammar": {
               "N5": {
-                "beginner": 15,
-                "adept": 40,
-                "seasoned": 44,
+                "beginner": 12,
+                "adept": 41,
+                "seasoned": 46,
                 "expert": 0,
                 "master": 0,
                 "ghost": 0,
@@ -472,10 +472,10 @@
           "levels": {
             "new_active": 0,
             "new_unintroduced": 0,
-            "stage_1": 6,
-            "stage_2": 14,
-            "stage_3": 0,
-            "stage_4": 0,
+            "stage_1": 0,
+            "stage_2": 18,
+            "stage_3": 1,
+            "stage_4": 1,
             "stage_5": 0,
             "stage_6": 0,
             "stage_7": 0,

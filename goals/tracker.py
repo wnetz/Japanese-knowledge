@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import json
+import re
 from copy import deepcopy
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
 
-HISTORY_SCHEMA_VERSION = 4
+HISTORY_SCHEMA_VERSION = 5
 SCHEDULE_SCHEMA_VERSION = 1
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
@@ -268,6 +269,17 @@ def load_goal_data(
 
         _snapshot_record_if_needed(record, target_date, schedule)
 
+        if isinstance(record.get("goals_snapshot"), list):
+            completed_now = {
+                str(value) for value in (record.get("completed") or [])
+            }
+            record["timers"] = _sync_goal_timers(
+                record,
+                selected_goals=record["goals_snapshot"],
+                completed_before=completed_now,
+                completed_after=completed_now,
+            )
+
     data["schema_version"] = HISTORY_SCHEMA_VERSION
 
     # v1-v3 embedded the current schedule inside history. It is deliberately
@@ -399,6 +411,139 @@ def day_status(
     return "missed"
 
 
+
+def _estimated_seconds(goal: dict[str, Any]) -> int | None:
+    value = str(goal.get("estimated_time") or "").strip()
+    match = re.fullmatch(r"\s*(\d+)\s*m\s*", value, re.IGNORECASE)
+    if not match:
+        return None
+    minutes = int(match.group(1))
+    return minutes * 60 if minutes > 0 else None
+
+
+def _normalize_timer(
+    raw: Any,
+    *,
+    initial_seconds: int,
+) -> dict[str, Any]:
+    timer = raw if isinstance(raw, dict) else {}
+    try:
+        remaining = int(timer.get("remaining_seconds"))
+    except (TypeError, ValueError):
+        remaining = initial_seconds
+    remaining = max(0, min(initial_seconds, remaining))
+
+    return {
+        "initial_seconds": initial_seconds,
+        "remaining_seconds": remaining,
+        "running": bool(timer.get("running", False)),
+        "deadline": str(timer.get("deadline") or "") or None,
+        "notified": bool(timer.get("notified", False)),
+    }
+
+
+def _sync_goal_timers(
+    existing: dict[str, Any],
+    *,
+    selected_goals: list[dict[str, Any]],
+    completed_before: set[str],
+    completed_after: set[str],
+) -> dict[str, Any]:
+    """Keep timer state consistent with completion state.
+
+    Timed goals are bidirectional:
+    - completed => timer is 00:00 and stopped
+    - changing completed -> incomplete => timer resets to its scheduled duration
+    Untimed goals have no timer record.
+    """
+    existing_timers = existing.get("timers") or {}
+    timers: dict[str, Any] = {}
+
+    for goal in selected_goals:
+        goal_id = str(goal.get("id") or "")
+        initial_seconds = _estimated_seconds(goal)
+        if not goal_id or initial_seconds is None:
+            continue
+
+        timer = _normalize_timer(
+            existing_timers.get(goal_id),
+            initial_seconds=initial_seconds,
+        )
+
+        if goal_id in completed_after:
+            was_completed = goal_id in completed_before
+            timer_existed = goal_id in existing_timers
+            timer.update(
+                {
+                    "remaining_seconds": 0,
+                    "running": False,
+                    "deadline": None,
+                    # Manual/already-recorded completion should not later
+                    # produce a timer-finished notification.
+                    "notified": (
+                        timer.get("notified", False)
+                        if was_completed and timer_existed
+                        else True
+                    ),
+                }
+            )
+        elif goal_id in completed_before and goal_id not in completed_after:
+            timer.update(
+                {
+                    "remaining_seconds": initial_seconds,
+                    "running": False,
+                    "deadline": None,
+                    "notified": False,
+                }
+            )
+
+        timers[goal_id] = timer
+
+    return timers
+
+
+def goal_timers(
+    data: dict[str, Any],
+    target_date: date,
+) -> dict[str, dict[str, Any]]:
+    record = (data.get("records") or {}).get(target_date.isoformat()) or {}
+    timers = record.get("timers") or {}
+    return deepcopy(timers) if isinstance(timers, dict) else {}
+
+
+def save_goal_timer(
+    path: Path,
+    target_date: date,
+    goal_id: str,
+    timer: dict[str, Any],
+    *,
+    schedule_path: Path | None = None,
+    now: datetime | None = None,
+) -> dict[str, Any]:
+    """Persist one timer without changing completion or notes."""
+    data = ensure_goal_file(path, schedule_path=schedule_path)
+    record = (data.get("records") or {}).get(target_date.isoformat()) or {}
+
+    completed = {str(value) for value in (record.get("completed") or [])}
+    notes = str(record.get("notes") or "")
+
+    data = save_day_record(
+        path,
+        target_date,
+        completed,
+        notes=notes,
+        now=now,
+        schedule_path=schedule_path,
+    )
+
+    record = data["records"][target_date.isoformat()]
+    timers = record.setdefault("timers", {})
+    timers[str(goal_id)] = deepcopy(timer)
+    record["updated_at"] = (now or datetime.now().astimezone()).isoformat()
+    _write_atomic(path, data)
+    return data
+
+
 def save_day_record(
     path: Path,
     target_date: date,
@@ -432,8 +577,18 @@ def save_day_record(
         for goal in selected["goals"]
         if goal.get("id")
     }
-    valid_completed = sorted(
-        {str(value) for value in completed if str(value) in required}
+    valid_completed_set = {
+        str(value) for value in completed if str(value) in required
+    }
+    valid_completed = sorted(valid_completed_set)
+    completed_before = {
+        str(value) for value in (existing.get("completed") or [])
+    }
+    timers = _sync_goal_timers(
+        existing,
+        selected_goals=selected["goals"],
+        completed_before=completed_before,
+        completed_after=valid_completed_set,
     )
 
     now = now or datetime.now().astimezone()
@@ -445,6 +600,7 @@ def save_day_record(
         "schedule_version": selected["schedule_version"],
         "approx_snapshot": selected["approx"],
         "goals_snapshot": deepcopy(selected["goals"]),
+        "timers": timers,
     }
 
     try:

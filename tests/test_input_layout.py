@@ -23,6 +23,6 @@ def test_update_profile_imports_sources_from_input_package() -> None:
     source = Path("update_profile.py").read_text(encoding="utf-8")
     assert "from input.anki import AnkiImporter" in source
     assert "from input.bunpro import BunproImporter" in source
-    assert "from input.obsidian import GrammarProfileImporter" in source
+    assert "from input.obsidian import TextbookIndexImporter" in source
     assert "from input.wanikani import WaniKaniImporter" in source
     assert "importers." not in source

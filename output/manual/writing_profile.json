@@ -3,23 +3,23 @@
   "kanji": {
     "私": {
       "srs": {
-        "stage": 2,
-        "due": "2026-08-21T12:40:49.510544+00:00",
+        "stage": 4,
+        "due": "2026-08-28T13:44:14.819110+00:00",
         "introduced_at": "2026-08-20T12:40:49.510544+00:00",
         "graduated_at": "2026-08-20T12:40:49.510544+00:00",
-        "last_reviewed": "2026-08-20T12:40:49.510544+00:00",
+        "last_reviewed": "2026-08-21T13:44:14.819110+00:00",
         "last_result": "well_known"
       },
       "performance": {
-        "attempts": 1,
-        "well_known": 1,
+        "attempts": 2,
+        "well_known": 2,
         "correct": 0,
         "close": 0,
         "forgot": 0,
         "score": 1.0,
         "first_reviewed": "2026-08-20T12:40:49.510544+00:00",
         "last_result": "well_known",
-        "last_reviewed": "2026-08-20T12:40:49.510544+00:00"
+        "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
       },
       "contexts": {
         "私|わたし": {
@@ -47,6 +47,34 @@
               "first_reviewed": "2026-08-20T12:40:49.510544+00:00",
               "last_result": "well_known",
               "last_reviewed": "2026-08-20T12:40:49.510544+00:00"
+            }
+          }
+        },
+        "私大|しだい": {
+          "word": "私大",
+          "reading": "しだい",
+          "performance": {
+            "attempts": 1,
+            "well_known": 1,
+            "correct": 0,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T13:44:14.819110+00:00",
+            "last_result": "well_known",
+            "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
+          },
+          "positions": {
+            "0": {
+              "attempts": 1,
+              "well_known": 1,
+              "correct": 0,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T13:44:14.819110+00:00",
+              "last_result": "well_known",
+              "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
             }
           }
         }
@@ -421,23 +449,23 @@
     },
     "大": {
       "srs": {
-        "stage": 2,
-        "due": "2026-08-21T12:43:07.373855+00:00",
+        "stage": 3,
+        "due": "2026-08-24T13:43:44.888641+00:00",
         "introduced_at": "2026-08-20T12:43:07.373855+00:00",
         "graduated_at": "2026-08-20T12:43:07.373855+00:00",
-        "last_reviewed": "2026-08-20T12:43:07.373855+00:00",
-        "last_result": "well_known"
+        "last_reviewed": "2026-08-21T13:43:44.888641+00:00",
+        "last_result": "correct"
       },
       "performance": {
-        "attempts": 2,
-        "well_known": 1,
-        "correct": 1,
+        "attempts": 4,
+        "well_known": 2,
+        "correct": 2,
         "close": 0,
         "forgot": 0,
         "score": 1.0,
         "first_reviewed": "2026-08-20T12:43:07.373855+00:00",
-        "last_result": "correct",
-        "last_reviewed": "2026-08-21T04:09:37.483065+00:00"
+        "last_result": "well_known",
+        "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
       },
       "contexts": {
         "大きな|おおきな": {
@@ -493,6 +521,62 @@
               "first_reviewed": "2026-08-21T04:09:37.483065+00:00",
               "last_result": "correct",
               "last_reviewed": "2026-08-21T04:09:37.483065+00:00"
+            }
+          }
+        },
+        "大きさ|おおきさ": {
+          "word": "大きさ",
+          "reading": "おおきさ",
+          "performance": {
+            "attempts": 1,
+            "well_known": 0,
+            "correct": 1,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T13:43:44.888641+00:00",
+            "last_result": "correct",
+            "last_reviewed": "2026-08-21T13:43:44.888641+00:00"
+          },
+          "positions": {
+            "0": {
+              "attempts": 1,
+              "well_known": 0,
+              "correct": 1,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T13:43:44.888641+00:00",
+              "last_result": "correct",
+              "last_reviewed": "2026-08-21T13:43:44.888641+00:00"
+            }
+          }
+        },
+        "私大|しだい": {
+          "word": "私大",
+          "reading": "しだい",
+          "performance": {
+            "attempts": 1,
+            "well_known": 1,
+            "correct": 0,
+            "close": 0,
+            "forgot": 0,
+            "score": 1.0,
+            "first_reviewed": "2026-08-21T13:44:14.819110+00:00",
+            "last_result": "well_known",
+            "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
+          },
+          "positions": {
+            "1": {
+              "attempts": 1,
+              "well_known": 1,
+              "correct": 0,
+              "close": 0,
+              "forgot": 0,
+              "score": 1.0,
+              "first_reviewed": "2026-08-21T13:44:14.819110+00:00",
+              "last_result": "well_known",
+              "last_reviewed": "2026-08-21T13:44:14.819110+00:00"
             }
           }
         }

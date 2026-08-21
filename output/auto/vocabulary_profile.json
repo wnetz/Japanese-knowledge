@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "generated_at": "2026-08-21T08:36:35.188429+00:00",
+    "generated_at": "2026-08-21T14:05:11.428774+00:00",
     "sources": [
       "wanikani",
       "anki",
       "migaku"
     ],
-    "vocabulary_count": 9667,
+    "vocabulary_count": 9668,
     "confidence_scored_count": 3061,
-    "unresolved_reading_count": 1692,
+    "unresolved_reading_count": 1693,
     "source_counts": {
       "wanikani": 6825,
-      "anki": 2179,
+      "anki": 2180,
       "migaku": 2077
     },
     "duplicates_merged": 1414
@@ -46736,14 +46736,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.6264,
+      "confidence": 0.4507,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 3
         }
       }
     },
@@ -55746,8 +55746,8 @@
       "reading": "うごく",
       "meanings": [
         "To Function",
-        "to move",
-        "To Move"
+        "To Move",
+        "to move"
       ],
       "parts_of_speech": [
         "godan_verb",
@@ -64755,7 +64755,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3262,
+      "confidence": 0.3247,
       "writable": false,
       "study": {
         "migaku": {
@@ -66440,8 +66440,8 @@
       "word": "喋る",
       "reading": "しゃべる",
       "meanings": [
-        "To Chat",
         "to chat",
+        "To Chat",
         "To Talk"
       ],
       "parts_of_speech": [
@@ -69042,14 +69042,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.712,
+      "confidence": 0.7867,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -71575,7 +71575,8 @@
       "word": "増える",
       "reading": "",
       "meanings": [
-        "to increase, to accrue"
+        "to increase, to accrue",
+        "増える (ふえる) ★★★★★\n∙ to increase; to multiply"
       ],
       "parts_of_speech": [],
       "sources": [
@@ -72984,7 +72985,7 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.246,
+      "confidence": 0.244,
       "writable": true,
       "study": {
         "wanikani": {
@@ -105430,11 +105431,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.508,
+      "confidence": 0.638,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -116422,14 +116423,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3807,
+      "confidence": 0.3293,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 1
         }
       }
     },
@@ -128127,14 +128128,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.3838,
+      "confidence": 0.446,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 2
+          "srs_stage": 3
         }
       }
     },
@@ -143555,7 +143556,7 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.508,
+      "confidence": 0.5607,
       "writable": true,
       "study": {
         "anki": {
@@ -143568,7 +143569,7 @@
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 5
+          "srs_stage": 6
         }
       }
     },
@@ -143688,8 +143689,8 @@
       "word": "生まれる",
       "reading": "うまれる",
       "meanings": [
-        "To Be Born",
-        "to be born"
+        "to be born",
+        "To Be Born"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -146085,8 +146086,8 @@
       "word": "疲れる",
       "reading": "つかれる",
       "meanings": [
-        "to get tired",
-        "To Get Tired"
+        "To Get Tired",
+        "to get tired"
       ],
       "parts_of_speech": [
         "ichidan_verb",
@@ -149059,11 +149060,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.394,
+      "confidence": 0.314,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -152484,14 +152485,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.5316,
+      "confidence": 0.6327,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },
@@ -156608,6 +156609,27 @@
     },
     {
       "word": "筋肉",
+      "reading": "",
+      "meanings": [
+        "筋肉 (きんにく) ★★★★\n∙ muscle"
+      ],
+      "parts_of_speech": [],
+      "sources": [
+        "anki"
+      ],
+      "confidence": null,
+      "writable": false,
+      "study": {
+        "anki": {
+          "reviews": 0,
+          "ease": null,
+          "interval": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
+      "word": "筋肉",
       "reading": "きんにく",
       "meanings": [
         "Muscle"
@@ -156749,14 +156771,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4569,
+      "confidence": 0.3916,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 2
         }
       }
     },
@@ -165839,7 +165861,8 @@
       "word": "背",
       "reading": "",
       "meanings": [
-        "height, stature"
+        "height, stature",
+        "背 (せい) ★★★★\n∙ height; stature"
       ],
       "parts_of_speech": [],
       "sources": [
@@ -170854,11 +170877,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.734,
+      "confidence": 0.83,
       "writable": false,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -176305,14 +176328,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4491,
+      "confidence": 0.5253,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -181031,14 +181054,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.7836,
+      "confidence": 0.8458,
       "writable": true,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 7
+          "srs_stage": 8
         }
       }
     },
@@ -191481,11 +191504,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.92,
+      "confidence": 0.984,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 8
+          "srs_stage": 9
         }
       }
     },
@@ -191723,11 +191746,11 @@
       "sources": [
         "wanikani"
       ],
-      "confidence": 0.732,
+      "confidence": 0.828,
       "writable": true,
       "study": {
         "wanikani": {
-          "srs_stage": 6
+          "srs_stage": 7
         }
       }
     },
@@ -193956,14 +193979,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.4398,
+      "confidence": 0.516,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 3
+          "srs_stage": 4
         }
       }
     },
@@ -205693,14 +205716,14 @@
         "migaku",
         "wanikani"
       ],
-      "confidence": 0.53,
+      "confidence": 0.6311,
       "writable": false,
       "study": {
         "migaku": {
           "status": "KNOWN"
         },
         "wanikani": {
-          "srs_stage": 4
+          "srs_stage": 5
         }
       }
     },

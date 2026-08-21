@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-21T08:36:35.678259+00:00",
+  "generated_at": "2026-08-21T14:05:12.479947+00:00",
   "output_folder": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output",
   "sources": {
     "obsidian": {
       "refreshed": true,
       "status": "completed",
-      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\textbook_profile.json",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\textbook_index.json",
       "item_count": null,
       "error_count": 0
     },
@@ -21,13 +21,13 @@
       "refreshed": true,
       "status": "completed",
       "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\anki_index.json",
-      "item_count": 2179,
+      "item_count": 2180,
       "error_count": 0
     },
     "bunpro": {
       "refreshed": true,
       "status": "completed",
-      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\grammar_profile.json",
+      "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\grammar_index.json",
       "item_count": 1668,
       "error_count": 0
     }
@@ -35,8 +35,13 @@
   "profile": {
     "status": "completed",
     "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\vocabulary_profile.json",
-    "vocabulary_count": 9667,
+    "vocabulary_count": 9668,
     "confidence_scored_count": 3061
+  },
+  "grammar_profile": {
+    "status": "completed",
+    "output": "C:\\Users\\wnetz\\OneDrive\\Documents\\JapaneseKnowledge\\Japanese-knowledge\\output\\auto\\grammar_profile.json",
+    "item_count": 249
   },
   "knowledge_profile": {
     "status": "completed",

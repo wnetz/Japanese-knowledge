@@ -7,8 +7,8 @@ from config import ObsidianConfig
 from .parser import ObsidianParser
 
 
-class GrammarProfileImporter:
-    """Build the grammar profile from the configured Obsidian vault."""
+class TextbookIndexImporter:
+    """Build the textbook source index from the configured Obsidian vault."""
 
     source_name = "obsidian"
 
@@ -27,5 +27,6 @@ class GrammarProfileImporter:
         return parser.export()
 
 
-# Backward-compatible alias for callers that have not migrated yet.
-ObsidianImporter = GrammarProfileImporter
+# Backward-compatible aliases for callers that have not migrated yet.
+GrammarProfileImporter = TextbookIndexImporter
+ObsidianImporter = TextbookIndexImporter

@@ -14,17 +14,20 @@ class WritingConfig:
 @dataclass(frozen=True)
 class OutputConfig:
     folder: Path
-    textbook_profile: str = "auto/textbook_profile.json"
     wanikani_index: str = "auto/wanikani_index.json"
     anki_index: str = "auto/anki_index.json"
     profile_manifest: str = "auto/profile_manifest.json"
     vocabulary_profile: str = "auto/vocabulary_profile.json"
     writing_profile: str = "manual/writing_profile.json"
     srs_history: str = "manual/srs_history.json"
-    grammar_mastery: str = "manual/grammar_mastery.json"
     daily_goals: str = "manual/daily_goals.json"
     daily_goal_schedule: str = "manual/daily_goal_schedule.json"
+    grammar_index: str = "auto/grammar_index.json"
+    textbook_index: str = "auto/textbook_index.json"
     grammar_profile: str = "auto/grammar_profile.json"
+    grammar_alias_candidates: str = "auto/grammar_alias_candidates.json"
+    grammar_use_index: str = "manual/grammar_use_index.json"
+    grammar_aliases: str = "manual/grammar_aliases.json"
     knowledge_profile: str = "knowledge_profile.json"
 
 

@@ -31,12 +31,14 @@ def test_schedule_matches_source_file() -> None:
         "Listening",
     ]
     assert monday[2]["estimated_time"] == "20m"
-    assert monday[3]["estimated_time"] == "15–20m"
+    assert monday[1]["estimated_time"] == "30m"
+    assert monday[3]["estimated_time"] == "20m"
     assert monday[4]["estimated_time"] == "20m"
 
     friday = goals_for_date(data, date(2026, 8, 21))["goals"]
     assert friday[1]["display"] == "Targeted Grammar Repair"
-    assert friday[2]["estimated_time"] == "20–30m"
+    assert friday[1]["estimated_time"] == "30m"
+    assert friday[2]["estimated_time"] == "25m"
 
     sunday = goals_for_date(data, date(2026, 8, 23))["goals"]
     assert [goal["display"] for goal in sunday] == [
@@ -45,7 +47,7 @@ def test_schedule_matches_source_file() -> None:
         "Reading",
         "Listening",
     ]
-    assert sunday[1]["estimated_time"] == "Typed 30–45m + written 15–20m"
+    assert sunday[1]["estimated_time"] == "60m"
 
 
 def test_complete_and_partial_status(tmp_path: Path) -> None:

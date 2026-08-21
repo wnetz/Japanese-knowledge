@@ -1,15 +1,17 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "tracking_started": "2026-08-21",
   "records": {
     "2026-08-21": {
       "completed": [
+        "listening",
+        "reading",
         "srs",
         "targeted_grammar_repair",
         "typed_production"
       ],
       "notes": "",
-      "updated_at": "2026-08-21T20:30:26.680864+09:00",
+      "updated_at": "2026-08-21T22:43:05.434766+09:00",
       "schedule_version": "2026-08-21-revised",
       "approx_snapshot": "1½–2½h",
       "goals_snapshot": [
@@ -47,7 +49,37 @@
           "main_purpose": "Comprehension/automaticity",
           "estimated_time": "20m"
         }
-      ]
+      ],
+      "timers": {
+        "targeted_grammar_repair": {
+          "initial_seconds": 1800,
+          "remaining_seconds": 0,
+          "running": false,
+          "deadline": null,
+          "notified": true
+        },
+        "typed_production": {
+          "initial_seconds": 1500,
+          "remaining_seconds": 0,
+          "running": false,
+          "deadline": null,
+          "notified": true
+        },
+        "reading": {
+          "initial_seconds": 1500,
+          "remaining_seconds": 0,
+          "running": false,
+          "deadline": null,
+          "notified": true
+        },
+        "listening": {
+          "initial_seconds": 1200,
+          "remaining_seconds": 0,
+          "running": false,
+          "deadline": null,
+          "notified": true
+        }
+      }
     }
   }
 }

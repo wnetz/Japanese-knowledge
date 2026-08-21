@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "source": "anki",
-  "generated_at": "2026-08-21T08:36:22.944298+00:00",
+  "generated_at": "2026-08-21T14:04:56.953906+00:00",
   "decks": [
     "日本語::Kaishi 1.5k",
     "日本語::mining",
     "日本語::Japanese verbs (N5 - N4)"
   ],
-  "note_count": 2179,
-  "card_count": 2649,
+  "note_count": 2180,
+  "card_count": 2652,
   "skipped_card_count": 0,
   "conflict_count": 0,
   "errors": [],
@@ -22441,12 +22441,14 @@
     {
       "word": "増える",
       "meanings": [
-        "to increase, to accrue"
+        "to increase, to accrue",
+        "増える (ふえる) ★★★★★\n∙ to increase; to multiply"
       ],
       "pitch_accent": "フエル",
       "frequency": 858,
       "decks": [
-        "日本語::Kaishi 1.5k"
+        "日本語::Kaishi 1.5k",
+        "日本語::mining"
       ],
       "study": {
         "reviews": 0,
@@ -37009,6 +37011,24 @@
       }
     },
     {
+      "word": "筋肉",
+      "meanings": [
+        "筋肉 (きんにく) ★★★★\n∙ muscle"
+      ],
+      "decks": [
+        "日本語::mining"
+      ],
+      "study": {
+        "reviews": 0,
+        "best_interval": 0,
+        "lapses": 0,
+        "state": "new",
+        "due": 1930,
+        "queue": 0,
+        "card_type": 0
+      }
+    },
+    {
       "word": "答え",
       "meanings": [
         "answer, response"
@@ -38276,12 +38296,14 @@
     {
       "word": "背",
       "meanings": [
-        "height, stature"
+        "height, stature",
+        "背 (せい) ★★★★\n∙ height; stature"
       ],
       "pitch_accent": "セ",
       "frequency": 1538,
       "decks": [
-        "日本語::Kaishi 1.5k"
+        "日本語::Kaishi 1.5k",
+        "日本語::mining"
       ],
       "study": {
         "reviews": 0,

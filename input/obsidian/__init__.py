@@ -1,4 +1,4 @@
-from .importer import GrammarProfileImporter, ObsidianImporter
+from .importer import TextbookIndexImporter, GrammarProfileImporter, ObsidianImporter
 from .parser import ObsidianParser
 from .models import (
     BaseNote,
@@ -19,6 +19,7 @@ from .models import (
 )
 
 __all__ = [
+    "TextbookIndexImporter",
     "GrammarProfileImporter",
     "ObsidianImporter",
     "ObsidianParser",

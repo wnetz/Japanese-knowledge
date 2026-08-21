@@ -1,0 +1,1182 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "reviewed_at": "2026-08-21T14:19:27.168054+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        },
+        {
+          "item_id": "～たほうがいい",
+          "lesson_id": "",
+          "grammar": "～たほうがいい",
+          "mode": "production",
+          "score": 2,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～と思います",
+          "lesson_id": "",
+          "grammar": "～と思います",
+          "mode": "production",
+          "score": 0,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T14:23:40.442992+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たことがあります／ありません",
+          "lesson_id": "",
+          "grammar": "～たことがあります／ありません",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～たい",
+          "lesson_id": "",
+          "grammar": "～たい",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "particle::に",
+          "lesson_id": "",
+          "grammar": "particle::に",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T18:50:43.779330+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～のが上手です",
+          "lesson_id": "",
+          "grammar": "～のが上手です",
+          "mode": "production",
+          "score": 0,
+          "role": "target"
+        },
+        {
+          "item_id": "～のが好きです",
+          "lesson_id": "",
+          "grammar": "～のが好きです",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        },
+        {
+          "item_id": "あまり～ない",
+          "lesson_id": "",
+          "grammar": "あまり～ない",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～けど",
+          "lesson_id": "",
+          "grammar": "～けど",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T18:53:08.931109+09:00",
+      "prompt": "",
+      "response": "",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～ようになる",
+          "lesson_id": "",
+          "grammar": "～ようになる",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "分かる",
+          "lesson_id": "",
+          "grammar": "分かる",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "少し",
+          "lesson_id": "",
+          "grammar": "少し",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:00:55.022177+09:00",
+      "prompt": "After I eat dinner, I usually take a shower.",
+      "response": "夜ご飯のあとで、大体シャワーを浴びます",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "Nのあとで",
+          "lesson_id": "",
+          "grammar": "Nのあとで",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:07:19.988280+09:00",
+      "prompt": "When I was a child, I often played games with my friends.",
+      "response": "子供の時にたいてい友達とゲームを浴びました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～時（とき）",
+          "lesson_id": "",
+          "grammar": "～時（とき）",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:10:04.660682+09:00",
+      "prompt": "My room became clean.",
+      "response": "私の部屋がきれいなになりました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～になります",
+          "lesson_id": "",
+          "grammar": "～になります",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:12:12.382726+09:00",
+      "prompt": "I went to the library to study Japanese.",
+      "response": "図書館に勉強しに行きました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～に行きます（目的）",
+          "lesson_id": "",
+          "grammar": "～に行きます（目的）",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:15:31.185195+09:00",
+      "prompt": "If this computer is cheap, I'll buy it.",
+      "response": "このパソコン安ければ、買います",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～ければ",
+          "lesson_id": "",
+          "grammar": "～ければ",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:16:53.721673+09:00",
+      "prompt": "I've been to Osaka three times.",
+      "response": "3回大坂に行ったことがあります",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たことがあります／ありません",
+          "lesson_id": "",
+          "grammar": "～たことがあります／ありません",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:21:58.883308+09:00",
+      "prompt": "I think this restaurant is quiet and the food is delicious.",
+      "response": "このレストランがやさしと美味しい食べ物あると思います",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～と思います",
+          "lesson_id": "",
+          "grammar": "～と思います",
+          "mode": "production",
+          "score": 2,
+          "role": "target"
+        },
+        {
+          "item_id": "～くて／～で",
+          "lesson_id": "",
+          "grammar": "～くて／～で",
+          "mode": "production",
+          "score": 0,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:34:07.364489+09:00",
+      "prompt": "I usually drink coffee before I go to work.",
+      "response": "大体仕事に行く前にコーヒーを飲みます",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～前に",
+          "lesson_id": "",
+          "grammar": "～前に",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:36:33.400214+09:00",
+      "prompt": "My mother likes cooking, but she isn't very good at it.",
+      "response": "お母さんが好きな料理しますけど、あまり上手です。",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～のが好きです",
+          "lesson_id": "",
+          "grammar": "～のが好きです",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～けど",
+          "lesson_id": "",
+          "grammar": "～けど",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "あまり～ない",
+          "lesson_id": "",
+          "grammar": "あまり～ない",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:37:41.380717+09:00",
+      "prompt": "I haven't finished my homework yet.",
+      "response": "まだ宿題しました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "まだ～ていません",
+          "lesson_id": "",
+          "grammar": "まだ～ていません",
+          "mode": "production",
+          "score": 0,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:39:26.998536+09:00",
+      "prompt": "It became warmer, so I opened the window.",
+      "response": "暑ければ、窓をあげました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～くなります",
+          "lesson_id": "",
+          "grammar": "～くなります",
+          "mode": "production",
+          "score": 0,
+          "role": "target"
+        },
+        {
+          "item_id": "～ので",
+          "lesson_id": "",
+          "grammar": "～ので",
+          "mode": "production",
+          "score": 0,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:41:22.466847+09:00",
+      "prompt": "I've never stayed at a Japanese-style inn.",
+      "response": "旅館に行ったことがありませ",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たことがあります／ありません",
+          "lesson_id": "",
+          "grammar": "～たことがあります／ありません",
+          "mode": "production",
+          "score": 2,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:43:41.770782+09:00",
+      "prompt": "If you don't understand, you should ask the teacher.",
+      "response": "わからなたら先生に呼んだほうがいいです",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たら",
+          "lesson_id": "",
+          "grammar": "～たら",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～たほうがいい",
+          "lesson_id": "",
+          "grammar": "～たほうがいい",
+          "mode": "production",
+          "score": 2,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:44:51.279452+09:00",
+      "prompt": "After taking a shower, I watched TV.",
+      "response": "シャワーのあとで、テルビを見ました",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "Nのあとで",
+          "lesson_id": "",
+          "grammar": "Nのあとで",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:47:23.744806+09:00",
+      "prompt": "I want to buy a new car, but I don't have enough money.",
+      "response": "新し車をかいたいけど、もうお金がありません",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たい",
+          "lesson_id": "",
+          "grammar": "～たい",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～けど",
+          "lesson_id": "",
+          "grammar": "～けど",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:50:07.526064+09:00",
+      "prompt": "If I have time tomorrow, I can help my friend.",
+      "response": "明日暇なければ、友達に手伝って出来る",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～なら",
+          "lesson_id": "",
+          "grammar": "～なら",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "可能形",
+          "lesson_id": "",
+          "grammar": "可能形",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:51:49.261083+09:00",
+      "prompt": "This restaurant is cheap and the food is delicious.",
+      "response": "このレストランは安くて美味しく食べ物があります",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～くて／～で",
+          "lesson_id": "",
+          "grammar": "～くて／～で",
+          "mode": "production",
+          "score": 2,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:55:05.041308+09:00",
+      "prompt": "My father is good at driving, but he doesn't like driving in Tokyo.",
+      "response": "お父さんは運転することが上手ですけど、東京の中に運転することが嫌いです",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～のが上手です",
+          "lesson_id": "",
+          "grammar": "～のが上手です",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        },
+        {
+          "item_id": "～のが嫌いです",
+          "lesson_id": "",
+          "grammar": "～のが嫌いです",
+          "mode": "production",
+          "score": 1,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～けど",
+          "lesson_id": "",
+          "grammar": "～けど",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:57:14.045038+09:00",
+      "prompt": "When I was a child, I couldn't swim.",
+      "response": "子供の時におよぐできません",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～時（とき）",
+          "lesson_id": "",
+          "grammar": "～時（とき）",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "可能形",
+          "lesson_id": "",
+          "grammar": "可能形",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T19:59:04.898622+09:00",
+      "prompt": "I think my younger brother has never eaten sushi.",
+      "response": "弟が寿司を食べたことがないと思います",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～たことがあります／ありません",
+          "lesson_id": "",
+          "grammar": "～たことがあります／ありません",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～と思います",
+          "lesson_id": "",
+          "grammar": "～と思います",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T23:35:58.822832+09:00",
+      "prompt": "If the weather is good tomorrow, I think I'll go to the park.",
+      "response": "明日の天気が良ければ、公園に行くと思います",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～と思います",
+          "lesson_id": "",
+          "grammar": "～と思います",
+          "mode": "production",
+          "score": 3,
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "reviewed_at": "2026-08-21T23:41:49.480775+09:00",
+      "prompt": "If I have time after work tomorrow, I want to go to the store and buy something to eat before I go home.",
+      "response": "仕事の後で時間があれば、帰る前に店で食べ物を買いに行たいです。",
+      "notes": "",
+      "observations": [
+        {
+          "item_id": "～あとで",
+          "lesson_id": "",
+          "grammar": "～あとで",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～ば",
+          "lesson_id": "",
+          "grammar": "～ば",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～前に",
+          "lesson_id": "",
+          "grammar": "～前に",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～に行く",
+          "lesson_id": "",
+          "grammar": "～に行く",
+          "mode": "production",
+          "score": 3,
+          "role": "incidental"
+        },
+        {
+          "item_id": "～たい",
+          "lesson_id": "",
+          "grammar": "～たい",
+          "mode": "production",
+          "score": 1,
+          "role": "target"
+        }
+      ]
+    }
+  ],
+  "items": {
+    "～ば": {
+      "item_id": "～ば",
+      "lesson_id": "",
+      "grammar": "～ば",
+      "attempts": 4,
+      "score_sum": 12,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T23:41:49.480775+09:00",
+      "modes": {
+        "production": {
+          "attempts": 4,
+          "score_sum": 12,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T23:41:49.480775+09:00"
+        }
+      }
+    },
+    "～たほうがいい": {
+      "item_id": "～たほうがいい",
+      "lesson_id": "",
+      "grammar": "～たほうがいい",
+      "attempts": 2,
+      "score_sum": 4,
+      "average_score": 2.0,
+      "last_score": 2,
+      "last_reviewed": "2026-08-21T19:43:41.770782+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 4,
+          "average_score": 2.0,
+          "last_score": 2,
+          "last_reviewed": "2026-08-21T19:43:41.770782+09:00"
+        }
+      }
+    },
+    "～と思います": {
+      "item_id": "～と思います",
+      "lesson_id": "",
+      "grammar": "～と思います",
+      "attempts": 4,
+      "score_sum": 8,
+      "average_score": 2.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T23:35:58.822832+09:00",
+      "modes": {
+        "production": {
+          "attempts": 4,
+          "score_sum": 8,
+          "average_score": 2.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T23:35:58.822832+09:00"
+        }
+      }
+    },
+    "～たことがあります／ありません": {
+      "item_id": "～たことがあります／ありません",
+      "lesson_id": "",
+      "grammar": "～たことがあります／ありません",
+      "attempts": 4,
+      "score_sum": 9,
+      "average_score": 2.25,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:59:04.898622+09:00",
+      "modes": {
+        "production": {
+          "attempts": 4,
+          "score_sum": 9,
+          "average_score": 2.25,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:59:04.898622+09:00"
+        }
+      }
+    },
+    "～たい": {
+      "item_id": "～たい",
+      "lesson_id": "",
+      "grammar": "～たい",
+      "attempts": 3,
+      "score_sum": 5,
+      "average_score": 1.6667,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T23:41:49.480775+09:00",
+      "modes": {
+        "production": {
+          "attempts": 3,
+          "score_sum": 5,
+          "average_score": 1.6667,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T23:41:49.480775+09:00"
+        }
+      }
+    },
+    "particle::に": {
+      "item_id": "particle::に",
+      "lesson_id": "",
+      "grammar": "particle::に",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T14:23:40.442992+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T14:23:40.442992+09:00"
+        }
+      }
+    },
+    "～のが上手です": {
+      "item_id": "～のが上手です",
+      "lesson_id": "",
+      "grammar": "～のが上手です",
+      "attempts": 2,
+      "score_sum": 1,
+      "average_score": 0.5,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:55:05.041308+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 1,
+          "average_score": 0.5,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:55:05.041308+09:00"
+        }
+      }
+    },
+    "～のが好きです": {
+      "item_id": "～のが好きです",
+      "lesson_id": "",
+      "grammar": "～のが好きです",
+      "attempts": 2,
+      "score_sum": 2,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:36:33.400214+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 2,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:36:33.400214+09:00"
+        }
+      }
+    },
+    "あまり～ない": {
+      "item_id": "あまり～ない",
+      "lesson_id": "",
+      "grammar": "あまり～ない",
+      "attempts": 2,
+      "score_sum": 2,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:36:33.400214+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 2,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:36:33.400214+09:00"
+        }
+      }
+    },
+    "～けど": {
+      "item_id": "～けど",
+      "lesson_id": "",
+      "grammar": "～けど",
+      "attempts": 4,
+      "score_sum": 12,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:55:05.041308+09:00",
+      "modes": {
+        "production": {
+          "attempts": 4,
+          "score_sum": 12,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:55:05.041308+09:00"
+        }
+      }
+    },
+    "～ようになる": {
+      "item_id": "～ようになる",
+      "lesson_id": "",
+      "grammar": "～ようになる",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T18:53:08.931109+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T18:53:08.931109+09:00"
+        }
+      }
+    },
+    "分かる": {
+      "item_id": "分かる",
+      "lesson_id": "",
+      "grammar": "分かる",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T18:53:08.931109+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T18:53:08.931109+09:00"
+        }
+      }
+    },
+    "少し": {
+      "item_id": "少し",
+      "lesson_id": "",
+      "grammar": "少し",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T18:53:08.931109+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T18:53:08.931109+09:00"
+        }
+      }
+    },
+    "Nのあとで": {
+      "item_id": "Nのあとで",
+      "lesson_id": "",
+      "grammar": "Nのあとで",
+      "attempts": 2,
+      "score_sum": 6,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:44:51.279452+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 6,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:44:51.279452+09:00"
+        }
+      }
+    },
+    "～時（とき）": {
+      "item_id": "～時（とき）",
+      "lesson_id": "",
+      "grammar": "～時（とき）",
+      "attempts": 2,
+      "score_sum": 6,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:57:14.045038+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 6,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:57:14.045038+09:00"
+        }
+      }
+    },
+    "～になります": {
+      "item_id": "～になります",
+      "lesson_id": "",
+      "grammar": "～になります",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:10:04.660682+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:10:04.660682+09:00"
+        }
+      }
+    },
+    "～に行きます（目的）": {
+      "item_id": "～に行きます（目的）",
+      "lesson_id": "",
+      "grammar": "～に行きます（目的）",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:12:12.382726+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:12:12.382726+09:00"
+        }
+      }
+    },
+    "～ければ": {
+      "item_id": "～ければ",
+      "lesson_id": "",
+      "grammar": "～ければ",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T19:15:31.185195+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T19:15:31.185195+09:00"
+        }
+      }
+    },
+    "～くて／～で": {
+      "item_id": "～くて／～で",
+      "lesson_id": "",
+      "grammar": "～くて／～で",
+      "attempts": 2,
+      "score_sum": 2,
+      "average_score": 1.0,
+      "last_score": 2,
+      "last_reviewed": "2026-08-21T19:51:49.261083+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 2,
+          "average_score": 1.0,
+          "last_score": 2,
+          "last_reviewed": "2026-08-21T19:51:49.261083+09:00"
+        }
+      }
+    },
+    "～前に": {
+      "item_id": "～前に",
+      "lesson_id": "",
+      "grammar": "～前に",
+      "attempts": 2,
+      "score_sum": 6,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T23:41:49.480775+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 6,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T23:41:49.480775+09:00"
+        }
+      }
+    },
+    "まだ～ていません": {
+      "item_id": "まだ～ていません",
+      "lesson_id": "",
+      "grammar": "まだ～ていません",
+      "attempts": 1,
+      "score_sum": 0,
+      "average_score": 0.0,
+      "last_score": 0,
+      "last_reviewed": "2026-08-21T19:37:41.380717+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 0,
+          "average_score": 0.0,
+          "last_score": 0,
+          "last_reviewed": "2026-08-21T19:37:41.380717+09:00"
+        }
+      }
+    },
+    "～くなります": {
+      "item_id": "～くなります",
+      "lesson_id": "",
+      "grammar": "～くなります",
+      "attempts": 1,
+      "score_sum": 0,
+      "average_score": 0.0,
+      "last_score": 0,
+      "last_reviewed": "2026-08-21T19:39:26.998536+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 0,
+          "average_score": 0.0,
+          "last_score": 0,
+          "last_reviewed": "2026-08-21T19:39:26.998536+09:00"
+        }
+      }
+    },
+    "～ので": {
+      "item_id": "～ので",
+      "lesson_id": "",
+      "grammar": "～ので",
+      "attempts": 1,
+      "score_sum": 0,
+      "average_score": 0.0,
+      "last_score": 0,
+      "last_reviewed": "2026-08-21T19:39:26.998536+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 0,
+          "average_score": 0.0,
+          "last_score": 0,
+          "last_reviewed": "2026-08-21T19:39:26.998536+09:00"
+        }
+      }
+    },
+    "～たら": {
+      "item_id": "～たら",
+      "lesson_id": "",
+      "grammar": "～たら",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:43:41.770782+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:43:41.770782+09:00"
+        }
+      }
+    },
+    "～なら": {
+      "item_id": "～なら",
+      "lesson_id": "",
+      "grammar": "～なら",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:50:07.526064+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:50:07.526064+09:00"
+        }
+      }
+    },
+    "可能形": {
+      "item_id": "可能形",
+      "lesson_id": "",
+      "grammar": "可能形",
+      "attempts": 2,
+      "score_sum": 2,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:57:14.045038+09:00",
+      "modes": {
+        "production": {
+          "attempts": 2,
+          "score_sum": 2,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:57:14.045038+09:00"
+        }
+      }
+    },
+    "～のが嫌いです": {
+      "item_id": "～のが嫌いです",
+      "lesson_id": "",
+      "grammar": "～のが嫌いです",
+      "attempts": 1,
+      "score_sum": 1,
+      "average_score": 1.0,
+      "last_score": 1,
+      "last_reviewed": "2026-08-21T19:55:05.041308+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 1,
+          "average_score": 1.0,
+          "last_score": 1,
+          "last_reviewed": "2026-08-21T19:55:05.041308+09:00"
+        }
+      }
+    },
+    "～あとで": {
+      "item_id": "～あとで",
+      "lesson_id": "",
+      "grammar": "～あとで",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T23:41:49.480775+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T23:41:49.480775+09:00"
+        }
+      }
+    },
+    "～に行く": {
+      "item_id": "～に行く",
+      "lesson_id": "",
+      "grammar": "～に行く",
+      "attempts": 1,
+      "score_sum": 3,
+      "average_score": 3.0,
+      "last_score": 3,
+      "last_reviewed": "2026-08-21T23:41:49.480775+09:00",
+      "modes": {
+        "production": {
+          "attempts": 1,
+          "score_sum": 3,
+          "average_score": 3.0,
+          "last_score": 3,
+          "last_reviewed": "2026-08-21T23:41:49.480775+09:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "aliases": [
+    {
+      "source": "grammar_use",
+      "value": "～と思います",
+      "canonical_id": "pattern::#～ うと思っています"
+    },
+    {
+      "source": "bunpro",
+      "value": "てもいい",
+      "canonical_id": "pattern::#～ てもいいです"
+    },
+    {
+      "source": "bunpro",
+      "value": "ます",
+      "canonical_id": "conjugation::ます形"
+    },
+    {
+      "source": "bunpro",
+      "value": "まだ～ていません",
+      "canonical_id": "pattern::まだ #～ ています"
+    },
+    {
+      "source": "bunpro",
+      "value": "もう",
+      "canonical_id": "pattern::もう #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～ければ",
+      "canonical_id": "pattern::#～ ければ、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～ば",
+      "canonical_id": "pattern::#～ ば、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～ので",
+      "canonical_id": "pattern::#～ ので、 #∵"
+    },
+    {
+      "source": "bunpro",
+      "value": "ので",
+      "canonical_id": "pattern::#～ ので、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～なら",
+      "canonical_id": "pattern::#～ なら、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～たら",
+      "canonical_id": "pattern::#～ たら、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～に行きます(目的)",
+      "canonical_id": "pattern::#○○ に行きます"
+    },
+    {
+      "source": "grammar_use",
+      "value": "Nのあとで",
+      "canonical_id": "pattern::#○○ のあとで、 #∵"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～のが好きです",
+      "canonical_id": "grammar::のがすき"
+    },
+    {
+      "source": "grammar_use",
+      "value": "～たことがあります/ありません",
+      "canonical_id": "pattern::#～ たことがあります"
+    }
+  ]
+}

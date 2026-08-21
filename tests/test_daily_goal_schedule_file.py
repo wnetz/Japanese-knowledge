@@ -22,9 +22,9 @@ def test_daily_goal_schedule_has_parent_goals_and_compact_days() -> None:
     monday = version["weekly_schedule"]["monday"]["goals"]
     assert monday == [
         {"id": "srs"},
-        {"id": "textbook_new_grammar"},
+        {"id": "textbook_new_grammar", "estimated_time": "30m"},
         {"id": "typed_production", "estimated_time": "20m"},
-        {"id": "reading", "estimated_time": "15–20m"},
+        {"id": "reading", "estimated_time": "20m"},
         {"id": "listening", "estimated_time": "20m"},
     ]
 

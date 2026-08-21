@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
@@ -10,9 +11,10 @@ from config import ConfigError, load_config
 from core import write_json
 from input.anki import AnkiImporter
 from input.bunpro import BunproImporter
-from input.obsidian import GrammarProfileImporter
+from input.obsidian import TextbookIndexImporter
 from input.wanikani import WaniKaniImporter
 from profile import ProfileBuilder, build_knowledge_profile
+from grammar import GrammarProfileBuilder
 from history import capture_daily_srs_snapshot
 
 
@@ -68,6 +70,31 @@ def _preserve_source(name: str, output_path: Path) -> dict[str, Any]:
     }
 
 
+def _migrate_legacy_grammar_files(output_dir: Path, config) -> None:
+    """Copy legacy paths into the new index layout without risking manual data."""
+    migrations = (
+        (
+            output_dir / "auto/textbook_profile.json",
+            output_dir / config.output.textbook_index,
+        ),
+        (
+            output_dir / "auto/grammar_profile.json",
+            output_dir / config.output.grammar_index,
+        ),
+        (
+            output_dir / "manual/grammar_mastery.json",
+            output_dir / config.output.grammar_use_index,
+        ),
+    )
+
+    for old_path, new_path in migrations:
+        if new_path.exists() or not old_path.exists():
+            continue
+        new_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(old_path, new_path)
+        progress(f"Migration: copied {old_path} -> {new_path}")
+
+
 def build_parser() -> argparse.ArgumentParser:
     # Define CLI options for selecting config files used by the profile update run.
     parser = argparse.ArgumentParser(
@@ -100,6 +127,8 @@ def main(argv: list[str] | None = None) -> int:
     (output_dir / "auto").mkdir(parents=True, exist_ok=True)
     (output_dir / "manual").mkdir(parents=True, exist_ok=True)
 
+    _migrate_legacy_grammar_files(output_dir, config)
+
     supported_sources = {"anki", "wanikani", "bunpro"}
     selected_sources = {
         value.strip().lower()
@@ -118,8 +147,8 @@ def main(argv: list[str] | None = None) -> int:
 
     source_results["obsidian"] = _refresh_source(
         "Obsidian",
-        lambda: GrammarProfileImporter(config.obsidian),
-        output_dir / config.output.textbook_profile,
+        lambda: TextbookIndexImporter(config.obsidian),
+        output_dir / config.output.textbook_index,
     )
 
     def make_wanikani() -> WaniKaniImporter:
@@ -179,7 +208,7 @@ def main(argv: list[str] | None = None) -> int:
             include_vocabulary=bp.include_vocabulary,
         )
 
-    bunpro_output = output_dir / config.output.grammar_profile
+    bunpro_output = output_dir / config.output.grammar_index
     source_results["bunpro"] = (
         _refresh_source("Bunpro", make_bunpro, bunpro_output)
         if "bunpro" in selected_sources
@@ -214,10 +243,41 @@ def main(argv: list[str] | None = None) -> int:
             "error": f"{type(exc).__name__}: {exc}",
         }
 
+    progress("Grammar profile: merging grammar indexes and usage evidence...")
+    try:
+        grammar_builder = GrammarProfileBuilder(
+            output_dir,
+            grammar_index_filename=config.output.grammar_index,
+            textbook_index_filename=config.output.textbook_index,
+            grammar_use_index_filename=config.output.grammar_use_index,
+            aliases_filename=config.output.grammar_aliases,
+            alias_candidates_filename=config.output.grammar_alias_candidates,
+            output_filename=config.output.grammar_profile,
+        )
+        grammar_profile = grammar_builder.build_and_write()
+        progress(
+            f"Grammar profile: wrote {grammar_builder.output_path} "
+            f"({grammar_profile.get('item_count', 0)} items)"
+        )
+        grammar_profile_result = {
+            "status": "completed",
+            "output": str(grammar_builder.output_path),
+            "item_count": grammar_profile.get("item_count", 0),
+        }
+    except Exception as exc:
+        print(
+            f"Grammar profile: failed: {type(exc).__name__}: {exc}",
+            file=sys.stderr,
+            flush=True,
+        )
+        grammar_profile_result = {
+            "status": "failed",
+            "error": f"{type(exc).__name__}: {exc}",
+        }
+
     try:
         knowledge_profile_path = build_knowledge_profile(
             output_dir,
-            textbook_filename=config.output.textbook_profile,
             grammar_filename=config.output.grammar_profile,
             vocabulary_filename=config.output.vocabulary_profile,
             output_filename=config.output.knowledge_profile,
@@ -234,6 +294,7 @@ def main(argv: list[str] | None = None) -> int:
         "output_folder": str(output_dir),
         "sources": source_results,
         "profile": profile_result,
+        "grammar_profile": grammar_profile_result,
         "knowledge_profile": knowledge_profile_result,
     }
     manifest_path = write_json(manifest, output_dir / config.output.profile_manifest)
@@ -244,7 +305,7 @@ def main(argv: list[str] | None = None) -> int:
             history_path=output_dir / config.output.srs_history,
             wanikani_path=output_dir / config.output.wanikani_index,
             anki_path=output_dir / config.output.anki_index,
-            bunpro_path=output_dir / config.output.grammar_profile,
+            bunpro_path=output_dir / config.output.grammar_index,
             writing_path=output_dir / config.output.writing_profile,
         )
         progress(f"SRS history: updated {history_path}")
@@ -260,6 +321,7 @@ def main(argv: list[str] | None = None) -> int:
     failed = (
         any(item.get("status") == "failed" for item in source_results.values())
         or profile_result.get("status") == "failed"
+        or grammar_profile_result.get("status") == "failed"
         or knowledge_profile_result.get("status") == "failed"
     )
     return 1 if failed else 0

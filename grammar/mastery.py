@@ -172,6 +172,68 @@ def parse_review_results(text: str) -> list[dict[str, Any]]:
     return observations
 
 
+def parse_review_block(text: str) -> dict[str, Any]:
+    """Parse observations plus optional prompt/response context from one paste.
+
+    Example:
+
+        ～たことがあります／ありません    3  incidental
+        ～と思います                      3  target
+        prompt: I think my younger brother has never eaten sushi.
+        response: 弟が寿司を食べたことがないと思います
+
+    Prompt/response labels are case-insensitive. Continuation lines after a
+    prompt or response label are appended until another labeled field or a
+    grammar-result line is encountered.
+    """
+    observations: list[dict[str, Any]] = []
+    prompt_lines: list[str] = []
+    response_lines: list[str] = []
+    active_context: str | None = None
+
+    for raw_line in str(text or "").splitlines():
+        stripped = raw_line.strip()
+
+        if not stripped or stripped.startswith("```"):
+            continue
+        if stripped.upper() == "REVIEW RESULTS":
+            continue
+
+        label_match = re.match(
+            r"^(prompt|response)\s*:\s*(.*)$",
+            stripped,
+            flags=re.IGNORECASE,
+        )
+        if label_match:
+            active_context = label_match.group(1).lower()
+            value = label_match.group(2).strip()
+            if value:
+                if active_context == "prompt":
+                    prompt_lines.append(value)
+                else:
+                    response_lines.append(value)
+            continue
+
+        parsed_line = parse_review_results(stripped)
+        if parsed_line:
+            observations.extend(parsed_line)
+            active_context = None
+            continue
+
+        # Treat otherwise-unparsed lines as a continuation of the most recent
+        # prompt/response field. This lets pasted context span multiple lines.
+        if active_context == "prompt":
+            prompt_lines.append(stripped)
+        elif active_context == "response":
+            response_lines.append(stripped)
+
+    return {
+        "observations": observations,
+        "prompt": "\n".join(prompt_lines).strip(),
+        "response": "\n".join(response_lines).strip(),
+    }
+
+
 def _summary_for(items: dict[str, Any], observation: dict[str, Any], timestamp: str) -> None:
     item_id = _clean(observation.get("item_id")) or _clean(observation.get("grammar"))
     if not item_id:

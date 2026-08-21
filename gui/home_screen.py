@@ -2,16 +2,17 @@ from __future__ import annotations
 
 import tkinter as tk
 import re
-import time
 from collections import Counter
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from tkinter import messagebox, ttk
 
 from goals.tracker import (
     completed_goal_ids,
     ensure_goal_file,
+    goal_timers,
     goals_for_date,
     save_day_record,
+    save_goal_timer,
 )
 
 from .daily_goals_screen import HoverTooltip
@@ -368,6 +369,11 @@ class HomeScreen(ttk.Frame):
             schedule_path=DAILY_GOAL_SCHEDULE_PATH,
         )
         completed = completed_goal_ids(self.data, today)
+        expired_goal_ids = self._restore_timer_state(
+            schedule["goals"],
+            completed,
+        )
+        completed.update(expired_goal_ids)
 
         self.goals_frame.grid_columnconfigure(0, weight=1)
 
@@ -402,25 +408,7 @@ class HomeScreen(ttk.Frame):
 
             timer_seconds = self._estimated_seconds(estimated_time)
             if timer_seconds is not None:
-                state = self.timer_state.setdefault(
-                    goal_id,
-                    {
-                        "initial_seconds": timer_seconds,
-                        "remaining_seconds": timer_seconds,
-                        "running": False,
-                        "deadline": None,
-                    },
-                )
-
-                # If the schedule changes while the app is open, use the new
-                # duration only for a timer that has not yet been started.
-                if (
-                    not state["running"]
-                    and state["remaining_seconds"] == state["initial_seconds"]
-                    and state["initial_seconds"] != timer_seconds
-                ):
-                    state["initial_seconds"] = timer_seconds
-                    state["remaining_seconds"] = timer_seconds
+                state = self.timer_state[goal_id]
 
                 timer_display = SegmentTimerDisplay(row)
                 timer_display.set_value(
@@ -485,6 +473,12 @@ class HomeScreen(ttk.Frame):
             HoverTooltip(checkbox, tooltip_text)
             HoverTooltip(time_label, tooltip_text)
 
+        if expired_goal_ids:
+            self._persist_expired_timers(expired_goal_ids)
+
+        if any(state.get("running") for state in self.timer_state.values()):
+            self._ensure_timer_tick()
+
     @staticmethod
     def _estimated_seconds(estimated_time: str) -> int | None:
         """Convert schedule values such as '20m' into countdown seconds."""
@@ -500,33 +494,138 @@ class HomeScreen(ttk.Frame):
         minutes, secs = divmod(seconds, 60)
         return f"{minutes:02d}:{secs:02d}"
 
+    @staticmethod
+    def _parse_deadline(value) -> datetime | None:
+        if not value:
+            return None
+        try:
+            deadline = datetime.fromisoformat(str(value))
+        except ValueError:
+            return None
+        if deadline.tzinfo is None:
+            deadline = deadline.astimezone()
+        return deadline
+
+    def _restore_timer_state(
+        self,
+        goals: list[dict],
+        completed: set[str],
+    ) -> set[str]:
+        """Restore today's timers and identify timers that expired while away."""
+        stored = goal_timers(self.data, date.today())
+        self.timer_state = {}
+        expired: set[str] = set()
+        now = datetime.now().astimezone()
+
+        for goal in goals:
+            goal_id = str(goal.get("id") or "")
+            initial_seconds = self._estimated_seconds(
+                str(goal.get("estimated_time") or "")
+            )
+            if not goal_id or initial_seconds is None:
+                continue
+
+            raw = stored.get(goal_id) or {}
+            try:
+                remaining = int(raw.get("remaining_seconds", initial_seconds))
+            except (TypeError, ValueError):
+                remaining = initial_seconds
+            remaining = max(0, min(initial_seconds, remaining))
+
+            state = {
+                "initial_seconds": initial_seconds,
+                "remaining_seconds": remaining,
+                "running": bool(raw.get("running", False)),
+                "deadline": raw.get("deadline"),
+                "notified": bool(raw.get("notified", False)),
+            }
+
+            if goal_id in completed:
+                state.update(
+                    {
+                        "remaining_seconds": 0,
+                        "running": False,
+                        "deadline": None,
+                        "notified": True,
+                    }
+                )
+            elif state["running"]:
+                deadline = self._parse_deadline(state["deadline"])
+                if deadline is None:
+                    state.update(
+                        {
+                            "running": False,
+                            "deadline": None,
+                        }
+                    )
+                elif deadline <= now:
+                    state.update(
+                        {
+                            "remaining_seconds": 0,
+                            "running": False,
+                            "deadline": None,
+                        }
+                    )
+                    expired.add(goal_id)
+                else:
+                    state["remaining_seconds"] = max(
+                        0,
+                        int(round((deadline - now).total_seconds())),
+                    )
+
+            self.timer_state[goal_id] = state
+
+        return expired
+
     def _current_remaining(self, goal_id: str) -> int:
         state = self.timer_state[goal_id]
-        if not state["running"] or state["deadline"] is None:
+        if not state["running"]:
             return int(state["remaining_seconds"])
 
-        remaining = max(
+        deadline = self._parse_deadline(state.get("deadline"))
+        if deadline is None:
+            return int(state["remaining_seconds"])
+
+        return max(
             0,
-            int(round(state["deadline"] - time.monotonic())),
+            int(round(
+                (deadline - datetime.now().astimezone()).total_seconds()
+            )),
         )
-        if remaining == 0:
-            state["remaining_seconds"] = 0
-            state["running"] = False
-            state["deadline"] = None
-        return remaining
+
+    def _persist_timer(self, goal_id: str) -> None:
+        state = self.timer_state.get(goal_id)
+        if state is None:
+            return
+
+        try:
+            self.data = save_goal_timer(
+                DAILY_GOALS_PATH,
+                date.today(),
+                goal_id,
+                state,
+                schedule_path=DAILY_GOAL_SCHEDULE_PATH,
+            )
+        except Exception as exc:
+            messagebox.showerror(
+                "Today's Goals",
+                f"Could not save timer:\n{type(exc).__name__}: {exc}",
+            )
 
     def _start_timer(self, goal_id: str) -> None:
         state = self.timer_state.get(goal_id)
         if state is None or state["running"]:
             return
-
         if state["remaining_seconds"] <= 0:
-            state["remaining_seconds"] = state["initial_seconds"]
+            return
 
         state["running"] = True
         state["deadline"] = (
-            time.monotonic() + state["remaining_seconds"]
-        )
+            datetime.now().astimezone()
+            + timedelta(seconds=int(state["remaining_seconds"]))
+        ).isoformat()
+        state["notified"] = False
+        self._persist_timer(goal_id)
         self._update_timer_controls(goal_id)
         self._ensure_timer_tick()
 
@@ -538,6 +637,7 @@ class HomeScreen(ttk.Frame):
         state["remaining_seconds"] = self._current_remaining(goal_id)
         state["running"] = False
         state["deadline"] = None
+        self._persist_timer(goal_id)
         self._update_timer_controls(goal_id)
 
     def _update_timer_controls(self, goal_id: str) -> None:
@@ -549,7 +649,10 @@ class HomeScreen(ttk.Frame):
         remaining = self._current_remaining(goal_id)
         widgets["display"].set_value(self._format_seconds(remaining))
 
-        if state["running"]:
+        if remaining <= 0:
+            widgets["start"].config(state="disabled")
+            widgets["pause"].config(state="disabled")
+        elif state["running"]:
             widgets["start"].config(state="disabled")
             widgets["pause"].config(state="normal")
         else:
@@ -562,15 +665,112 @@ class HomeScreen(ttk.Frame):
 
     def _timer_tick(self) -> None:
         self._timer_after_id = None
-        any_running = False
+        running_ids = [
+            goal_id
+            for goal_id, state in self.timer_state.items()
+            if state["running"]
+        ]
 
-        for goal_id, state in self.timer_state.items():
-            if state["running"]:
-                any_running = True
+        for goal_id in running_ids:
+            remaining = self._current_remaining(goal_id)
+            if remaining <= 0:
+                self._finish_timer(goal_id)
+            else:
+                self.timer_state[goal_id]["remaining_seconds"] = remaining
                 self._update_timer_controls(goal_id)
 
-        if any_running:
+        if any(state.get("running") for state in self.timer_state.values()):
             self._ensure_timer_tick()
+
+    def _finish_timer(self, goal_id: str) -> None:
+        state = self.timer_state.get(goal_id)
+        if state is None:
+            return
+
+        state.update(
+            {
+                "remaining_seconds": 0,
+                "running": False,
+                "deadline": None,
+                "notified": True,
+            }
+        )
+
+        variable = self.goal_vars.get(goal_id)
+        if variable is not None:
+            variable.set(True)
+
+        # save_day_record makes completion/timer state agree everywhere.
+        self._save_today()
+
+        self.bell()
+        label = self._goal_display_name(goal_id)
+        messagebox.showinfo(
+            "Timer Complete",
+            f"{label} is complete and has been marked done.",
+        )
+
+    def _goal_display_name(self, goal_id: str) -> str:
+        schedule = goals_for_date(
+            self.data,
+            date.today(),
+            schedule_path=DAILY_GOAL_SCHEDULE_PATH,
+        )
+        for goal in schedule["goals"]:
+            if str(goal.get("id") or "") == goal_id:
+                return str(
+                    goal.get("display")
+                    or goal.get("activity")
+                    or goal_id
+                )
+        return goal_id
+
+    def _persist_expired_timers(self, goal_ids: set[str]) -> None:
+        """Resolve timers that reached zero while the application was closed."""
+        if not goal_ids:
+            return
+
+        for goal_id in goal_ids:
+            variable = self.goal_vars.get(goal_id)
+            if variable is not None:
+                variable.set(True)
+
+        completed = {
+            goal_id
+            for goal_id, variable in self.goal_vars.items()
+            if variable.get()
+        }
+        record = (
+            (self.data.get("records") or {})
+            .get(date.today().isoformat())
+            or {}
+        )
+
+        try:
+            self.data = save_day_record(
+                DAILY_GOALS_PATH,
+                date.today(),
+                completed,
+                notes=str(record.get("notes") or ""),
+                schedule_path=DAILY_GOAL_SCHEDULE_PATH,
+            )
+        except Exception as exc:
+            messagebox.showerror(
+                "Today's Goals",
+                f"Could not resolve finished timers:\n{type(exc).__name__}: {exc}",
+            )
+            return
+
+        labels = [self._goal_display_name(goal_id) for goal_id in sorted(goal_ids)]
+        self.bell()
+        if len(labels) == 1:
+            message = f"{labels[0]} finished while the app was closed and was marked done."
+        else:
+            message = (
+                "These timers finished while the app was closed and were marked done:\n\n"
+                + "\n".join(f"• {label}" for label in labels)
+            )
+        messagebox.showinfo("Timer Complete", message)
 
     def _reset_timer_state(self) -> None:
         if self._timer_after_id is not None:

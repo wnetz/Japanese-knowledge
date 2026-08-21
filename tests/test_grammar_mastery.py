@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from grammar.mastery import (
+    parse_review_block,
     parse_review_results,
     save_review_event,
     textbook_items,
@@ -95,3 +96,34 @@ def test_parse_compact_target_incidental_format() -> None:
     assert parsed[2]["grammar"] == "～と思います"
     assert parsed[2]["score"] == 0
     assert parsed[2]["role"] == "incidental"
+
+
+def test_parse_review_block_with_prompt_and_response() -> None:
+    parsed = parse_review_block(
+        """～たことがあります／ありません    3  incidental
+～と思います                      3  target
+prompt:\tI think my younger brother has never eaten sushi.
+response: 弟が寿司を食べたことがないと思います"""
+    )
+
+    assert len(parsed["observations"]) == 2
+    assert parsed["observations"][0]["grammar"] == "～たことがあります／ありません"
+    assert parsed["observations"][0]["score"] == 3
+    assert parsed["observations"][0]["role"] == "incidental"
+    assert parsed["observations"][1]["grammar"] == "～と思います"
+    assert parsed["observations"][1]["role"] == "target"
+    assert parsed["prompt"] == "I think my younger brother has never eaten sushi."
+    assert parsed["response"] == "弟が寿司を食べたことがないと思います"
+
+
+def test_parse_review_block_supports_multiline_context() -> None:
+    parsed = parse_review_block(
+        """～ば  2 target
+prompt: First line
+second line
+response: 日本語
+続き"""
+    )
+
+    assert parsed["prompt"] == "First line\nsecond line"
+    assert parsed["response"] == "日本語\n続き"
